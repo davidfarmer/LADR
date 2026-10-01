@@ -1,0 +1,7 @@
+
+.ptx-main > #ptx-content .definition-like > .heading::after,
+.ptx-main > #ptx-content .theorem-like > .heading::after {
+  content: "\A";
+  white-space: pre;
+}
+
