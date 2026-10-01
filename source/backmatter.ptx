@@ -1,0 +1,16 @@
+<backmatter xmlns:xi="http://www.w3.org/2001/XInclude"  xml:id="backmatter">
+  <title>Back matter</title>
+  <xi:include  href="photocredits.ptx"/>
+  <xi:include  href="typesetting.ptx"/>
+
+  <xi:include  href="webversion.ptx"/>
+
+<!--
+      <xi:include href="./bibliography.ptx"/>
+-->
+      <index>
+        <title>Index</title>
+        <index-list/>
+      </index>
+
+</backmatter>
