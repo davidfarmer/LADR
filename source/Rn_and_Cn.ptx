@@ -563,7 +563,7 @@
     </example>
 <sidebyside width="60%"><stack>
         <image source="Axes.png">
-          <description><p>Missing description</p></description>
+          <description><p>Coordinate axes, with an arrow <m>v</m> from the origin to the point labeled <m>(a,b)</m>.</p></description>
         </image>
         <p>Elements of <m>\R{2}</m> can be thought of as points or as vectors.</p>
 </stack></sidebyside>
@@ -579,7 +579,7 @@
     </p>
 <sidebyside width="60%"><stack>
         <image source="Vector.png">
-          <description><p>Missing description</p></description>
+          <description><p>Two parallel arrows of the same length and direction, starting at different points, both labeled <m>v</m>.</p></description>
         </image>
         <p>A vector.</p>
 </stack></sidebyside>
@@ -624,7 +624,7 @@
     </p>
 <sidebyside width="60%"><stack>
         <image source="TriangleInequality2.png">
-          <description><p>Missing description</p></description>
+          <description><p>An arrow <m>u</m>, followed by an arrow <m>v</m> starting at the tip of <m>u</m>. The arrow <m>u+v</m> goes from the start of <m>u</m> to the tip of <m>v</m>, completing a triangle.</p></description>
         </image>
         <p>The sum of two vectors.</p>
 </stack></sidebyside>
@@ -658,7 +658,7 @@
     </definition>
 <sidebyside width="60%"><stack>
         <image source="Minusx.png">
-          <description><p>Missing description</p></description>
+          <description><p>An arrow <m>x</m> and, beside it, a parallel arrow <m>-x</m> of the same length pointing in the opposite direction.</p></description>
         </image>
         <p>A vector and its additive inverse.</p>
 </stack></sidebyside>
@@ -712,7 +712,7 @@
     </p>
 <sidebyside width="60%"><stack>
         <image source="PositiveMultiplication.png">
-          <description><p>Missing description</p></description>
+          <description><p>Three parallel arrows: <m>x</m>; <m>\frac{1}{2}x</m>, half as long and in the same direction; and <m>-\frac{3}{2}x</m>, one and a half times as long and pointing the opposite way.</p></description>
         </image>
         <p>Scalar multiplication.</p>
 </stack></sidebyside>

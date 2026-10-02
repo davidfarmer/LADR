@@ -258,7 +258,7 @@
       <statement>
 <sidebyside width="70%"><stack>
             <image source="UPlus.png">
-              <description><p>Missing description</p></description>
+              <description><p>Two parallel lines: <m>U</m>, through the origin and the point <m>(10,20)</m>, and <m>(17,20) + U</m>, the same line shifted to pass through <m>(17,20)</m>.</p></description>
             </image>
             <p><m>(17,20) + U</m> is parallel to the subspace <m>U</m>.</p>
 </stack></sidebyside>

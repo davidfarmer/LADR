@@ -628,7 +628,7 @@
     </definition>
 <sidebyside width="60%"><stack>
         <image width="60%" source="ball.png">
-          <description><p>Missing description</p></description>
+          <description><p>A shaded disk of radius <m>1</m> centered at the origin, reaching <m>\pm 1</m> on both axes.</p></description>
         </image>
         <p>The ball <m>B</m> in <m>\R2</m>.</p>
 </stack></sidebyside>
@@ -678,14 +678,14 @@
         <sidebyside>
           <stack>
             <image width="60%" source="Ellipsoid1.png">
-              <description><p>Missing description</p></description>
+              <description><p>A shaded ellipse centered at the origin, crossing the horizontal axis at <m>\pm 2</m> and the vertical axis at <m>\pm 1</m>.</p></description>
             </image>
             <p>The ellipsoid  <m>E(2f_1, f_2)</m> in <m>\R2</m>, where
             <m>f_1, f_2</m> is the standard basis of  <m>\R2</m>.</p>
           </stack>
           <stack>
             <image width="60%" source="Ellipsoid2.png">
-              <description><p>Missing description</p></description>
+              <description><p>The same ellipse as in the previous figure, rotated <m>45</m> degrees counterclockwise, so that its long axis lies along the line <m>y = x</m>.</p></description>
             </image>
             <p>The ellipsoid  <m>E(2f_1, f_2)</m> in  <m>\R2</m>, where
             <m>f_1 = (  \frac{1}{\sqrt{2}}, \frac{1}{\sqrt{2}} )</m> and  <m>f_2 = (  -\frac{1}{\sqrt{2}}, \frac{1}{\sqrt{2}} )</m>.</p>
@@ -693,7 +693,7 @@
         </sidebyside>
 <sidebyside width="60%"><stack>
           <image width="60%" source="Ellipsoid3.png">
-              <description><p>Missing description</p></description>
+              <description><p>A three-dimensional ellipsoid centered at the origin, drawn inside a box, extending to <m>\pm 4</m>, <m>\pm 3</m> and <m>\pm 2</m> along the three coordinate axes.</p></description>
             </image>
 <p>
           The ellipsoid  <m>E(4f_1, 3f_2, 2f_3)</m> in  <m>\R3</m>,
@@ -859,14 +859,14 @@
         <sidebyside>
           <stack>
             <image width="60%" source="parallel.png">
-              <description><p>Missing description</p></description>
+              <description><p>A shaded parallelogram with one corner at <m>(0.3,0.5)</m>. Its edges from that corner are the arrows <m>v_1</m>, horizontal, and <m>v_2</m>, at <m>45</m> degrees, and it reaches <m>(2.3,1.5)</m>.</p></description>
             </image>
             <p>The parallelepiped
             <m>(0.3,0.5) + P( (1,0),(1,1) )</m> in <m>\R2</m>.</p>
           </stack>
           <stack>
             <image width="60%" source="parallel2.png">
-              <description><p>Missing description</p></description>
+              <description><p>A slanted box in three dimensions, whose edges from one corner are the arrows <m>v_1</m>, <m>v_2</m> and <m>v_3</m>.</p></description>
             </image>
             <p>A parallelepiped in <m>\R3</m>.</p>
           </stack>
@@ -929,7 +929,7 @@
         <sidebyside>
           <stack>
             <image width="60%" source="box.png">
-              <description><p>Missing description</p></description>
+              <description><p>A shaded square tilted <m>45</m> degrees, with bottom corner <m>(1,0)</m> and top corner <m>(1,2)</m>. Its edges from the bottom corner are the arrows <m>\sqrt{2} e_1</m> and <m>\sqrt{2} e_2</m>.</p></description>
             </image>
             <p>The box  <m>(1,0) + P( \sqrt{2} e_1,\sqrt{2} e_2 )</m>,
             where
@@ -937,7 +937,7 @@
           </stack>
           <stack>
             <image width="60%" source="box2.png">
-              <description><p>Missing description</p></description>
+              <description><p>A rectangular box in three dimensions, whose edges from one corner are the arrows <m>e_1</m>, <m>2e_2</m> and <m>e_3</m>, so it is twice as long in the direction of <m>e_2</m>.</p></description>
             </image>
             <p>The box  <m>P(e_1,2e_2,e_3)</m>, where  <m>e_1, e_2,e_3</m>
             is the standard basis of  <m>\R3</m>.</p>
@@ -1048,7 +1048,7 @@
     </p>
 <sidebyside width="60%"><stack>
         <image width="60%" source="VolumeBall.png">
-          <description><p>Missing description</p></description>
+          <description><p>A shaded disk nearly covered by five non-overlapping boxes: a large square in the middle and four thin rectangles on its sides.</p></description>
         </image>
         <p>Volume of this ball <m>\approx</m> sum of the volumes of the five boxes.</p>
 </stack></sidebyside>
@@ -1090,7 +1090,7 @@
       <statement>
 <sidebyside width="60%"><stack>
             <image width="60%" source="VolumeBall2.png">
-              <description><p>Missing description</p></description>
+              <description><p>The previous figure stretched horizontally by a factor of <m>2</m>: an ellipse nearly covered by five boxes, each twice as wide as before.</p></description>
             </image>
             <p>Each box here has twice the width and the same height as the boxes in the previous figure.</p>
 </stack></sidebyside>

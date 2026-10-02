@@ -5,7 +5,7 @@
 
 <sidebyside width="60%"><stack>
         <image width="60%" source="Axes.png">
-          <description><p>Missing description</p></description>
+          <description><p>Coordinate axes, with an arrow <m>v</m> from the origin to the point <m>(a,b)</m>. The length of the arrow is the norm of <m>v</m>.</p></description>
         </image>
         <p>This vector <m>v</m> has norm <m>\sqrt{a^2 + b^2}</m>.</p>
 </stack></sidebyside>
@@ -624,7 +624,7 @@
     </p>
 <sidebyside width="60%"><stack>
         <image source="OrthogonalDecomposition.png">
-          <description><p>Missing description</p></description>
+          <description><p>Arrows <m>u</m> and <m>v</m> from a common point. The arrow <m>v</m> is extended to a scalar multiple of <m>v</m>, and an arrow <m>w</m>, perpendicular to <m>v</m>, goes from there to the tip of <m>u</m>.</p></description>
         </image>
         <p>An orthogonal decomposition: <m>u</m> expressed as a scalar multiple of <m>v</m> plus a vector orthogonal to <m>v</m>.</p>
 </stack></sidebyside>
@@ -764,7 +764,7 @@
     </example>
 <sidebyside width="60%"><stack>
         <image width="60%" source="TriangleInequality3.png">
-          <description><p>Missing description</p></description>
+          <description><p>A triangle formed by an arrow <m>u</m>, an arrow <m>v</m> starting at the tip of <m>u</m>, and the arrow <m>u+v</m> from the start of <m>u</m> to the tip of <m>v</m>.</p></description>
         </image>
         <p>In this triangle, the length of <m>u+v</m> is less than the length of <m>u</m> plus the length of <m>v</m>.</p>
 </stack></sidebyside>
@@ -834,7 +834,7 @@
     </p>
 <sidebyside width="60%"><stack>
         <image width="60%" source="Parallelogram.png">
-          <description><p>Missing description</p></description>
+          <description><p>A parallelogram with sides <m>u</m> and <m>v</m>, and its two diagonals <m>u+v</m> and <m>u-v</m>.</p></description>
         </image>
         <p>The diagonals of this parallelogram are <m>u+v</m> and <m>u-v</m>.</p>
 </stack></sidebyside>
@@ -1383,7 +1383,7 @@
             </md>
           </p>
             <image width="60%" source="Apollonius.png">
-              <description><p>Missing description</p></description>
+              <description><p>A triangle with sides of length <m>a</m>, <m>b</m> and <m>c</m>, and a segment of length <m>d</m> from the midpoint of the side of length <m>c</m> to the opposite vertex.</p></description>
             </image>
         </statement>
       </exercise>

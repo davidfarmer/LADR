@@ -714,7 +714,7 @@
       </p>
 <sidebyside width="60%"><stack>
           <image source="ClosestPoint.png">
-            <description><p>Missing description</p></description>
+            <description><p>A line <m>U</m> through the origin <m>0</m>, a point <m>v</m> off the line, and the point <m>P_{U} v</m> on <m>U</m>. Segments join <m>0</m> to <m>v</m> and <m>v</m> to <m>P_{U} v</m>, the second perpendicular to <m>U</m>.</p></description>
           </image>
           <p><m>P_{U} v</m> is the closest point in <m>U</m> to <m>v</m>.</p>
 </stack></sidebyside>
@@ -790,7 +790,7 @@
         </p>
 <sidebyside width="60%"><stack>
             <image source="SinGram.png">
-              <description><p>Missing description</p></description>
+              <description><p>Graphs of <m>\sin x</m> in red and the polynomial <m>u</m> in blue on <m>[-\pi, \pi]</m>, each starting at <m>0</m> at <m>-\pi</m>, dipping to <m>-1</m>, rising through <m>0</m> to <m>1</m>, and returning to <m>0</m> at <m>\pi</m>. The two curves coincide so closely that they look like a single curve.</p></description>
             </image>
             <p>Graphs on <m>[-\pi, \pi]</m> of the sine function (red) and its best fifth degree polynomial approximation <m>u</m> (blue) from <xref ref="x420"/>.</p>
 </stack></sidebyside>
@@ -813,7 +813,7 @@
         </p>
 <sidebyside width="60%"><stack>
             <image source="SinTaylor.png">
-              <description><p>Missing description</p></description>
+              <description><p>Graphs of <m>\sin x</m> in red and its Taylor polynomial of degree <m>5</m> in blue on <m>[-\pi, \pi]</m>. The curves coincide near <m>0</m>, but beyond about <m>|x| = 2</m> they separate: at <m>\pi</m> the sine is back to <m>0</m> while the blue curve is still above <m>0.5</m>, and symmetrically at <m>-\pi</m>.</p></description>
             </image>
             <p>Graphs on <m>[-\pi, \pi]</m> of the sine function (red) and the Taylor polynomial (blue) from <xref ref="x421"/>.</p>
 </stack></sidebyside>
