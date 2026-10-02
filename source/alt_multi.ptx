@@ -540,7 +540,7 @@
         Thus <m>\alpha</m> is alternating.
       </p>
       <p>
-        Finally, <xref ref="x9alalt">consider</xref> with each <m>v_k = e_k</m>.
+        Finally, consider <xref ref="x9alalt"/> with each <m>v_k = e_k</m>.
         Because <m>\phi_j(e_k)</m> equals <m>0</m> if <m>j \ne k</m> and equals <m>1</m> if <m>j = k</m>,
         only the permutation <m>(1, \ldots,
         n)</m> makes a nonzero contribution to the right side of <xref ref="x9alalt"/> in this case,

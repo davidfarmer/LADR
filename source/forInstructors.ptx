@@ -137,7 +137,7 @@
   <p>
     This book usually develops linear algebra simultaneously for real and complex vector spaces by letting <m>\F{}</m> denote either the real or the complex numbers.
     If you and your students prefer to think of <m>\F{}</m> as an arbitrary field,
-    then see the comments at the end of <xref ref="fields">Section</xref>.
+    then see the comments at the end of <xref ref="fields"/>.
     I prefer avoiding arbitrary fields at this level because they introduce extra abstraction without leading to any new linear algebra.
     Also, students are more comfortable thinking of polynomials as functions instead of the more formal objects needed for polynomials with coefficients in finite fields.
     Finally, even if the beginning part of the theory were developed with arbitrary fields,

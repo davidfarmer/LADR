@@ -221,7 +221,7 @@
         </md>
       </p>
       <p>
-        <xref ref="productsum">Combining</xref>
+        Combining <xref ref="productsum"/>
         and <xref ref="x3dimproduct"/>
         now shows that <m>V{}_1 + \dots + V{}_m</m> is a direct sum if and only if
         <md>

@@ -689,7 +689,7 @@
       <m>e_1, \ldots,
       e_m</m> of <m>V</m> and an orthonormal basis <m>f_1, \ldots,
       f_n</m> of <m>W{}</m>.
-      <xref ref="x9ip">Formula</xref> implies that
+      Formula <xref ref="x9ip"/> implies that
       <m>\{ e_j \tensor f_k \}_{j = 1, \ldots, m;
       k = 1, \ldots, n}</m> is a doubly indexed orthonormal list in
       <m>V{} \tensor W</m> and hence is an orthonormal basis of
