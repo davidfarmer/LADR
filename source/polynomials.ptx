@@ -23,14 +23,14 @@
     the fundamental theorem of algebra leads to a factorization of every polynomial into degree-one factors if the scalar field is <m>\C{}</m> or to factors of degree at most two if the scalar field is <m>\R{}</m>.
   </p>
 
-    <paragraphs>
+    <assemblage>
       <title>Assumptions for this chapter</title>
       <p>
         <ul>
           <li><m>\F{}</m> denotes <m>\R{}</m> or <m>\C{}</m>.</li>
         </ul>
       </p>
-    </paragraphs>
+    </assemblage>
 
     <image source="KhayamR.jpg" width="80%">
       <description><p>Missing description</p></description>
