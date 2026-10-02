@@ -784,7 +784,7 @@
     </p>
     <p>
       The next result will be the main tool used to prove that the column rank equals the row rank
-      (<xref ref="x3colrow">see</xref>).
+      (see <xref ref="x3colrow"/>).
     </p>
     <theorem xml:id="x3CR">
       <title>column<ndash/>row factorization</title>
@@ -877,7 +877,7 @@
       </statement>
     </definition>
     <p>
-      <xref ref="x3rank">See</xref> and <xref ref="x7rank">Exercise</xref>
+      See <xref ref="x3rank"/> and <xref ref="x7rank">Exercise</xref>
       in <xref ref="selfadjoint_normal">Section</xref>
       for alternative proofs that the column rank equals the row rank.
     </p>

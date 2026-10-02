@@ -172,7 +172,7 @@
     </definition>
     <p>
       Recall that <m>\F{n,n}</m> denotes the vector space of <m>n</m>-by-<m>n</m> matrices with entries in <m>\F{}</m> and that <m>\dim \F{n,n} = n^2</m>
-      (<xref ref="x3mnmatrices">see</xref>
+      (see <xref ref="x3mnmatrices"/>
       and <xref ref="dimFmn"></xref>).
     </p>
     <theorem xml:id="x9dimV2">
@@ -252,7 +252,7 @@
     <p>
       The result below shows how the matrix of a bilinear form changes if we change the basis.
       The formula in the result below should be compared to the change-of-basis formula for the matrix of an operator
-      (<xref ref="x303">see</xref>).
+      (see <xref ref="x303"/>).
       The two formulas are similar,
       except that the transpose <m>\tran{C}</m> appears in the formula below and the inverse <m>C^{-1}</m> appears in the change-of-basis formula for the matrix of an operator.
     </p>
@@ -378,7 +378,7 @@
               </md>
               Then <m>\rho</m> is a symmetric bilinear form on <m>\Lc(V)</m> because trace is a linear functional on <m>\Lc(V)</m> and
               <m>\tr(ST) = \tr(TS)</m> for all <m>S, T \in \Lc(V)</m>;
-              <xref ref="x372">see</xref>.
+              see <xref ref="x372"/>.
             </p>
           </li>
         </ol>
@@ -563,7 +563,7 @@
         </md>
         where the first equality holds by <xref ref="x11change"></xref>
         and the second equality holds because <m>C</m> is a unitary matrix with real entries \big(which implies that <m>C^{-1} = \tran{C}</m>;
-        <xref ref="x7unitarymat">see</xref>\big).
+        see <xref ref="x7unitarymat"/>\big).
       </p>
     </proof>
     <p>

@@ -97,7 +97,7 @@
       Let <m>A = \M(  T, (u_1, \ldots,
       u_n)  )</m> and <m>B = \M(  T, (v_1, \ldots, v_n)  )</m>.
       The change-of-basis formula tells us that there exists an invertible <m>n</m>-by-<m>n</m> matrix <m>C</m> such that <m>A = C^{-1} B C</m>
-      (<xref ref="x303">see</xref>).
+      (see <xref ref="x303"/>).
       Thus
       <md>
         <mrow>\tr A \amp  = \tr ( (  C^{-1} B  ) C )</mrow>
@@ -133,12 +133,12 @@
   <p>
     Suppose <m>T \in \Lc(V)</m> and <m>\lambda</m> is an eigenvalue of <m>T{}</m>.
     Recall that we defined the multiplicity of <m>\lambda</m> to be the dimension of the generalized eigenspace
-    <m>G(\lambda, T)</m> (<xref ref="multeigen">see</xref>);
+    <m>G(\lambda, T)</m> (see <xref ref="multeigen"/>);
     we proved that this multiplicity equals <m>\dim \ker(T - \lambda I)^{\dim V}</m>
-    (<xref ref="x180">see</xref>).
+    (see <xref ref="x180"/>).
     Recall also that if <m>V</m> is a complex vector space,
     then the sum of the multiplicities of all eigenvalues of <m>T</m> equals <m>\dim V</m>
-    (<xref ref="x8sm">see</xref>).
+    (see <xref ref="x8sm"/>).
   </p>
   <p>
     In the following result, the sum of the eigenvalues
@@ -172,7 +172,7 @@
   <proof>
     <p>
       There is a basis of <m>V</m> with respect to which <m>T</m> has an upper-triangular matrix with the diagonal entries of the matrix consisting of the eigenvalues of <m>T{}</m>,
-      with each eigenvalue included as many times as its multiplicity<mdash/><xref ref="x187">see</xref>.
+      with each eigenvalue included as many times as its multiplicity<mdash/>see <xref ref="x187"/>.
       Thus the definition of the trace of an operator along <xref ref="x8trbasis">with</xref>,
       which allows us to use a basis of our choice,
       implies that <m>\tr T</m> equals the sum of the eigenvalues of <m>T{}</m>,
@@ -215,7 +215,7 @@
     and <m>\lambda_1, \dots, \lambda_n</m> are the eigenvalues of <m>T</m>,
     with each eigenvalue included as many times as its multiplicity.
     Then by definition
-    (<xref ref="x7charpoly">see</xref>),
+    (see <xref ref="x7charpoly"/>),
     the characteristic polynomial of<nbsp/><m>T</m> equals
     <md>
       (z - \lambda_1) \dotsm (z - \lambda_n).
@@ -230,7 +230,7 @@
   </p>
   <p>
     The expression above immediately leads to the next result.
-    Also <xref ref="x9dettr">see</xref>,
+    Also see <xref ref="x9dettr"/>,
     which does not require the hypothesis that <m>\F{} = \C{}</m>.
   </p>
   <theorem xml:id="x8tracechar">

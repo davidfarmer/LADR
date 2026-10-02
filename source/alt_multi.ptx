@@ -190,7 +190,7 @@
         v_m \in V{}</m>.
         Because <m>m > \dim V{}</m>, this list is not linearly independent
         (by <xref ref="x7"></xref>).
-        <xref ref="x11altdep">Thus</xref>
+        Thus <xref ref="x11altdep"/>
         implies that <m>\alpha (v_1, \ldots, v_m) = 0</m>.
         Hence <m>\alpha</m> is the zero function from <m>V^m</m> to <m>\F{}{}</m>.
       </p>
@@ -516,7 +516,7 @@
           v = \sum_{j=1}^n \phi_j(v) e_j
         </md>
         for every <m>v \in V{}</m>
-        (<xref ref="x3dualbasis">see</xref>).
+        (see <xref ref="x3dualbasis"/>).
         Now for <m>v_1, \ldots, v_n \in V{}</m>, define
         <md number="yes" xml:id="x9alalt">
           \alpha (v_1, \ldots, v_n) = \sum_{(j_1, \ldots, j_n) \in \perm n} (  \sign(j_1, \ldots, j_n)  ) \phi_{j_1}(v_1) \cdots \phi_{j_n}(v_n).
@@ -558,7 +558,7 @@
     </aside>
     <p>
       Earlier we showed that the value of an alternating multilinear form applied to a linearly dependent list is <m>0</m>;
-      <xref ref="x11altdep">see</xref>.
+      see <xref ref="x11altdep"/>.
       The next result provides a converse of <xref ref="x11altdep"></xref>
       for <m>n</m>-linear multilinear forms when <m>n = \dim V{}</m>.
       In the following result, the statement that <m>\alpha</m> is nonzero means
@@ -595,7 +595,7 @@
         Because <m>n = \dim V{}</m>,
         this implies that <m>e_1, \ldots,
         e_n</m> is a basis of <m>V{}</m>
-        (<xref ref="x75">see</xref>).
+        (see <xref ref="x75"/>).
       </p>
       <p>
         Because <m>\alpha</m> is not the zero <m>n</m>-linear form,

@@ -206,7 +206,7 @@
       <p>
         <xref ref="x46">By</xref>,
         every orthonormal list of vectors in <m>V</m> is linearly independent.
-        Thus every such list of the right length is a basis<mdash/><xref ref="x75">see</xref>.
+        Thus every such list of the right length is a basis<mdash/>see <xref ref="x75"/>.
       </p>
     </proof>
     <example xml:id="x4FonBasis">
@@ -547,7 +547,7 @@
         (by <xref ref="x46"></xref>).
         Hence this list can be extended to a basis <m>e_1, \dots,
         e_m, v_1, \dots, v_n</m> of<nbsp/><m>V</m>
-        (<xref ref="x9">see</xref>).
+        (see <xref ref="x9"/>).
         Now apply the Gram<ndash/>Schmidt procedure <xref ref="x186"/> to
         <m>e_1, \dots,
         e_m, v_1, \dots, v_n</m>, producing an orthonormal list
@@ -569,7 +569,7 @@
     <p>
       In the last chapter,
       we gave a necessary and sufficient condition for an operator to have an upper-triangular matrix with respect to some basis
-      (<xref ref="x5necsuf">see</xref>).
+      (see <xref ref="x5necsuf"/>).
       Now that we are dealing with inner product spaces,
       we would like to know whether there exists an <em>orthonormal</em> basis with respect to which we have an upper-triangular matrix.
       The next result shows that the condition for an operator to have an upper-triangular matrix with respect to some orthonormal basis is the same as the condition to have an upper-triangular matrix with respect to an arbitrary basis.
@@ -593,7 +593,7 @@
         v_n</m> of<nbsp/><m>V{}</m>.
         Thus <m>\Span(v_1, \dots,
         v_k)</m> is invariant under <m>T</m> for each <m>k = 1, \dots, n</m>
-        (<xref ref="a225">see</xref>).
+        (see <xref ref="a225"/>).
       </p>
       <p>
         Apply the Gram<ndash/>Schmidt procedure to <m>v_1, \dots, v_n</m>,
@@ -604,7 +604,7 @@
           \Span(e_1, \dots, e_k) = \Span(v_1, \dots, v_k)
         </md>
         for each <m>k</m>
-        (<xref ref="x186">see</xref>),
+        (see <xref ref="x186"/>),
         we conclude that <m>\Span(e_1, \dots,
         e_k)</m> is invariant under<nbsp/><m>T</m> for each <m>k = 1, \dots, n</m>.
         Thus, by <xref ref="a225"></xref>,
@@ -850,7 +850,7 @@
     </p>
     <p>
       For two additional different proofs of the Riesz representation theorem,
-      <xref ref="x3RRT">see</xref> and also <xref ref="VVpiso">Exercise</xref>
+      see <xref ref="x3RRT"/> and also <xref ref="VVpiso">Exercise</xref>
       in <xref ref="OrthoMin">Section</xref>.
     </p>
     <exercises>

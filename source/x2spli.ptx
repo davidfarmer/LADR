@@ -273,7 +273,7 @@
       is represented by two sets of coefficients,
       then subtracting one representation of the polynomial from the other produces a polynomial that is identically zero as a function on <m>\F{}</m> and hence has all zero coefficients
       (if you are unfamiliar with this fact, just believe it for now;
-      we will prove it later<mdash/><xref ref="x4polyzero">see</xref>).
+      we will prove it later<mdash/>see <xref ref="x4polyzero"/>).
       <em>Conclusion:</em> the coefficients of a polynomial are uniquely determined by the polynomial.
       Thus the next definition uniquely defines the degree of a polynomial.
     </p>

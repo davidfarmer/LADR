@@ -331,7 +331,7 @@
       </md>
       shows that <m>z^k - \lambda^k</m> equals
       <m>z - \lambda</m> times some polynomial of degree <m>k-1</m>.
-      <xref ref="x4zm">Thus</xref> shows that <m>p</m> equals
+      Thus <xref ref="x4zm"/> shows that <m>p</m> equals
       <m>z - \lambda</m> times some polynomial of degree <m>m-1</m>,
       as desired.
     </p>
@@ -723,7 +723,7 @@
         a_0 + a_1 \bar{\lambda} + \dots + a_m \bar{\lambda}^m = 0,
       </md>
       where we have used basic properties of the complex conjugate
-      (<xref ref="propcomplex">see</xref>).
+      (see <xref ref="propcomplex"/>).
       The equation above shows that
       <m>\bar{\lambda}</m> is a zero of<nbsp/><m>p</m>.
     </p>
@@ -785,7 +785,7 @@
     The idea of the proof is to use the second version of the fundamental theorem of algebra <xref ref="x4FTA2"/>,
     which gives a factorization of<nbsp/><m>p</m> as a polynomial with complex coefficients.
     Complex but nonreal zeros of<nbsp/><m>p</m> come in pairs;
-    <xref ref="x170">see</xref>.
+    see <xref ref="x170"/>.
     Thus if the factorization of<nbsp/><m>p</m> as an element of<nbsp/><m>\P(\C{})</m> includes terms of the form
     <m>(x - \lambda)</m> with<nbsp/><m>\lambda</m> a nonreal complex number,
     then <m>(x - \bar{\lambda})</m> is also a term in the factorization.

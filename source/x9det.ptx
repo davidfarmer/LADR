@@ -33,7 +33,7 @@
     </p>
     <p>
       We know that <m>\dim V^{(\dim V)}_{\text{ alt } } = 1</m>
-      (<xref ref="x9dimone">see</xref>).
+      (see <xref ref="x9dimone"/>).
       Every linear map from a one-dimensional vector space to itself is multiplication by some unique scalar.
       For the linear map <m>\alpha \mapsto \alpha_T</m>,
       we now define <m>\det T</m> to be that scalar.
@@ -228,7 +228,7 @@
         with <m>V = \F n</m> and <m>e_1, \ldots,
         e_n</m> the standard basis of <m>\F n</m> and <m>\alpha</m> the alternating <m>n</m>-linear form on <m>\F n</m> that takes
         <m>v_1, \ldots,
-        v_n</m> to <m>\det \begin{pmatrix}v_1 \amp  \cdots \amp  v_n \end{pmatrix}</m> [<xref ref="x9detalt">see</xref>]. If each <m>v_k</m> is the <m>k^\nth</m> column of <m>A</m>,
+        v_n</m> to <m>\det \begin{pmatrix}v_1 \amp  \cdots \amp  v_n \end{pmatrix}</m> [see <xref ref="x9detalt"/>]. If each <m>v_k</m> is the <m>k^\nth</m> column of <m>A</m>,
         then each <m>b_{j,k}</m> in <xref ref="x11altform"></xref> equals <m>A_{j,k}</m>.
         Finally,
         <md>
@@ -356,7 +356,7 @@
             <m>\M(S) = A</m> and <m>\M(T) = B</m>,
             where all matrices of operators in this proof are with respect to the standard basis of <m>\FF n</m>.
             Then <m>\M(ST) = \M(S) \M(T) = AB</m>
-            (<xref ref="x3matproduct">see</xref>).
+            (see <xref ref="x3matproduct"/>).
             Thus
             <md>
               \det(AB) = \det(ST) = (\det S)(\det T) = (\det A)(\det B),
@@ -413,7 +413,7 @@
     </proof>
     <p>
       An <m>n</m>-by-<m>n</m> matrix <m>A</m> is invertible
-      (<xref ref="x3invertm">see</xref>
+      (see <xref ref="x3invertm"/>
       for the definition of an invertible matrix)
       if and only if the operator on <m>\F n</m> associated with <m>A</m> \big(via the standard basis of <m>\F n</m>\big) is invertible.
       Thus the previous result shows that a square matrix <m>A</m> is invertible if and only if <m>\det A \ne 0</m>.
@@ -430,7 +430,7 @@
     <proof>
       <p>
         The number <m>\lambda</m> is an eigenvalue of <m>T</m> if and only if <m>T - \lambda I</m> is not invertible
-        (<xref ref="eigenequiv">see</xref>),
+        (see <xref ref="eigenequiv"/>),
         which happens if and only if <m>\lambda I - T</m> is not invertible,
         which happens if and only if <m>\det(\lambda I - T) = 0</m>
         (by <xref ref="x9nonzero"></xref>).
@@ -555,8 +555,8 @@
     <proof>
       <p>
         There is a basis of <m>V</m> with respect to which <m>T</m> has an upper-triangular matrix with the diagonal entries of the matrix consisting of the eigenvalues of <m>T{}</m>,
-        with each eigenvalue included as many times as its multiplicity<mdash/><xref ref="x187">see</xref>.
-        <xref ref="x9detopmat">Thus</xref>
+        with each eigenvalue included as many times as its multiplicity<mdash/>see <xref ref="x187"/>.
+        Thus <xref ref="x9detopmat"/>
         and <xref ref="x9detupper"></xref>
         imply that <m>\det T</m> equals the product of the eigenvalues of <m>T{}</m>,
         with each eigenvalue included as many times as its multiplicity.
@@ -636,7 +636,7 @@
             Pick an orthonormal basis of <m>V{}</m>.
             The matrix of <m>T^*</m> with respect to that basis is the conjugate transpose of the matrix of <m>T</m> with respect to that basis
             (by <xref ref="x406"></xref>).
-            <xref ref="x9detopmat">Thus</xref>,
+            Thus <xref ref="x9detopmat"/>,
             <xref ref="x9detformula"></xref>,
             and (a) imply that <m>\det ( T^* ) = \overline{\det T}{}</m>.
           </p>
@@ -688,7 +688,7 @@
         All the assertions in this result follow from the result that the maps <m>v_1, \ldots,
         v_n \mapsto \det \begin{pmatrix}v_1 \amp \cdots \amp v_n \end{pmatrix}</m> and
         <m>v_1, \ldots,
-        v_n \mapsto \det \tran{\begin{pmatrix}v_1 \amp \cdots \amp v_n \end{pmatrix} }</m> are both alternating <m>n</m>-linear forms on <m>\FF n</m> [<xref ref="x9detalt">see</xref>
+        v_n \mapsto \det \tran{\begin{pmatrix}v_1 \amp \cdots \amp v_n \end{pmatrix} }</m> are both alternating <m>n</m>-linear forms on <m>\FF n</m> [see <xref ref="x9detalt"/>
         and <xref ref="detTdual"></xref>(a)] .
       </p>
       <p>
@@ -744,7 +744,7 @@
     </p>
     <p>
       Recall that an operator on a finite-dimensional inner product space is unitary if it preserves norms
-      (<xref ref="x7unitaryop">see</xref>
+      (see <xref ref="x7unitaryop"/>
       and the paragraph following it).
       Every eigenvalue of a unitary operator has absolute value <m>1</m>
       (by <xref ref="EigUnitary"></xref>).
@@ -770,7 +770,7 @@
     <proof>
       <p>
         Because <m>S</m> is unitary, <m>I = S^* S</m>
-        (<xref ref="x734u">see</xref>).
+        (see <xref ref="x734u"/>).
         Thus
         <md>
           1 = \det(S^* S) = (\det S^*) (\det S) = \overline{( \det S)} (\det S) = \lvert \det S \rvert ^2{},
@@ -896,7 +896,7 @@
         With respect to this basis,
         <m>zI - T</m> has an upper-triangular matrix with
         <m>z - \lambda_k</m> appearing on the diagonal exactly <m>d_k</m> times for each <m>k</m>.
-        <xref ref="x9detupper">Thus</xref> gives the desired equation.
+        Thus <xref ref="x9detupper"/> gives the desired equation.
       </p>
     </proof>
     <p>
@@ -986,7 +986,7 @@
     </p>
     <p>
       The last sentence in our next result was previously proved in the complex case
-      (<xref ref="x8tracechar">see</xref>).
+      (see <xref ref="x8tracechar"/>).
       Now we can give a proof that works on both real and complex vector spaces.
     </p>
     <theorem xml:id="x9dettr">
@@ -1089,7 +1089,7 @@
       <m>P(e_1, \ldots,
       e_n)</m> onto the parallelepiped
       <m>P(v_1, \ldots,
-      v_n)</m> [<xref ref="x7parallel">see</xref> and <xref ref="x7box"></xref>
+      v_n)</m> [see <xref ref="x7parallel"/> and <xref ref="x7box"></xref>
       for a review of this notation and terminology]. Because the box
       <m>P(e_1, \ldots,
       e_n)</m> has volume<nbsp/><m>1</m>, this implies
@@ -1279,7 +1279,7 @@
             Without using the minimal polynomial,
             prove that <m>T</m> has an eigenvalue.
                 <idx><h>eigenvalue</h><h>on odd-dimensional space</h></idx>
-            Note: This result was previously proved without using determinants or the characteristic polynomial<mdash/><xref ref="x5odd">see</xref>.
+            Note: This result was previously proved without using determinants or the characteristic polynomial<mdash/>see <xref ref="x5odd"/>.
           </p>
         </statement>
       </exercise>
@@ -1292,7 +1292,7 @@
             Note: If <m>\F{} = \C{}</m>,
             <m>T \in \Lc(V)</m>, and <m>\det T \ne 0</m>,
             then <m>T</m> has a square root
-            (<xref ref="x397">see</xref>)
+            (see <xref ref="x397"/>)
             .
           </p>
         </statement>
@@ -1354,7 +1354,7 @@
               \lvert \det T \rvert  = \sqrt{\det( T^*T )}
             </md>
             that is different from the proof given earlier
-            (<xref ref="x324">see</xref>).
+            (see <xref ref="x324"/>).
           </p>
         </statement>
       </exercise>

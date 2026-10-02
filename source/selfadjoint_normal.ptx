@@ -419,7 +419,7 @@
         Recall that we obtain the <m>k^\nth</m> column of <m>\M(T)</m> by writing <m>Te_k</m> as a linear combination of the <m>f_j</m>'s;
         the scalars used in this linear combination then become the <m>k^\nth</m> column of <m>\M(T)</m>.
         Because <m>f_1, \dots, f_m</m> is an orthonormal basis of <m>W{}</m>,
-        we know how to write <m>Te_k</m> as a linear combination of the <m>f_j</m>'s [<xref ref="x190">see</xref>(a)] :
+        we know how to write <m>Te_k</m> as a linear combination of the <m>f_j</m>'s [see <xref ref="x190"/>(a)] :
         <md>
           Te_k = \langle Te_k, f_1 \rangle  f_1 + \dots + \langle Te_k, f_m \rangle  f_m.
         </md>
@@ -453,7 +453,7 @@
       the orthogonal complement <m>U^\perp</m> of a subset
       <m>U \subset V</m> corresponds to the annihilator <m>U^0</m> of <m>U</m>.
       If <m>U</m> is a subspace of <m>V{}</m>,
-      then the formulas for the dimensions of <m>U^\perp</m> and <m>U^0</m> become identical under this identification<mdash/><xref ref="dimannih">see</xref> and <xref ref="x350"></xref>.
+      then the formulas for the dimensions of <m>U^\perp</m> and <m>U^0</m> become identical under this identification<mdash/>see <xref ref="dimannih"/> and <xref ref="x350"></xref>.
     </p>
     <aside>
       <p>
@@ -676,7 +676,7 @@
         We have already proved this
         (without the hypothesis that <m>T</m> is self-adjoint)
         when <m>V</m> is a complex inner product space
-        (<xref ref="x51">see</xref>).
+        (see <xref ref="x51"/>).
         Thus we can assume that <m>V</m> is a real inner product space.
         If <m>u, w \in V{}</m>, then
         <md number="yes" xml:id="x207">
@@ -1488,7 +1488,7 @@
           <p>
             Suppose <m>\fun T V W</m> is a linear map.
             Show that under the standard identification of <m>V</m> with <m>V'</m>
-            (<xref ref="x3RRT">see</xref>)
+            (see <xref ref="x3RRT"/>)
             and the corresponding identification of <m>W</m> with <m>W'\!</m>,
             the adjoint map <m>\fun {T^*} W V</m> corresponds to the dual map <m>\fun {T'} {W'} {V'}</m>.
             More precisely, show that

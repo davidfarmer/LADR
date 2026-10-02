@@ -139,7 +139,7 @@
             <md>
               G(\lambda_k, T) = \ker (T - \lambda_k I)^{\dim V}\!.
             </md>
-            <xref ref="x130">Thus</xref>,
+            Thus <xref ref="x130"/>,
             with <m>p(z) = (z - \lambda_k)^{\dim V}\!</m>,
             implies that <m>G(\lambda_k, T)</m> is invariant under<nbsp/><m>T</m>,
             proving<nbsp/>(a).
@@ -219,7 +219,7 @@
     </definition>
     <p>
       The second bullet point above holds because <m>G(\lambda, T) = \ker (T - \lambda I)^{\dim V}</m>
-      (<xref ref="x180">see</xref>).
+      (see <xref ref="x180"/>).
     </p>
     <example xml:id="multex">
       <title>multiplicity of each eigenvalue of an operator</title>
@@ -282,7 +282,7 @@
     <proof>
       <p>
         The desired result follows from the generalized eigenspace decomposition <xref ref="x31"/> and the formula for the dimension of a direct sum
-        (<xref ref="x3directsumdim">see</xref>).
+        (see <xref ref="x3directsumdim"/>).
       </p>
     </proof>
     <p>
@@ -628,7 +628,7 @@
     <proof>
       <p>
         Each <m>(T - \lambda_k I)|_{G(\lambda_k, T)}</m> is nilpotent
-        (<xref ref="x31">see</xref>).
+        (see <xref ref="x31"/>).
         For each <m>k</m>, choose a basis of <m>G(\lambda_k, T)</m>,
         which is a vector space of dimension <m>d_k</m>,
         such that the matrix of <m>(T - \lambda_k I)|_{G(\lambda_k, T)}</m> with respect to this basis is as in <xref ref="a33"></xref>(c).

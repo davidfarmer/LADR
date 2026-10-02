@@ -193,7 +193,7 @@
           <li>
             <p>
               The multiplication by <m>x^2</m> linear map from <m>\P(\R{})</m> to <m>\P(\R{})</m>
-              (<xref ref="x2a111">see</xref>)
+              (see <xref ref="x2a111"/>)
               is injective but it is not invertible because it is not surjective
               (the polynomial <m>1</m> is not in the range).
             </p>
@@ -201,7 +201,7 @@
           <li>
             <p>
               The backward shift linear map from <m>\F{\infty}</m> to <m>\F{\infty}</m>
-              (<xref ref="x2a111">see</xref>)
+              (see <xref ref="x2a111"/>)
               is surjective but it is not invertible because it is not injective [the vector
               <m>(1, 0, 0, 0, \dotsc)</m> is in the null space] .
                 <idx><h>backward shift</h></idx>
@@ -318,7 +318,7 @@
     <p>
       <xref ref="harmonic">Exercise</xref>
       in <xref ref="x6ipn">Section</xref>
-      gives a similar but more spectacular example of <xref ref="x18">using</xref>.
+      gives a similar but more spectacular example of using <xref ref="x18"/>.
     </p>
     <p>
       The hypothesis in the result below that
@@ -476,7 +476,7 @@
         w_n</m> is linearly independent.
         Thus <m>T</m> is injective.
         Because <m>T</m> is injective and surjective, it is an isomorphism
-        (<xref ref="a112">see</xref>).
+        (see <xref ref="a112"/>).
         Hence <m>V</m> and <m>W</m> are isomorphic.
       </p>
     </proof>
@@ -887,7 +887,7 @@
       and similarly <m>( C^{-1} A^{-1} )(AC) = I</m>.
     </p>
     <p>
-      The next result holds because we defined matrix multiplication to make it true<mdash/><xref ref="x3matproduct">see</xref>
+      The next result holds because we defined matrix multiplication to make it true<mdash/>see <xref ref="x3matproduct"/>
       and the material preceding it.
       Now we are just being more explicit about the bases involved.
     </p>
@@ -969,7 +969,7 @@
             \begin{pmatrix}\frac{3}{2} \amp -\frac{5}{2} \\ -1 \amp 2 \end{pmatrix} ,
           </md>
           as you should verify.
-          <xref ref="x299">Thus</xref> implies that
+          Thus <xref ref="x299"/> implies that
           <md>
             \M\Bigl(I, \bigl((1, 0), (0, 1)\bigr), \bigl((4, 2), (5, 3)\bigr) \Bigr) = \begin{pmatrix}\frac{3}{2} \amp -\frac{5}{2} \\ -1 \amp 2 \end{pmatrix} .
           </md>

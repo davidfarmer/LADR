@@ -618,7 +618,7 @@
     </p>
     <p>
       Recall that we defined the sum of two elements of <m>\F{n}</m> to be the element of <m>\F{n}</m> obtained by adding corresponding coordinates;
-      <xref ref="x106">see</xref>.
+      see <xref ref="x106"/>.
       As we will now see,
       addition has a simple geometric interpretation in the special case of<nbsp/><m>\RR{2}</m>.
     </p>

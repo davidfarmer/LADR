@@ -230,7 +230,7 @@
     <p>
       As previously noted, every isometry is injective.
       Every injective operator on a finite-dimensional vector space is invertible
-      (<xref ref="x18">see</xref>).
+      (see <xref ref="x18"/>).
       A standing assumption for this chapter is that <m>V</m> is a finite-dimensional inner product space.
       Thus we could delete the word
       <q>invertible</q>
@@ -636,7 +636,7 @@
         Let <m>Q</m> be the unitary matrix whose columns are <m>e_1, \ldots, e_n</m>.
         If <m>k \in \{ 1, \ldots, n \}</m>,
         then the <m>k^\nth</m> column of <m>QR</m> equals a linear combination of the columns of <m>Q</m>,
-        with the coefficients for the linear combination coming from the <m>k^\nth</m> column of <m>R</m><mdash/><xref ref="x3mmcol">see</xref>(a).
+        with the coefficients for the linear combination coming from the <m>k^\nth</m> column of <m>R</m><mdash/>see <xref ref="x3mmcol"/>(a).
         Hence the <m>k^\nth</m> column of <m>QR</m> equals
         <md>
           \langle v_k, e_1 \rangle  e_1 + \cdots + \langle v_k, e_k \rangle  e_k,
@@ -646,7 +646,7 @@
       </p>
       <p>
         The equations defining the Gram<ndash/>Schmidt procedure
-        (<xref ref="x186">see</xref>)
+        (see <xref ref="x186"/>)
         show that each <m>v_k</m> equals a positive multiple of <m>e_k</m> plus a linear combination of <m>e_1, \ldots,
         e_{k-1}</m>.
         Thus each <m>\langle v_k, e_k \rangle</m> is a positive number.
@@ -750,7 +750,7 @@
       (<m>Q</m> and <m>R</m> are computable from <m>A</m> using just the Gram<ndash/>Schmidt procedure,
       as shown in the proof of <xref ref="x7QR"></xref>).
       The equation <m>Ax= b</m> is equivalent to the equation <m>QRx = b</m>.
-      Multiplying both sides of this last equation by <m>Q^*</m> on the left and <xref ref="x7unitarymat">using</xref>(d) gives the equation
+      Multiplying both sides of this last equation by <m>Q^*</m> on the left and using <xref ref="x7unitarymat"/>(d) gives the equation
       <md>
         Rx = Q^*b.
       </md>
@@ -850,7 +850,7 @@
       </p>
       <p>
         Let <m>A = QR</m> be the QR factorization of <m>A</m>
-        (<xref ref="x7QR">see</xref>),
+        (see <xref ref="x7QR"/>),
         where <m>Q</m> is unitary and <m>R</m> is upper triangular with only positive numbers on its diagonal.
         Then <m>A^* = R^*Q^*{}</m>.
       </p>
@@ -902,7 +902,7 @@
     <p>
       In the first paragraph of the proof above,
       we could have chosen <m>A</m> to be the unique positive definite matrix that is a square root of <m>B</m>
-      (<xref ref="x329">see</xref>).
+      (see <xref ref="x329"/>).
       However, the proof was presented with the more general choice of <m>A</m> because for specific positive definite matrices <m>B</m>,
       it may be easier to find a different choice of <m>A</m>.
     </p>

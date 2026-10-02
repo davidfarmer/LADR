@@ -211,7 +211,7 @@
         The spectral theorem applied to <m>T^* T</m> shows that
         <m>\dim \ran T^*T</m> equals the number of positive eigenvalues of <m>T^*T</m>
         (counting repetitions).
-        <xref ref="x2Tstar">Thus</xref>(d) implies that
+        Thus <xref ref="x2Tstar"/>(d) implies that
         <m>\dim \ran T</m> equals the number of positive singular values of <m>T</m>,
         proving<nbsp/>(b).
       </p>
@@ -349,7 +349,7 @@
       <p>
         Let <m>s_1, \ldots, s_n</m> denote the singular values of <m>T</m>
         (thus <m>n = \dim V</m>).
-        Because <m>T^*T</m> is a positive operator [<xref ref="x2Tstar">see</xref>(a)] , the spectral theorem implies that there exists an orthonormal basis <m>e_1, \ldots,
+        Because <m>T^*T</m> is a positive operator [see <xref ref="x2Tstar"/>(a)] , the spectral theorem implies that there exists an orthonormal basis <m>e_1, \ldots,
         e_n</m> of <m>V</m> with
         <md number="yes" xml:id="x6sing">
           T^*T e_k = {s_k}^{2} e_k
@@ -484,16 +484,16 @@
       Specifically,
       the next result shows that given a singular value decomposition of a linear map <m>T \in \Lc(V{},W)</m>,
       we can obtain the adjoint of <m>T</m> simply by interchanging the roles of the <m>e</m>'s and the <m>f</m>'s
-      (<xref ref="x6SVD">see</xref>).
+      (see <xref ref="x6SVD"/>).
       Similarly, we can obtain the pseudoinverse <m>T^\dagger</m>
-      (<xref ref="x6pseudo">see</xref>)
+      (see <xref ref="x6pseudo"/>)
       of <m>T</m> by interchanging the roles of the <m>e</m>'s and the <m>f</m> 's and replacing each positive singular value <m>s_k</m> of <m>T</m> with <m>1/s_k</m>
-      (<xref ref="x7SVD">see</xref>).
+      (see <xref ref="x7SVD"/>).
     </p>
     <p>
       Recall that the pseudoinverse
       <m>T^\dagger</m> in <xref ref="x7SVD"></xref>
-      below equals the inverse <m>T^{-1}</m> if <m>T</m> is invertible [<xref ref="x6propps">see</xref>(a)] .
+      below equals the inverse <m>T^{-1}</m> if <m>T</m> is invertible [see <xref ref="x6propps"/>(a)] .
           <idx><h>pseudoinverse</h></idx>
     </p>
     <theorem xml:id="x8SVDadj">
@@ -538,10 +538,10 @@
         </md>
       </p>
       <p>
-        <xref ref="x6SVD">proving</xref>.
+        proving <xref ref="x6SVD"/>.
       </p>
       <p>
-        To <xref ref="x7SVD">prove</xref>, suppose <m>w \in W{}</m>.
+        To prove <xref ref="x7SVD"/>, suppose <m>w \in W{}</m>.
         Let
         <md>
           v = \frac{\langle w, f_1 \rangle }{s_1} e_1 + \dots + \frac{\langle w, f_m \rangle }{s_m} e_m.
@@ -554,15 +554,15 @@
           <mrow>\amp = \langle w, f_1 \rangle  f_1 + \dots + \langle w, f_m \rangle  f_m</mrow>
           <mrow>\amp = P_{\ran T}   w</mrow>
         </md>,
-        where the second line holds <xref ref="x5SVD">because</xref>
+        where the second line holds because <xref ref="x5SVD"/>
         implies that <m>Te_k = s_k f_k</m> if <m>k = 1, \ldots, m</m>,
-        and the last line above holds <xref ref="x5SVD">because</xref> implies that
+        and the last line above holds because <xref ref="x5SVD"/> implies that
         <m>f_1, \ldots,
         f_m</m> spans <m>\ran T</m> and thus is an orthonormal basis of <m>\ran T</m> [and <xref ref="x418">hence</xref>(i) applies] . The equation above,
         the observation that <m>v \in (\ker T)^\perp</m> [see <xref ref="x4SVD">Exercise</xref>(b)] , and the definition of <m>T^\dagger w</m>
-        (<xref ref="x6pseudo">see</xref>)
+        (see <xref ref="x6pseudo"/>)
         show that <m>v = T^\dagger w</m>,
-        <xref ref="x7SVD">proving</xref>.
+        proving <xref ref="x7SVD"/>.
       </p>
     </proof>
     <example>
@@ -955,7 +955,7 @@
             Suppose <m>T \in \Lc(V{}, W)</m>.
             Prove that <m>( T^* )^\dagger = ( T^\dagger )^*{}</m>.
                 <idx><h>pseudoinverse</h></idx>
-            Note: Compare the result in this exercise to the analogous result for invertible linear maps \big[<xref ref="x7propadjoint">see</xref> ( f ) \big].
+            Note: Compare the result in this exercise to the analogous result for invertible linear maps \big[see <xref ref="x7propadjoint"/> ( f ) \big].
           </p>
         </statement>
       </exercise>

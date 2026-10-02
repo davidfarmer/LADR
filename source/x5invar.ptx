@@ -108,7 +108,7 @@
       Later we will see that this question has an affirmative answer if <m>V</m> is finite-dimensional and <m>\dim V > 1</m>
       (for <m>\F{} = \C{}</m>)
       or <m>\dim V > 2</m> (for <m>\F{} = \R{})</m>;
-      <xref ref="x151">see</xref> and <xref ref="x5inv2">Exercise</xref>
+      see <xref ref="x151"/> and <xref ref="x5inv2">Exercise</xref>
       in <xref ref="eigenuppertri">Section</xref>.
     </p>
     <p>
@@ -375,7 +375,7 @@
         <m>v_1, \dots,
         v_m</m> is linearly independent.
         Thus <m>m \le \dim V</m>
-        (<xref ref="x7">see</xref>),
+        (see <xref ref="x7"/>),
         as desired.
       </p>
     </proof>
@@ -391,7 +391,7 @@
     </p>
     <p>
       If <m>T</m> is an operator, then <m>TT</m> makes sense
-      (<xref ref="x3ST">see</xref>)
+      (see <xref ref="x3ST"/>)
       and is also an operator on the same vector space as <m>T{}</m>.
       We usually write <m>T^2</m> instead of <m>TT{}</m>.
       More generally, we have the following definition of <m>T^m\!</m>.
@@ -559,7 +559,7 @@
     <p>
       We observed earlier that if <m>T \in \Lc(V)</m>,
       then the subspaces <m>\ker T</m> and <m>\ran T</m> are invariant under<nbsp/><m>T</m>
-      (<xref ref="invariant">see</xref>).
+      (see <xref ref="invariant"/>).
       Now we show that the null space and the range of every polynomial of<nbsp/><m>T</m> are also invariant under<nbsp/><m>T{}</m>.
     </p>
     <theorem xml:id="x130">

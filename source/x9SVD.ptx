@@ -89,7 +89,7 @@
     </definition>
     <p>
       In general, the maximum of an infinite set of nonnegative numbers need not exist.
-      However, the discussion <xref ref="x7norm">before</xref>
+      However, the discussion before <xref ref="x7norm"/>
       shows that the maximum in the definition of the norm of a linear map <m>T</m> from <m>V</m> to <m>W</m> does indeed exist
       (and equals the largest singular value of <m>T</m>).
     </p>
@@ -107,7 +107,7 @@
     <p>
       The properties of the norm on
       <m>\Lc(V{}, W)</m> listed below look identical to properties of the norm on an inner product space
-      (<xref ref="x2bnorm">see</xref> and <xref ref="x3triangle"></xref>).
+      (see <xref ref="x2bnorm"/> and <xref ref="x3triangle"></xref>).
       The inequality in (d) is called the
       <term>triangle inequality</term>,
           <idx><h>triangle inequality</h></idx>
@@ -236,7 +236,7 @@
       <ol marker="(a)">
         <li>
           <p>
-            <xref ref="x7max">See</xref>.
+            See <xref ref="x7max"/>.
           </p>
         </li>
         <li>
@@ -290,7 +290,7 @@
       The matrix of <m>T^*T</m> is quickly computable from matrix multiplication.
       Then a computer can be asked to find an approximation for the largest eigenvalue of <m>T^*T</m>
       (excellent numeric algorithms exist for this purpose).
-      Then taking the square root and <xref ref="x3altNorm">using</xref>(a) gives an approximation for the norm of <m>T</m>
+      Then taking the square root and using <xref ref="x3altNorm"/>(a) gives an approximation for the norm of <m>T</m>
       (which usually cannot be computed exactly).
     </p>
     <p>
@@ -474,7 +474,7 @@
   <subsection>
     <title>Polar Decomposition</title>
     <p>
-      Recall our discussion <xref ref="EigUnitary">before</xref>
+      Recall our discussion before <xref ref="EigUnitary"/>
       of the analogy between complex numbers <m>z</m> with
       <m>\lvert z \rvert  = 1</m> and unitary operators.
       Continuing with this analogy,
@@ -706,7 +706,7 @@
       The ellipsoid <m>E(f_1, \ldots,
       f_n)</m> equals the ball <m>B</m> in <m>V</m> for every orthonormal basis
       <m>f_1, \ldots,
-      f_n</m> of <m>V</m> [by Parseval's <xref ref="x190">identity</xref>(b)] .
+      f_n</m> of <m>V</m> [by Parseval's identity <xref ref="x190"/>(b)] .
     </p>
     <principle>
       <title><m>T(\Omega)</m></title>
@@ -756,8 +756,8 @@
         First suppose <m>v \in B</m>.
         Because <m>T</m> is invertible,
         none of the singular values <m>s_1, \ldots, s_n</m> equals <m>0</m>
-        (<xref ref="x7posSV">see</xref>).
-        <xref ref="x5Tv">Thus</xref> implies that
+        (see <xref ref="x7posSV"/>).
+        Thus <xref ref="x5Tv"/> implies that
         <md>
           \frac{\lvert \langle Tv,f_1 \rangle  \rvert ^2}{{s_1}^{2}} + \cdots + \frac{\lvert \langle Tv,f_n \rangle  \rvert ^2}{{s_n}^{2}} = \lvert \langle v, e_1 \rangle  \rvert ^2 + \cdots + \lvert \langle v, e_n \rangle  \rvert ^2 \lt  1.
         </md>
@@ -819,7 +819,7 @@
       </p>
     </proof>
     <p>
-      Recall (<xref ref="x2vU">see</xref>) that if <m>u \in V</m> and
+      Recall (see <xref ref="x2vU"/>) that if <m>u \in V</m> and
       <m>\Omega \subset V</m> then <m>u + \Omega</m> is defined by
       <md>
         u + \Omega = \{  u + w: w \in \Omega \}.
@@ -1161,7 +1161,7 @@
       Suppose <m>T \in \Lc(V)</m>.
       As we will see when we get to determinants,
       the product of the singular values of <m>T</m> equals <m>\lvert \det T \rvert</m>;
-      <xref ref="x324">see</xref> and <xref ref="x9330"></xref>.
+      see <xref ref="x324"/> and <xref ref="x9330"></xref>.
     </p>
   </subsection>
   <subsection>

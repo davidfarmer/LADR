@@ -5,7 +5,7 @@
       Recall that a diagonal matrix is a square matrix that is <m>0</m> everywhere except possibly on the diagonal.
       Recall that an operator on <m>V</m> is called diagonalizable if the operator has a diagonal matrix with respect to some basis of <m>V{}</m>.
       Recall also that this happens if and only if there is a basis of <m>V</m> consisting of eigenvectors of the operator
-      (<xref ref="x427">see</xref>).
+      (see <xref ref="x427"/>).
     </p>
     <p>
       The nicest operators on<nbsp/><m>V</m> are those for which there is an <em>orthonormal</em> basis of<nbsp/><m>V</m> with respect to which the operator has a diagonal matrix.
@@ -86,7 +86,7 @@
         The last inequality implies that <m>( T^2 + b T + c I ) v \ne 0</m>.
         Thus <m>T^2 + b T + c I</m> is injective,
         which implies that it is invertible
-        (<xref ref="x18">see</xref>).
+        (see <xref ref="x18"/>).
       </p>
     </proof>
     <p>
@@ -111,13 +111,13 @@
         The zeros of the minimal polynomial of <m>T</m> are the eigenvalues of <m>T</m> [by <xref ref="x136"></xref>(a)] . All eigenvalues of <m>T</m> are real
         (by <xref ref="x56"></xref>).
         Thus the second version of the fundamental theorem of algebra
-        (<xref ref="x4FTA2">see</xref>)
+        (see <xref ref="x4FTA2"/>)
         tells us that the minimal polynomial of <m>T</m> has the desired form.
       </p>
       <p>
         Now suppose <m>\F{} = \R{}</m>.
         By the factorization of a polynomial over <m>\R{}</m>
-        (<xref ref="x158">see</xref>)
+        (see <xref ref="x158"/>)
         there exist <m>\lambda_1, \dots, \lambda_m \in \R{}</m> and
         <m>b_1, \dots, b_N, c_1, \dots,
         c_N \in \R{}</m> with <m>{b_k}^{2} \lt  4c_k</m> for each <m>k</m> such that the minimal polynomial of <m>T</m> equals
@@ -301,7 +301,7 @@
       </p>
       <p>
         Because <m>T</m> is normal, <m>\lVert Te_1 \rVert = \lVert T^* e_1 \rVert</m>
-        (<xref ref="x206">see</xref>).
+        (see <xref ref="x206"/>).
         Thus the two equations above imply that all entries in the first row of the matrix in <xref ref="x405"></xref>,
         except possibly the first entry <m>a_{1,1}</m>, equal<nbsp/><m>0</m>.
       </p>
@@ -341,7 +341,7 @@
       </p>
       <p>
         The equivalence of (b) and (c) follows from the definitions
-        (also <xref ref="x427">see</xref>).
+        (also see <xref ref="x427"/>).
       </p>
     </proof>
     <p>

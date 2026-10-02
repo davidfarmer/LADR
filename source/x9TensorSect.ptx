@@ -49,7 +49,7 @@
       to be a basis of <m>V{} \tensor W{}</m>.
       This implies that <m>\dim (V{} \tensor W)</m> should equal <m>(\dim V)(\dim W)</m>.
       Recall that <m>\dim(V{} \times W) = \dim V + \dim W</m>
-      (<xref ref="x3dimproduct">see</xref>),
+      (see <xref ref="x3dimproduct"/>),
       which shows that the product
       <m>V{} \times W</m> will not serve our purposes here.
     </p>
@@ -86,7 +86,7 @@
     <p>
       If <m>W = V</m>,
       then a bilinear functional on <m>V \times W</m> is a bilinear form;
-      <xref ref="x8biform">see</xref>.
+      see <xref ref="x8biform"/>.
     </p>
     <p>
       The operations of addition and scalar multiplication on
@@ -246,7 +246,7 @@
         Because a vector space and its dual have the same dimension
         (by <xref ref="x3dimdual"></xref>),
         we have <m>\dim V' = \dim V</m> and <m>\dim W' = \dim W{}</m>.
-        <xref ref="x9dimbi">Thus</xref> tells us that the dimension of
+        Thus <xref ref="x9dimbi"/> tells us that the dimension of
         <m>\B( V', W' )</m> equals <m>(\dim V)(\dim W)</m>.
       </p>
     </proof>
@@ -316,7 +316,7 @@
       The linear independence of elements of
       <m>V{} \tensor W</m> in (a) of the result below captures the idea that there are no relationships among vectors in
       <m>V{} \tensor W</m> other than the relationships that come from bilinearity of the tensor product
-      (<xref ref="x9bi">see</xref>)
+      (see <xref ref="x9bi"/>)
       and the relationships that may be present due to linear dependence of a list of vectors in <m>V</m> or a list of vectors in <m>W{}</m>.
     </p>
     <theorem xml:id="x9basisVtenW">
@@ -382,8 +382,8 @@
       </p>
       <p>
         Now (b) follows from (a),
-        the equation <m>\dim V{} \tensor W = (\dim V)(\dim W)</m> [<xref ref="x9dimten">see</xref>], and the result that a linearly independent list of the right length is a basis
-        (<xref ref="x75">see</xref>).
+        the equation <m>\dim V{} \tensor W = (\dim V)(\dim W)</m> [see <xref ref="x9dimten"/>], and the result that a linearly independent list of the right length is a basis
+        (see <xref ref="x75"/>).
       </p>
     </proof>
     <p>
@@ -572,7 +572,7 @@
         define a function <m>\fun {\pound{T}} {V{} \times W} U</m> by
         <m>\pound{T}(v, w) = T(v \tensor w)</m> for all <m>(v, w) \in V{} \times W{}</m>.
         The bilinearity of the tensor product
-        (<xref ref="x9bi">see</xref>)
+        (see <xref ref="x9bi"/>)
         and the linearity of <m>T</m> imply that <m>\pound{T}</m> is bilinear.
       </p>
       <p>
@@ -580,7 +580,7 @@
       </p>
     </proof>
     <p>
-      To <xref ref="x9bi2linear">prove</xref>(a),
+      To prove <xref ref="x9bi2linear"/>(a),
       we could not just define <m>\hat{\Gamma}(v \tensor w) = \Gamma(v, w)</m> for all <m>v \in V</m> and <m>w \in W</m> \big(and then extend <m>\hat{\Gamma}</m> linearly to all of
       <m>V{} \tensor W</m>\big) because elements of
       <m>V{} \tensor W</m> do not have unique representations as finite sums of elements of the form <m>v \tensor w</m>.
@@ -770,14 +770,14 @@
       The notion of an <m>m</m>-linear functional,
       which we are about to define,
       generalizes the notion of a bilinear functional
-      (<xref ref="x9bifunctional">see</xref>).
+      (see <xref ref="x9bifunctional"/>).
       Recall that the use of the word
       <q>functional</q>
       indicates that we are mapping into the scalar field <m>\F{}{}</m>.
       Recall also that the terminology
       <q><m>m</m>-linear form</q>
       is used in the special case <m>V{}_1 = \cdots = V{}_m</m>
-      (<xref ref="x9multiform">see</xref>).
+      (see <xref ref="x9multiform"/>).
       The notation <m>\B(V{}_1, \ldots, V{}_m)</m> generalizes our previous notation <m>\B(V{}, W)</m>.
     </p>
     <definition>
@@ -866,7 +866,7 @@
     </definition>
     <p>
       The next result can be proved by following the pattern of the proof of the analogous result when <m>m = 2</m>
-      (<xref ref="x9dimten">see</xref>).
+      (see <xref ref="x9dimten"/>).
     </p>
     <theorem xml:id="x9dimtenp">
       <title>dimension of the tensor product</title>
@@ -914,7 +914,7 @@
     </p>
     <p>
       The next definition generalizes the notion of a bilinear map
-      (<xref ref="x9bimap">see</xref>).
+      (see <xref ref="x9bimap"/>).
       As with bilinear maps, the target space can be an arbitrary vector space.
     </p>
     <definition>

@@ -5,7 +5,7 @@
     <p>
       Recall that a square root of an operator <m>T \in \Lc(V)</m> is an operator
       <m>R \in \Lc(V)</m> such that <m>R^2 = T</m>
-      (<xref ref="sqrt">see</xref>).
+      (see <xref ref="sqrt"/>).
       Every complex number has a square root,
       but not every operator on a complex vector space has a square root.
       For example, the operator on<nbsp/><m>\C{3}</m> defined by
@@ -120,7 +120,7 @@
         Let <m>\lambda_1, \dots, \lambda_m</m> be the distinct eigenvalues of<nbsp/><m>T{}</m>.
         For each <m>k</m>,
         there exists a nilpotent operator <m>T{}_k \in \Lc\bigl(G(\lambda_k, T)\bigr)</m> such that
-        <m>T|_{G(\lambda_k, T)} = \lambda_k I +T{}_k</m> [<xref ref="x31">see</xref>(b)] . Because <m>T</m> is invertible,
+        <m>T|_{G(\lambda_k, T)} = \lambda_k I +T{}_k</m> [see <xref ref="x31"/>(b)] . Because <m>T</m> is invertible,
         none of the <m>\lambda_k</m>'s equals <m>0</m>, so we can write
         <md>
           T|_{G(\lambda_k, T)} = \lambda_k ( I + \frac{T{}_k}{\lambda_k} )
@@ -161,7 +161,7 @@
     <p>
       We know that if <m>V</m> is a complex vector space,
       then for every <m>T \in \Lc(V)</m> there is a basis of<nbsp/><m>V</m> with respect to which <m>T</m> has a nice upper-triangular matrix
-      (<xref ref="x187">see</xref>).
+      (see <xref ref="x187"/>).
       In this subsection we will see that we can do even better<mdash/>there is a basis of<nbsp/><m>V</m> with respect to which the matrix of<nbsp/><m>T</m> contains <m>0</m>'s everywhere except possibly on the diagonal and the line directly above the diagonal.
     </p>
     <p>
@@ -250,7 +250,7 @@
       the diagonal of each <m>A_k</m> is filled with some eigenvalue <m>\lambda_k</m> of<nbsp/><m>T</m>,
       the line directly above the diagonal of <m>A_k</m> is filled with <m>1</m>'s, and all other entries in <m>A_k</m> are <m>0</m>
       (to understand why each <m>\lambda_k</m> is an eigenvalue of <m>T</m>,
-      <xref ref="a221">see</xref>).
+      see <xref ref="a221"/>).
       The <m>\lambda_k</m>'s need not be distinct.
       Also, <m>A_k</m> may be a <m>1</m>-by-<m>1</m> matrix
       <m>(\lambda_k)</m> containing just an eigenvalue of <m>T{}</m>.
@@ -365,7 +365,7 @@
         The equation above shows that <m>v \notin W{}</m>.
         Hence we have proved that <m>U \cap W = \{ 0 \}</m>,
         which implies that <m>U + W</m> is a direct sum
-        (<xref ref="x219">see</xref>).
+        (see <xref ref="x219"/>).
       </p>
       <p>
         To show that <m>U \oplus W = V</m>,
@@ -424,8 +424,8 @@
           V = G(\lambda_1, T) \oplus \dots \oplus G(\lambda_m, T),
         </md>
         where each <m>(T - \lambda_k I)|_{G(\lambda_k, T)}</m> is nilpotent
-        (<xref ref="x31">see</xref>).
-        <xref ref="x452">Thus</xref> implies that some basis of each
+        (see <xref ref="x31"/>).
+        Thus <xref ref="x452"/> implies that some basis of each
         <m>G(\lambda_k, T)</m> is a Jordan basis for <m>(T - \lambda_k I)|_{G(\lambda_k, T)}</m>.
         Put these bases together to get a basis of <m>V</m> that is a Jordan basis for<nbsp/><m>T{}</m>.
       </p>

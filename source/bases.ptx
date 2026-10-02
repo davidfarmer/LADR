@@ -295,7 +295,7 @@
   <proof>
     <p>
       Because <m>V</m> is finite-dimensional, so is <m>U</m>
-      (<xref ref="x68">see</xref>).
+      (see <xref ref="x68"/>).
       Thus there is a basis <m>u_1, \dots, u_m</m> of<nbsp/><m>U</m>
       (by <xref ref="x6"></xref>).
       Of course <m>u_1, \dots,

@@ -20,7 +20,7 @@
   </p>
   <p>
     In contrast, the simple determinant-free proofs presented here
-    (for example, <xref ref="x151">see</xref>)
+    (for example, see <xref ref="x151"/>)
     offer more insight.
     Once determinants have been moved to the end of the book,
     a new route opens to the main goal of linear algebra<mdash/>understanding the structure of linear operators.
@@ -305,7 +305,7 @@
         <p>
           New elementary proof of the important result that if <m>T</m> is an operator on a finite-dimensional complex vector space <m>V{}</m>,
           then there exists a basis of <m>V</m> consisting of generalized eigenvectors of <m>T</m>
-          (<xref ref="x28">see</xref>).
+          (see <xref ref="x28"/>).
         </p>
       </li>
       <li>

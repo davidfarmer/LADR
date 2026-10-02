@@ -368,7 +368,7 @@
           p(z) = ( z^2 + 1 ) (z-3)(z-3),
         </md>
         with no further factorization of <m>z^2 + 1</m> as the product of two polynomials of degree <m>1</m> with real coefficients.
-        <xref ref="x5necsuf">Thus</xref> states that there does not exist a basis of <m>\R4</m> with respect to which <m>T</m> has an upper-triangular matrix.
+        Thus <xref ref="x5necsuf"/> states that there does not exist a basis of <m>\R4</m> with respect to which <m>T</m> has an upper-triangular matrix.
       </p>
       <p>
         Now consider the case <m>\F{} = \C{}</m>.
@@ -377,7 +377,7 @@
           p(z) = (z-i)(z+i)(z-3)(z-3),
         </md>
         where all factors above have the form <m>z - \lambda_k</m>.
-        <xref ref="x5necsuf">Thus</xref> states that there is a basis of <m>\C4</m> with respect to which <m>T</m> has an upper-triangular matrix.
+        Thus <xref ref="x5necsuf"/> states that there is a basis of <m>\C4</m> with respect to which <m>T</m> has an upper-triangular matrix.
         Indeed, you can verify that with respect to the basis <m>(4-3i, -3-4i,-3+i,1), (4+3i,-3+4i,-3-i,1)</m>,
         <m>(0, 0, 0, 1), (0,0,1, 0)</m> of <m>\C4</m>,
         the operator <m>T</m> has the upper-triangular matrix
@@ -456,7 +456,7 @@
       <m>u_1, \dots,
       u_M</m> of <m>U</m> with respect to which <m>T|_U</m> has an upper-triangular matrix.
       Thus for each <m>k \in \{ 1, \ldots, M \}</m>,
-      we have (<xref ref="a225">using</xref>)
+      we have (using <xref ref="a225"/>)
       <md number="yes" xml:id="x401">
         Tu_k = (T|_U)(u_k) \in \Span(u_1, \dots, u_k).
       </md>
@@ -480,7 +480,7 @@
     <p>
       <xref ref="x401">From</xref> and <xref ref="x402"></xref>,
       we conclude
-      (<xref ref="a225">using</xref>)
+      (using <xref ref="a225"/>)
       that <m>T</m> has an upper-triangular matrix with respect to the basis
       <m>u_1, \dots,
       u_M, v_1, \dots, v_N</m> of <m>V{}</m>, as desired.
@@ -495,7 +495,7 @@
   <p>
     In <xref ref="operators_complex_vs">Chapter</xref>
     we will improve even the wonderful result below;
-    <xref ref="x187">see</xref> and <xref ref="x398"></xref>.
+    see <xref ref="x187"/> and <xref ref="x398"></xref>.
   </p>
   <theorem xml:id="a226">
     <title>if  <m>\symbf{F} = \symbf{C}</m>, then every operator on  <m>V</m> has an upper-triangular matrix</title>
@@ -510,7 +510,7 @@
     <p>
       The desired result follows immediately from <xref ref="x5necsuf"></xref>
       and the second version of the fundamental theorem of algebra
-      (<xref ref="x4FTA2">see</xref>).
+      (see <xref ref="x4FTA2"/>).
     </p>
   </proof>
   <p>
@@ -520,7 +520,7 @@
     </md>
   </p>
   <p>
-    <xref ref="x2commute">see</xref>.
+    see <xref ref="x2commute"/>.
     Also, for an extension to more than two operators,
     see <xref ref="x4ManyOps">Exercise</xref>(b) in <xref ref="x2diagmat">Section</xref>.
   </p>

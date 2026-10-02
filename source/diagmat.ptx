@@ -255,7 +255,7 @@
       </p>
       <p>
         Because eigenvectors corresponding to distinct eigenvalues are linearly independent
-        (<xref ref="x26">see</xref>),
+        (see <xref ref="x26"/>),
         this implies that each <m>u_k</m> equals <m>0</m>.
         Because each <m>u_k</m> is a sum of terms <m>a_j v_j</m>,
         where the <m>v_j</m>'s were chosen to be a basis of <m>E(\lambda_k, T)</m>,
@@ -268,7 +268,7 @@
     </proof>
     <p>
       For additional conditions equivalent to diagonalizability,
-      <xref ref="x500">see</xref>,
+      see <xref ref="x500"/>,
       <xref ref="diagKerRan">Exercises</xref>
       and <xref ref="x2gcd"></xref> in this section,
       <xref ref="Diag2">Exercise</xref>
@@ -329,11 +329,11 @@
         For each <m>k</m>,
         let <m>v_k \in V</m> be an eigenvector corresponding to the eigenvalue <m>\lambda_k</m>.
         Because eigenvectors corresponding to distinct eigenvalues are linearly independent
-        (<xref ref="x26">see</xref>),
+        (see <xref ref="x26"/>),
         <m>v_1, \dots, v_{\dim V}</m> is linearly independent.
       </p>
       <p>
-        A linearly independent list of <m>\dim V</m> vectors in <m>V</m> is a basis of <m>V</m> (<xref ref="x75">see</xref>);
+        A linearly independent list of <m>\dim V</m> vectors in <m>V</m> is a basis of <m>V</m> (see <xref ref="x75"/>);
         thus <m>v_1, \dots, v_{\dim V}</m> is a basis of <m>V{}</m>.
         With respect to this basis consisting of eigenvectors,
         <m>T</m> has a diagonal matrix.
@@ -422,9 +422,9 @@
     <p>
       We saw earlier that an operator <m>T</m> on a finite-dimensional vector space <m>V</m> has an upper-triangular matrix with respect to some basis of <m>V</m> if and only if the minimal polynomial of <m>T</m> equals
       <m>(z-\lambda_1) \cdots (z-\lambda_m)</m> for some <m>\lambda_1, \ldots, \lambda_m \in \F{}</m>
-      (<xref ref="x5necsuf">see</xref>).
+      (see <xref ref="x5necsuf"/>).
       As we previously noted
-      (<xref ref="a226">see</xref>),
+      (see <xref ref="a226"/>),
       this condition is always satisfied if <m>\F{} = \C{}</m>.
     </p>
     <p>
@@ -598,9 +598,9 @@
     </p>
     <p>
       The next result will be a key tool when we prove a result about the simultaneous diagonalization of two operators;
-      <xref ref="x8SimDiag">see</xref>.
+      see <xref ref="x8SimDiag"/>.
       Note how the use of a characterization of diagonalizable operators in terms of the minimal polynomial
-      (<xref ref="x500">see</xref>)
+      (see <xref ref="x500"/>)
       leads to a short proof of the next result.
     </p>
     <theorem xml:id="x5RestrictDi">
@@ -704,7 +704,7 @@
         </md>
       </p>
       <p>
-        <xref ref="x5Ger">Using</xref>,
+        Using <xref ref="x5Ger"/>,
         we see that the coefficient of <m>v_j</m> on the left side of <xref ref="x52Ger"></xref> equals <m>\lambda c_j</m>,
         which must equal the coefficient of <m>v_j</m> on the right side of <xref ref="x53Ger"></xref>.
         In other words,

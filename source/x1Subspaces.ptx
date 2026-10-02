@@ -272,7 +272,7 @@
       <p>
         The reader can verify that
         <m>V{}_1 + \dots + V{}_m</m> contains the additive identity <m>0</m> and is closed under addition and scalar multiplication.
-        <xref ref="subspace">Thus</xref> implies that
+        Thus <xref ref="subspace"/> implies that
         <m>V{}_1 + \dots + V{}_m</m> is a subspace of <m>V{}</m>.
       </p>
       <aside>

@@ -728,7 +728,7 @@
         The proof in the paragraph above shows that the Cauchy<ndash/>Schwarz inequality is an equality if and only <xref ref="x336">if</xref> is an equality.
         This happens if and only if <m>w = 0</m>.
         But <m>w=0</m> if and only if <m>u</m> is a multiple of <m>v</m>
-        (<xref ref="orthogdecomp">see</xref>).
+        (see <xref ref="orthogdecomp"/>).
         Thus the Cauchy<ndash/>Schwarz inequality is an equality if and only if <m>u</m> is a scalar multiple of <m>v</m> or <m>v</m> is a scalar multiple of <m>u</m>
         (or both; the phrasing has been chosen to cover cases in which either <m>u</m> or <m>v</m> equals<nbsp/><m>0</m>).
       </p>

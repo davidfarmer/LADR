@@ -649,7 +649,7 @@
         Use the notation from the discussion above.
         Thus <m>T</m> is a linear map from <m>\F{n}</m> to <m>\FF{m}</m>,
         and we have a system of <m>m</m> equations with <m>n</m> variables <m>x_1, \dots, x_n</m>;
-        <xref ref="x3inhomeq">see</xref>.
+        see <xref ref="x3inhomeq"/>.
         If <m>n \lt m</m>, <xref ref="x14">then</xref>
         implies that <m>T</m> is not surjective.
         As discussed above,

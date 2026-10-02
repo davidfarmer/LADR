@@ -197,7 +197,7 @@
         This list of length two is linearly independent in <m>\F2</m>
         (because neither vector is a scalar multiple of the other).
         Note that <m>\F{2}</m> has dimension two.
-        <xref ref="x75">Thus</xref> implies that the linearly independent list
+        Thus <xref ref="x75"/> implies that the linearly independent list
         <m>(5, 7), (4, 3)</m> of length two is a basis of<nbsp/><m>\F{2}</m>
         (we do not need to bother checking that it spans<nbsp/><m>\F{2}</m>).
       </p>
@@ -352,7 +352,7 @@
       But <m>v_1, \dots, v_m, w_1, \dots,
       w_k</m> is linearly independent,
       so the last equation implies that all the <m>c</m>'s (and<nbsp/><m>d</m>'s) equal <m>0</m>.
-      <xref ref="x2dimsum">Thus</xref> becomes the equation
+      Thus <xref ref="x2dimsum"/> becomes the equation
       <md>
         a_1 v_1 + \dots + a_m v_m + b_1 u_1 + \dots + b_j u_j = 0.
       </md>

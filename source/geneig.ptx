@@ -165,7 +165,7 @@
         where the first equality above comes from <xref ref="x3directsumdim"></xref>
         and the second equality comes from the fundamental theorem of linear maps <xref ref="x3ab11"/>.
         The equation above implies that <m>\ker T^n \oplus \ran T^n = V{}</m>
-        (<xref ref="x2subfull">see</xref>),
+        (see <xref ref="x2subfull"/>),
         as desired.
       </p>
     </proof>
@@ -222,13 +222,13 @@
       where each <m>V{}_k</m> is a subspace of <m>V</m> invariant under<nbsp/><m>T{}</m>.
       The simplest possible nonzero invariant subspaces are one-dimensional.
       A decomposition as above in which each <m>V{}_k</m> is a one-dimensional subspace of <m>V</m> invariant under <m>T</m> is possible if and only if <m>V</m> has a basis consisting of eigenvectors of<nbsp/><m>T</m>
-      (<xref ref="x427">see</xref>).
+      (see <xref ref="x427"/>).
       This happens if and only if <m>V</m> has an eigenspace decomposition
       <md number="yes" xml:id="x429">
         V = E(\lambda_1, T) \oplus \dots \oplus E(\lambda_m, T),
       </md>
       where <m>\lambda_1, \dots, \lambda_m</m> are the distinct eigenvalues of <m>T</m>
-      (<xref ref="x427">see</xref>).
+      (see <xref ref="x427"/>).
     </p>
     <p>
       The spectral theorem in the previous chapter shows that if <m>V</m> is an inner product space,
@@ -236,7 +236,7 @@
       holds for every self-adjoint operator if
       <m>\F{} = \R{}</m> and for every normal operator if
       <m>\F{} = \C{}</m> because operators of those types have enough eigenvectors to form a basis of <m>V</m>
-      (<xref ref="x86">see</xref> and <xref ref="x85"></xref>).
+      (see <xref ref="x86"/> and <xref ref="x85"></xref>).
     </p>
     <p>
       However, a decomposition of the <xref ref="x429">form</xref>
@@ -367,7 +367,7 @@
         </p>
         <p>
           We compute that <m>T^3(z_1, z_2, z_3) = (0, 0, 125 z_3)</m>.
-          <xref ref="x76">Thus</xref> and <xref ref="x23"></xref>
+          Thus <xref ref="x76"/> and <xref ref="x23"></xref>
           imply that the generalized eigenvectors of <m>T</m> corresponding to the eigenvalue <m>0</m> are the nonzero vectors of the form <m>(z_1, z_2, 0)</m>.
         </p>
         <p>
@@ -828,7 +828,7 @@
           </p>
           <p>
             This exercise states that the condition for there to be a basis of <m>V</m> consisting of generalized eigenvectors of <m>T</m> is the same as the condition for there to be a basis with respect to which <m>T</m> has an upper-triangular matrix
-            (<xref ref="x5necsuf">see</xref>)
+            (see <xref ref="x5necsuf"/>)
             .
           </p>
           <p>

@@ -194,7 +194,7 @@
         <m>\Gamma</m> is injective if and only if the only way to write <m>0</m> as a sum <m>v_1 + \dots + v_m</m>,
         where each <m>v_k</m> is in <m>V{}_k</m>,
         is by taking each <m>v_k</m> equal to<nbsp/><m>0</m>.
-        <xref ref="x30">Thus</xref> shows that <m>\Gamma</m> is injective if and only if
+        Thus <xref ref="x30"/> shows that <m>\Gamma</m> is injective if and only if
         <m>V{}_1 + \dots + V{}_m</m> is a direct sum, as desired.
       </p>
     </proof>
@@ -485,7 +485,7 @@
         Because <m>U</m> is a subspace of <m>V</m> and thus is closed under addition,
         this implies that <m>(v_1 - v_2) + (w_1 - w_2) \in U</m>.
         Thus <m>(v_1 + w_1) - (v_2 + w_2) \in U</m>.
-        <xref ref="equalordisjoint">Using</xref> again, we see that
+        Using <xref ref="equalordisjoint"/> again, we see that
         <md>
           (v_1+w_1) + U = (v_2+w_2) + U,
         </md>

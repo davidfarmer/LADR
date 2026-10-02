@@ -178,10 +178,10 @@
       then <m>V</m> is the direct sum of <m>U</m> and <m>W</m>
       (written <m>V = U \oplus W</m>)
       if each element of <m>V</m> can be written in exactly one way as a vector in <m>U</m> plus a vector in <m>W</m>
-      (<xref ref="directsum">see</xref>).
+      (see <xref ref="directsum"/>).
       Furthermore, this happens if and only if
       <m>V = U + W</m> and <m>U \cap W = \{ 0 \}</m>
-      (<xref ref="x219">see</xref>).
+      (see <xref ref="x219"/>).
     </p>
     <p>
       The next result shows that every finite-dimensional subspace of <m>V</m> leads to a natural direct sum decomposition of<nbsp/><m>V{}</m>.
@@ -243,7 +243,7 @@
         <xref ref="oc">From</xref>(d),
         we know that <m>U \cap U^\perp = \{0\}</m>.
         Now equation <m>V = U + U^\perp{}</m> implies that <m>V = U \oplus U^\perp</m>
-        (<xref ref="x219">see</xref>).
+        (see <xref ref="x219"/>).
       </p>
     </proof>
     <p>
@@ -641,7 +641,7 @@
       </p>
       <p>
         Applying <m>\phi</m> to both sides of <xref ref="wu"></xref>
-        and then <xref ref="normw">using</xref>, we have
+        and then using <xref ref="normw"/>, we have
         <md>
           \phi(v) = \frac{ \lvert \phi(w) \rvert ^2 }{ \lVert w \rVert ^2} = \lVert v \rVert ^2{}.
         </md>
@@ -769,7 +769,7 @@
           to the basis <m>1, x, x^2{}, x^3{}, x^4{}, x^5</m> of <m>U</m>,
           producing an orthonormal basis <m>e_1, e_2, e_3, e_4, e_5, e_6</m> of <m>U</m>.
           Then, again using the inner product given by <xref ref="x419"></xref>,
-          compute <m>P_{U} v</m> <xref ref="x418">using</xref>(i)
+          compute <m>P_{U} v</m> using <xref ref="x418"/>(i)
           (with <m>m = 6</m>).
           Doing this computation shows that
           <m>P_{U} v</m> is the function <m>u</m> defined by
@@ -1109,7 +1109,7 @@
             </md>
             The first term in parentheses above is in <m>\ran T{}</m>.
             Because the operator <m>TT^\dagger</m> is the orthogonal projection of <m>W</m> onto <m>\ran T</m>  [by <xref ref="x6propps"></xref>(b)] , the second term in parentheses above is in
-            <m>(\ran T)^\perp</m>  [<xref ref="x418">see</xref>(f)] .  Thus the Pythagorean theorem implies the desired inequality that the norm of the second term in parentheses above is less than or equal to <m>\lVert Tv - w \rVert</m>,
+            <m>(\ran T)^\perp</m>  [see <xref ref="x418"/>(f)] .  Thus the Pythagorean theorem implies the desired inequality that the norm of the second term in parentheses above is less than or equal to <m>\lVert Tv - w \rVert</m>,
             with equality if and only if the first term in parentheses above equals <m>0</m>.
             Hence we have equality if and only if <m>v - T^\dagger w \in \ker T</m>,
             which is equivalent to the statement that <m>v \in T^\dagger w + \ker T</m>,
@@ -1134,7 +1134,7 @@
     </proof>
     <p>
       A formula for <m>T^\dagger</m> will be given in the next chapter
-      (<xref ref="x7SVD">see</xref>).
+      (see <xref ref="x7SVD"/>).
     </p>
     <example>
       <title>pseudoinverse of a linear map from  <m>\F4</m> to  <m>\F3</m></title>
@@ -1402,7 +1402,7 @@
           <p>
             Suppose that <m>e_1, \ldots, e_n</m> is an orthonormal basis of <m>V{}</m>.
             Explain why the dual basis
-            (<xref ref="DualBasis">see</xref>)
+            (see <xref ref="DualBasis"/>)
             of <m>e_1, \ldots, e_n</m> is
             <m>e_1, \ldots,
             e_n</m> under the identification of <m>V'</m> with <m>V</m> provided by the Riesz representation theorem <xref ref="x3RRT"/>.

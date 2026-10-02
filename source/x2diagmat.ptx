@@ -31,7 +31,7 @@
     As another example,
     if <m>T</m> is an operator then <m>T^2</m> and <m>T^3</m> commute.
     More generally, if <m>p, q \in \P(\F{})</m>,
-    then <m>p(T)</m> and <m>q(T)</m> commute [<xref ref="multprop">see</xref>(b)] .
+    then <m>p(T)</m> and <m>q(T)</m> commute [see <xref ref="multprop"/>(b)] .
   </p>
   <example xml:id="PD">
     <title>partial differentiation operators commute</title>
@@ -203,7 +203,7 @@
   <p>
     Suppose <m>V</m> is a finite-dimensional nonzero complex vector space.
     Then every operator on <m>V</m> has an eigenvector
-    (<xref ref="x151">see</xref>).
+    (see <xref ref="x151"/>).
     The next result shows that if two operators on <m>V</m> commute,
     then there is a vector in <m>V</m> that is an eigenvector for both operators
     (but the two commuting operators might not have a common eigenvalue).
@@ -229,7 +229,7 @@
     </p>
     <p>
       Thus <m>T|_{E(\lambda, S)}</m> has an eigenvector
-      (again <xref ref="x151">using</xref>),
+      (again using <xref ref="x151"/>),
       which is an eigenvector for both <m>S</m> and <m>T</m>,
       completing the proof.
     </p>
@@ -280,7 +280,7 @@
     </p>
     <p>
       Let <m>v_1</m> be any common eigenvector of <m>S</m> and<nbsp/><m>T</m>
-      (<xref ref="x2common">using</xref>).
+      (using <xref ref="x2common"/>).
       Hence <m>Sv_1 \in \Span(v_1)</m> and <m>Tv_1 \in \Span(v_1)</m>.
       Let <m>W</m> be a subspace of <m>V</m> such that
       <md>
@@ -288,7 +288,7 @@
       </md>
     </p>
     <p>
-      <xref ref="a220">see</xref> for the existence of <m>W{}</m>.
+      see <xref ref="a220"/> for the existence of <m>W{}</m>.
       Define a linear map <m>\fun P V W</m><nbsp/>by
       <md>
         P(a v_1 + w) = w
@@ -449,7 +449,7 @@
           </ol>
         </p>
         <p>
-          Note: <xref ref="x130">See</xref>
+          Note: See <xref ref="x130"/>
           for the special case <m>S = T</m>.
         </p>
       </statement>
@@ -466,7 +466,7 @@
       <statement>
         <p>
           Prove that a pair of operators on a finite-dimensional vector space commute if and only if their dual operators commute.
-          Note: <xref ref="DualMap">See</xref>
+          Note: See <xref ref="DualMap"/>
           for the definition of the dual of an operator.
         </p>
       </statement>

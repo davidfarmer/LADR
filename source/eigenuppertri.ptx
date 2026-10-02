@@ -33,16 +33,16 @@
       </p>
       <p>
         By the first version of the fundamental theorem of algebra
-        (<xref ref="FTA1">see</xref>),
+        (see <xref ref="FTA1"/>),
         there exists <m>\lambda \in \C{}</m> such that <m>p(\lambda) = 0</m>.
         Hence there exists a polynomial <m>q \in \P(\C{})</m> such that
         <md>
           p(z) = (z-\lambda) q(z)
         </md>
         for every <m>z \in \C{}</m>
-        (<xref ref="x460">see</xref>).
+        (see <xref ref="x460"/>).
         This implies
-        (<xref ref="multprop">using</xref>)
+        (using <xref ref="multprop"/>)
         that
         <md>
           0 = p(T)v = (T - \lambda I) \bigl( q(T)v \bigl).
@@ -240,7 +240,7 @@
       (as happens most of the time),
       then the scalars <m>c_0, c_1, \dots,
       c_{\dim V-1}, 1</m> are the coefficients of the minimal polynomial of <m>T</m>
-      (<xref ref="x3minpoly">because</xref>
+      (because <xref ref="x3minpoly"/>
       states that the degree of the minimal polynomial is at most <m>\dim V</m>).
     </p>
     <aside>
@@ -329,7 +329,7 @@
                 p(z) = (z - \lambda) q(z),
               </md>
               where <m>q</m> is a monic polynomial  with coefficients in <m>\F{}</m>
-              (<xref ref="x460">see</xref>).
+              (see <xref ref="x460"/>).
               Because <m>p(T) = 0</m>,  we have
               <md>
                 0 = (T - \lambda I)( q(T)v )
@@ -358,7 +358,7 @@
             <p>
               To get the desired result,
               use (a) and the second version of the fundamental theorem of algebra
-              (<xref ref="x4FTA2">see</xref>).
+              (see <xref ref="x4FTA2"/>).
             </p>
           </li>
         </ol>
@@ -366,7 +366,7 @@
     </proof>
     <p>
       A nonzero polynomial has at most as many distinct zeros as its degree
-      (<xref ref="x4polyzero">see</xref>).
+      (see <xref ref="x4polyzero"/>).
       Thus (a) of the previous result,
       along with the result that the minimal polynomial of an operator on <m>V</m> has degree at most <m>\dim V{}</m>,
       gives an alternative proof of <xref ref="x279"></xref>,
@@ -376,7 +376,7 @@
       Every monic polynomial is the minimal polynomial of some operator,
       as shown by <xref ref="x8FTAneeded">Exercise</xref>,
       which generalizes <xref ref="x141">Example</xref>.
-      <xref ref="x136">Thus</xref>(a) shows that finding exact expressions for the eigenvalues of an operator is equivalent to the problem of finding exact expressions for the zeros of a polynomial
+      Thus <xref ref="x136"/>(a) shows that finding exact expressions for the eigenvalues of an operator is equivalent to the problem of finding exact expressions for the zeros of a polynomial
       (and thus is not possible for some operators).
     </p>
     <example xml:id="x5noexact">
@@ -414,7 +414,7 @@
         <p>
           Note that the two nonreal zeros of this polynomial are complex conjugates of each other,
           as we expect for a polynomial with real coefficients
-          (<xref ref="x170">see</xref>).
+          (see <xref ref="x170"/>).
         </p>
       </statement>
     </example>
@@ -455,7 +455,7 @@
         (otherwise, dividing <m>r</m> by its highest-degree coefficient would produce a monic polynomial that when applied to <m>T</m> gives <m>0</m>;
         this polynomial would have a smaller degree than the minimal polynomial,
         which would be a contradiction).
-        <xref ref="x120">Thus</xref> becomes the equation <m>q = ps</m>.
+        Thus <xref ref="x120"/> becomes the equation <m>q = ps</m>.
         Hence <m>q</m> is a polynomial multiple of <m>p</m>, as desired.
       </p>
       <p>
@@ -635,7 +635,7 @@
         Thus we can assume that there exist
         <m>b,
         c \in \R{}</m> such that <m>b^2 \lt 4c</m> and <m>p</m> is a polynomial multiple of <m>x^2 + bx + c</m>
-        (<xref ref="x158">see</xref>).
+        (see <xref ref="x158"/>).
       </p>
       <p>
         There exists a monic polynomial <m>q \in \P(\R{})</m> such that
