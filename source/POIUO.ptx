@@ -17,7 +17,7 @@
   <p>
     If <m>V</m> is a complex vector space,
     then the requirement that <m>T</m> be self-adjoint can be dropped from the definition above
-    (by <xref ref="x58"></xref>).
+    (by <xref ref="x58"/>).
   </p>
   <example>
     <title>positive operators</title>
@@ -47,7 +47,7 @@
             <m>b,
             c \in \R{}</m> are such that <m>b^2 \lt 4 c</m>,
             then <m>T^2 + b T + c I</m> is a positive operator,
-            as shown by the proof of <xref ref="x150"></xref>.
+            as shown by the proof of <xref ref="x150"/>.
           </p>
         </li>
       </ol>
@@ -168,7 +168,7 @@
     <p>
       Now suppose (b) holds,
       so that <m>T</m> is self-adjoint and all eigenvalues of <m>T</m> are nonnegative.
-      By the spectral theorem ( <xref ref="x86"></xref> and <xref ref="x85"></xref>),
+      By the spectral theorem ( <xref ref="x86"/> and <xref ref="x85"/>),
       there is an orthonormal basis
       <m>e_1, \dots,
       e_n</m> of <m>V</m> consisting of eigenvectors of<nbsp/><m>T{}</m>.
@@ -367,7 +367,7 @@
         <md>
           \M( \! \sqrt{S}    ) = \begin{pmatrix}1 \amp  0 \\ 0 \amp  \sqrt{2} \end{pmatrix} \andd \M( \! \sqrt{T}    ) = \begin{pmatrix}\frac{1}{\sqrt{2}} \amp  \frac{1}{\sqrt{2}} \\ \frac{1}{\sqrt{2}} \amp  \frac{1}{\sqrt{2}} \end{pmatrix}
         </md>
-        with respect to the standard basis by showing that the squares of the matrices above are the matrices in <xref ref="MST"></xref>
+        with respect to the standard basis by showing that the squares of the matrices above are the matrices in <xref ref="MST"/>
         and that each matrix above is the matrix of a positive operator.
       </p>
     </statement>

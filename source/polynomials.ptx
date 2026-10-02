@@ -459,10 +459,10 @@
       Also, the <xref ref="x4basis">list</xref> has length <m>n+1</m>,
       which equals <m>\dim \P{}_n(\F{})</m>.
       <xref ref="x4basis">Hence</xref> is a basis of
-      <m>\P{}_n(\F{})</m> [by <xref ref="x75"></xref>].
+      <m>\P{}_n(\F{})</m> [by <xref ref="x75"/>].
     </p>
     <p>
-      Because <m>p \in \P{}_n(\F{})</m> and <xref ref="x4basis"></xref>
+      Because <m>p \in \P{}_n(\F{})</m> and <xref ref="x4basis"/>
       is a basis of <m>\P{}_n(\F{})</m>,
       there exist unique constants
       <m>a_0, a_1, \ldots,
@@ -800,7 +800,7 @@
     However, we need to be careful about one point.
     Suppose <m>\lambda</m> is a nonreal complex number and
     <m>(x - \lambda)</m> is a term in the factorization of<nbsp/><m>p</m> as an element of<nbsp/><m>\P(\C{})</m>.
-    We are guaranteed by <xref ref="x170"></xref>
+    We are guaranteed by <xref ref="x170"/>
     that <m>( x - \bar{\lambda} )</m> also appears as a term in the factorization,
     <xref ref="x170">but</xref> does not state that these two factors appear the same number of times,
     as needed to make the idea above work.
@@ -835,7 +835,7 @@
     <p>
       Think of <m>p</m> as an element of <m>\P(\C{})</m>.
       If all (complex) zeros of <m>p</m> are real,
-      then we have the desired factorization by <xref ref="x4FTA2"></xref>.
+      then we have the desired factorization by <xref ref="x4FTA2"/>.
       Thus suppose <m>p</m> has a zero
       <m>\lambda \in \C{}</m> with <m>\lambda \notin \R{}</m>.
       By <xref ref="x170"/>,
@@ -869,7 +869,7 @@
       </md>
       for all <m>x \in \R{}</m>.
       This implies that <m>\im a_0, \dots, \im a_{n-2}</m> all equal<nbsp/><m>0</m>
-      (by <xref ref="x4polyzero"></xref>).
+      (by <xref ref="x4polyzero"/>).
       Thus all coefficients of<nbsp/><m>q</m> are real, as desired.
       Hence the desired factorization exists.
     </p>
@@ -935,7 +935,7 @@
           </ol>
         </p>
         <p>
-          Note: The results above are the parts of <xref ref="propcomplex"></xref> that were left to the reader.
+          Note: The results above are the parts of <xref ref="propcomplex"/> that were left to the reader.
         </p>
       </statement>
     </exercise>

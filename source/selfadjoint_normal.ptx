@@ -447,13 +447,13 @@
       </p>
     </proof>
     <p>
-      The Riesz representation theorem as stated in <xref ref="x3RRT"></xref>
-      provides an identification of <m>V</m> with its dual space <m>V'</m> defined in <xref ref="DualSpace"></xref>.
+      The Riesz representation theorem as stated in <xref ref="x3RRT"/>
+      provides an identification of <m>V</m> with its dual space <m>V'</m> defined in <xref ref="DualSpace"/>.
       Under this identification,
       the orthogonal complement <m>U^\perp</m> of a subset
       <m>U \subset V</m> corresponds to the annihilator <m>U^0</m> of <m>U</m>.
       If <m>U</m> is a subspace of <m>V{}</m>,
-      then the formulas for the dimensions of <m>U^\perp</m> and <m>U^0</m> become identical under this identification<mdash/>see <xref ref="dimannih"/> and <xref ref="x350"></xref>.
+      then the formulas for the dimensions of <m>U^\perp</m> and <m>U^0</m> become identical under this identification<mdash/>see <xref ref="dimannih"/> and <xref ref="x350"/>.
     </p>
     <aside>
       <p>
@@ -465,11 +465,11 @@
       Suppose <m>\fun T V W</m> is a linear map.
       Under the identification of <m>V</m> with <m>V'</m> and the identification of <m>W</m> with <m>W'\!</m>,
       the adjoint map <m>\fun {T^*} W V</m> corresponds to the dual map
-      <m>\fun {T'} {W'} {V'}</m> defined in <xref ref="DualMap"></xref>,
+      <m>\fun {T'} {W'} {V'}</m> defined in <xref ref="DualMap"/>,
       as <xref ref="IdentifyTstarTprime">Exercise</xref> asks you to verify.
       Under this identification,
       the formulas for <m>\ker T^*</m> and
-      <m>\ran T^*</m> [ <xref ref="x377"></xref>(a) and (b)] then become identical to the formulas for <m>\ker T'</m> and <m>\ran T'</m> [ <xref ref="nullTprime"></xref>(a) and <xref ref="rangeTprime"></xref>(b)] . Furthermore,
+      <m>\ran T^*</m> [ <xref ref="x377"/>(a) and (b)] then become identical to the formulas for <m>\ker T'</m> and <m>\ran T'</m> [ <xref ref="nullTprime"/>(a) and <xref ref="rangeTprime"/>(b)] . Furthermore,
       the theorem about the matrix of <m>T^*</m> <xref ref="x406"/> is analogous to the theorem about the matrix of <m>T'</m> <xref ref="x3matrixTprime"/>.
     </p>
   </subsection>
@@ -498,7 +498,7 @@
       then <m>T</m> is self-adjoint if and only if
       <m>\M( T, (e_1, \ldots,
       e_n) ) = \M( T, (e_1, \ldots,
-      e_n) )^*{}</m>, as follows from <xref ref="x406"></xref>.
+      e_n) )^*{}</m>, as follows from <xref ref="x406"/>.
     </p>
     <example>
       <title>determining whether  <m>T</m> is self-adjoint from its matrix</title>
@@ -649,8 +649,8 @@
           <mrow>\amp \iff \langle Tv, v \rangle  - \overline{\langle Tv, v \rangle } = 0  \text{ for every }  v \in V</mrow>
           <mrow>\amp \iff \langle Tv, v \rangle  \in \R{}  \text{ for every }  v \in V{}</mrow>
         </md>,
-        where the second equivalence follows from <xref ref="x51"></xref>
-        as applied to <m>T - T^*</m> and the third equivalence follows from <xref ref="x8Tsa"></xref>.
+        where the second equivalence follows from <xref ref="x51"/>
+        as applied to <m>T - T^*</m> and the third equivalence follows from <xref ref="x8Tsa"/>.
       </p>
     </proof>
     <p>
@@ -690,7 +690,7 @@
       </p>
       <p>
         Now suppose <m>\langle Tv, v \rangle = 0</m> for every <m>v \in V{}</m>.
-        Because each term on the right side of <xref ref="x207"></xref>
+        Because each term on the right side of <xref ref="x207"/>
         is of the form <m>\langle Tv, v \rangle</m> for appropriate<nbsp/><m>v</m>,
         this implies that <m>\langle Tu, w \rangle = 0</m> for all <m>u,
         w \in V{}</m>.
@@ -858,7 +858,7 @@
             <md>
               v \in \ker T \iff \lVert Tv \rVert  = 0 \iff \lVert T^*v \rVert  = 0 \iff v \in \ker T^*{},
             </md>
-            where the middle equivalence above follows from <xref ref="x206"></xref>.
+            where the middle equivalence above follows from <xref ref="x206"/>.
             Thus <m>\ker T = \ker T^*{}</m>.
           </p>
         </li>
@@ -868,9 +868,9 @@
             <md>
               \ran T = ( \ker T^* )^\perp = (\ker T)^\perp = \ran T^*{},
             </md>
-            where the first equality comes from <xref ref="x377"></xref>(d),
+            where the first equality comes from <xref ref="x377"/>(d),
             the second equality comes from (a) in this result,
-            and the third equality comes from <xref ref="x377"></xref>(b).
+            and the third equality comes from <xref ref="x377"/>(b).
           </p>
         </li>
         <li>
@@ -879,8 +879,8 @@
             <md>
               V = (\ker T) \oplus (\ker T)^\perp = \ker T \oplus \ran T^* = \ker T \oplus \ran T,
             </md>
-            where the first equality comes from <xref ref="x191"></xref>,
-            the second equality comes from <xref ref="x377"></xref>(b),
+            where the first equality comes from <xref ref="x191"/>,
+            the second equality comes from <xref ref="x377"/>(b),
             and the third equality comes from (b) in this result.
           </p>
         </li>
@@ -902,7 +902,7 @@
         <li>
           <p>
             Suppose <m>v \in V</m> and <m>\lambda \in \F{}{}</m>.
-            Then (d) and <xref ref="x206"></xref> imply that
+            Then (d) and <xref ref="x206"/> imply that
             <md>
               \| (T - \lambda I) v \| = \lVert  (T - \lambda I)^* v  \rVert  = \lVert  ( T^* - \bar{\lambda}I ) v  \rVert .
             </md>
@@ -956,7 +956,7 @@
       Suppose <m>\F{} = \C{}</m> and <m>T \in \Lc(V)</m>.
       Under the analogy between <m>\Lc(V)</m> and <m>\C{}</m>,
       with the adjoint on <m>\Lc(V)</m> playing a similar role to that of the complex conjugate on <m>\C{}</m>,
-      the operators <m>A</m> and <m>B</m> as defined by <xref ref="x1normal"></xref>
+      the operators <m>A</m> and <m>B</m> as defined by <xref ref="x1normal"/>
       correspond to the real and imaginary parts of <m>T{}</m>.
       Thus the informal title of the result below should make sense.
     </p>
@@ -993,11 +993,11 @@
         To prove the implication in the other direction,
         now suppose there exist commuting self-adjoint operators <m>A</m> and <m>B</m> such that <m>T = A + iB</m>.
         Then <m>T^* = A - iB</m>.
-        Adding the last two equations and then dividing by <m>2</m> produces the equation for <m>A</m> in <xref ref="x1normal"></xref>.
-        Subtracting the last two equations and then dividing by <m>2i</m> produces the equation for <m>B</m> in <xref ref="x1normal"></xref>.
+        Adding the last two equations and then dividing by <m>2</m> produces the equation for <m>A</m> in <xref ref="x1normal"/>.
+        Subtracting the last two equations and then dividing by <m>2i</m> produces the equation for <m>B</m> in <xref ref="x1normal"/>.
         Now <xref ref="x1normal"/> <xref ref="x2normal">implies</xref>.
         Because <m>B</m> and <m>A</m> commute,
-        <xref ref="x2normal"></xref> implies that <m>T</m> is normal,
+        <xref ref="x2normal"/> implies that <m>T</m> is normal,
         as desired.
       </p>
     </proof>
@@ -1118,7 +1118,7 @@
                 <idx><h>column rank of a matrix</h></idx>
                 <idx><h>row rank of a matrix</h></idx>
                 <idx><h>rank of a matrix</h></idx>
-            Note: This exercise asks for yet another alternative proof of a result that was previously proved in <xref ref="x3colrow"></xref> and <xref ref="x3rank"></xref>.
+            Note: This exercise asks for yet another alternative proof of a result that was previously proved in <xref ref="x3colrow"/> and <xref ref="x3rank"/>.
           </p>
         </statement>
       </exercise>
@@ -1496,7 +1496,7 @@
               T' \! (\phi_w) = \phi_{T^* w}
             </md>
             for all <m>w \in W{}</m>,
-            where <m>\phi_w</m> and <m>\phi_{T^* w}</m> are defined as in <xref ref="x3RRT"></xref>.
+            where <m>\phi_w</m> and <m>\phi_{T^* w}</m> are defined as in <xref ref="x3RRT"/>.
           </p>
         </statement>
       </exercise>

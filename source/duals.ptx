@@ -220,7 +220,7 @@
       </p>
       <p>
         Because <m>\phi_1, \dots, \phi_n</m> is a linearly independent list in <m>V'\!</m> whose length equals <m>\dim V'</m>
-        (by <xref ref="x3dimdual"></xref>),
+        (by <xref ref="x3dimdual"/>),
         we can conclude that <m>\phi_1, \dots, \phi_n</m> is a basis of <m>V'\!</m>
         (see <xref ref="x75"/>).
       </p>
@@ -546,7 +546,7 @@
         However, <m>\ker i' = U^0</m>
         (as can be seen by thinking about the definitions)
         and <m>\dim V' = \dim V</m>
-        (by <xref ref="x3dimdual"></xref>),
+        (by <xref ref="x3dimdual"/>),
         so we can rewrite the equation above as
         <md number="yes" xml:id="ranip">
           \dim \ran i' + \dim U^0 = \dim V{}.
@@ -601,8 +601,8 @@
           <mrow>\amp \iff \dim U = \dim V</mrow>
           <mrow>\amp \iff U = V{}</mrow>
         </md>,
-        where the second equivalence follows from <xref ref="dimannih"></xref>
-        and the third equivalence follows from <xref ref="x2subfull"></xref>.
+        where the second equivalence follows from <xref ref="dimannih"/>
+        and the third equivalence follows from <xref ref="x2subfull"/>.
       </p>
       <p>
         Similarly, to prove (b) we have
@@ -612,9 +612,9 @@
           <mrow>\amp \iff \dim U = 0</mrow>
           <mrow>\amp \iff U = \{ 0 \}</mrow>
         </md>,
-        where one direction of the first equivalence follows from <xref ref="x2subfull"></xref>,
-        the second equivalence follows from <xref ref="x3dimdual"></xref>,
-        and the third equivalence follows from <xref ref="dimannih"></xref>.
+        where one direction of the first equivalence follows from <xref ref="x2subfull"/>,
+        the second equivalence follows from <xref ref="x3dimdual"/>,
+        and the third equivalence follows from <xref ref="dimannih"/>.
       </p>
     </proof>
     <p>
@@ -673,7 +673,7 @@
               <mrow>\amp = \dim \ker T + \dim W - \dim V{}</mrow>
             </md>,
             where the first equality comes from (a),
-            the second equality comes from <xref ref="dimannih"></xref>,
+            the second equality comes from <xref ref="dimannih"/>,
             and the third equality comes from the fundamental theorem of linear maps <xref ref="x3ab11"/>.
           </p>
         </li>
@@ -704,7 +704,7 @@
           <mrow>\amp \iff \ker T' = \{0\}</mrow>
           <mrow>\amp \iff T' \text{ is injective } </mrow>
         </md>,
-        where the second equivalence comes from <xref ref="x2annih"></xref>(a) and the third equivalence comes from <xref ref="nullTprime"></xref>(a).
+        where the second equivalence comes from <xref ref="x2annih"/>(a) and the third equivalence comes from <xref ref="nullTprime"/>(a).
       </p>
     </proof>
     <theorem xml:id="rangeTprime">
@@ -739,10 +739,10 @@
               <mrow>\amp = \dim W - \dim (\ran T)^0</mrow>
               <mrow>\amp = \dim \ran T</mrow>
             </md>,
-            where the first equality comes from <xref ref="x3ab11"></xref>,
-            the second equality comes from <xref ref="x3dimdual"></xref>
-            and <xref ref="nullTprime"></xref>(a),
-            and the third equality comes from <xref ref="dimannih"></xref>.
+            where the first equality comes from <xref ref="x3ab11"/>,
+            the second equality comes from <xref ref="x3dimdual"/>
+            and <xref ref="nullTprime"/>(a),
+            and the third equality comes from <xref ref="dimannih"/>.
           </p>
         </li>
         <li>
@@ -764,15 +764,15 @@
               <mrow>\amp = \dim (\ker T)^0{}</mrow>
             </md>,
             where the first equality comes from (a),
-            the second equality comes from <xref ref="x3ab11"></xref>,
-            and the third equality comes from <xref ref="dimannih"></xref>.
+            the second equality comes from <xref ref="x3ab11"/>,
+            and the third equality comes from <xref ref="dimannih"/>.
           </p>
         </li>
       </ol>
 </p>
     </proof>
     <p>
-      The next result should be compared to <xref ref="TsurTprimeinj"></xref>.
+      The next result should be compared to <xref ref="TsurTprimeinj"/>.
     </p>
     <theorem xml:id="TinjTprimesur">
       <title><m>T</m> injective is equivalent to <m>T'</m> surjective</title>
@@ -794,7 +794,7 @@
           <mrow>\amp \iff (\ker T)^0 = V'</mrow>
           <mrow>\amp \iff \ran T' = V' \!</mrow>
         </md>,
-        where the second equivalence follows from <xref ref="x2annih"></xref>(b) and the third equivalence follows from <xref ref="rangeTprime"></xref>(b).
+        where the second equivalence follows from <xref ref="x2annih"/>(b) and the third equivalence follows from <xref ref="rangeTprime"/>(b).
       </p>
     </proof>
   </subsection>
@@ -889,10 +889,10 @@
           <mrow>\amp = \text{ column rank of } \ \tran{A}</mrow>
           <mrow>\amp = \text{ row rank of } \ A</mrow>
         </md>,
-        where the second equality comes from <xref ref="x3rangecolrank"></xref>,
-        the third equality comes from <xref ref="rangeTprime"></xref>(a),
-        the fourth equality comes from <xref ref="x3rangecolrank"></xref>,
-        the fifth equality comes from <xref ref="x3matrixTprime"></xref>,
+        where the second equality comes from <xref ref="x3rangecolrank"/>,
+        the third equality comes from <xref ref="rangeTprime"/>(a),
+        the fourth equality comes from <xref ref="x3rangecolrank"/>,
+        the fifth equality comes from <xref ref="x3matrixTprime"/>,
         and the last equality follows from the definitions of row and column rank.
       </p>
     </proof>
@@ -1051,7 +1051,7 @@
             </ol>
           </p>
           <p>
-            Note: This exercise asks you to verify (a) and (b) in <xref ref="x3dualmaps"></xref>.
+            Note: This exercise asks you to verify (a) and (b) in <xref ref="x3dualmaps"/>.
           </p>
         </statement>
       </exercise>

@@ -108,8 +108,8 @@
     <proof>
       <p>
         First suppose <m>\F{} = \C{}</m>.
-        The zeros of the minimal polynomial of <m>T</m> are the eigenvalues of <m>T</m> [by <xref ref="x136"></xref>(a)] . All eigenvalues of <m>T</m> are real
-        (by <xref ref="x56"></xref>).
+        The zeros of the minimal polynomial of <m>T</m> are the eigenvalues of <m>T</m> [by <xref ref="x136"/>(a)] . All eigenvalues of <m>T</m> are real
+        (by <xref ref="x56"/>).
         Thus the second version of the fundamental theorem of algebra
         (see <xref ref="x4FTA2"/>)
         tells us that the minimal polynomial of <m>T</m> has the desired form.
@@ -134,12 +134,12 @@
       <p>
         If <m>N> 0</m>,
         then we could multiply both sides of the equation above on the right by the inverse of <m>T^2 + b_N T + c_N I</m>
-        (which is an invertible operator by <xref ref="x150"></xref>)
+        (which is an invertible operator by <xref ref="x150"/>)
         to obtain a polynomial expression of <m>T</m> that equals <m>0</m>.
-        The corresponding polynomial would have degree two less than the degree of <xref ref="x7minT"></xref>,
+        The corresponding polynomial would have degree two less than the degree of <xref ref="x7minT"/>,
         violating the minimality of the degree of the polynomial with this property.
         Thus we must have <m>N=0</m>,
-        which means that the minimal polynomial in <xref ref="x7minT"></xref>
+        which means that the minimal polynomial in <xref ref="x7minT"/>
         has the form <m>(z - \lambda_1) \cdots(z - \lambda_m)</m>,
         as desired.
       </p>
@@ -189,7 +189,7 @@
         First suppose (a) holds, so <m>T</m> is self-adjoint.
         Our results on minimal polynomials,
         specifically <xref ref="x188"/>
-        and <xref ref="x7minsa"></xref>,
+        and <xref ref="x7minsa"/>,
         imply that <m>T</m> has an upper-triangular matrix with respect to some orthonormal basis of <m>V{}</m>.
         With respect to this orthonormal basis,
         the matrix of <m>T^*</m> is the transpose of the matrix of <m>T{}</m>.
@@ -209,7 +209,7 @@
         Hence <m>T^* = T</m>, proving that (b) implies (a).
       </p>
       <p>
-        The equivalence of (b) and (c) follows from the definitions [or see the proof that (a) and (b) are equivalent in <xref ref="x427"></xref>] .
+        The equivalence of (b) and (c) follows from the definitions [or see the proof that (a) and (b) are equivalent in <xref ref="x427"/>] .
       </p>
     </proof>
     <example>
@@ -302,7 +302,7 @@
       <p>
         Because <m>T</m> is normal, <m>\lVert Te_1 \rVert = \lVert T^* e_1 \rVert</m>
         (see <xref ref="x206"/>).
-        Thus the two equations above imply that all entries in the first row of the matrix in <xref ref="x405"></xref>,
+        Thus the two equations above imply that all entries in the first row of the matrix in <xref ref="x405"/>,
         except possibly the first entry <m>a_{1,1}</m>, equal<nbsp/><m>0</m>.
       </p>
       <p>
@@ -319,7 +319,7 @@
       </p>
       <p>
         Because <m>T</m> is normal, <m>\|Te_2\| = \lVert T^* e_2 \rVert</m>.
-        Thus the two equations above imply that all entries in the second row of the matrix in <xref ref="x405"></xref>,
+        Thus the two equations above imply that all entries in the second row of the matrix in <xref ref="x405"/>,
         except possibly the diagonal entry <m>a_{2,2}</m>, equal<nbsp/><m>0</m>.
       </p>
       <p>
@@ -346,12 +346,12 @@
     </proof>
     <p>
       See <xref ref="AltCST">Exercises</xref>
-      and <xref ref="x7spectralalt"></xref>
+      and <xref ref="x7spectralalt"/>
       for alternative proofs that (a) implies (b) in the previous result.
     </p>
     <p>
       <xref ref="x7dirsum">Exercises</xref>
-      and <xref ref="x7dirsum2"></xref>
+      and <xref ref="x7dirsum2"/>
       interpret the real spectral theorem and the complex spectral theorem by expressing the domain space as an orthogonal direct sum of eigenspaces.
     </p>
     <p>
@@ -484,7 +484,7 @@
             Note: An operator <m>S \in \Lc(V)</m> is called a
             <term>square root</term><idx><h>square root of an operator</h></idx> of <m>T \in \Lc(V)</m> if <m>S^2 = T{}</m>.
             We will discuss more about square roots of operators in <xref ref="POIUO">Sections</xref>
-            and <xref ref="x8geneigde"></xref>.
+            and <xref ref="x8geneigde"/>.
           </p>
         </statement>
       </exercise>
@@ -569,7 +569,7 @@
               T^2 + b T + c I
             </md>
             is not invertible.
-            Note: This exercise shows that the hypothesis that <m>T</m> is self-adjoint cannot be deleted in <xref ref="x150"></xref>,
+            Note: This exercise shows that the hypothesis that <m>T</m> is self-adjoint cannot be deleted in <xref ref="x150"/>,
             even for real vector spaces.
           </p>
         </statement>
@@ -691,7 +691,7 @@
             </ol>
           </p>
           <p>
-            Note: This exercise adds another equivalence to the list of conditions equivalent to diagonalizability in <xref ref="x427"></xref>.
+            Note: This exercise adds another equivalence to the list of conditions equivalent to diagonalizability in <xref ref="x427"/>.
           </p>
         </statement>
       </exercise>

@@ -244,7 +244,7 @@
     <proof>
       <p>
         Because a vector space and its dual have the same dimension
-        (by <xref ref="x3dimdual"></xref>),
+        (by <xref ref="x3dimdual"/>),
         we have <m>\dim V' = \dim V</m> and <m>\dim W' = \dim W{}</m>.
         Thus <xref ref="x9dimbi"/> tells us that the dimension of
         <m>\B( V', W' )</m> equals <m>(\dim V)(\dim W)</m>.
@@ -375,7 +375,7 @@
       <p>
         Note that <m>(e_j \tensor f_k)(\phi_M, \tau_N)</m> equals <m>1</m> if <m>j=M</m> and <m>k = N</m>,
         and equals <m>0</m> otherwise.
-        Thus applying both sides of <xref ref="x9basis"></xref>
+        Thus applying both sides of <xref ref="x9basis"/>
         to <m>(\phi_M, \tau_N)</m> shows that <m>a_{M,N} = 0</m>,
         proving that <m>\{ e_j \tensor f_k \}_{j = 1, \ldots, m;
         k = 1, \ldots, n}</m> is linearly independent.
@@ -421,7 +421,7 @@
           Thus with respect to the basis
           <m>\{ e_j \tensor f_k \}_{j = 1, \ldots, m;
           k = 1, \ldots,
-          n}</m> of <m>\F m \tensor \F n</m> provided by <xref ref="x9basisVtenW"></xref>(b),
+          n}</m> of <m>\F m \tensor \F n</m> provided by <xref ref="x9basisVtenW"/>(b),
           the coefficients of <m>v \tensor w</m> are the numbers <m>\{ v_j w_k \}_{j = 1, \ldots, m;
           k = 1, \ldots, n}</m>.
           If instead of writing these numbers in a list,
@@ -436,7 +436,7 @@
     </example>
     <p>
       See <xref ref="x9rank1">Exercises</xref>
-      and <xref ref="x9rank2"></xref>
+      and <xref ref="x9rank2"/>
       for practice in using the identification from the example above.
     </p>
     <p>
@@ -473,7 +473,7 @@
               The function <m>\fun \Gamma {V{} \times W} {V{} \tensor W}</m> defined by
               <m>\Gamma(v, w) = v \tensor w</m> is a bilinear map from
               <m>V{} \times W</m> to <m>V{} \tensor W</m>
-              (by <xref ref="x9bi"></xref>).
+              (by <xref ref="x9bi"/>).
             </p>
           </li>
           <li>
@@ -538,7 +538,7 @@
         Let <m>e_1, \ldots, e_m</m> be a basis of <m>V</m> and let
         <m>f_1, \ldots,
         f_n</m> be a basis of <m>W{}</m>.
-        By the linear map lemma <xref ref="x3linearmap"/> and <xref ref="x9basisVtenW"></xref>(b),
+        By the linear map lemma <xref ref="x3linearmap"/> and <xref ref="x9basisVtenW"/>(b),
         there exists a unique linear map <m>\fun {\hat{\Gamma}} {V{} \tensor W} U</m> such that
         <md>
           \hat{\Gamma}(e_j \tensor f_k) = \Gamma(e_j, f_k)
@@ -564,7 +564,7 @@
       </p>
       <p>
         The uniqueness of the linear map <m>\hat{\Gamma}</m> satisfying
-        <m>\hat{\Gamma}(v \tensor w) = \Gamma(v, w)</m> follows from <xref ref="x9basisVtenW"></xref>(b),
+        <m>\hat{\Gamma}(v \tensor w) = \Gamma(v, w)</m> follows from <xref ref="x9basisVtenW"/>(b),
         completing the proof of (a).
       </p>
       <p>
@@ -588,7 +588,7 @@
     </p>
     <p>
       Although our construction of
-      <m>\hat{\Gamma}</m> in the proof of <xref ref="x9bi2linear"></xref>(a) depended on a basis of <m>V</m> and a basis of <m>W{}</m>,
+      <m>\hat{\Gamma}</m> in the proof of <xref ref="x9bi2linear"/>(a) depended on a basis of <m>V</m> and a basis of <m>W{}</m>,
       the equation <m>\hat{\Gamma}(v \tensor w) = \Gamma(v, w)</m> that holds for all <m>v \in V</m> and <m>w \in W{}</m> shows that
       <m>\hat{\Gamma}</m> does not depend on the choice of bases for <m>V</m> and <m>W{}</m>.
     </p>
@@ -625,7 +625,7 @@
         </md>
       </p>
       <p>
-        The straightforward verification that <xref ref="x9ip"></xref>
+        The straightforward verification that <xref ref="x9ip"/>
         defines an inner product on
         <m>V{} \tensor W</m> is left to the reader [use <xref ref="x9basisVtenW"/>(b)] .
       </p>
@@ -650,12 +650,12 @@
         <m>w,
         x \in W</m> because every element of
         <m>V{} \tensor W</m> can be written as a linear combination of elements of the form
-        <m>v \tensor w</m> [by <xref ref="x9basisVtenW"></xref>(b)] .
+        <m>v \tensor w</m> [by <xref ref="x9basisVtenW"/>(b)] .
       </p>
     </proof>
     <p>
       The definition below of a natural inner product on
-      <m>V{} \tensor W</m> is now justified by <xref ref="x9innerten"></xref>.
+      <m>V{} \tensor W</m> is now justified by <xref ref="x9innerten"/>.
       We could not have simply defined
       <m>\langle v \tensor w, u \tensor x \rangle</m> to be <m>\langle v, u \rangle \langle w, x \rangle</m>
       (and then used additivity in each slot separately to extend the definition to <m>V{} \tensor W</m>)
@@ -684,7 +684,7 @@
       for all <m>v \in V</m> and all <m>w \in W{}</m>.
     </p>
     <p>
-      The construction of the inner product in the proof of <xref ref="x9innerten"></xref>
+      The construction of the inner product in the proof of <xref ref="x9innerten"/>
       depended on an orthonormal basis
       <m>e_1, \ldots,
       e_m</m> of <m>V</m> and an orthonormal basis <m>f_1, \ldots,
@@ -693,8 +693,8 @@
       <m>\{ e_j \tensor f_k \}_{j = 1, \ldots, m;
       k = 1, \ldots, n}</m> is a doubly indexed orthonormal list in
       <m>V{} \tensor W</m> and hence is an orthonormal basis of
-      <m>V{} \tensor W</m> [by <xref ref="x9basisVtenW"></xref>(b)] . The importance of the next result arises because the orthonormal bases used there can be different from the orthonormal bases used to define the inner product in <xref ref="x9innerten"></xref>.
-      Although the notation for the bases is the same in the proof of <xref ref="x9innerten"></xref> and in the result below,
+      <m>V{} \tensor W</m> [by <xref ref="x9basisVtenW"/>(b)] . The importance of the next result arises because the orthonormal bases used there can be different from the orthonormal bases used to define the inner product in <xref ref="x9innerten"/>.
+      Although the notation for the bases is the same in the proof of <xref ref="x9innerten"/> and in the result below,
       think of them as two different sets of orthonormal bases.
     </p>
     <theorem>
@@ -718,7 +718,7 @@
       <p>
         We know that <m>\{ e_j \tensor f_k \}_{j = 1, \ldots, m;
         k = 1, \ldots, n}</m> is a basis of
-        <m>V{} \tensor W</m> [by <xref ref="x9basisVtenW"></xref>(b)] . Thus we only need to verify orthonormality.
+        <m>V{} \tensor W</m> [by <xref ref="x9basisVtenW"/>(b)] . Thus we only need to verify orthonormality.
         To do this, suppose <m>j, M \in \{ 1, \ldots,
         m \}</m> and <m>k, N \in \{ 1, \ldots, n \}</m>.
         Then
@@ -821,7 +821,7 @@
       </statement>
     </example>
     <p>
-      The next result can be proved by imitating the proof of <xref ref="x9dimbi"></xref>.
+      The next result can be proved by imitating the proof of <xref ref="x9dimbi"/>.
     </p>
     <theorem>
       <title>dimension of the vector space of <m>m</m>-linear functionals</title>
@@ -931,7 +931,7 @@
           <idx><h sortby="mlinearmap"><m>m</m>-linear map</h></idx>
     </p>
     <p>
-      The next result can be proved by following the pattern of the proof of <xref ref="x9bi2linear"></xref>.
+      The next result can be proved by following the pattern of the proof of <xref ref="x9bi2linear"/>.
     </p>
     <theorem>
       <title>converting <m>m</m>-linear maps to linear maps</title>
@@ -967,7 +967,7 @@
     </theorem>
     <p>
       See <xref ref="x9tenmip">Exercises</xref>
-      and <xref ref="x9tenmip2"></xref>
+      and <xref ref="x9tenmip2"/>
       for tensor products of multiple inner product spaces.
     </p>
     <exercises>

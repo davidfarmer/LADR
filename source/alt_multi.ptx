@@ -189,7 +189,7 @@
         Suppose that <m>\alpha</m> is an alternating <m>m</m>-linear form on <m>V</m> and <m>v_1, \ldots,
         v_m \in V{}</m>.
         Because <m>m > \dim V{}</m>, this list is not linearly independent
-        (by <xref ref="x7"></xref>).
+        (by <xref ref="x7"/>).
         Thus <xref ref="x11altdep"/>
         implies that <m>\alpha (v_1, \ldots, v_m) = 0</m>.
         Hence <m>\alpha</m> is the zero function from <m>V^m</m> to <m>\F{}{}</m>.
@@ -220,7 +220,7 @@
       </p>
       <p>
         Use the multilinear properties of <m>\alpha</m> to expand the right side of the equation above
-        (as in the proof of <xref ref="x9skew"></xref>)
+        (as in the proof of <xref ref="x9skew"/>)
         to get
         <md>
           \alpha (v_2, v_1, v_3, \ldots, v_m) = -\alpha (v_1, v_2, v_3, \ldots, v_m).
@@ -408,9 +408,9 @@
         j_m)</m> to <m>(1, \ldots,
         m)</m> by a series of swaps of entries in different slots.
         Each such swap changes the value of <m>\alpha</m> by a factor of <m>-1</m>
-        (by <xref ref="x9swap"></xref>)
+        (by <xref ref="x9swap"/>)
         and also changes the sign of the remaining permutation by a factor of <m>-1</m>
-        (by <xref ref="x432"></xref>).
+        (by <xref ref="x432"/>).
         After an appropriate number of swaps,
         we reach the permutation <m>1, \ldots,
         m</m>, which has sign <m>1</m>.
@@ -459,7 +459,7 @@
         where the third line holds because <m>\alpha ( e_{j_1}, \ldots,
         e_{j_n} ) = 0</m> if <m>j_1, \ldots,
         j_n</m> are not distinct integers,
-        and the last line holds by <xref ref="x11altsign"></xref>.
+        and the last line holds by <xref ref="x11altsign"/>.
       </p>
     </proof>
     <p>
@@ -485,13 +485,13 @@
         </md>
       </p>
       <p>
-        Furthermore, <xref ref="x11altdep"></xref> implies that
+        Furthermore, <xref ref="x11altdep"/> implies that
         <m>e_1, \ldots,
         e_n</m> is linearly independent and thus is a basis of <m>V{}</m>.
       </p>
       <p>
         Suppose <m>v_1, \ldots, v_n \in V{}</m>.
-        Let <m>b_{j,k}</m> be as in <xref ref="x11altform"></xref>
+        Let <m>b_{j,k}</m> be as in <xref ref="x11altform"/>
         for <m>j,k = 1, \ldots, n</m>.
         Then
         <md>
@@ -499,7 +499,7 @@
           <mrow>\amp =  c \alpha ( e_1, \ldots, e_n ) \sum_{(j_1, \ldots, j_n) \in \perm n} (  \sign(j_1, \ldots, j_n)  ) b_{j_1,1} \cdots b_{j_n,n}</mrow>
           <mrow>\amp = c \alpha (v_1, \ldots, v_n)</mrow>
         </md>,
-        where the first and last lines above come from <xref ref="x11altform"></xref>.
+        where the first and last lines above come from <xref ref="x11altform"/>.
         The equation above implies that <m>\alpha ' = c \alpha</m>.
         Thus <m>\alpha '\!, \alpha</m> is not a linearly independent list,
         which implies that <m>\dim V^{(n)}_{\text{ alt } } \le 1</m>.
@@ -532,7 +532,7 @@
         the permutation <m>(j_2, j_1, j_3, \ldots,
         j_n)</m> has the opposite sign.
         Because <m>v_1 = v_2</m>,
-        the contributions from these two permutations to the sum in <xref ref="x9alalt"></xref> cancel each other.
+        the contributions from these two permutations to the sum in <xref ref="x9alalt"/> cancel each other.
         Hence <m>\alpha (v_1, v_1, v_3, \ldots, v_n) = 0</m>.
         Similarly, <m>\alpha (v_1, \ldots,
         v_n) = 0</m> if any two vectors in the list <m>v_1, \ldots,
@@ -543,7 +543,7 @@
         Finally, <xref ref="x9alalt">consider</xref> with each <m>v_k = e_k</m>.
         Because <m>\phi_j(e_k)</m> equals <m>0</m> if <m>j \ne k</m> and equals <m>1</m> if <m>j = k</m>,
         only the permutation <m>(1, \ldots,
-        n)</m> makes a nonzero contribution to the right side of <xref ref="x9alalt"></xref> in this case,
+        n)</m> makes a nonzero contribution to the right side of <xref ref="x9alalt"/> in this case,
         giving the equation <m>\alpha (e_1, \ldots, e_n) =1</m>.
         Thus we have produced a nonzero alternating <m>n</m>-linear form <m>\alpha</m> on <m>V{}</m>,
         as desired.
@@ -552,14 +552,14 @@
     <aside>
       <p>
         The formula <xref ref="x9alalt"/>
-        used in the last proof to construct a nonzero alternating <m>n</m>-linear form came from the formula in <xref ref="x11altform"></xref>,
+        used in the last proof to construct a nonzero alternating <m>n</m>-linear form came from the formula in <xref ref="x11altform"/>,
         and that formula arose naturally from the properties of an alternating multilinear form.
       </p>
     </aside>
     <p>
       Earlier we showed that the value of an alternating multilinear form applied to a linearly dependent list is <m>0</m>;
       see <xref ref="x11altdep"/>.
-      The next result provides a converse of <xref ref="x11altdep"></xref>
+      The next result provides a converse of <xref ref="x11altdep"/>
       for <m>n</m>-linear multilinear forms when <m>n = \dim V{}</m>.
       In the following result, the statement that <m>\alpha</m> is nonzero means
       (as usual for a function)
@@ -688,7 +688,7 @@
           <p>
             Give an example of a nonzero alternating <m>2</m>-linear form <m>\alpha</m> on <m>\R3</m> and a linearly independent list
             <m>v_1, v_2</m> in <m>\R3</m> such that <m>\alpha (v_1, v_2) = 0</m>.
-            Note: This exercise shows that <xref ref="x9altli"></xref>
+            Note: This exercise shows that <xref ref="x9altli"/>
             can fail if the hypothesis that <m>n = \dim V</m> is deleted.
           </p>
         </statement>

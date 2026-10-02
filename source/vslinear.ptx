@@ -508,7 +508,7 @@
         <statement>
           <p>
             Prove that <m>\Lc(V{},W)</m> is a vector space,
-            as was asserted in <xref ref="LVW"></xref>.
+            as was asserted in <xref ref="LVW"/>.
           </p>
         </statement>
       </exercise>
@@ -517,7 +517,7 @@
           <p>
             Prove that multiplication of linear maps has the associative,
             identity,
-            and distributive properties asserted in <xref ref="algprod"></xref>.
+            and distributive properties asserted in <xref ref="algprod"/>.
           </p>
         </statement>
       </exercise>
@@ -566,7 +566,7 @@
             Prove or give a counterexample: If <m>q \in \P(\R{})</m> and
             <m>\fun T {\P(\R{})} {\P(\R{})}</m> is defined by <m>Tp = q \circ p</m>,
             then <m>T</m> is a linear map.
-            Note: The function <m>T</m> defined here differs from the function <m>T</m> defined in the last bullet point of <xref ref="x2a111"></xref>
+            Note: The function <m>T</m> defined here differs from the function <m>T</m> defined in the last bullet point of <xref ref="x2a111"/>
             by the order of the functions in the compositions.
           </p>
         </statement>
@@ -603,7 +603,7 @@
             In other words,
             show that if <m>U</m> is a subspace of <m>V</m> and <m>S \in \Lc(U, W)</m>,
             then there exists <m>T \in \Lc(V{}, W)</m> such that <m>Tu = Su</m> for all <m>u \in U</m>.
-            Note: The result in this exercise is used in the proof of <xref ref="dimannih"></xref>.
+            Note: The result in this exercise is used in the proof of <xref ref="dimannih"/>.
           </p>
         </statement>
       </exercise>

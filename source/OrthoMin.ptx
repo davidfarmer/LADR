@@ -221,7 +221,7 @@
       </p>
       <p>
         Let <m>u</m> and <m>w</m> be defined as in the equation above
-        (as was done in the proof of <xref ref="Bessel"></xref>).
+        (as was done in the proof of <xref ref="Bessel"/>).
         Because each <m>e_k \in U</m>,
         we see that <m>u \in U</m>.
         Because <m>e_1, \dots, e_m</m> is an orthonormal list,
@@ -263,12 +263,12 @@
     </theorem>
     <proof>
       <p>
-        The formula for <m>\dim U^\perp</m> follows immediately from <xref ref="x191"></xref>
-        and <xref ref="x3directsumdim"></xref>.
+        The formula for <m>\dim U^\perp</m> follows immediately from <xref ref="x191"/>
+        and <xref ref="x3directsumdim"/>.
       </p>
     </proof>
     <p>
-      The next result is an important consequence of <xref ref="x191"></xref>.
+      The next result is an important consequence of <xref ref="x191"/>.
     </p>
     <theorem xml:id="x376">
       <title>orthogonal complement of the orthogonal complement</title>
@@ -295,7 +295,7 @@
         <m>w \in U^\perp</m> \big(by the definition of <m>U^\perp</m>\big).
         Because <m>u</m> is orthogonal to every vector in <m>U^\perp{}</m>,
         we have <m>u \in ( U^\perp )^\perp{}</m>,
-        completing the proof of <xref ref="x415"></xref>.
+        completing the proof of <xref ref="x415"/>.
       </p>
       <p>
         To prove the inclusion in the other direction,
@@ -305,10 +305,10 @@
         where <m>u \in U</m> and <m>w \in U^\perp{}</m>.
         We have <m>v - u = w \in U^\perp{}</m>.
         Because <m>v \in ( U^\perp )^\perp</m> and <m>u \in ( U^\perp )^\perp</m>
-        (from <xref ref="x415"></xref>),
+        (from <xref ref="x415"/>),
         we have <m>v - u \in ( U^\perp )^\perp{}</m>.
         Thus <m>v - u \in U^\perp \cap ( U^\perp )^\perp{}</m>,
-        which implies that <m>v - u = 0</m> [by <xref ref="oc"></xref>(d)], which implies that <m>v = u</m>,
+        which implies that <m>v - u = 0</m> [by <xref ref="oc"/>(d)], which implies that <m>v = u</m>,
         which implies that <m>v \in U</m>.
         Thus <m>( U^\perp )^\perp \subset U</m>,
         which along <xref ref="x415">with</xref> completes the proof.
@@ -343,12 +343,12 @@
     <proof>
       <p>
         First suppose <m>U^\perp = \{ 0 \}</m>.
-        Then by <xref ref="x376"></xref>,
+        Then by <xref ref="x376"/>,
         <m>U = ( U^\perp )^\perp = \{ 0 \}^\perp= V{}</m>, as desired.
       </p>
       <p>
         Conversely, if <m>U = V{}</m>,
-        then <m>U^\perp = V^\perp = \{ 0 \}</m> by <xref ref="oc"></xref>(c).
+        then <m>U^\perp = V^\perp = \{ 0 \}</m> by <xref ref="oc"/>(c).
       </p>
     </proof>
     <p>
@@ -369,11 +369,11 @@
     </definition>
     <p>
       The direct sum decomposition
-      <m>V = U \oplus U^\perp</m> given by <xref ref="x191"></xref>
+      <m>V = U \oplus U^\perp</m> given by <xref ref="x191"/>
       shows that each <m>v \in V</m> can be uniquely written in the form
       <m>v = u + w</m> with <m>u \in U</m> and <m>w \in U^\perp{}</m>.
       Thus <m>P_{U} v</m> is well defined.
-      See the figure that accompanies the proof of <xref ref="x417"></xref>
+      See the figure that accompanies the proof of <xref ref="x417"/>
       for the picture describing
       <m>P_{U} v</m> that you should keep in mind.
     </p>
@@ -522,7 +522,7 @@
           <p>
             The inclusion <m>U^\perp \subset \ker P_{U}</m> follows from (c).
             To prove the inclusion in the other direction,
-            note that if <m>v \in \ker P_{U}</m> then the decomposition given by <xref ref="x191"></xref> must be <m>v = 0 + v</m>,
+            note that if <m>v \in \ker P_{U}</m> then the decomposition given by <xref ref="x191"/> must be <m>v = 0 + v</m>,
             where <m>0 \in U</m> and <m>v \in U^\perp{}</m>.
             Thus <m>\ker P_{U} \subset U^\perp{}</m>.
           </p>
@@ -555,7 +555,7 @@
         <li>
           <p>
             The formula for <m>P_{U} v</m> follows from <xref ref="x416">equation</xref>
-            in the proof of <xref ref="x191"></xref>.
+            in the proof of <xref ref="x191"/>.
           </p>
         </li>
       </ol>
@@ -573,7 +573,7 @@
       <q>onto</q>
       part of the result below because the more routine
       <q>one-to-one</q>
-      part of the result can be proved as in <xref ref="x50"></xref>.
+      part of the result can be proved as in <xref ref="x50"/>.
     </p>
     <p>
       Intuition behind this new proof: If <m>\phi \in V'\!</m>,
@@ -582,8 +582,8 @@
       then <m>v \in (\ker \phi)^\perp{}</m>.
       However, <m>(\ker \phi)^\perp</m> is a one-dimensional subspace of <m>V</m>
       (except for the trivial case in which <m>\phi = 0</m>),
-      as follows from <xref ref="x350"></xref>
-      and <xref ref="x3ab11"></xref>.
+      as follows from <xref ref="x350"/>
+      and <xref ref="x3ab11"/>.
       Thus we can obtain <m>v</m> by choosing any nonzero element of
       <m>(\ker \phi)^\perp</m> and then multiplying by an appropriate scalar,
       as is done in the proof below.
@@ -619,7 +619,7 @@
         Thus assume <m>\phi \ne 0</m>.
         Hence <m>\ker \phi \ne V{}</m>,
         which implies that <m>(\ker \phi)^\perp \ne \{ 0 \}</m>
-        (by <xref ref="x191"></xref> with <m>U = \ker \phi</m>).
+        (by <xref ref="x191"/> with <m>U = \ker \phi</m>).
       </p>
       <p>
         Let <m>w \in (\ker \phi)^\perp</m> be such that <m>w \ne 0</m>.
@@ -634,13 +634,13 @@
         (because <m>w \notin \ker \phi</m>).
       </p>
       <p>
-        Taking the norm of both sides of <xref ref="wu"></xref> gives
+        Taking the norm of both sides of <xref ref="wu"/> gives
         <md number="yes" xml:id="normw">
           \lVert v \rVert  = \frac{ \lvert \phi(w)  \rvert }{\lVert w \rVert }.
         </md>
       </p>
       <p>
-        Applying <m>\phi</m> to both sides of <xref ref="wu"></xref>
+        Applying <m>\phi</m> to both sides of <xref ref="wu"/>
         and then using <xref ref="normw"/>, we have
         <md>
           \phi(v) = \frac{ \lvert \phi(w) \rvert ^2 }{ \lVert w \rVert ^2} = \lVert v \rVert ^2{}.
@@ -719,7 +719,7 @@
           <p><m>P_{U} v</m> is the closest point in <m>U</m> to <m>v</m>.</p>
 </stack></sidebyside>
       <p>
-        where the first line above holds because <m>0 \le \|P_{U} v - u\|^2{}</m>, the second line above comes from the Pythagorean theorem [which applies because <m>v - P_{U} v \in U^\perp</m> by <xref ref="x418"></xref>(f), and <m>P_{U} v - u \in U</m>] , and the third line above holds by simple algebra. Taking square roots gives the desired inequality.
+        where the first line above holds because <m>0 \le \|P_{U} v - u\|^2{}</m>, the second line above comes from the Pythagorean theorem [which applies because <m>v - P_{U} v \in U^\perp</m> by <xref ref="x418"/>(f), and <m>P_{U} v - u \in U</m>] , and the third line above holds by simple algebra. Taking square roots gives the desired inequality.
       </p>
       <p>
         The inequality proved above is an equality if and only <xref ref="x422">if</xref> is an equality,
@@ -765,10 +765,10 @@
         <p>
           To compute the solution to our approximation problem,
           first apply the Gram<ndash/>Schmidt procedure
-          (using the inner product given by <xref ref="x419"></xref>)
+          (using the inner product given by <xref ref="x419"/>)
           to the basis <m>1, x, x^2{}, x^3{}, x^4{}, x^5</m> of <m>U</m>,
           producing an orthonormal basis <m>e_1, e_2, e_3, e_4, e_5, e_6</m> of <m>U</m>.
-          Then, again using the inner product given by <xref ref="x419"></xref>,
+          Then, again using the inner product given by <xref ref="x419"/>,
           compute <m>P_{U} v</m> using <xref ref="x418"/>(i)
           (with <m>m = 6</m>).
           Doing this computation shows that
@@ -785,14 +785,14 @@
         </p>
         <p>
           To see how good this approximation is,
-          the next figure shows the graphs of both the sine function and our approximation <m>u</m> given by <xref ref="x420"></xref>
+          the next figure shows the graphs of both the sine function and our approximation <m>u</m> given by <xref ref="x420"/>
           over the interval <m>[-\pi, \pi]</m>.
         </p>
 <sidebyside width="60%"><stack>
             <image source="SinGram.png">
               <description><p>Missing description</p></description>
             </image>
-            <p>Graphs on <m>[-\pi, \pi]</m> of the sine function (red) and its best fifth degree polynomial approximation <m>u</m> (blue) from <xref ref="x420"></xref>.</p>
+            <p>Graphs on <m>[-\pi, \pi]</m> of the sine function (red) and its best fifth degree polynomial approximation <m>u</m> (blue) from <xref ref="x420"/>.</p>
 </stack></sidebyside>
         <p>
           Our <xref ref="x420">approximation</xref>
@@ -815,20 +815,20 @@
             <image source="SinTaylor.png">
               <description><p>Missing description</p></description>
             </image>
-            <p>Graphs on <m>[-\pi, \pi]</m> of the sine function (red) and the Taylor polynomial (blue) from <xref ref="x421"></xref>.</p>
+            <p>Graphs on <m>[-\pi, \pi]</m> of the sine function (red) and the Taylor polynomial (blue) from <xref ref="x421"/>.</p>
 </stack></sidebyside>
         <p>
           The Taylor polynomial of degree <m>5</m> is an excellent approximation to <m>\sin x</m> for <m>x</m> near<nbsp/><m>0</m>.
           But the picture above shows that for <m>|x| > 2</m>,
           the Taylor polynomial is not so accurate,
-          especially compared to <xref ref="x420"></xref>.
+          especially compared to <xref ref="x420"/>.
           For example, taking <m>x = 3</m>,
           our <xref ref="x420">approximation</xref>
           estimates <m>\sin 3</m> with an error of approximately <m>0.001</m>,
           but the Taylor <xref ref="x421">polynomial</xref>
           estimates <m>\sin 3</m> with an error of approximately <m>0.4</m>.
           Thus at <m>x = 3</m>,
-          the error in the Taylor polynomial is hundreds of times larger than the error given by <xref ref="x420"></xref>.
+          the error in the Taylor polynomial is hundreds of times larger than the error given by <xref ref="x420"/>.
           Linear algebra has helped us discover an approximation to the sine function that improves upon what we learned in calculus!
         </p>
       </statement>
@@ -892,7 +892,7 @@
       <p>
         Suppose that <m>v \in (\ker T)^\perp</m> and <m>T|_{(\ker T)^\perp}v = 0</m>.
         Hence <m>Tv = 0</m> and thus <m>v \in (\ker T) \cap (\ker T)^\perp{}</m>,
-        which implies that <m>v = 0</m> [by <xref ref="oc"></xref>(d)] . Hence <m>\ker T|_{(\ker T)^\perp} = \{ 0 \}</m>,
+        which implies that <m>v = 0</m> [by <xref ref="oc"/>(d)] . Hence <m>\ker T|_{(\ker T)^\perp} = \{ 0 \}</m>,
         which implies that <m>T|_{(\ker T)^\perp}</m> is injective,
         as desired.
       </p>
@@ -903,7 +903,7 @@
         Hence there exists <m>v \in V</m> such that <m>w = Tv</m>.
         There exist <m>u \in \ker T</m> and
         <m>x \in (\ker T)^\perp</m> such that <m>v = u + x</m>
-        (by <xref ref="x191"></xref>).
+        (by <xref ref="x191"/>).
         Now
         <md>
           T|_{(\ker T)^\perp}x = Tx = Tv - Tu = w - 0 = w,
@@ -1005,7 +1005,7 @@
             Thus <m>TT^\dagger</m> and
             <m>P_{\!\ran T}</m> agree on <m>\ran T</m> and on <m>(\ran T)^\perp{}</m>.
             Hence these two linear maps are equal
-            (by <xref ref="x191"></xref>).
+            (by <xref ref="x191"/>).
           </p>
         </li>
         <li>
@@ -1021,7 +1021,7 @@
             Thus <m>T^\dagger T</m> and <m>P_{\!(\ker T)^\perp}</m> agree on
             <m>(\ker T)^\perp</m> and on <m>\ker T{}</m>.
             Hence these two linear maps are equal
-            (by <xref ref="x191"></xref>).
+            (by <xref ref="x191"/>).
           </p>
         </li>
       </ol>
@@ -1044,7 +1044,7 @@
       then <m>T^\dagger T</m> is the identity operator on <m>V{}</m>,
       as follows from (c) in the result above.
       For additional algebraic properties of the pseudoinverse,
-      see <xref ref="x3dagger">Exercises</xref><ndash/> <xref ref="x2dag"></xref>.
+      see <xref ref="x3dagger">Exercises</xref><ndash/> <xref ref="x2dag"/>.
     </p>
     <p>
       For <m>T \in \Lc(V{},W)</m> and <m>w \in W{}</m>,
@@ -1108,7 +1108,7 @@
               Tv - w = (Tv - TT^\dagger w) + (TT^\dagger w - w).
             </md>
             The first term in parentheses above is in <m>\ran T{}</m>.
-            Because the operator <m>TT^\dagger</m> is the orthogonal projection of <m>W</m> onto <m>\ran T</m>  [by <xref ref="x6propps"></xref>(b)] , the second term in parentheses above is in
+            Because the operator <m>TT^\dagger</m> is the orthogonal projection of <m>W</m> onto <m>\ran T</m>  [by <xref ref="x6propps"/>(b)] , the second term in parentheses above is in
             <m>(\ran T)^\perp</m>  [see <xref ref="x418"/>(f)] .  Thus the Pythagorean theorem implies the desired inequality that the norm of the second term in parentheses above is less than or equal to <m>\lVert Tv - w \rVert</m>,
             with equality if and only if the first term in parentheses above equals <m>0</m>.
             Hence we have equality if and only if <m>v - T^\dagger w \in \ker T</m>,
@@ -1209,7 +1209,7 @@
           The formula above for <m>T^\dagger</m> shows that
           <m>TT^\dagger(x, y, z) = (x, y, 0)</m> for all <m>(x, y, z) \in \FF3</m>,
           which illustrates the equation
-          <m>TT^\dagger = P_{\!\ran T}</m> from <xref ref="x6propps"></xref>(b).
+          <m>TT^\dagger = P_{\!\ran T}</m> from <xref ref="x6propps"/>(b).
         </p>
       </statement>
     </example>
@@ -1269,7 +1269,7 @@
             </md>
             for all <m>v \in V{}</m>.
             Prove that <m>e_1, \ldots, e_n</m> is an orthonormal basis of <m>V{}</m>.
-            Note: This exercise provides a converse to <xref ref="x190"></xref> (b) .
+            Note: This exercise provides a converse to <xref ref="x190"/> (b) .
           </p>
         </statement>
       </exercise>
@@ -1391,8 +1391,8 @@
             </ol>
           </p>
           <p>
-            Note: The purpose of this exercise is to give an alternative proof of the Riesz representation theorem ( <xref ref="x50"></xref>
-            and <xref ref="x3RRT"></xref>) when <m>\F{} = \R{}</m>.
+            Note: The purpose of this exercise is to give an alternative proof of the Riesz representation theorem ( <xref ref="x50"/>
+            and <xref ref="x3RRT"/>) when <m>\F{} = \R{}</m>.
             Thus you should not use the Riesz representation theorem as a tool in your solution.
           </p>
         </statement>
@@ -1443,7 +1443,7 @@
               </li>
               <li>
                 <p>
-                  Show that <xref ref="x191"></xref> and <xref ref="x376"></xref>
+                  Show that <xref ref="x191"/> and <xref ref="x376"/>
                   do not hold without the finite-dimensional hypothesis.
                 </p>
               </li>
@@ -1508,12 +1508,12 @@
               </li>
               <li>
                 <p>
-                  Verify that the equation <m>TT^\dagger = P_{\!\ran T}</m> from <xref ref="x6propps"></xref>(b) holds with the formula for <m>T^\dagger</m> obtained in (a).
+                  Verify that the equation <m>TT^\dagger = P_{\!\ran T}</m> from <xref ref="x6propps"/>(b) holds with the formula for <m>T^\dagger</m> obtained in (a).
                 </p>
               </li>
               <li>
                 <p>
-                  Verify that the equation <m>T^\dagger T = P_{\!(\ker T)^\perp}</m> from <xref ref="x6propps"></xref>(c) holds with the formula for <m>T^\dagger</m> obtained in (a).
+                  Verify that the equation <m>T^\dagger T = P_{\!(\ker T)^\perp}</m> from <xref ref="x6propps"/>(c) holds with the formula for <m>T^\dagger</m> obtained in (a).
                 </p>
               </li>
             </ol>

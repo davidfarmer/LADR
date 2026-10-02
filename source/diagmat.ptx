@@ -35,7 +35,7 @@
     <p>
       If an operator has a diagonal matrix with respect to some basis,
       then the entries on the diagonal are precisely the eigenvalues of the operator;
-      this follows from <xref ref="a221"></xref>
+      this follows from <xref ref="a221"/>
       (or find an easier direct proof for diagonal matrices).
     </p>
     <definition>
@@ -146,10 +146,10 @@
         </md>
         where each <m>v_k</m> is in <m>E(\lambda_k, T)</m>.
         Because eigenvectors corresponding to distinct eigenvalues are linearly independent
-        (by <xref ref="x26"></xref>),
+        (by <xref ref="x26"/>),
         this implies that each <m>v_k</m> equals<nbsp/><m>0</m>.
         Thus <m>E(\lambda_1, T) + \dots + E(\lambda_m, T)</m> is a direct sum
-        (by <xref ref="x30"></xref>),
+        (by <xref ref="x30"/>),
         as desired.
       </p>
       <p>
@@ -159,8 +159,8 @@
           <mrow>\dim E(\lambda_1, T) + \dots + \dim E(\lambda_m, T) \amp = \dim \bigl(E(\lambda_1, T) \oplus \dots \oplus  E(\lambda_m, T) \bigr)</mrow>
           <mrow>\amp \le \dim V{}</mrow>
         </md>,
-        where the first line follows from <xref ref="x3directsumdim"></xref>
-        and the second line follows from <xref ref="x2subdim"></xref>.
+        where the first line follows from <xref ref="x3directsumdim"/>
+        and the second line follows from <xref ref="x2subdim"/>.
       </p>
     </proof>
   </subsection>
@@ -227,7 +227,7 @@
         proving that (b) implies (c).
       </p>
       <p>
-        That (c) implies (d) follows immediately from <xref ref="x3directsumdim"></xref>.
+        That (c) implies (d) follows immediately from <xref ref="x3directsumdim"/>.
       </p>
       <p>
         Finally, suppose (d) holds; thus
@@ -240,7 +240,7 @@
         put all these bases together to form a list
         <m>v_1, \dots,
         v_n</m> of eigenvectors of<nbsp/><m>T</m>, where <m>n = \dim V</m>
-        (by <xref ref="x426"></xref>).
+        (by <xref ref="x426"/>).
         To show that this list is linearly independent, suppose
         <md>
           a_1 v_1 + \dots + a_n v_n = 0,
@@ -262,7 +262,7 @@
         this implies that all <m>a_j</m>'s equal<nbsp/><m>0</m>.
         Thus <m>v_1, \dots,
         v_n</m> is linearly independent and hence is a basis of <m>V</m>
-        (by <xref ref="x75"></xref>).
+        (by <xref ref="x75"/>).
         Thus (d) implies (b), completing the proof.
       </p>
     </proof>
@@ -270,7 +270,7 @@
       For additional conditions equivalent to diagonalizability,
       see <xref ref="x500"/>,
       <xref ref="diagKerRan">Exercises</xref>
-      and <xref ref="x2gcd"></xref> in this section,
+      and <xref ref="x2gcd"/> in this section,
       <xref ref="Diag2">Exercise</xref>
       in <xref ref="SpectralTheorem">Section</xref>,
       and <xref ref="x425">Exercise</xref>
@@ -300,10 +300,10 @@
           </md>
         </p>
         <p>
-          Hence conditions (b), (c), and (d) of <xref ref="x427"></xref> fail
+          Hence conditions (b), (c), and (d) of <xref ref="x427"/> fail
           (of course, because these conditions are equivalent,
           it is sufficient to check that only one of them fails).
-          Thus condition (a) of <xref ref="x427"></xref> also fails.
+          Thus condition (a) of <xref ref="x427"/> also fails.
           Hence <m>T</m> is not diagonalizable,
           regardless of whether <m>\F{} = \R{}</m> or <m>\F{} =\C{}</m>.
         </p>
@@ -379,7 +379,7 @@
           By <xref ref="a221"/>,
           the eigenvalues of <m>T</m> are <m>2</m>, <m>5</m>, and <m>8</m>.
           Because <m>T</m> is an operator on a vector space of dimension three and <m>T</m> has three distinct eigenvalues,
-          <xref ref="x453"></xref> assures us that there exists a basis of <m>\F3</m> with respect to which <m>T</m> has a diagonal matrix.
+          <xref ref="x453"/> assures us that there exists a basis of <m>\F3</m> with respect to which <m>T</m> has a diagonal matrix.
         </p>
         <p>
           To find this basis,
@@ -482,11 +482,11 @@
         <p>
           To answer this question, we will find the minimal polynomial of <m>T{}</m>.
           First note that the eigenvalues of <m>T</m> are the diagonal entries of the matrix above
-          (by <xref ref="a221"></xref>).
-          Thus the zeros of the minimal polynomial of <m>T</m> are <m>6, 7</m> [by <xref ref="x136"></xref>(a)] . The diagonal of the matrix above tells us that <m>(T-6I)^2 (T-7I) = 0</m>
-          (by <xref ref="x4polyut"></xref>).
+          (by <xref ref="a221"/>).
+          Thus the zeros of the minimal polynomial of <m>T</m> are <m>6, 7</m> [by <xref ref="x136"/>(a)] . The diagonal of the matrix above tells us that <m>(T-6I)^2 (T-7I) = 0</m>
+          (by <xref ref="x4polyut"/>).
           The minimal polynomial of <m>T</m> has degree at most <m>3</m>
-          (by <xref ref="x3minpoly"></xref>).
+          (by <xref ref="x3minpoly"/>).
           Putting all this together,
           we see that the minimal polynomial of <m>T</m> is either
           <m>(z-6)(z-7)</m> or <m>(z-6)^2 (z-7)</m>.
@@ -545,21 +545,21 @@
       </p>
       <p>
         Now suppose that <m>m > 1</m> and the desired result holds for all smaller values of <m>m</m>.
-        The subspace <m>\ran(T-\lambda_m I)</m> is invariant under<nbsp/><m>T</m> [this is a special case of <xref ref="x130"></xref>
+        The subspace <m>\ran(T-\lambda_m I)</m> is invariant under<nbsp/><m>T</m> [this is a special case of <xref ref="x130"/>
         with <m>p(z) = z - \lambda_m</m>] . Thus <m>T</m> restricted to
         <m>\ran(T - \lambda_m I)</m> is an operator on <m>\ran(T - \lambda_m I)</m>.
       </p>
       <p>
         If <m>u \in \ran(T-\lambda_m I)</m>,
         then <m>u = (T - \lambda_m I) v</m> for some <m>v \in V{}</m>,
-        and <xref ref="x9Tr"></xref> implies
+        and <xref ref="x9Tr"/> implies
         <md number="yes" xml:id="x7minr">
           (T - \lambda_1 I) \cdots (T - \lambda_{m-1} I) u = (T - \lambda_1 I) \cdots (T - \lambda_m I) v = 0.
         </md>
       </p>
       <p>
         Hence <m>(z - \lambda_1) \cdots (z-\lambda_{m-1})</m> is a polynomial multiple of the minimal polynomial of <m>T</m> restricted to
-        <m>\ran(T - \lambda_m I)</m> [by <xref ref="x140"></xref>]. Thus by our induction hypothesis,
+        <m>\ran(T - \lambda_m I)</m> [by <xref ref="x140"/>]. Thus by our induction hypothesis,
         there is a basis of <m>\ran(T - \lambda_m I)</m> consisting of eigenvectors of <m>T{}</m>.
       </p>
       <p>
@@ -578,10 +578,10 @@
       </p>
       <p>
         Thus <m>\ran(T - \lambda_m I) + \ker(T - \lambda_m I)</m> is a direct sum
-        (by <xref ref="x219"></xref>)
+        (by <xref ref="x219"/>)
         whose dimension is <m>\dim V</m>
-        (by <xref ref="x3directsumdim"></xref>
-        and <xref ref="x3ab11"></xref>).
+        (by <xref ref="x3directsumdim"/>
+        and <xref ref="x3ab11"/>).
         Hence <m>\ran(T - \lambda_m I) \oplus \ker(T - \lambda_m I) = V{}</m>.
         Every nonzero vector in <m>\ker(T-\lambda_m I)</m> is an eigenvector of <m>T</m> with eigenvalue <m>\lambda_m</m>.
         Earlier in this proof we saw that there is a basis of
@@ -617,10 +617,10 @@
         Because the operator <m>T</m> is diagonalizable,
         the minimal polynomial of <m>T</m> equals
         <m>(z-\lambda_1) \cdots (z-\lambda_m)</m> for some list of distinct numbers <m>\lambda_1, \ldots, \lambda_m \in \F{}</m>
-        (by <xref ref="x500"></xref>).
+        (by <xref ref="x500"/>).
         The minimal polynomial of <m>T</m> is a polynomial multiple of the minimal polynomial of <m>T|_U</m>
-        (by <xref ref="x5minU"></xref>).
-        Hence the minimal polynomial of <m>T|_U</m> has the form required by <xref ref="x500"></xref>,
+        (by <xref ref="x5minU"/>).
+        Hence the minimal polynomial of <m>T|_U</m> has the form required by <xref ref="x500"/>,
         which shows that <m>T|_U</m> is diagonalizable.
       </p>
     </proof>
@@ -705,8 +705,8 @@
       </p>
       <p>
         Using <xref ref="x5Ger"/>,
-        we see that the coefficient of <m>v_j</m> on the left side of <xref ref="x52Ger"></xref> equals <m>\lambda c_j</m>,
-        which must equal the coefficient of <m>v_j</m> on the right side of <xref ref="x53Ger"></xref>.
+        we see that the coefficient of <m>v_j</m> on the left side of <xref ref="x52Ger"/> equals <m>\lambda c_j</m>,
+        which must equal the coefficient of <m>v_j</m> on the right side of <xref ref="x53Ger"/>.
         In other words,
         <md>
           \lambda c_j = \sum_{k=1}^n A_{j,k}   c_k.

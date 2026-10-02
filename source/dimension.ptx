@@ -29,7 +29,7 @@
       Let <m>B_1</m> and <m>B_2</m> be two bases of<nbsp/><m>V{}</m>.
       Then <m>B_1</m> is linearly independent in <m>V</m> and <m>B_2</m> spans <m>V{}</m>,
       so the length of <m>B_1</m> is at most the length of <m>B_2</m>
-      (by <xref ref="x7"></xref>).
+      (by <xref ref="x7"/>).
       Interchanging the roles of <m>B_1</m> and <m>B_2</m>,
       we also see that the length of <m>B_2</m> is at most the length of<nbsp/><m>B_1</m>.
       Thus the length of <m>B_1</m> equals the length of <m>B_2</m>,
@@ -99,7 +99,7 @@
   </example>
   <p>
     Every subspace of a finite-dimensional vector space is finite-dimensional
-    (by <xref ref="x68"></xref>)
+    (by <xref ref="x68"/>)
     and so has a dimension.
     The next result gives the expected inequality about the dimension of a subspace.
   </p>
@@ -155,7 +155,7 @@
       <m>v_1, \dots,
       v_n</m> is linearly independent in <m>V{}</m>.
       The list <m>v_1, \dots, v_n</m> can be extended to a basis of <m>V</m>
-      (by <xref ref="x9"></xref>).
+      (by <xref ref="x9"/>).
       However, every basis of <m>V</m> has length <m>n</m>,
       so in this case the extension is the trivial one,
       meaning that no elements are adjoined to <m>v_1, \dots, v_n</m>.
@@ -242,11 +242,11 @@
         The polynomial <m>x</m> is not in <m>U</m> because its derivative is the constant function<nbsp/><m>1</m>.
         Thus <m>U \ne \P{}_3(\R{})</m>.
         Hence <m>\dim U \ne 4</m>
-        (by <xref ref="x2subfull"></xref>).
+        (by <xref ref="x2subfull"/>).
         The inequality above now implies that <m>\dim U = 3</m>.
         Thus the linearly independent list
         <m>1, (x - 5)^2{}, (x-5)^3</m> in <m>U</m> has length <m>\dim U</m> and hence is a basis of <m>U</m>
-        (by <xref ref="x75"></xref>).
+        (by <xref ref="x75"/>).
       </p>
     </statement>
   </example>
@@ -266,7 +266,7 @@
     <p>
       Suppose <m>\dim V = n</m> and <m>v_1, \dots, v_n</m> spans <m>V{}</m>.
       The list <m>v_1, \dots, v_n</m> can be reduced to a basis of <m>V</m>
-      (by <xref ref="x267"></xref>).
+      (by <xref ref="x267"/>).
       However, every basis of <m>V</m> has length <m>n</m>,
       so in this case the reduction is the trivial one,
       meaning that no elements are deleted from <m>v_1, \dots, v_n</m>.
@@ -301,7 +301,7 @@
       Hence this list can be extended to a basis
       <m>v_1, \dots, v_m, u_1, \dots,
       u_j</m> of<nbsp/><m>V{}_1</m>
-      (by <xref ref="x9"></xref>).
+      (by <xref ref="x9"/>).
       Thus <m>\dim V{}_1 = m + j</m>.
       Also extend <m>v_1, \dots,
       v_m</m> to a basis <m>v_1, \dots,
@@ -325,11 +325,11 @@
       The <xref ref="x3V1pV2">list</xref>
       is contained in <m>V_1 \cup V_2</m> and thus is contained in <m>V_1 + V_2</m>.
       The span of this list contains <m>V_1</m> and contains <m>V_2</m> and hence is equal to <m>V_1 + V_2</m>.
-      Thus to show that <xref ref="x3V1pV2"></xref>
+      Thus to show that <xref ref="x3V1pV2"/>
       is a basis of <m>V{}_1 + V{}_2</m> we only need to show that it is linearly independent.
     </p>
     <p>
-      To prove that <xref ref="x3V1pV2"></xref>
+      To prove that <xref ref="x3V1pV2"/>
       is linearly independent, suppose
       <md>
         a_1 v_1 + \dots + a_m v_m + b_1 u_1 + \dots + b_j u_j + c_1 w_1 + \dots + c_k w_k = 0,
@@ -452,13 +452,13 @@
     (for sets)
     and direct sums
     (for vector spaces).
-    The proof of the result in the last box above will be given in <xref ref="x3directsumdim"></xref>.
+    The proof of the result in the last box above will be given in <xref ref="x3directsumdim"/>.
   </p>
   <p>
     You should be able to find results about sets that correspond,
     via analogy,
     to the results about vector spaces in <xref ref="x7exer">Exercises</xref>
-    through <xref ref="x8exer"></xref>.
+    through <xref ref="x8exer"/>.
   </p>
   <exercises>
     <title>Exercises</title>
@@ -713,7 +713,7 @@
         </p>
         <p>
           Note: The inequality above is an equality if and only if <m>V{}_1 + \dots + V{}_m</m> is a direct sum,
-          as will be shown in <xref ref="x3directsumdim"></xref>.
+          as will be shown in <xref ref="x3directsumdim"/>.
         </p>
       </statement>
     </exercise>

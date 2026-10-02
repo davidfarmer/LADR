@@ -31,7 +31,7 @@
       <p>
         For similar results about decreasing sequences of ranges,
         see <xref ref="range1">Exercises</xref>,
-        <xref ref="range2"></xref>, and <xref ref="range3"></xref>.
+        <xref ref="range2"/>, and <xref ref="range3"/>.
       </p>
     </aside>
     <p>
@@ -64,7 +64,7 @@
         </md>
       </p>
       <p>
-        We already know from <xref ref="x76"></xref>
+        We already know from <xref ref="x76"/>
         that <m>\ker T^{m+k} \subset \ker T^{m + k + 1}\!</m>.
       </p>
       <p>
@@ -107,9 +107,9 @@
     <proof>
       <p>
         We only need to prove that <m>\ker T^{\dim V} = \ker T^{\dim V + 1}</m>
-        (by <xref ref="a113"></xref>).
+        (by <xref ref="a113"/>).
         Suppose this is not true.
-        Then, by <xref ref="x76"></xref> and <xref ref="a113"></xref>, we have
+        Then, by <xref ref="x76"/> and <xref ref="a113"/>, we have
         <md>
           \{0\} = \ker T^0 \subsetneq \ker T^1 \subsetneq \dots \subsetneq \ker T^{\dim V} \subsetneq \ker T^{\dim V + 1}\!,
         </md>
@@ -151,18 +151,18 @@
         and there exists <m>u \in V</m> such that <m>v = T^n u</m>.
         Applying <m>T^n</m> to both sides of the last equation shows that <m>T^n v = T^{2n} u</m>.
         Hence <m>T^{2n} u = 0</m>, which implies that <m>T^n u = 0</m>
-        (by <xref ref="x23"></xref>).
+        (by <xref ref="x23"/>).
         Thus <m>v = T^n u = 0</m>,
-        completing the proof of <xref ref="nullran"></xref>.
+        completing the proof of <xref ref="nullran"/>.
       </p>
       <p>
         Now <xref ref="nullran"/> implies that <m>\ker T^n + \ran T^n</m> is a direct sum
-        (by <xref ref="x219"></xref>).
+        (by <xref ref="x219"/>).
         Also,
         <md>
           \dim( \ker T^n \oplus \ran T^n ) = \dim \ker T^n + \dim \ran T^n = \dim V{},
         </md>
-        where the first equality above comes from <xref ref="x3directsumdim"></xref>
+        where the first equality above comes from <xref ref="x3directsumdim"/>
         and the second equality comes from the fundamental theorem of linear maps <xref ref="x3ab11"/>.
         The equation above implies that <m>\ker T^n \oplus \ran T^n = V{}</m>
         (see <xref ref="x2subfull"/>),
@@ -197,7 +197,7 @@
         </p>
         <p>
           Hence <m>\FF3 = \ker T^3 \oplus \ran T^3{}</m>,
-          as expected by <xref ref="x8nulloplusran"></xref>.
+          as expected by <xref ref="x8nulloplusran"/>.
         </p>
       </statement>
     </example>
@@ -236,13 +236,13 @@
       holds for every self-adjoint operator if
       <m>\F{} = \R{}</m> and for every normal operator if
       <m>\F{} = \C{}</m> because operators of those types have enough eigenvectors to form a basis of <m>V</m>
-      (see <xref ref="x86"/> and <xref ref="x85"></xref>).
+      (see <xref ref="x86"/> and <xref ref="x85"/>).
     </p>
     <p>
       However, a decomposition of the <xref ref="x429">form</xref>
       may not hold for more general operators,
       even on a complex vector space.
-      An example was given by the operator in <xref ref="x428"></xref>,
+      An example was given by the operator in <xref ref="x428"/>,
       which does not have enough eigenvectors <xref ref="x429">for</xref> to hold.
       Generalized eigenvectors and generalized eigenspaces,
       which we now introduce, will remedy this situation.
@@ -276,7 +276,7 @@
       <md>
         (T - \lambda I)^{\dim V} v = 0,
       </md>
-      as follows from <xref ref="x76">applying</xref> and <xref ref="x23"></xref>
+      as follows from <xref ref="x76">applying</xref> and <xref ref="x23"/>
       to the operator <m>T  - \lambda I</m>.
     </p>
     <p>
@@ -332,7 +332,7 @@
       </p>
       <p>
         Furthermore,
-        <m>\ran(T - \lambda I)^n</m> is invariant under <m>T</m> [by <xref ref="x130"></xref>
+        <m>\ran(T - \lambda I)^n</m> is invariant under <m>T</m> [by <xref ref="x130"/>
         with <m>p(z) = (z - \lambda)^n</m>] . Let
         <m>S \in \Lc( \ran(T - \lambda I)^n )</m> equal <m>T</m> restricted to <m>\ran(T - \lambda I)^n{}</m>.
         Our induction hypothesis applied to the operator <m>S</m> implies that there is a basis of
@@ -367,7 +367,7 @@
         </p>
         <p>
           We compute that <m>T^3(z_1, z_2, z_3) = (0, 0, 125 z_3)</m>.
-          Thus <xref ref="x76"/> and <xref ref="x23"></xref>
+          Thus <xref ref="x76"/> and <xref ref="x23"/>
           imply that the generalized eigenvectors of <m>T</m> corresponding to the eigenvalue <m>0</m> are the nonzero vectors of the form <m>(z_1, z_2, 0)</m>.
         </p>
         <p>
@@ -377,7 +377,7 @@
         <p>
           The paragraphs above show that each of the standard basis vectors of <m>\C3</m> is a generalized eigenvector of <m>T{}</m>.
           Thus <m>\C3</m> indeed has a basis consisting of generalized eigenvectors of <m>T{}</m>,
-          as promised by <xref ref="x28"></xref>.
+          as promised by <xref ref="x28"/>.
         </p>
       </statement>
     </example>
@@ -484,7 +484,7 @@
           (T - \lambda_m I)^n v_1, \ldots, (T - \lambda_m I)^n v_{m-1}
         </md>
         is a linearly dependent list
-        (by <xref ref="x8gene"></xref>)
+        (by <xref ref="x8gene"/>)
         of <m>m-1</m> generalized eigenvectors corresponding to distinct eigenvalues,
         contradicting the minimality of <m>m</m>.
         This contradiction completes the proof.
@@ -572,7 +572,7 @@
         Because <m>T</m> is nilpotent,
         there exists a positive integer <m>k</m> such that <m>T^k = 0</m>.
         Thus <m>\ker T^k = V{}</m>.
-        Now <xref ref="x76"/> and <xref ref="x23"></xref>
+        Now <xref ref="x76"/> and <xref ref="x23"/>
         imply that <m>\ker T^{\dim V} = V{}</m>.
         Thus <m>T^{\dim V} = 0</m>.
       </p>
@@ -688,11 +688,11 @@
       <p>
         Now suppose (b) holds,
         so the minimal polynomial of <m>T</m> is <m>z^m</m> for some positive integer <m>m</m>.
-        This implies, by <xref ref="x136"></xref>(a),
+        This implies, by <xref ref="x136"/>(a),
         that <m>0</m> \big(which is the only zero of <m>z^m</m>\big) is the only eigenvalue of <m>T{}</m>.
-        This further implies, by <xref ref="x5necsuf"></xref>,
+        This further implies, by <xref ref="x5necsuf"/>,
         that there is a basis of <m>V</m> with respect to which the matrix of <m>T</m> is upper triangular.
-        This also implies, by <xref ref="a221"></xref>,
+        This also implies, by <xref ref="a221"/>,
         that all entries on the diagonal of this matrix are <m>0</m>,
         proving that (b) implies<nbsp/>(c).
       </p>
@@ -719,7 +719,7 @@
             Suppose <m>T \in \Lc(V)</m>, <m>m</m> is a positive integer,
             <m>v \in V</m>, and <m>T^{m-1} v \ne 0</m> but <m>T^m v = 0</m>.
             Prove that <m>v, Tv, T^2 v, \dots, T^{m-1} v</m> is linearly independent.
-            Note: The result in this exercise is used in the proof of <xref ref="x452"></xref>.
+            Note: The result in this exercise is used in the proof of <xref ref="x452"/>.
           </p>
         </statement>
       </exercise>
@@ -824,7 +824,7 @@
             Prove that there is a basis of <m>V</m> consisting of generalized eigenvectors of <m>T</m> if and only if the minimal polynomial of <m>T</m> equals
             <m>(z-\lambda_1) \cdots (z-\lambda_m)</m> for some <m>\lambda_1, \ldots, \lambda_m \in \F{}{}</m>.
                 <idx><h>minimal polynomial</h><h>and basis of generalized eigenvectors</h></idx>
-            Note: Assume <m>\F{} = \R{}</m> because the case <m>\F{} = \C{}</m> follows from <xref ref="x136"></xref> (b) and <xref ref="x28"></xref>.
+            Note: Assume <m>\F{} = \R{}</m> because the case <m>\F{} = \C{}</m> follows from <xref ref="x136"/> (b) and <xref ref="x28"/>.
           </p>
           <p>
             This exercise states that the condition for there to be a basis of <m>V</m> consisting of generalized eigenvectors of <m>T</m> is the same as the condition for there to be a basis with respect to which <m>T</m> has an upper-triangular matrix
@@ -872,7 +872,7 @@
             Prove that <m>T</m> is diagonalizable if and only if every generalized eigenvector of<nbsp/><m>T</m> is an eigenvector of<nbsp/><m>T{}</m>.
                 <idx><h>diagonalizable</h></idx>
             Note: For <m>\F{} = \C{}</m>,
-            this exercise adds another equivalence to the list of conditions for diagonalizability in <xref ref="x427"></xref>.
+            this exercise adds another equivalence to the list of conditions for diagonalizability in <xref ref="x427"/>.
           </p>
         </statement>
       </exercise>
@@ -970,7 +970,7 @@
           <p>
             Give an example of an operator <m>T</m> on a finite-dimensional real vector space such that <m>0</m> is the only eigenvalue of <m>T</m> but <m>T</m> is not nilpotent.
             Note: This exercise shows that the implication (b)
-            <m>\implies</m> (a) in <xref ref="x8eignil"></xref>
+            <m>\implies</m> (a) in <xref ref="x8eignil"/>
             does not hold without the hypothesis that <m>\F{} = \C{}</m>.
           </p>
         </statement>
@@ -979,7 +979,7 @@
         <statement>
           <p>
             For each item in <xref ref="x8nil">Example</xref>,
-            find a basis of the domain vector space such that the matrix of the nilpotent operator with respect to that basis has the upper-triangular form promised by <xref ref="a33"></xref>(c).
+            find a basis of the domain vector space such that the matrix of the nilpotent operator with respect to that basis has the upper-triangular form promised by <xref ref="a33"/>(c).
           </p>
         </statement>
       </exercise>
@@ -987,7 +987,7 @@
         <statement>
           <p>
             Suppose that <m>V</m> is an inner product space and <m>T \in \Lc(V)</m> is nilpotent.
-            Show that there is an orthonormal basis of <m>V</m> with respect to which the matrix of <m>T</m> has the upper-triangular form promised by <xref ref="a33"></xref>(c).
+            Show that there is an orthonormal basis of <m>V</m> with respect to which the matrix of <m>T</m> has the upper-triangular form promised by <xref ref="a33"/>(c).
           </p>
         </statement>
       </exercise>

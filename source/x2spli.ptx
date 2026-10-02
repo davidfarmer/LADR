@@ -161,12 +161,12 @@
       </p>
       <p>
         Thus <m>\Span (v_1, \dots, v_m)</m> is a subspace of <m>V</m>
-        (by <xref ref="subspace"></xref>).
+        (by <xref ref="subspace"/>).
       </p>
       <p>
         Each <m>v_k</m> is a linear combination of <m>v_1, \dots, v_m</m>
         (to show this,
-        set <m>a_k = 1</m> and let the other <m>a</m>'s in <xref ref="x433"></xref> equal<nbsp/><m>0</m>).
+        set <m>a_k = 1</m> and let the other <m>a</m>'s in <xref ref="x433"/> equal<nbsp/><m>0</m>).
         Thus <m>\Span (v_1, \dots, v_m)</m> contains each<nbsp/><m>v_k</m>.
         Conversely, because subspaces are closed under scalar multiplication and addition,
         every subspace of <m>V</m> that contains each <m>v_k</m> contains <m>\Span (v_1, \dots,
@@ -454,7 +454,7 @@
               </md>
               for all <m>z \in \F{}{}</m>.
               As discussed earlier
-              (and as follows from <xref ref="x4polyzero"></xref>),
+              (and as follows from <xref ref="x4polyzero"/>),
               this implies that <m>a_0 = a_1 = \dots = a_m = 0</m>.
               Thus <m>1, z, \dots,
               z^m</m> is a linearly independent list in <m>\P(\F{})</m>.
@@ -608,7 +608,7 @@
       </p>
       <p>
         In the equation above,
-        we can replace <m>v_k</m> with the right side of <xref ref="x5"></xref>,
+        we can replace <m>v_k</m> with the right side of <xref ref="x5"/>,
         which shows that <m>u</m> is in the span of the list obtained by removing the <m>k^\nth</m> term from <m>v_1, \dots, v_m</m>.
         Thus removing the <m>k^\nth</m> term of the list
         <m>v_1, \dots,
@@ -836,7 +836,7 @@
         Thus after each step we have constructed a linearly independent list,
         by the linear dependence lemma <xref ref="x4"/>.
         This linearly independent list cannot be longer than any spanning list of <m>V</m>
-        (by <xref ref="x7"></xref>).
+        (by <xref ref="x7"/>).
         Thus the process eventually terminates,
         which means that <m>U</m> is finite-dimensional.
       </p>

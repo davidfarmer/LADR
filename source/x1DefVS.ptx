@@ -403,10 +403,10 @@
   </theorem>
   <aside>
     <p>
-      The result in <xref ref="x64"></xref>
+      The result in <xref ref="x64"/>
       involves the additive identity of <m>V</m> and scalar multiplication.
       The only part of the definition of a vector space that connects vector addition and scalar multiplication is the distributive property.
-      Thus the distributive property must be used in the proof of <xref ref="x64"></xref>.
+      Thus the distributive property must be used in the proof of <xref ref="x64"/>.
     </p>
   </aside>
   <p>
@@ -428,8 +428,8 @@
     In the next result,
     <m>0</m> denotes the additive identity of <m>V{}</m>.
     Although their proofs are similar,
-    <xref ref="x64"></xref> and <xref ref="x65"></xref> are not identical.
-    More precisely, <xref ref="x64"></xref>
+    <xref ref="x64"/> and <xref ref="x65"/> are not identical.
+    More precisely, <xref ref="x64"/>
     states that the product of the scalar <m>0</m> and any vector equals the vector<nbsp/><m>0</m>,
     <xref ref="x65">whereas</xref> states that the product of any scalar and the vector <m>0</m> equals the vector <m>0</m>.
   </p>

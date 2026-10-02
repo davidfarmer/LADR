@@ -233,7 +233,7 @@
       <p>
         Conditions (a) and (b) are equivalent because the equation
         <m>Tv = \lambda v</m> is equivalent to the equation <m>(T - \lambda I)v = 0</m>.
-        Conditions (b), (c), and (d) are equivalent by <xref ref="x18"></xref>.
+        Conditions (b), (c), and (d) are equivalent by <xref ref="x18"/>.
       </p>
     </proof>
     <definition>
@@ -288,7 +288,7 @@
                   -z = \lambda^2 z.
                 </md>
                 Now <m>z</m> cannot equal <m>0</m>  [<xref ref="x118">otherwise</xref> implies that <m>w = 0</m>;
-                we are looking for solutions to <xref ref="x118"></xref>
+                we are looking for solutions to <xref ref="x118"/>
                 such that <m>(w, z)</m> is not the <m>0</m> vector] , so the equation above leads to the equation
                 <md>
                   -1 = \lambda^2{}.

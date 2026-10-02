@@ -63,7 +63,7 @@
       </statement>
     </example>
     <p>
-      The next result should be interpreted to mean that the product of vector spaces is a vector space with the operations of addition and scalar multiplication as defined by <xref ref="x3prod"></xref>.
+      The next result should be interpreted to mean that the product of vector spaces is a vector space with the operations of addition and scalar multiplication as defined by <xref ref="x3prod"/>.
     </p>
     <theorem>
       <title>product of vector spaces is a vector space</title>
@@ -125,7 +125,7 @@
       </statement>
     </example>
     <p>
-      The next example illustrates the idea that we will use in the proof of <xref ref="x3dimproduct"></xref>.
+      The next example illustrates the idea that we will use in the proof of <xref ref="x3dimproduct"/>.
     </p>
     <example>
       <title>a basis of  <m>\P_2(\R) \times \R2</m></title>
@@ -214,7 +214,7 @@
     </theorem>
     <proof>
       <p>
-        The map <m>\Gamma</m> in <xref ref="productsum"></xref> is surjective.
+        The map <m>\Gamma</m> in <xref ref="productsum"/> is surjective.
         Thus by the fundamental theorem of linear maps <xref ref="x3ab11"/>, <m>\Gamma</m> is injective if and only if
         <md>
           \dim(V{}_1 + \dots + V{}_m) = \dim (V{}_1 \times \dots \times V{}_m).
@@ -222,7 +222,7 @@
       </p>
       <p>
         <xref ref="productsum">Combining</xref>
-        and <xref ref="x3dimproduct"></xref>
+        and <xref ref="x3dimproduct"/>
         now shows that <m>V{}_1 + \dots + V{}_m</m> is a direct sum if and only if
         <md>
           \dim(V{}_1 + \dots + V{}_m) = \dim V{}_1 + \dots + \dim V{}_m,
@@ -233,7 +233,7 @@
     <p>
       In the special case <m>m = 2</m>,
       an alternative proof that <m>V{}_1 + V{}_2</m> is a direct sum if and only if
-      <m>\dim(V{}_1 + V{}_2) = \dim V{}_1 + \dim V{}_2</m> can be obtained by <xref ref="x219">combining</xref> and <xref ref="x128"></xref>.
+      <m>\dim(V{}_1 + V{}_2) = \dim V{}_1 + \dim V{}_2</m> can be obtained by <xref ref="x219">combining</xref> and <xref ref="x128"/>.
     </p>
   </subsection>
   <subsection>
@@ -555,7 +555,7 @@
         Let <m>\pi</m> denote the quotient map from <m>V</m> to <m>V{}/U</m>.
         If <m>v \in V{}</m>,
         then <m>v + U = 0 + U</m> if and only if <m>v \in U</m>
-        (by <xref ref="equalordisjoint"></xref>),
+        (by <xref ref="equalordisjoint"/>),
         which implies that <m>\ker \pi = U</m>.
         The definition of <m>\pi</m> implies <m>\ran \pi = V{}/U</m>.
         The fundamental theorem of linear maps <xref ref="x3ab11"/> now implies <m>\dim V = \dim U + \dim V{}/U</m>,

@@ -160,7 +160,7 @@
       </p>
       <p>
         Because <m>\ran q(T)</m> is invariant under <m>T</m>
-        (by <xref ref="x130"></xref>),
+        (by <xref ref="x130"/>),
         we can apply our induction hypothesis to the operator
         <m>T|_{\ran q(T)}</m> on the vector space <m>\ran q(T)</m>.
         Thus there is a monic polynomial <m>s \in \P(\F{})</m> with
@@ -369,7 +369,7 @@
       (see <xref ref="x4polyzero"/>).
       Thus (a) of the previous result,
       along with the result that the minimal polynomial of an operator on <m>V</m> has degree at most <m>\dim V{}</m>,
-      gives an alternative proof of <xref ref="x279"></xref>,
+      gives an alternative proof of <xref ref="x279"/>,
       which states that an operator on <m>V</m> has at most <m>\dim V</m> distinct eigenvalues.
     </p>
     <p>
@@ -400,7 +400,7 @@
           No zero of the polynomial above can be expressed using rational numbers,
           roots of rational numbers,
           and the usual rules of arithmetic (a proof of this would take us considerably beyond linear algebra).
-          Because the zeros of the polynomial above are the eigenvalues of <m>T</m> [by <xref ref="x136"></xref>(a)] , we cannot find an exact expression for any eigenvalue of<nbsp/><m>T</m> in any familiar form.
+          Because the zeros of the polynomial above are the eigenvalues of <m>T</m> [by <xref ref="x136"/>(a)] , we cannot find an exact expression for any eigenvalue of<nbsp/><m>T</m> in any familiar form.
         </p>
         <p>
           Numeric techniques, which we will not discuss here,
@@ -530,8 +530,8 @@
           <mrow>\amp \iff 0 \text{ is a zero of }  p</mrow>
           <mrow>\amp \iff \text{ the constant term of }  p \text{ is }  0</mrow>
         </md>,
-        where the first equivalence holds by <xref ref="eigenequiv"></xref>,
-        the second equivalence holds by <xref ref="x136"></xref>(a),
+        where the first equivalence holds by <xref ref="eigenequiv"/>,
+        the second equivalence holds by <xref ref="x136"/>(a),
         and the last equivalence holds because the constant term of <m>p</m> equals <m>p(0)</m>.
       </p>
     </proof>
@@ -556,7 +556,7 @@
     <proof>
       <p>
         Recall that <m>\ker ( T^2 + bT + cI )</m> is invariant under <m>T</m>
-        (by <xref ref="x130"></xref>).
+        (by <xref ref="x130"/>).
         By replacing <m>V</m> with
         <m>\ker ( T^2 + bT + cI )</m> and replacing <m>T</m> with <m>T</m> restricted to <m>\ker ( T^2 + bT + cI )</m>,
         we can assume that <m>T^2 + bT + cI = 0</m>;
@@ -631,7 +631,7 @@
         Let <m>p</m> denote the minimal polynomial of <m>T{}</m>.
         If <m>p</m> is a polynomial multiple of
         <m>x-\lambda</m> for some <m>\lambda \in \R{}</m>,
-        then <m>\lambda</m> is an eigenvalue of <m>T</m> [by <xref ref="x136"></xref>(a)] and we are done.
+        then <m>\lambda</m> is an eigenvalue of <m>T</m> [by <xref ref="x136"/>(a)] and we are done.
         Thus we can assume that there exist
         <m>b,
         c \in \R{}</m> such that <m>b^2 \lt 4c</m> and <m>p</m> is a polynomial multiple of <m>x^2 + bx + c</m>
@@ -658,12 +658,12 @@
         Because <m>\dim V</m> is odd
         (by hypothesis)
         and <m>\dim \ker( T^2 + bT + cI )</m> is even
-        (by <xref ref="x5evennull"></xref>),
+        (by <xref ref="x5evennull"/>),
         the equation above shows that <m>\dim \ran( T^2 + bT + cI )</m> is odd.
       </p>
       <p>
         Hence <m>\ran( T^2 + bT + cI )</m> is a subspace of <m>V</m> that is invariant under <m>T</m>
-        (by <xref ref="x130"></xref>)
+        (by <xref ref="x130"/>)
         and that has odd dimension less than <m>\dim V</m>.
         Our induction hypothesis now implies that <m>T</m> restricted to <m>\ran( T^2 + bT + cI )</m> has an eigenvalue,
         which means that <m>T</m> has an eigenvalue.
@@ -896,7 +896,7 @@
             Note: The matrix above is called the
             <term>companion matrix</term> of the polynomial above.
             This exercise shows that every monic polynomial is the minimal polynomial of some operator.
-            Hence a formula or an algorithm that could produce exact eigenvalues for each operator on each <m>\F n</m> could then produce exact zeros for each polynomial [by <xref ref="x136"></xref>
+            Hence a formula or an algorithm that could produce exact eigenvalues for each operator on each <m>\F n</m> could then produce exact zeros for each polynomial [by <xref ref="x136"/>
             (a) ] . Thus there is no such formula or algorithm.
             However, efficient numeric methods exist for obtaining very good approximations for the eigenvalues of an operator.
           </p>

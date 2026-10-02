@@ -128,7 +128,7 @@
         for each <m>k</m>.
         Because <m>T{}_k/\lambda_k</m> is nilpotent,
         <m>I + T{}_k/\lambda_k</m> has a square root
-        (by <xref ref="x196"></xref>).
+        (by <xref ref="x196"/>).
         Multiplying a square root of the complex number
         <m>\lambda_k</m> by a square root of <m>I + T{}_k/\lambda_k</m>,
         we obtain a square root <m>R_k</m> of<nbsp/><m>T|_{G(\lambda_k, T)}</m>.
@@ -388,13 +388,13 @@
       </p>
       <p>
         Thus <m>U \oplus W = V</m>
-        (by <xref ref="x2subfull"></xref>),
+        (by <xref ref="x2subfull"/>),
         completing the proof.
       </p>
     </proof>
     <aside>
       <p>
-        Camille Jordan (1838<ndash/>1922) published a proof of <xref ref="x398"></xref> in 1870.
+        Camille Jordan (1838<ndash/>1922) published a proof of <xref ref="x398"/> in 1870.
       </p>
     </aside>
     <p>

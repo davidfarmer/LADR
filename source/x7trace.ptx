@@ -105,11 +105,11 @@
         <mrow>\amp  = \tr ( (  C C^{-1}  ) B )</mrow>
         <mrow>\amp  = \tr B</mrow>
       </md>,
-      where the second line comes from <xref ref="x304"></xref>.
+      where the second line comes from <xref ref="x304"/>.
     </p>
   </proof>
   <p>
-    Because of <xref ref="x8trbasis"></xref>,
+    Because of <xref ref="x8trbasis"/>,
     the following definition now makes sense.
   </p>
   <definition>
@@ -205,7 +205,7 @@
         The sum of these eigenvalues,
         each included as many times as its multiplicity,
         is <m>1 + (2 + 3i) + (2 - 3i)</m>,
-        which equals <m>5</m>, as expected by <xref ref="x9sumeigen"></xref>.
+        which equals <m>5</m>, as expected by <xref ref="x9sumeigen"/>.
       </p>
     </statement>
   </example>
@@ -294,7 +294,7 @@
         \tr(\lambda T) = \tr \M(\lambda T) = \tr (  \lambda \M(T)  ) = \lambda \tr \M(T) = \lambda \tr T,
       </md>
       where the first and last equalities come from the definition of the trace of an operator,
-      the second equality comes from <xref ref="x102"></xref>,
+      the second equality comes from <xref ref="x102"/>,
       and the third equality follows from the definition of the trace of a square matrix.
     </p>
     <p>
@@ -303,7 +303,7 @@
         \tr (S + T) = \tr \M(S + T) = \tr \bigl( \M(S) + \M(T) \bigr) = \tr \M(S) + \tr \M(T) = \tr S + \tr T,
       </md>
       where the first and last equalities come from the definition of the trace of an operator,
-      the second equality comes from <xref ref="x101"></xref>,
+      the second equality comes from <xref ref="x101"/>,
       and the third equality follows from the definition of the trace of a square matrix.
       The two paragraphs above show that
       <m>\fun {\tr} {\Lc(V)} {\F{}}</m> is a linear functional on <m>\Lc(V)</m>.
@@ -313,8 +313,8 @@
       <md>
         \tr(ST) {}={} \tr \M(ST) {}={}\tr \bigl(\M(S) \M(T) \bigr) {}={} \tr \bigl(\M(T) \M(S) \bigr) {}={} \tr \M(TS) {}={} \tr(TS),
       </md>
-      where the second and fourth equalities come from <xref ref="x3matproduct"></xref>
-      and the crucial third equality comes from <xref ref="x304"></xref>.
+      where the second and fourth equalities come from <xref ref="x3matproduct"/>
+      and the crucial third equality comes from <xref ref="x304"/>.
     </p>
   </proof>
   <p>
@@ -353,7 +353,7 @@
       <md>
         \tr(ST - TS) = \tr(ST) - \tr(TS) = 0,
       </md>
-      where both equalities come from <xref ref="x372"></xref>.
+      where both equalities come from <xref ref="x372"/>.
       The trace of <m>I</m> equals <m>\dim V{}</m>,
       which is not<nbsp/><m>0</m>.
       Because <m>ST - TS</m> and <m>I</m> have different traces,
@@ -527,10 +527,10 @@
         </p>
         <p>
           Note: Caution: The norm of a linear map
-          <m>T \in \Lc(V{}, W)</m> as defined by <xref ref="x7norm"></xref>
+          <m>T \in \Lc(V{}, W)</m> as defined by <xref ref="x7norm"/>
           is not the same as the norm that comes from the inner product in (a) above.
           Unless explicitly stated otherwise,
-          always assume that <m>\lVert T \rVert</m> refers to the norm as defined by <xref ref="x7norm"></xref>.
+          always assume that <m>\lVert T \rVert</m> refers to the norm as defined by <xref ref="x7norm"/>.
           The norm that comes from the inner product in (a) is called the
           <term>Frobenius norm</term>
           or the <term>Hilbert<ndash/>Schmidt norm</term>.

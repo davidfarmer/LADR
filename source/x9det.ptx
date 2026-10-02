@@ -136,7 +136,7 @@
             <p>
               If <m>I</m> is the <m>n</m>-by-<m>n</m> identity matrix,
               then the corresponding operator on <m>\F n</m> is the identity operator <m>I</m> on <m>\FF n</m>.
-              Thus the first bullet point of <xref ref="x9detops"></xref>
+              Thus the first bullet point of <xref ref="x9detops"/>
               implies that the determinant of the identity matrix is <m>1</m>.
             </p>
           </li>
@@ -145,7 +145,7 @@
               Suppose <m>A</m> is a diagonal matrix with <m>\lambda_1, \ldots, \lambda_n</m> on the diagonal.
               Then the corresponding operator on <m>\F n</m> has the standard basis of <m>\F n</m> as eigenvectors,
               with eigenvalues <m>\lambda_1, \ldots, \lambda_n</m>.
-              Thus the last bullet point of <xref ref="x9detops"></xref>
+              Thus the last bullet point of <xref ref="x9detops"/>
               implies that <m>\det A = \lambda_1 \cdots \lambda_n</m>.
             </p>
           </li>
@@ -229,14 +229,14 @@
         e_n</m> the standard basis of <m>\F n</m> and <m>\alpha</m> the alternating <m>n</m>-linear form on <m>\F n</m> that takes
         <m>v_1, \ldots,
         v_n</m> to <m>\det \begin{pmatrix}v_1 \amp  \cdots \amp  v_n \end{pmatrix}</m> [see <xref ref="x9detalt"/>]. If each <m>v_k</m> is the <m>k^\nth</m> column of <m>A</m>,
-        then each <m>b_{j,k}</m> in <xref ref="x11altform"></xref> equals <m>A_{j,k}</m>.
+        then each <m>b_{j,k}</m> in <xref ref="x11altform"/> equals <m>A_{j,k}</m>.
         Finally,
         <md>
           \alpha (e_1, \ldots, e_n) = \det \begin{pmatrix}e_1 \amp  \cdots \amp  e_n \end{pmatrix}  = \det I = 1.
         </md>
       </p>
       <p>
-        Thus the formula in <xref ref="x11altform"></xref>
+        Thus the formula in <xref ref="x11altform"/>
         becomes the formula stated in this result.
       </p>
     </proof>
@@ -248,7 +248,7 @@
           <li>
             <p>
               If <m>A</m> is a <m>2</m>-by-<m>2</m> matrix,
-              then the formula in <xref ref="x9detformula"></xref> becomes
+              then the formula in <xref ref="x9detformula"/> becomes
               <md>
                 \det A = A_{1,1} A_{2,2} - A_{2,1} A_{1,2}.
               </md>
@@ -257,7 +257,7 @@
           <li>
             <p>
               If <m>A</m> is a <m>3</m>-by-<m>3</m> matrix,
-              then the formula in <xref ref="x9detformula"></xref> becomes
+              then the formula in <xref ref="x9detformula"/> becomes
               <md>
                 <mrow>\det A = \amp A_{1,1} A_{2,2} A_{3,3} - A_{2,1} A_{1,2} A_{3,3} - A_{3,1} A_{2,2} A_{1,3}</mrow>
                 <mrow>\amp  {}- A_{1,1} A_{3,2} A_{2,3} + A_{3,1} A_{1,2} A_{2,3} + A_{2,1} A_{3,2} A_{1,3}</mrow>
@@ -269,14 +269,14 @@
       </statement>
     </example>
     <p>
-      The sum in the formula in <xref ref="x9detformula"></xref> contains <m>n!</m> terms.
+      The sum in the formula in <xref ref="x9detformula"/> contains <m>n!</m> terms.
       Because <m>n!</m> grows rapidly as <m>n</m> increases,
-      the formula in <xref ref="x9detformula"></xref>
+      the formula in <xref ref="x9detformula"/>
       is not a viable method to evaluate determinants even for moderately sized <m>n</m>.
       For example, <m>10!</m> is over three million,
       and <m>100!</m> is approximately <m>10^{158}</m>,
       leading to a sum that the fastest computer cannot evaluate.
-      We will soon see some results that lead to faster evaluations of determinants than direct use of the sum in <xref ref="x9detformula"></xref>.
+      We will soon see some results that lead to faster evaluations of determinants than direct use of the sum in <xref ref="x9detformula"/>.
     </p>
     <theorem xml:id="x9detupper">
       <title>determinant of upper-triangular matrix</title>
@@ -294,7 +294,7 @@
         then <m>j_k > k</m> for some
         <m>k \in \{ 1, \ldots,
         n \}</m>, which implies that <m>A_{j_k, k} = 0</m>.
-        Thus the only permutation that can make a nonzero contribution to the sum in <xref ref="x9detformula"></xref>
+        Thus the only permutation that can make a nonzero contribution to the sum in <xref ref="x9detformula"/>
         is the permutation <m>(1, \ldots, n)</m>.
         Because <m>A_{k, k} = \lambda_k</m> for each <m>k = 1, \ldots, n</m>,
         this implies that <m>\det A = \lambda_1 \cdots \lambda_n</m>.
@@ -400,7 +400,7 @@
         Let <m>v, e_2, \ldots, e_n</m> be a basis of <m>V</m> and let
         <m>\alpha  \in V^{(n)}_{\text{ alt } }</m> be such that <m>\alpha  \ne 0</m>.
         Then <m>\alpha (v, e_2, \ldots, e_n) \ne 0</m>
-        (by <xref ref="x9altli"></xref>).
+        (by <xref ref="x9altli"/>).
         Now
         <md>
           \alpha (Tv, Te_2, \ldots, Te_n) = (\det T) \alpha (v, e_2, \ldots, e_n) \ne 0.
@@ -433,7 +433,7 @@
         (see <xref ref="eigenequiv"/>),
         which happens if and only if <m>\lambda I - T</m> is not invertible,
         which happens if and only if <m>\det(\lambda I - T) = 0</m>
-        (by <xref ref="x9nonzero"></xref>).
+        (by <xref ref="x9nonzero"/>).
       </p>
     </proof>
     <p>
@@ -441,7 +441,7 @@
       <m>\fun S W V</m> is an invertible linear map.
       To prove that <m>\det(  S^{-1} T S  ) = \det T</m>,
       we could try to use <xref ref="x9detmult"/>
-      and <xref ref="x9nonzero"></xref>, writing
+      and <xref ref="x9nonzero"/>, writing
       <md>
         <mrow>\det(  S^{-1} T S  )\amp = (  \det S^{-1}  ) (\det T) (\det S)</mrow>
         <mrow>\amp = \det T{}</mrow>
@@ -525,20 +525,20 @@
         <md number="yes" xml:id="x9matprod">
           \M(  S^{-1} T S, (f_1, \ldots, f_n)  ) = \M(  T, (e_1, \ldots, e_n)  ),
         </md>
-        as follows from two applications of <xref ref="x3matproduct"></xref>.
+        as follows from two applications of <xref ref="x3matproduct"/>.
         Thus
         <md>
           <mrow>\det T \amp = \det( S^{-1} T S  )</mrow>
           <mrow>\amp = \det \M(  S^{-1} T S, (f_1, \ldots, f_n)  )</mrow>
           <mrow>\amp = \det \M(  T, (e_1, \ldots, e_n)  )</mrow>
         </md>,
-        where the first line comes from <xref ref="x9sim"></xref>,
+        where the first line comes from <xref ref="x9sim"/>,
         the second line comes from the definition of the determinant of a matrix,
-        and the third line follows from <xref ref="x9matprod"></xref>.
+        and the third line follows from <xref ref="x9matprod"/>.
       </p>
     </proof>
     <p>
-      The next result gives a more intuitive way to think about determinants than the definition or the formula in <xref ref="x9detformula"></xref>.
+      The next result gives a more intuitive way to think about determinants than the definition or the formula in <xref ref="x9detformula"/>.
       We could make the characterization in the result below the definition of the determinant of an operator on a finite-dimensional complex vector space,
       with the current definition then becoming a consequence of that definition.
     </p>
@@ -557,7 +557,7 @@
         There is a basis of <m>V</m> with respect to which <m>T</m> has an upper-triangular matrix with the diagonal entries of the matrix consisting of the eigenvalues of <m>T{}</m>,
         with each eigenvalue included as many times as its multiplicity<mdash/>see <xref ref="x187"/>.
         Thus <xref ref="x9detopmat"/>
-        and <xref ref="x9detupper"></xref>
+        and <xref ref="x9detupper"/>
         imply that <m>\det T</m> equals the product of the eigenvalues of <m>T{}</m>,
         with each eigenvalue included as many times as its multiplicity.
       </p>
@@ -609,7 +609,7 @@
               \alpha  (  v_1, \ldots,  v_n ) = \det (  \tran{\begin{pmatrix}v_1 \amp  \cdots \amp  v_n \end{pmatrix}  }  )
             </md>
             for all <m>v_1, \ldots, v_n \in \FF n</m>.
-            The formula in <xref ref="x9detformula"></xref>
+            The formula in <xref ref="x9detformula"/>
             for the determinant of a matrix shows that <m>\alpha</m> is an <m>n</m>-linear form on <m>\FF n</m>.
             Suppose <m>v_1, \ldots, v_n \in \F n</m> and
             <m>v_j = v_k</m> for some <m>j \ne k</m>.
@@ -620,24 +620,24 @@
             Hence <m>\alpha</m> is an alternating <m>n</m>-linear form on <m>\FF n</m>.
             Note that <m>\alpha</m> applied to the standard basis of <m>\F n</m> equals <m>1</m>.
             Because the vector space of alternating <m>n</m>-linear forms on <m>\F n</m> has dimension one
-            (by <xref ref="x9dimone"></xref>),
+            (by <xref ref="x9dimone"/>),
             this implies that <m>\alpha</m> is the determinant function.
             Thus (a) holds.
           </p>
         </li>
         <li>
           <p>
-            The equation <m>\det T' = \det T{}</m> follows from (a) and <xref ref="x9detopmat"></xref>
-            and <xref ref="x3matrixTprime"></xref>.
+            The equation <m>\det T' = \det T{}</m> follows from (a) and <xref ref="x9detopmat"/>
+            and <xref ref="x3matrixTprime"/>.
           </p>
         </li>
         <li>
           <p>
             Pick an orthonormal basis of <m>V{}</m>.
             The matrix of <m>T^*</m> with respect to that basis is the conjugate transpose of the matrix of <m>T</m> with respect to that basis
-            (by <xref ref="x406"></xref>).
+            (by <xref ref="x406"/>).
             Thus <xref ref="x9detopmat"/>,
-            <xref ref="x9detformula"></xref>,
+            <xref ref="x9detformula"/>,
             and (a) imply that <m>\det ( T^* ) = \overline{\det T}{}</m>.
           </p>
         </li>
@@ -689,7 +689,7 @@
         v_n \mapsto \det \begin{pmatrix}v_1 \amp \cdots \amp v_n \end{pmatrix}</m> and
         <m>v_1, \ldots,
         v_n \mapsto \det \tran{\begin{pmatrix}v_1 \amp \cdots \amp v_n \end{pmatrix} }</m> are both alternating <m>n</m>-linear forms on <m>\FF n</m> [see <xref ref="x9detalt"/>
-        and <xref ref="detTdual"></xref>(a)] .
+        and <xref ref="detTdual"/>(a)] .
       </p>
       <p>
         For example, to prove (d) suppose
@@ -707,29 +707,29 @@
         Thus (d) holds.
       </p>
       <p>
-        The proof of (e) follows from (d) and from <xref ref="detTdual"></xref>(a).
+        The proof of (e) follows from (d) and from <xref ref="detTdual"/>(a).
         The proofs of (a), (b),
         and (c) use similar tools and are left to the reader.
       </p>
     </proof>
     <p>
       For matrices whose entries are concrete numbers,
-      the result above leads to a much faster way to evaluate the determinant than direct application of the formula in <xref ref="x9detformula"></xref>.
+      the result above leads to a much faster way to evaluate the determinant than direct application of the formula in <xref ref="x9detformula"/>.
           <idx><h>Gaussian elimination</h></idx>
       Specifically,
-      apply the Gaussian elimination procedure of swapping rows [by <xref ref="x9helpful"></xref>(b),
-      this changes the determinant by a factor of <m>-1</m>] , multiplying a row by a nonzero constant [by <xref ref="x9helpful"></xref>(c),
-      this changes the determinant by the same constant] , and adding a multiple of one row to another row [by <xref ref="x9helpful"></xref>(e),
+      apply the Gaussian elimination procedure of swapping rows [by <xref ref="x9helpful"/>(b),
+      this changes the determinant by a factor of <m>-1</m>] , multiplying a row by a nonzero constant [by <xref ref="x9helpful"/>(c),
+      this changes the determinant by the same constant] , and adding a multiple of one row to another row [by <xref ref="x9helpful"/>(e),
       this does not change the determinant] to produce an upper-triangular matrix,
       whose determinant is the product of the diagonal entries
-      (by <xref ref="x9detupper"></xref>).
+      (by <xref ref="x9detupper"/>).
       If your software keeps track of the number of row swaps and of the constants used when multiplying a row by a constant,
       then the determinant of the original matrix can be computed.
     </p>
     <p>
       Because a number <m>\lambda \in \F{}</m> is an eigenvalue of an operator
       <m>T \in \Lc(V)</m> if and only if <m>\det(\lambda I - T) = 0</m>
-      (by <xref ref="x9eigdet"></xref>),
+      (by <xref ref="x9eigdet"/>),
       you may be tempted to think that one way to find eigenvalues quickly is to choose a basis of <m>V{}</m>,
       let <m>A = \M(T)</m>, evaluate <m>\det(\lambda I - A)</m>,
       and then solve the equation <m>\det(\lambda I - A) = 0</m> for <m>\lambda</m>.
@@ -747,11 +747,11 @@
       (see <xref ref="x7unitaryop"/>
       and the paragraph following it).
       Every eigenvalue of a unitary operator has absolute value <m>1</m>
-      (by <xref ref="EigUnitary"></xref>).
+      (by <xref ref="EigUnitary"/>).
       Thus the product of the eigenvalues of a unitary operator has absolute value <m>1</m>.
       Hence (at least in the case
       <m>\F{} = \C{}</m>) the determinant of a unitary operator has absolute value <m>1</m>
-      (by <xref ref="x9prodeig"></xref>).
+      (by <xref ref="x9prodeig"/>).
       The next result gives a proof that works without the assumption that <m>\F{} = \C{}</m>.
     </p>
     <theorem xml:id="x326">
@@ -775,7 +775,7 @@
         <md>
           1 = \det(S^* S) = (\det S^*) (\det S) = \overline{( \det S)} (\det S) = \lvert \det S \rvert ^2{},
         </md>
-        where the second equality comes from <xref ref="x9detmult"></xref>(a) and the third equality comes from <xref ref="detTdual"></xref>(c).
+        where the second equality comes from <xref ref="x9detmult"/>(a) and the third equality comes from <xref ref="detTdual"/>(c).
         The equation above implies that <m>\lvert \det S \rvert  = 1</m>.
       </p>
     </proof>
@@ -797,13 +797,13 @@
     </p>
     <proof>
       <p>
-        By the spectral theorem ( <xref ref="x86"></xref> <xref ref="x85">or</xref>),
+        By the spectral theorem ( <xref ref="x86"/> <xref ref="x85">or</xref>),
         <m>V</m> has an orthonormal basis consisting of eigenvectors of <m>T{}</m>.
-        Thus by the last bullet point of <xref ref="x9detops"></xref>,
+        Thus by the last bullet point of <xref ref="x9detops"/>,
         <m>\det T</m> equals a product of the eigenvalues of <m>T{}</m>,
         possibly with repetitions.
         Each eigenvalue of <m>T</m> is a nonnegative number
-        (by <xref ref="x197"></xref>).
+        (by <xref ref="x197"/>).
         Thus we conclude that <m>\det T \ge 0</m>.
       </p>
     </proof>
@@ -833,7 +833,7 @@
         <md>
           \lvert  \det T  \rvert ^2 = \overline{(\det T)} (\det T) = ( \det ( T^* ) )(\det T) = \det( T^* T ),
         </md>
-        where the middle equality comes from <xref ref="detTdual"></xref>(c) and the last equality comes from <xref ref="x9detmult"></xref>(a).
+        where the middle equality comes from <xref ref="detTdual"/>(c) and the last equality comes from <xref ref="x9detmult"/>(a).
         Taking square roots of both sides of the equation above shows that <m>\lvert \det T \rvert  = \sqrt{\det( T^*T )}</m>.
       </p>
       <p>
@@ -842,7 +842,7 @@
         Thus <m>{s_1}^{2}{}, \ldots, {s_n}^{2}</m> is the list of eigenvalues of <m>T^*T</m>
         (with appropriate repetitions),
         corresponding to an orthonormal basis of <m>V</m> consisting of eigenvectors of <m>T^*T{}</m>.
-        Hence the last bullet point of <xref ref="x9detops"></xref> implies that
+        Hence the last bullet point of <xref ref="x9detops"/> implies that
         <md>
           \det (  T^* T  ) = {s_1}^{2} \cdots {s_n}^{2}{}.
         </md>
@@ -853,8 +853,8 @@
     </proof>
     <p>
       An operator <m>T</m> on a real inner product space changes volume by a factor of the product of the singular values
-      (by <xref ref="x7volchange"></xref>).
-      Thus the next result follows immediately from <xref ref="x7volchange"></xref> and <xref ref="x324"></xref>.
+      (by <xref ref="x7volchange"/>).
+      Thus the next result follows immediately from <xref ref="x7volchange"/> and <xref ref="x324"/>.
       This result explains why the absolute value of a determinant appears in the change of variables formula in multivariable calculus.
     </p>
     <theorem xml:id="x9330">
@@ -892,7 +892,7 @@
       <p>
         There exists a basis of <m>V</m> with respect to which <m>T</m> has an upper-triangular matrix with each
         <m>\lambda_k</m> appearing on the diagonal exactly <m>d_k</m> times
-        (by <xref ref="x187"></xref>).
+        (by <xref ref="x187"/>).
         With respect to this basis,
         <m>zI - T</m> has an upper-triangular matrix with
         <m>z - \lambda_k</m> appearing on the diagonal exactly <m>d_k</m> times for each <m>k</m>.
@@ -901,16 +901,16 @@
     </proof>
     <p>
       Suppose <m>\F{} = \C{}</m> and <m>T \in \Lc(V)</m>.
-      The characteristic polynomial of <m>T</m> was defined in <xref ref="x7charpoly"></xref>
-      as the polynomial on the right side of the equation in <xref ref="x9chareqdet"></xref>.
+      The characteristic polynomial of <m>T</m> was defined in <xref ref="x7charpoly"/>
+      as the polynomial on the right side of the equation in <xref ref="x9chareqdet"/>.
       We did not previously define the characteristic polynomial of an operator on a finite-dimensional real vector space because such operators may have no eigenvalues,
-      making a definition using the right side of the equation in <xref ref="x9chareqdet"></xref> inappropriate.
+      making a definition using the right side of the equation in <xref ref="x9chareqdet"/> inappropriate.
     </p>
     <p>
       We now present a new definition of the characteristic polynomial,
-      motivated by <xref ref="x9chareqdet"></xref>.
+      motivated by <xref ref="x9chareqdet"/>.
       This new definition is valid for both real and complex vector spaces.
-      The equation in <xref ref="x9chareqdet"></xref>
+      The equation in <xref ref="x9chareqdet"/>
       shows that this new definition is equivalent to our previous definition when
       <m>\F{} = \C{}</m> <xref ref="x7charpoly"/>.
     </p>
@@ -931,11 +931,11 @@
           <idx><h>characteristic polynomial</h></idx>
     </p>
     <p>
-      The formula in <xref ref="x9detformula"></xref>
+      The formula in <xref ref="x9detformula"/>
       shows that the characteristic polynomial of an operator
       <m>T \in \Lc(V)</m> is a monic polynomial of degree <m>\dim V{}</m>.
       The zeros in <m>\F{}</m> of the characteristic polynomial of <m>T</m> are exactly the eigenvalues of <m>T</m>
-      (by <xref ref="x9eigdet"></xref>).
+      (by <xref ref="x9eigdet"/>).
     </p>
     <p>
       Previously we proved the Cayley<ndash/>Hamilton theorem <xref ref="x139"/> in the complex case.
@@ -954,7 +954,7 @@
     <proof>
       <p>
         If <m>\F{} = \C{}</m>, then the equation
-        <m>q(T) = 0</m> follows from <xref ref="x9chareqdet"></xref> and <xref ref="x139"></xref>.
+        <m>q(T) = 0</m> follows from <xref ref="x9chareqdet"/> and <xref ref="x139"/>.
       </p>
       <p>
         Now suppose <m>\F{} = \R{}</m>.
@@ -977,7 +977,7 @@
     <p>
       The Cayley<ndash/>Hamilton theorem <xref ref="x9CH"/> implies that the characteristic polynomial of an operator
       <m>T \in \Lc(V)</m> is a polynomial multiple of the minimal polynomial of <m>T</m>
-      (by <xref ref="x140"></xref>).
+      (by <xref ref="x140"/>).
       Thus if the degree of the minimal polynomial of <m>T</m> equals <m>\dim V{}</m>,
       then the characteristic polynomial of <m>T</m> equals the minimal polynomial of <m>T{}</m>.
       This happens for a very large percentage of operators,
@@ -1007,7 +1007,7 @@
         The constant term of a polynomial function of <m>z</m> is the value of the polynomial when <m>z = 0</m>.
         Thus the constant term of the characteristic polynomial of <m>T</m> equals <m>\det(-T)</m>,
         which equals <m>(-1)^n \det T</m>
-        (by the third bullet point of <xref ref="x9detops"></xref>).
+        (by the third bullet point of <xref ref="x9detops"/>).
       </p>
       <p>
         Fix a basis of <m>V{}</m>,
@@ -1039,7 +1039,7 @@
       The norms appearing below then arise from the standard inner product on <m>\FF{n}</m>.
       Recall that the notation <m>R_{\cdot,
       k}</m> in the proof below means the <m>k^\nth</m> column of the matrix <m>R</m>
-      (as was defined in <xref ref="Ajk"></xref>).
+      (as was defined in <xref ref="Ajk"/>).
     </p>
     <theorem xml:id="Hadamard">
       <title>Hadamard's inequality</title>
@@ -1073,9 +1073,9 @@
           <mrow>\amp = \prod_{k=1}^n   \lVert  QR_{\cdot, k}  \rVert</mrow>
           <mrow>\amp = \prod_{k=1}^n   \lVert v_k \rVert </mrow>
         </md>,
-        where the first line comes from <xref ref="x9detmult"></xref>(b),
-        the second line comes from <xref ref="x326"></xref>,
-        the third line comes from <xref ref="x9detupper"></xref>,
+        where the first line comes from <xref ref="x9detmult"/>(b),
+        the second line comes from <xref ref="x326"/>,
+        the third line comes from <xref ref="x9detupper"/>,
         and the fifth line holds because <m>Q</m> is an isometry.
       </p>
     </proof>
@@ -1089,11 +1089,11 @@
       <m>P(e_1, \ldots,
       e_n)</m> onto the parallelepiped
       <m>P(v_1, \ldots,
-      v_n)</m> [see <xref ref="x7parallel"/> and <xref ref="x7box"></xref>
+      v_n)</m> [see <xref ref="x7parallel"/> and <xref ref="x7box"/>
       for a review of this notation and terminology]. Because the box
       <m>P(e_1, \ldots,
       e_n)</m> has volume<nbsp/><m>1</m>, this implies
-      (by <xref ref="x9330"></xref>)
+      (by <xref ref="x9330"/>)
       that the parallelepiped <m>P(v_1, \ldots,
       v_n)</m> has volume <m>\lvert \det T \rvert</m>,
       which equals <m>\lvert \det A \rvert</m>.
@@ -1154,13 +1154,13 @@
         z^{n-1}), (1, z, \ldots, z^{n-1}) )</m>.
         Then <m>B</m> is an upper-triangular matrix all of whose diagonal entries equal <m>1</m>.
         Thus <m>\det B = 1</m>
-        (by <xref ref="x9detupper"></xref>).
+        (by <xref ref="x9detupper"/>).
       </p>
       <p>
         Let <m>C = \M(  ST, (1, z, \ldots,
         z^{n-1} ), (e_1, \ldots, e_n)  )</m>.
         Thus <m>C = AB</m>
-        (by <xref ref="x298"></xref>),
+        (by <xref ref="x298"/>),
         which implies that
         <md>
           \det A= (\det A)(\det B) =\det C.
@@ -1175,7 +1175,7 @@
       </p>
       <p>
         Now <m>\displaystyle \det A = \det C = \prod_{1 \le j \lt k \le n} (\beta_k - \beta_j)</m>,
-        where we have used <xref ref="detTdual"/>(a) and <xref ref="x9detupper"></xref>.
+        where we have used <xref ref="detTdual"/>(a) and <xref ref="x9detupper"/>.
       </p>
     </proof>
     <exercises>

@@ -386,7 +386,7 @@
       <mdash/><m>AB</m> is not necessarily equal to <m>BA</m> even if both products are defined
       (see <xref ref="noncommute">Exercise</xref>).
       Matrix multiplication is distributive and associative<nbsp/>(see <xref ref="x3distrib">Exercises</xref>
-      and <xref ref="assoc"></xref>).
+      and <xref ref="assoc"/>).
     </p>
     <p>
       In the next result,
@@ -541,10 +541,10 @@
         k}</m> are both <m>m</m>-by-<m>1</m> matrices.
         If <m>1 \le j \le m</m>,
         then the entry in row <m>j</m> of
-        <m>(AB)_{\cdot,k}</m> is the left side of <xref ref="x3ABjk"></xref>
+        <m>(AB)_{\cdot,k}</m> is the left side of <xref ref="x3ABjk"/>
         and the entry in row <m>j</m> of
         <m>A B_{\cdot,
-        k}</m> is the right side of <xref ref="x3ABjk"></xref>.
+        k}</m> is the right side of <xref ref="x3ABjk"/>.
         Thus <m>(AB)_{\cdot,k} = A B_{\cdot, k}</m>.
       </p>
     </proof>
@@ -613,9 +613,9 @@
       Our two previous results focus on the columns of a matrix.
       Analogous results hold for the rows of a matrix.
       Specifically, see <xref ref="x3think1">Exercises</xref>
-      and <xref ref="x3think2"></xref>,
-      which can be proved using appropriate modifications of the proofs of <xref ref="x3matrixcol"></xref>
-      and <xref ref="x3combcol"></xref>.
+      and <xref ref="x3think2"/>,
+      which can be proved using appropriate modifications of the proofs of <xref ref="x3matrixcol"/>
+      and <xref ref="x3combcol"/>.
     </p>
     <p>
       The next result is the main tool used in the next subsection to prove the column<ndash/>row factorization <xref ref="x3CR"/> and to prove that the column rank of a matrix equals the row rank <xref ref="x3colrow"/>.
@@ -651,17 +651,17 @@
       <p>
         Suppose <m>k \in \{ 1, \ldots, n \}</m>.
         Then column <m>k</m> of <m>CR</m> equals <m>CR_{\cdot, k}</m>
-        (by <xref ref="x3matrixcol"></xref>),
+        (by <xref ref="x3matrixcol"/>),
         which equals the linear combination of the columns of <m>C</m> with coefficients coming from <m>R_{\cdot, k}</m>
-        (by <xref ref="x3combcol"></xref>).
+        (by <xref ref="x3combcol"/>).
         Thus (a) holds.
       </p>
       <p>
         To prove (b),
         follow the pattern of the proof of (a) but use rows instead of columns and use <xref ref="x3think1">Exercises</xref>
-        and <xref ref="x3think2"></xref>
-        instead of <xref ref="x3matrixcol"></xref>
-        and <xref ref="x3combcol"></xref>.
+        and <xref ref="x3think2"/>
+        instead of <xref ref="x3matrixcol"/>
+        and <xref ref="x3combcol"/>.
       </p>
     </proof>
   </subsection>
@@ -780,7 +780,7 @@
       all <m>\lambda \in \F{}{}</m>,
       and all <m>n</m>-by-<m>p</m> matrices <m>C</m>
       (see <xref ref="x3translinear">Exercises</xref>
-      and <xref ref="x3tran"></xref>).
+      and <xref ref="x3tran"/>).
     </p>
     <p>
       The next result will be the main tool used to prove that the column rank equals the row rank
@@ -804,7 +804,7 @@
         Each column of <m>A</m> is an <m>m</m>-by-<m>1</m> matrix.
         The list <m>A_{\cdot, 1}, \ldots, A_{\cdot,
         n}</m> of columns of <m>A</m> can be reduced to a basis of the span of the columns of <m>A</m>
-        (by <xref ref="x267"></xref>).
+        (by <xref ref="x267"/>).
         This basis has length <m>c</m>,
         by the definition of the column rank.
         The <m>c</m> columns in this basis can be put together to form an <m>m</m>-by-<m>c</m> matrix <m>C</m>.
@@ -813,7 +813,7 @@
         If <m>k \in \{ 1, \ldots, n \}</m>,
         then column <m>k</m> of <m>A</m> is a linear combination of the columns of <m>C</m>.
         Make the coefficients of this linear combination into column <m>k</m> of a <m>c</m>-by-<m>n</m> matrix that we call <m>R</m>.
-        Then <m>A = CR</m>, as follows from <xref ref="x3mmcol"></xref>(a).
+        Then <m>A = CR</m>, as follows from <xref ref="x3mmcol"/>(a).
       </p>
     </proof>
     <p>
@@ -838,7 +838,7 @@
         Thus we can assume that <m>c \ge 1</m>.
       </p>
       <p>
-        Let <m>A = CR</m> be the column<ndash/>row factorization of <m>A</m> given by <xref ref="x3CR"></xref>,
+        Let <m>A = CR</m> be the column<ndash/>row factorization of <m>A</m> given by <xref ref="x3CR"/>,
         where <m>C</m> is an <m>m</m>-by-<m>c</m> matrix and <m>R</m> is a <m>c</m>-by-<m>n</m> matrix.
         <xref ref="x3mmcol">Then</xref>(b) tells us that every row of <m>A</m> is a linear combination of the rows of <m>R</m>.
         Because <m>R</m> has <m>c</m> rows,
@@ -924,7 +924,7 @@
             </ol>
           </p>
           <p>
-            Note: This exercise asks you to <xref ref="x101">verify</xref> and <xref ref="x102"></xref>.
+            Note: This exercise asks you to <xref ref="x101">verify</xref> and <xref ref="x102"/>.
           </p>
         </statement>
       </exercise>
@@ -1000,7 +1000,7 @@
             for each <m>1 \le j \le m</m>.
             In other words,
             show that row <m>j</m> of <m>AB</m> equals (row<nbsp/><m>j</m><nbsp/>of<nbsp/><m>A</m>) times <m>B</m>.
-            Note: This exercise gives the row version of <xref ref="x3matrixcol"></xref>.
+            Note: This exercise gives the row version of <xref ref="x3matrixcol"/>.
           </p>
         </statement>
       </exercise>
@@ -1015,7 +1015,7 @@
         In other words,
         show that <m>aB</m> is a linear combination of the rows of <m>B</m>,
         with the scalars that multiply the rows coming from <m>a</m>.
-        Note: This exercise gives the row version of <xref ref="x3combcol"></xref>.
+        Note: This exercise gives the row version of <xref ref="x3combcol"/>.
       </p>
 </statement>
 </exercise>

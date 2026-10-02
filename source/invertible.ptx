@@ -240,14 +240,14 @@
       </p>
       <p>
         If <m>T</m> is injective
-        (which by <xref ref="x12"></xref>
+        (which by <xref ref="x12"/>
         is equivalent to the condition <m>\dim \ker T = 0</m>),
         then the equation above implies that
         <md>
           \dim \ran T = \dim V - \dim \ker T = \dim V = \dim W{},
         </md>
         which implies that <m>T</m> is surjective
-        (by <xref ref="x2subfull"></xref>).
+        (by <xref ref="x2subfull"/>).
       </p>
       <p>
         Conversely, if <m>T</m> is surjective,
@@ -282,7 +282,7 @@
           Thus we are tempted to use <xref ref="x18"/>
           to show that this map is surjective.
           However, <xref ref="ninsii">Example</xref>
-          shows that the magic of <xref ref="x18"></xref>
+          shows that the magic of <xref ref="x18"/>
           does not apply to the infinite-dimensional vector space <m>\P(\R{})</m>.
           We will get around this problem by restricting attention to the finite-dimensional vector space <m>\P{}_m(\R{})</m>.
         </p>
@@ -308,7 +308,7 @@
         </p>
         <p>
           Thus <m>T</m> is surjective
-          (by <xref ref="x18"></xref>),
+          (by <xref ref="x18"/>),
           which means that there exists a polynomial
           <m>p \in \P{}_m(\R{})</m> such that <m>\bigl((x^2 + 5x + 7)p\bigr)'' = q</m>,
           as claimed in the title of this example.
@@ -347,10 +347,10 @@
       </p>
       <p>
         Thus <m>T</m> is injective
-        (by <xref ref="x12"></xref>).
+        (by <xref ref="x12"/>).
         Because <m>V</m> and <m>W</m> have the same dimension,
         this implies that <m>T</m> is invertible
-        (by <xref ref="x18"></xref>).
+        (by <xref ref="x18"/>).
       </p>
       <p>
         Now multiply both sides of the equation <m>ST = I</m> by <m>T^{-1}</m> on the right, getting
@@ -507,7 +507,7 @@
       we have a matrix <m>\M(T) \in \FF{m,n}</m>.
       Thus once bases have been fixed for<nbsp/><m>V</m> and<nbsp/><m>W{}</m>,
       <m>\M</m> becomes a function from<nbsp/><m>\Lc(V{},W)</m> to<nbsp/><m>\FF{m,n}</m>.
-      Notice that <xref ref="x101"></xref> and <xref ref="x102"></xref>
+      Notice that <xref ref="x101"/> and <xref ref="x102"/>
       show that <m>\M</m> is a linear map.
       This linear map is actually an isomorphism, as we now show.
     </p>
@@ -534,7 +534,7 @@
         Because <m>v_1, \dots, v_n</m> is a basis of <m>V{}</m>,
         this implies <m>T = 0</m>.
         Thus <m>\M</m> is injective
-        (by <xref ref="x12"></xref>).
+        (by <xref ref="x12"/>).
       </p>
       <p>
         To prove that <m>\M</m> is surjective,
@@ -565,8 +565,8 @@
     </theorem>
     <proof>
       <p>
-        The desired result follows from <xref ref="x103"></xref>,
-        <xref ref="x104"></xref>, and <xref ref="dimFmn"></xref>.
+        The desired result follows from <xref ref="x103"/>,
+        <xref ref="x104"/>, and <xref ref="dimFmn"/>.
       </p>
     </proof>
   </subsection>
@@ -700,10 +700,10 @@
           <mrow>\amp = b_1 \M(T)_{\cdot, 1} + \dots + b_n \M(T)_{\cdot, n}</mrow>
           <mrow>\amp = \M(T) \M(v)</mrow>
         </md>,
-        where the first equality follows from <xref ref="Tv"></xref>
+        where the first equality follows from <xref ref="Tv"/>
         and the linearity of <m>\M</m>,
-        the second equality comes from <xref ref="kthcol"></xref>,
-        and the last equality comes from <xref ref="x3combcol"></xref>.
+        the second equality comes from <xref ref="kthcol"/>,
+        and the last equality comes from <xref ref="x3combcol"/>.
       </p>
     </proof>
     <p>
@@ -863,7 +863,7 @@
           <idx><h>singular matrix</h></idx>
     </p>
     <p>
-      The same proof as used in <xref ref="UniqueInv"></xref>
+      The same proof as used in <xref ref="UniqueInv"/>
       shows that if <m>A</m> is an invertible square matrix,
       then there is a unique matrix <m>B</m> such that <m>AB = BA = I</m>
       (and thus the notation <m>B = A^{-1}</m> is justified).

@@ -101,7 +101,7 @@
     <proof>
       <p>
         Because <m>T</m> is a linear map, <m>T(0) = 0</m>
-        (by <xref ref="zerotozero"></xref>).
+        (by <xref ref="zerotozero"/>).
         Thus <m>0 \in \ker T{}</m>.
       </p>
       <p>
@@ -129,7 +129,7 @@
       <p>
         We have shown that <m>\ker T</m> contains <m>0</m> and is closed under addition and scalar multiplication.
         Thus <m>\ker T</m> is a subspace of<nbsp/><m>V</m>
-        (by <xref ref="subspace"></xref>).
+        (by <xref ref="subspace"/>).
       </p>
     </proof>
     <p>
@@ -162,7 +162,7 @@
     <p>
       The next result says that we can check whether a linear map is injective by checking whether <m>0</m> is the only vector that gets mapped to <m>0</m>.
       As a simple application of this result,
-      we see that of the linear maps whose null spaces we computed in <xref ref="null"></xref>,
+      we see that of the linear maps whose null spaces we computed in <xref ref="null"/>,
       only multiplication by <m>x^2</m> is injective
       (except that the zero map is injective in the special case <m>V = \{0\}</m>).
     </p>
@@ -180,7 +180,7 @@
         First suppose <m>T</m> is injective.
         We want to prove that <m>\ker T = \{0\}</m>.
         We already know that <m>\{0\} \subset \ker T</m>
-        (by <xref ref="zerotozero"></xref>).
+        (by <xref ref="zerotozero"/>).
         To prove the inclusion in the other direction,
         suppose <m>v \in \ker T{}</m>.
         Then
@@ -282,7 +282,7 @@
       <p>
         Suppose <m>T \in \Lc(V{},W)</m>.
         Then <m>T(0) = 0</m>
-        (by <xref ref="zerotozero"></xref>),
+        (by <xref ref="zerotozero"/>),
         which implies that <m>0 \in \ran T{}</m>.
       </p>
       <p>
@@ -313,7 +313,7 @@
       <p>
         We have shown that <m>\ran T</m> contains <m>0</m> and is closed under addition and scalar multiplication.
         Thus <m>\ran T</m> is a subspace of<nbsp/><m>W</m>
-        (by <xref ref="subspace"></xref>).
+        (by <xref ref="subspace"/>).
       </p>
     </proof>
     <definition>
@@ -330,7 +330,7 @@
     </p>
     <p>
       To illustrate the definition above,
-      note that of the ranges we computed in <xref ref="range"></xref>,
+      note that of the ranges we computed in <xref ref="range"/>,
       only the differentiation map<idx><h>differentiation linear map</h></idx> is surjective
       (except that the zero map is surjective in the special case <m>W = \{0\}</m>).
     </p>
@@ -387,7 +387,7 @@
           u_1, \dots, u_m, v_1, \dots, v_n
         </md>
         of <m>V</m>
-        (by <xref ref="x9"></xref>).
+        (by <xref ref="x9"/>).
         Thus <m>\dim V = m + n</m>.
         To complete the proof,
         we need to show that <m>\ran T</m> is finite-dimensional and <m>\dim \ran T =  n</m>.
@@ -470,11 +470,11 @@
           <mrow>\amp \ge \dim V - \dim W</mrow>
           <mrow>\amp > 0</mrow>
         </md>,
-        where the first line above comes from the fundamental theorem of linear maps <xref ref="x3ab11"/> and the second line follows from <xref ref="x2subdim"></xref>.
+        where the first line above comes from the fundamental theorem of linear maps <xref ref="x3ab11"/> and the second line follows from <xref ref="x2subdim"/>.
         The inequality above states that <m>\dim \ker T > 0</m>.
         This means that <m>\ker T</m> contains vectors other than<nbsp/><m>0</m>.
         Thus <m>T</m> is not injective
-        (by <xref ref="x12"></xref>).
+        (by <xref ref="x12"/>).
       </p>
     </proof>
     <example>
@@ -527,7 +527,7 @@
     </proof>
     <p>
       As we will soon see,
-      <xref ref="x13"></xref> and <xref ref="x14"></xref>
+      <xref ref="x13"/> and <xref ref="x14"/>
       have important consequences in the theory of linear equations.
       The idea is to express questions about systems of linear equations in terms of linear maps.
       Let's begin by rephrasing in terms of linear maps the question of whether a homogeneous system of linear equations has a nonzero solution.
@@ -570,7 +570,7 @@
     <p>
       Thus we want to know if <m>\ker T</m> is strictly bigger than <m>\{0\}</m>,
       which is equivalent to <m>T</m> not being injective
-      (by <xref ref="x12"></xref>).
+      (by <xref ref="x12"/>).
       The next result gives an important condition for ensuring that <m>T</m> is not injective.
     </p>
     <theorem xml:id="x13a">
@@ -617,7 +617,7 @@
     </p>
     <aside>
       <p>
-        The <xref ref="x13a">results</xref> and <xref ref="x14a"></xref>,
+        The <xref ref="x13a">results</xref> and <xref ref="x14a"/>,
         which compare the number of variables and the number of equations,
         can also be proved using Gaussian elimination.
         The abstract approach taken here seems to provide cleaner proofs.
@@ -627,7 +627,7 @@
           <idx><h>Gaussian elimination</h></idx>
     </p>
     <p>
-      Define <m>T\colon \F{n} \rightarrow \F{m}</m> as in <xref ref="x3sim"></xref>.
+      Define <m>T\colon \F{n} \rightarrow \F{m}</m> as in <xref ref="x3sim"/>.
       The equation <m>T(x_1, \dots, x_n) \!= \!(c_1, \dots,
       c_m)</m> is the same as the system of <xref ref="x3inhomeq">equations</xref>.
       Thus we want to know if <m>\ran T \ne \FF{m}</m>.

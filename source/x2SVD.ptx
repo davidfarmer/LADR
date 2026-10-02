@@ -74,7 +74,7 @@
             <md>
               \ran T^* T = ( \ker T^* T )^\perp = (\ker T)^\perp = \ran T^*{},
             </md>
-            where the first and last equalities come from <xref ref="x377"></xref>
+            where the first and last equalities come from <xref ref="x377"/>
             and the second equality comes from (b).
           </p>
         </li>
@@ -84,8 +84,8 @@
             <md>
               \dim \ran T = \dim ( \ker T^* )^\perp = \dim W - \dim \ker T^* = \dim \ran T^*{},
             </md>
-            where the first equality comes from <xref ref="x377"></xref>(d),
-            the second equality comes from <xref ref="x350"></xref>,
+            where the first equality comes from <xref ref="x377"/>(d),
+            the second equality comes from <xref ref="x350"/>,
             and the last equality comes from the fundamental theorem of linear maps <xref ref="x3ab11"/>.
             The equality <m>\dim \ran T^* = \dim \ran T^* T</m> follows from (c).
           </p>
@@ -99,7 +99,7 @@
       called the singular values, is also useful.
       Eigenspaces and the notation <m>E</m>
       (used in the examples)
-      were defined in <xref ref="eigenspace"></xref>.
+      were defined in <xref ref="eigenspace"/>.
     </p>
     <definition>
       <title>singular values</title>
@@ -203,7 +203,7 @@
       <p>
         The linear map <m>T</m> is injective if and only if <m>\ker T = \{ 0 \}</m>,
         which happens if and only if
-        <m>\ker T^*T = \{ 0 \}</m> [by <xref ref="x2Tstar"></xref>(b)] , which happens if and only if <m>0</m> is not an eigenvalue of <m>T^*T</m>,
+        <m>\ker T^*T = \{ 0 \}</m> [by <xref ref="x2Tstar"/>(b)] , which happens if and only if <m>0</m> is not an eigenvalue of <m>T^*T</m>,
         which happens if and only if <m>0</m> is not a singular value of <m>T</m>,
         completing the proof of (a).
       </p>
@@ -216,7 +216,7 @@
         proving<nbsp/>(b).
       </p>
       <p>
-        Use (b) and <xref ref="x2subfull"></xref> to show that (c) holds.
+        Use (b) and <xref ref="x2subfull"/> to show that (c) holds.
       </p>
     </proof>
     <p>
@@ -309,8 +309,8 @@
           <mrow>\amp \iff \text{ all eigenvalues of } S^* S \text{ equal } 1 </mrow>
           <mrow>\amp \iff \text{ all singular values of } S \text{ equal } 1,</mrow>
         </md>
-        where the first equivalence comes from <xref ref="x234"></xref>
-        and the second equivalence comes from the spectral theorem ( <xref ref="x86"></xref>
+        where the first equivalence comes from <xref ref="x234"/>
+        and the second equivalence comes from the spectral theorem ( <xref ref="x86"/>
         <xref ref="x85">or</xref>) applied to the self-adjoint operator <m>S^* S</m>.
       </p>
     </proof>
@@ -374,8 +374,8 @@
       <p>
         If <m>k \in \{ 1, \ldots,
         n \}</m> and <m>k > m</m>, then <m>s_k = 0</m> and hence <m>T^*T e_k = 0</m>
-        (by <xref ref="x6sing"></xref>),
-        which implies that <m>Te_k = 0</m> [by <xref ref="x2Tstar"></xref>(b)] .
+        (by <xref ref="x6sing"/>),
+        which implies that <m>Te_k = 0</m> [by <xref ref="x2Tstar"/>(b)] .
       </p>
       <p>
         Suppose <m>v \in V{}</m>.
@@ -387,7 +387,7 @@
         </md>,
         where the last index in the first line switched from <m>n</m> to <m>m</m> in the second line because <m>Te_k = 0</m> if <m>k > m</m>
         (as noted in the paragraph above)
-        and the third line follows from <xref ref="x7v"></xref>.
+        and the third line follows from <xref ref="x7v"/>.
         The equation above is our desired result.
       </p>
     </proof>
@@ -437,8 +437,8 @@
       </statement>
     </definition>
     <p>
-      The table below compares the spectral theorem ( <xref ref="x86"></xref>
-      and <xref ref="x85"></xref>) with the singular value decomposition <xref ref="x382"/>.
+      The table below compares the spectral theorem ( <xref ref="x86"/>
+      and <xref ref="x85"/>) with the singular value decomposition <xref ref="x382"/>.
     </p>
 
         <tabular>
@@ -492,7 +492,7 @@
     </p>
     <p>
       Recall that the pseudoinverse
-      <m>T^\dagger</m> in <xref ref="x7SVD"></xref>
+      <m>T^\dagger</m> in <xref ref="x7SVD"/>
       below equals the inverse <m>T^{-1}</m> if <m>T</m> is invertible [see <xref ref="x6propps"/>(a)] .
           <idx><h>pseudoinverse</h></idx>
     </p>
@@ -602,7 +602,7 @@
         <p>
           An orthonormal basis of <m>E( 25, T^* T )</m> is the vector <m>(0,0,0,1 )</m>;
           an orthonormal basis of <m>E( 2, T^*T )</m> is the vector <m>(  \frac{1}{\sqrt{2}}, \frac{1}{\sqrt{2}},0,0  )</m>.
-          Thus, following the proof of <xref ref="x382"></xref>, we take
+          Thus, following the proof of <xref ref="x382"/>, we take
           <md>
             e_1 = (0,0,0,1) \andd e_2 = (  \frac{1}{\sqrt{2}}, \frac{1}{\sqrt{2}},0,0  )
           </md>
@@ -652,7 +652,7 @@
       <p>
         Let <m>\fun T {\F{n}} {\F{p}}</m> be the linear map whose matrix with respect to the standard bases equals <m>A</m>.
         Then <m>\dim \ran T = m</m>
-        (by <xref ref="x3rangecolrank"></xref>).
+        (by <xref ref="x3rangecolrank"/>).
         Let
         <md number="yes" xml:id="x7MatSVD">
           Tv = s_1 \langle v, e_1 \rangle f_1 + \cdots + s_m \langle v, e_m \rangle  f_m
@@ -695,7 +695,7 @@
       <p>
         If <m>v \in ( \Span(e_1, \ldots,
         e_m) )^\perp</m>, then <m>Av = 0</m>
-        (as follows from <xref ref="x7MatSVD"></xref>)
+        (as follows from <xref ref="x7MatSVD"/>)
         and <m>C^*v = 0</m>
         (as follows from the definition of matrix multiplication).
         Hence <m>ACC^*v = Av</m> for all <m>v \in ( \Span(e_1, \dots,

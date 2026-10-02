@@ -78,7 +78,7 @@
     here <m>*</m> denotes the entries in all columns other than the first column.
     To prove this,
     let <m>\lambda</m> be an eigenvalue of<nbsp/><m>T</m>
-    (one exists by <xref ref="x151"></xref>)
+    (one exists by <xref ref="x151"/>)
     and let <m>v</m> be a corresponding eigenvector.
     Extend <m>v</m> to a basis of<nbsp/><m>V{}</m>.
     Then the matrix of <m>T</m> with respect to this basis has the form above.
@@ -298,7 +298,7 @@
       </md>
       this implies that <m>T- \lambda_k I</m> restricted to <m>\Span(v_1, \dots,
       v_k)</m> is not injective
-      (by <xref ref="x13"></xref>).
+      (by <xref ref="x13"/>).
       Thus there exists <m>v \in \Span(v_1, \dots,
       v_k)</m> such that <m>v \ne 0</m> and <m>(T - \lambda_k I)v = 0</m>.
       Thus <m>\lambda_k</m> is an eigenvalue of <m>T{}</m>.
@@ -308,12 +308,12 @@
       To prove <m>T</m> has no other eigenvalues,
       let <m>q</m> be the polynomial defined by <m>q(z) = (z-\lambda_1)\cdots(z-\lambda_n)</m>.
       Then <m>q(T) = 0</m>
-      (by <xref ref="x4polyut"></xref>).
+      (by <xref ref="x4polyut"/>).
       Hence <m>q</m> is a polynomial multiple of the minimal polynomial of <m>T</m>
-      (by <xref ref="x140"></xref>).
+      (by <xref ref="x140"/>).
       Thus every zero of the minimal polynomial of <m>T</m> is a zero of <m>q</m>.
       Because the zeros of the minimal polynomial of <m>T</m> are the eigenvalues of <m>T</m>
-      (by <xref ref="x136"></xref>),
+      (by <xref ref="x136"/>),
       this implies that every eigenvalue of <m>T</m> is a zero of <m>q</m>.
       Hence the eigenvalues of <m>T</m> are all contained in the list <m>\lambda_1, \ldots, \lambda_n</m>.
     </p>
@@ -410,9 +410,9 @@
       </md>
     </p>
     <p>
-      Then <m>q(T) = 0</m>, by <xref ref="x4polyut"></xref>.
+      Then <m>q(T) = 0</m>, by <xref ref="x4polyut"/>.
       Hence <m>q</m> is a polynomial multiple of the minimal polynomial of <m>T</m>,
-      by <xref ref="x140"></xref>.
+      by <xref ref="x140"/>.
       Thus the minimal polynomial of <m>T</m> equals <m>(z-\lambda_1) \cdots (z-\lambda_m)</m> for some
       <m>\lambda_1, \ldots, \lambda_m \in \F{}</m> with <m>\{ \lambda_1, \ldots, \lambda_m \} \subset \{ \alpha_1, \ldots, \alpha_n \}</m>.
     </p>
@@ -436,7 +436,7 @@
       </md>
     </p>
     <p>
-      Then <m>U</m> is invariant under<nbsp/><m>T</m> [this is a special case of <xref ref="x130"></xref>
+      Then <m>U</m> is invariant under<nbsp/><m>T</m> [this is a special case of <xref ref="x130"/>
       with <m>p(z) = z - \lambda_m</m>] . Thus <m>T|_U</m> is an operator on<nbsp/><m>U</m>.
     </p>
     <p>
@@ -448,7 +448,7 @@
     </p>
     <p>
       Hence <m>(z - \lambda_1) \cdots (z-\lambda_{m-1})</m> is a polynomial multiple of the minimal polynomial of <m>T|_U</m>,
-      by <xref ref="x140"></xref>.
+      by <xref ref="x140"/>.
       Thus the minimal polynomial of <m>T|_U</m> is the product of at most <m>m-1</m> terms of the form <m>z-\lambda_k</m>.
     </p>
     <p>
@@ -478,7 +478,7 @@
       </md>
     </p>
     <p>
-      <xref ref="x401">From</xref> and <xref ref="x402"></xref>,
+      <xref ref="x401">From</xref> and <xref ref="x402"/>,
       we conclude
       (using <xref ref="a225"/>)
       that <m>T</m> has an upper-triangular matrix with respect to the basis
@@ -489,13 +489,13 @@
   <p>
     The set of numbers <m>\{ \lambda_1, \ldots, \lambda_m \}</m> from the previous result equals the set of eigenvalues of <m>T</m>
     (because the set of zeros of the minimal polynomial of <m>T</m> equals the set of eigenvalues of <m>T</m>,
-    by <xref ref="x136"></xref>),
+    by <xref ref="x136"/>),
     although the list <m>\lambda_1, \ldots, \lambda_m</m> in the previous result may contain repetitions.
   </p>
   <p>
     In <xref ref="operators_complex_vs">Chapter</xref>
     we will improve even the wonderful result below;
-    see <xref ref="x187"/> and <xref ref="x398"></xref>.
+    see <xref ref="x187"/> and <xref ref="x398"/>.
   </p>
   <theorem xml:id="a226">
     <title>if  <m>\symbf{F} = \symbf{C}</m>, then every operator on  <m>V</m> has an upper-triangular matrix</title>
@@ -508,7 +508,7 @@
   </theorem>
   <proof>
     <p>
-      The desired result follows immediately from <xref ref="x5necsuf"></xref>
+      The desired result follows immediately from <xref ref="x5necsuf"/>
       and the second version of the fundamental theorem of algebra
       (see <xref ref="x4FTA2"/>).
     </p>
@@ -529,7 +529,7 @@
     <m>T\in\Lc(V)</m> has an upper-triangular matrix with respect to some basis <m>v_1, \ldots,
     v_n</m> of <m>V{}</m>,
     then the eigenvalues of <m>T</m> are exactly the entries on the diagonal of <m>\M(T)</m>,
-    as shown by <xref ref="a221"></xref>,
+    as shown by <xref ref="a221"/>,
     and furthermore <m>v_1</m> is an eigenvector of <m>T{}</m>.
     However, <m>v_2, \ldots, v_n</m> need not be eigenvectors of <m>T{}</m>.
     Indeed, a basis vector <m>v_k</m> is an eigenvector of <m>T</m> if and only if all entries in the <m>k^\nth</m> column of the matrix of <m>T</m> are <m>0</m>,
@@ -549,7 +549,7 @@
     You may recall from a previous course that every matrix of numbers can be changed to a matrix in what is called row echelon form.
     If one begins with a square matrix,
     the matrix in row echelon form will be an upper-triangular matrix.
-    Do not confuse this upper-triangular matrix with the upper-triangular matrix of an operator with respect to some basis whose existence is proclaimed by <xref ref="a226"></xref>
+    Do not confuse this upper-triangular matrix with the upper-triangular matrix of an operator with respect to some basis whose existence is proclaimed by <xref ref="a226"/>
     (if <m>\F{} = \C{}</m>)<mdash/>there is no connection between these upper-triangular matrices.
         <idx><h>upper-triangular matrix</h></idx>
   </p>
@@ -584,7 +584,7 @@
           </ol>
         </p>
         <p>
-          Note: The results in this exercise are used in the proof of <xref ref="x2EigenSum"></xref>.
+          Note: The results in this exercise are used in the proof of <xref ref="x2EigenSum"/>.
         </p>
       </statement>
     </exercise>
@@ -609,7 +609,7 @@
         <p>
           Give an example of an operator whose matrix with respect to some basis contains only <m>0</m>'s on the diagonal,
           but the operator is invertible.
-          Note: This exercise and the exercise below show that <xref ref="a221"></xref>
+          Note: This exercise and the exercise below show that <xref ref="a221"/>
           fails without the hypothesis that an upper-triangular matrix is under consideration.
         </p>
       </statement>

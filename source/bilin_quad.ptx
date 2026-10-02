@@ -123,7 +123,7 @@
       A bilinear form on <m>V</m> is a function from <m>V{} \times V</m> to <m>\F{}{}</m>.
       Because <m>V{} \times V</m> is a vector space,
       this raises the question of whether a bilinear form can also be a linear map from <m>V{} \times V</m> to <m>\F{}{}</m>.
-      Note that none of the bilinear forms in <xref ref="x9BilinearExample"></xref>
+      Note that none of the bilinear forms in <xref ref="x9BilinearExample"/>
       are linear maps except in some special cases in which the bilinear form is the zero map.
       <xref ref="x11zero">Exercise</xref>
       shows that a bilinear form <m>\beta</m> on <m>V</m> is a linear map on
@@ -173,7 +173,7 @@
     <p>
       Recall that <m>\F{n,n}</m> denotes the vector space of <m>n</m>-by-<m>n</m> matrices with entries in <m>\F{}</m> and that <m>\dim \F{n,n} = n^2</m>
       (see <xref ref="x3mnmatrices"/>
-      and <xref ref="dimFmn"></xref>).
+      and <xref ref="dimFmn"/>).
     </p>
     <theorem xml:id="x9dimV2">
       <title><m>\dim V^{(2)} = (\dim V)^2</m></title>
@@ -301,7 +301,7 @@
           <mrow>\amp = \tran{C} \M(  \alpha , (f_1, \ldots, f_n)  )</mrow>
           <mrow>\amp = \tran{C} B C</mrow>
         </md>,
-        where the second and third lines each follow from <xref ref="x11comp"></xref>.
+        where the second and third lines each follow from <xref ref="x11comp"/>.
       </p>
     </proof>
     <example>
@@ -544,7 +544,7 @@
         Let <m>f_1, \ldots, f_n</m> be an orthonormal basis of <m>V{}</m>.
         Let <m>B = \M( \rho, (f_1, \ldots, f_n) )</m>.
         Then <m>B</m> is a symmetric matrix
-        (by <xref ref="x9symdiag"></xref>).
+        (by <xref ref="x9symdiag"/>).
         Let <m>T \in \Lc(V)</m> be the operator such that <m>\M( T, (f_1, \ldots,
         f_n) ) = B</m>.
         Thus <m>T</m> is self-adjoint.
@@ -555,13 +555,13 @@
         Let <m>C = \M\bigl(I, (e_1, \ldots,
         e_n), (f_1, \ldots, f_n)\bigr)</m>.
         Thus <m>C^{-1} B C</m> is the matrix of <m>T</m> with respect to the basis <m>e_1, \ldots, e_n</m>
-        (by <xref ref="x303"></xref>).
+        (by <xref ref="x303"/>).
         Hence <m>C^{-1} B C</m> is a diagonal matrix.
         Now
         <md>
           \\M(  \rho, (e_1, \ldots, e_n)  ) = \tran{C} B C = C^{-1} B C,
         </md>
-        where the first equality holds by <xref ref="x11change"></xref>
+        where the first equality holds by <xref ref="x11change"/>
         and the second equality holds because <m>C</m> is a unitary matrix with real entries \big(which implies that <m>C^{-1} = \tran{C}</m>;
         see <xref ref="x7unitarymat"/>\big).
       </p>
@@ -698,7 +698,7 @@
         and hence <m>\beta(u, w) = 0</m>.
         Thus <m>\beta = 0</m>.
         Hence <m>V^{(2)} = V^{(2)}_{\text{ sym } } \oplus V^{(2)}_{\text{ alt } }</m>
-        (by <xref ref="x219"></xref>).
+        (by <xref ref="x219"/>).
       </p>
     </proof>
   </subsection>
@@ -844,7 +844,7 @@
         then <m>q_{\rho' - \rho} = 0</m>;
         thus <m>\rho' - \rho \in V^{(2)}_{\text{ sym } } \cap V^{(2)}_{\text{ alt } }</m>,
         which implies that <m>\rho' = \rho</m>
-        (by <xref ref="x9V2"></xref>).
+        (by <xref ref="x9V2"/>).
         This completes the proof that (a) implies (b).
       </p>
       <p>
@@ -900,7 +900,7 @@
           A bilinear form <m>\beta</m> on <m>\R3</m> such that
           <m>q = q_\beta</m> is given by <xref ref="x9quad">Example</xref>,
           but this bilinear form is not symmetric,
-          as promised by <xref ref="x11charquad"></xref>(b).
+          as promised by <xref ref="x11charquad"/>(b).
           However, the bilinear form <m>\rho</m> on <m>\R3</m> defined by
           <md>
             \rho( (x_1, x_2,x_3), (y_1, y_2, y_3) ) =  x_1 y_1 - 2 x_1 y_2  - 2 x_2 y_1 + 4x_1 y_3 + 4x_3 y_1- 3x_3 y_3
@@ -945,11 +945,11 @@
         <li>
           <p>
             There exists a symmetric bilinear form <m>\rho</m> on <m>V</m> such that <m>q = q_\rho</m>
-            (by <xref ref="x11charquad"></xref>).
+            (by <xref ref="x11charquad"/>).
             Now there exists a basis <m>e_1, \ldots,
             e_n</m> of <m>V</m> such that <m>\M(  \rho, (e_1, \ldots,
             e_n)  )</m> is a diagonal matrix
-            (by <xref ref="x9symdiag"></xref>).
+            (by <xref ref="x9symdiag"/>).
             Let <m>\lambda_1, \ldots, \lambda_n</m> denote the entries on the diagonal of this matrix.
             Thus
             <md>
@@ -1022,7 +1022,7 @@
             </md>
             for all <m>u, v \in V{}</m>.
             Note: This exercise states that if <m>V</m> is a real inner product space,
-            then every bilinear form on <m>V</m> is of the form given by the third bullet point in <xref ref="x9BilinearExample"></xref>.
+            then every bilinear form on <m>V</m> is of the form given by the third bullet point in <xref ref="x9BilinearExample"/>.
           </p>
         </statement>
       </exercise>
@@ -1051,7 +1051,7 @@
       <exercise>
         <statement>
           <p>
-            Explain why the proof of <xref ref="x9diagortho"></xref>
+            Explain why the proof of <xref ref="x9diagortho"/>
             (diagonalization of a symmetric bilinear form by an orthonormal basis on a real inner product space)
             fails if the hypothesis that <m>\F{} = \R{}</m> is dropped.
           </p>

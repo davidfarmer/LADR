@@ -450,7 +450,7 @@
           </li>
           <li>
             <p>
-              For <m>f</m> in the vector space of continuous real-valued functions on <m>[-1,1]</m> and with inner product given as in <xref ref="exampleip"></xref>(c), we have
+              For <m>f</m> in the vector space of continuous real-valued functions on <m>[-1,1]</m> and with inner product given as in <xref ref="exampleip"/>(c), we have
               <md>
                 \|f\| =  \sqrt{\int_{-1}^1 f^2}.
               </md>
@@ -575,7 +575,7 @@
       <ol marker="(a)">
         <li>
           <p>
-            Recall that <xref ref="basicip"></xref>(b) states that
+            Recall that <xref ref="basicip"/>(b) states that
             <m>\langle 0, v \rangle = 0</m> for every <m>v \in V{}</m>.
           </p>
         </li>
@@ -700,7 +700,7 @@
         <md>
           u = \frac{\langle u,v \rangle }{\|v\|^2} v + w
         </md>
-        given by <xref ref="orthogdecomp"></xref>,
+        given by <xref ref="orthogdecomp"/>,
         where <m>w</m> is orthogonal to <m>v</m>.
         By the Pythagorean theorem,
         <md>
@@ -715,7 +715,7 @@
       <aside>
         <p>
           Augustin-Louis Cauchy (1789<ndash/>1857) <xref ref="CS">proved</xref> (a) in 1821.
-          In 1859, Cauchy's student Viktor Bunyakovsky (1804<ndash/>1889) proved integral inequalities like the one in <xref ref="CS"></xref> (b) . A few decades later,
+          In 1859, Cauchy's student Viktor Bunyakovsky (1804<ndash/>1889) proved integral inequalities like the one in <xref ref="CS"/> (b) . A few decades later,
           similar discoveries by Hermann Schwarz (1843<ndash/>1921) attracted more attention and led to the name of this inequality.
               <idx><h>Cauchy, Augustin-Louis</h></idx>
               <idx><h>Bunyakovsky, Viktor</h></idx>
@@ -811,7 +811,7 @@
         Taking square roots of both sides of the inequality above gives the desired inequality.
       </p>
       <p>
-        The proof above shows that the triangle inequality is an equality if and only if we have equality in <xref ref="x176"></xref> and <xref ref="x42"></xref>.
+        The proof above shows that the triangle inequality is an equality if and only if we have equality in <xref ref="x176"/> and <xref ref="x42"/>.
         Thus we have equality in the triangle inequality if and only if
         <md number="yes" xml:id="x374">
           \langle u, v \rangle  = \|u\|   \|v\|.
@@ -825,7 +825,7 @@
         <m>u,
         v</m> is a scalar multiple of the other.
         This scalar must be a nonnegative real number,
-        by <xref ref="x374"></xref>, completing the proof.
+        by <xref ref="x374"/>, completing the proof.
       </p>
     </proof>
     <p>

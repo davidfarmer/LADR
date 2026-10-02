@@ -55,12 +55,12 @@
         <md>
           D_w p = \frac{ \partial p}{\partial w} = \sum_{j+k \le m} j a_{j,k} w^{j-1} z^k \andd D_z p = \frac{ \partial p}{\partial z} = \sum_{j+k \le m} k a_{j,k} w^j z^{k-1}\!,
         </md>
-        where <m>p</m> is as in <xref ref="x2p"></xref>.
+        where <m>p</m> is as in <xref ref="x2p"/>.
         The operators <m>D_w</m> and <m>D_z</m> are called partial differentiation operators because each of these operators differentiates with respect to one of the variables while pretending that the other variable is a constant.
             <idx><h>partial differentiation operator</h></idx>
       </p>
       <p>
-        The operators <m>D_w</m> and <m>D_z</m> commute because if <m>p</m> is as in <xref ref="x2p"></xref>, then
+        The operators <m>D_w</m> and <m>D_z</m> commute because if <m>p</m> is as in <xref ref="x2p"/>, then
         <md>
           (D_w D_z)p = \sum_{j+k \le m} j k a_{j,k} w^{j-1} z^{k-1} = (D_z D_w)p.
         </md>
@@ -168,14 +168,14 @@
       The product of two diagonal matrices of the same size is the diagonal matrix obtained by multiplying the corresponding elements of the two diagonals.
       Thus any two diagonal matrices of the same size commute.
       Thus <m>S</m> and <m>T</m> commute,
-      by <xref ref="x3comm"></xref>.
+      by <xref ref="x3comm"/>.
     </p>
     <p>
       To prove the implication in the other direction,
       now suppose that <m>S, T \in \Lc(V)</m> are diagonalizable operators that commute.
       Let <m>\lambda_1, \ldots, \lambda_m</m> denote the distinct eigenvalues of <m>S</m>.
       Because <m>S</m> is diagonalizable,
-      <xref ref="x427"></xref>(c) shows that
+      <xref ref="x427"/>(c) shows that
       <md number="yes" xml:id="VdirSum">
         V = E(\lambda_1, S) \oplus \cdots \oplus E(\lambda_m, S).
       </md>
@@ -183,14 +183,14 @@
     <p>
       For each <m>k = 1, \ldots, m</m>,
       the subspace <m>E(\lambda_k, S)</m> is invariant under <m>T</m>
-      (by <xref ref="x2ComInv"></xref>).
+      (by <xref ref="x2ComInv"/>).
       Because <m>T</m> is diagonalizable,
-      <xref ref="x5RestrictDi"></xref> implies that
+      <xref ref="x5RestrictDi"/> implies that
       <m>T|_{E(\lambda_k, S)}</m> is diagonalizable for each<nbsp/><m>k</m>.
       Hence for each <m>k=1, \ldots, m</m>,
       there is a basis of <m>E(\lambda_k, S)</m> consisting of eigenvectors of <m>T{}</m>.
       Putting these bases together gives a basis of <m>V</m>
-      (because of <xref ref="VdirSum"></xref>),
+      (because of <xref ref="VdirSum"/>),
       with each vector in this basis being an eigenvector of both <m>S</m> and <m>T{}</m>.
       Thus <m>S</m> and <m>T</m> both have diagonal matrices with respect to this basis,
       as desired.
@@ -221,11 +221,11 @@
   <proof>
     <p>
       Suppose <m>V</m> is a finite-dimensional nonzero complex vector space and <m>S, T \in \Lc(V)</m> commute.
-      Let <m>\lambda</m> be an eigenvalue of <m>S</m> ( <xref ref="x151"></xref>
+      Let <m>\lambda</m> be an eigenvalue of <m>S</m> ( <xref ref="x151"/>
       tells us that <m>S</m> does indeed have an eigenvalue).
       Thus <m>E(\lambda, S) \ne \{ 0 \}</m>.
       Also, <m>E(\lambda, S)</m> is invariant under<nbsp/><m>T</m>
-      (by <xref ref="x2ComInv"></xref>).
+      (by <xref ref="x2ComInv"/>).
     </p>
     <p>
       Thus <m>T|_{E(\lambda, S)}</m> has an eigenvector
@@ -252,7 +252,7 @@
         The intersection of these two eigenspaces is the set of common eigenvectors of the two operators.
         Because <m>E(0, D_w) \cap E(0, D_z)</m> is the set of constant functions,
         we see that <m>D_w</m> and <m>D_z</m> indeed have a common eigenvector,
-        as promised by <xref ref="x2common"></xref>.
+        as promised by <xref ref="x2common"/>.
       </p>
     </statement>
   </example>
@@ -376,13 +376,13 @@
   <proof>
     <p>
       There is a basis of <m>V</m> with respect to which both <m>S</m> and <m>T</m> have upper-triangular matrices
-      (by <xref ref="x2commute"></xref>).
+      (by <xref ref="x2commute"/>).
       With respect to that basis,
       <md>
         \M(S+T) = \M(S) + \M(T) \andd \M(ST) = \M(S) \M(T),
       </md>
-      as stated in <xref ref="x101"></xref>
-      and <xref ref="x3matproduct"></xref>.
+      as stated in <xref ref="x101"/>
+      and <xref ref="x3matproduct"/>.
     </p>
     <p>
       The definition of matrix addition shows that each entry on the diagonal of <m>\M(S+T)</m> equals the sum of the corresponding entries on the diagonals of <m>\M(S)</m> and <m>\M(T)</m>.
@@ -396,10 +396,10 @@
     <p>
       Every entry on the diagonal of <m>\M(S)</m> is an eigenvalue of <m>S</m>,
       and every entry on the diagonal of <m>\M(T)</m> is an eigenvalue of <m>T</m>
-      (by <xref ref="a221"></xref>).
+      (by <xref ref="a221"/>).
       Every eigenvalue of <m>S+T</m> is on the diagonal of <m>\M(S+T)</m>,
       and every eigenvalue of <m>ST</m> is on the diagonal of <m>\M(ST)</m>
-      (these assertions follow from <xref ref="a221"></xref>).
+      (these assertions follow from <xref ref="a221"/>).
       Putting all this together,
       we conclude that every eigenvalue of <m>S + T</m> is an eigenvalue of <m>S</m> plus an eigenvalue of <m>T</m>,
       and every eigenvalue of <m>ST</m> is an eigenvalue of <m>S</m> times an eigenvalue of<nbsp/><m>T{}</m>.
@@ -521,7 +521,7 @@
         </p>
         <p>
           Note: This exercise <xref ref="x2common">extends</xref>
-          and <xref ref="x2commute"></xref>,
+          and <xref ref="x2commute"/>,
           which consider the case in which <m>\E</m> contains only two elements.
           For this exercise, <m>\E</m> may contain any number of elements,
           and <m>\E</m> may even be an infinite set.
@@ -533,7 +533,7 @@
         <p>
           Give an example of two commuting operators <m>S, T</m> on a finite-dimensional real vector space such that <m>S+T</m> has an eigenvalue that does not equal an eigenvalue of <m>S</m> plus an eigenvalue of <m>T</m> and <m>ST</m> has an eigenvalue that does not equal an eigenvalue of <m>S</m> times an eigenvalue of <m>T{}</m>.
               <idx><h>commuting operators</h></idx>
-          Note: This exercise shows that <xref ref="x2EigenSum"></xref>
+          Note: This exercise shows that <xref ref="x2EigenSum"/>
           does not hold on real vector spaces.
         </p>
       </statement>

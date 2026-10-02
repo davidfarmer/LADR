@@ -76,7 +76,7 @@
       </p>
       <p>
         If <m>u \in U</m>,
-        then <m>-u</m> [which equals <m>(-1)u</m> by <xref ref="x2"></xref>] is also in <m>U</m> by the third condition above.
+        then <m>-u</m> [which equals <m>(-1)u</m> by <xref ref="x2"/>] is also in <m>U</m> by the third condition above.
         Hence every element of <m>U</m> has an additive inverse in <m>U</m>.
       </p>
       <p>
@@ -514,7 +514,7 @@
       </p>
       <p>
         To complete the proof, we only need to show that <m>u = w = 0</m>
-        (by <xref ref="x30"></xref>).
+        (by <xref ref="x30"/>).
         The equation above implies that <m>u = -w \in W{}</m>.
         Thus <m>u \in U \cap W{}</m>.
         Hence <m>u = 0</m>,

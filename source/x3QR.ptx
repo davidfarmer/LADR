@@ -54,7 +54,7 @@
             \|v\|^2 = \lvert \langle v, e_1 \rangle  \rvert ^2 + \dots + \lvert \langle v, e_n \rangle  \rvert ^2{},
           </md>
           where we have used <xref ref="x190"/>(b).
-          Applying <m>S</m> to both sides of <xref ref="x235"></xref> gives
+          Applying <m>S</m> to both sides of <xref ref="x235"/> gives
           <md>
             Sv = \langle v, e_1 \rangle  S e_1 + \dots + \langle v, e_n \rangle  S e_n =  \langle v, e_1 \rangle  g_1 + \dots +  \langle v, e_n \rangle  g_n.
           </md>
@@ -66,7 +66,7 @@
           </md>
         </p>
         <p>
-          <xref ref="x236">Comparing</xref> and <xref ref="x237"></xref>
+          <xref ref="x236">Comparing</xref> and <xref ref="x237"/>
           shows that <m>\|v\| = \|Sv\|</m>.
           Thus <m>S</m> is an isometry.
         </p>
@@ -138,7 +138,7 @@
       </p>
       <p>
         Hence the self-adjoint operator <m>I - S^*S</m> equals <m>0</m>
-        (by <xref ref="x208"></xref>).
+        (by <xref ref="x208"/>).
         Thus <m>S^*S = I</m>, proving that (a) implies (b).
       </p>
       <p>
@@ -173,7 +173,7 @@
         </md>
       </p>
       <p>
-        The left side of <xref ref="ColOrtho"></xref>
+        The left side of <xref ref="ColOrtho"/>
         is the inner product in <m>\F m</m> of columns <m>k</m> and <m>r</m> of <m>A</m>.
         Thus the columns of <m>A</m> form an orthonormal list in <m>\FF{m}</m>,
         proving that (d) implies<nbsp/>(e).
@@ -191,7 +191,7 @@
     </proof>
     <p>
       See <xref ref="x2iso">Exercises</xref>
-      and <xref ref="IsoBall"></xref>
+      and <xref ref="IsoBall"/>
       for additional conditions that are equivalent to being an isometry.
     </p>
   </subsection>
@@ -250,7 +250,7 @@
         </p>
         <p>
           The two columns of this matrix form an orthonormal list in <m>\F{2}</m>;
-          hence <m>S</m> is an isometry [by the equivalence of (a) and (e) in <xref ref="x234"></xref>] . Thus <m>S</m> is a unitary operator.
+          hence <m>S</m> is an isometry [by the equivalence of (a) and (e) in <xref ref="x234"/>] . Thus <m>S</m> is a unitary operator.
         </p>
         <p>
           If <m>\F{} = \R{}</m>,
@@ -262,22 +262,22 @@
     </example>
     <p>
       The next result <xref ref="x734u"/> lists several conditions that are equivalent to being a unitary operator.
-      All the conditions equivalent to being an isometry in <xref ref="x234"></xref> should be added to this list.
-      The extra conditions in <xref ref="x734u"></xref>
+      All the conditions equivalent to being an isometry in <xref ref="x234"/> should be added to this list.
+      The extra conditions in <xref ref="x734u"/>
       arise because of limiting the context to linear maps from a vector space to itself.
-      For example, <xref ref="x234"></xref> shows that a linear map
+      For example, <xref ref="x234"/> shows that a linear map
       <m>S\in\Lc(V{}, W)</m> is an isometry if and only if <m>S^* S = I</m>,
       <xref ref="x734u">while</xref> shows that an operator
       <m>S \in \Lc(V)</m> is a unitary operator if and only if <m>S^* S = SS^* = I</m>.
     </p>
     <p>
-      Another difference is that <xref ref="x234"></xref>(d) mentions an orthonormal list,
+      Another difference is that <xref ref="x234"/>(d) mentions an orthonormal list,
       <xref ref="x734u">while</xref>(d) mentions an orthonormal basis.
-      Also, <xref ref="x234"></xref>(e) mentions the columns of <m>\M(T)</m>,
+      Also, <xref ref="x234"/>(e) mentions the columns of <m>\M(T)</m>,
       <xref ref="x734u">while</xref>(e) mentions the rows of <m>\M(T)</m>.
       Furthermore,
-      <m>\M(T)</m> in <xref ref="x234"></xref>(e) is with respect to an orthonormal basis of <m>V</m> and an orthonormal basis of <m>W{}</m>,
-      while <m>\M(T)</m> in <xref ref="x734u"></xref>(e) is with respect to a single basis of <m>V</m> doing double duty.
+      <m>\M(T)</m> in <xref ref="x234"/>(e) is with respect to an orthonormal basis of <m>V</m> and an orthonormal basis of <m>W{}</m>,
+      while <m>\M(T)</m> in <xref ref="x734u"/>(e) is with respect to a single basis of <m>V</m> doing double duty.
     </p>
     <theorem xml:id="x734u">
       <title>characterizations of unitary operators</title>
@@ -329,7 +329,7 @@
         <md>
           S^*S = I
         </md>
-        by the equivalence of (a) and (b) in <xref ref="x234"></xref>.
+        by the equivalence of (a) and (b) in <xref ref="x234"/>.
         Multiply both sides of this equation by <m>S^{-1}</m> on the right,
         getting <m>S^* = S^{-1}</m>.
         Thus <m>SS^* = SS^{-1} = I</m>, as desired,
@@ -343,7 +343,7 @@
         so <m>S</m> is invertible and <m>S^{-1} = S^*{}</m>.
         Thus <m>S^*S = I</m>.
         Hence <m>Se_1, \ldots, Se_n</m> is an orthonormal list in <m>V{}</m>,
-        by the equivalence of (b) and (d) in <xref ref="x234"></xref>.
+        by the equivalence of (b) and (d) in <xref ref="x234"/>.
         The length of this list equals <m>\dim V{}</m>.
         Thus <m>Se_1, \dots, Se_n</m> is an orthonormal basis of<nbsp/><m>V{}</m>,
         proving that (c) implies (d).
@@ -351,17 +351,17 @@
       <p>
         Now suppose (d) holds,
         so <m>Se_1, \dots, Se_n</m> is an orthonormal basis of <m>V{}</m>.
-        The equivalence of (a) and (d) in <xref ref="x234"></xref>
+        The equivalence of (a) and (d) in <xref ref="x234"/>
         shows that <m>S</m> is a unitary operator.
         Thus
         <md>
           ( S^* )^* S^* = SS^* = I,
         </md>
         where the last equation holds because we already showed that (a) implies (b) in this result.
-        The equation above and the equivalence of (a) and (b) in <xref ref="x234"></xref>
+        The equation above and the equivalence of (a) and (b) in <xref ref="x234"/>
         show that <m>S^*</m> is an isometry.
         Thus the columns of <m>\M( S^*{}, (e_1, \ldots,
-        e_n) )</m> form an orthonormal basis of <m>\F{n}</m> [by the equivalence of (a) and (e) of <xref ref="x234"></xref>] . The rows of
+        e_n) )</m> form an orthonormal basis of <m>\F{n}</m> [by the equivalence of (a) and (e) of <xref ref="x234"/>] . The rows of
         <m>\M( S, (e_1, \ldots,
         e_n) )</m> are the complex conjugates of the columns of <m>\M( S^*{}, (e_1, \ldots,
         e_n) )</m>.
@@ -373,7 +373,7 @@
         Now suppose (e) holds.
         Thus the columns of <m>\M( S^*{}, (e_1, \ldots,
         e_n) )</m> form an orthonormal basis of <m>\FF{n}</m>.
-        The equivalence of (a) and (e) in <xref ref="x234"></xref>
+        The equivalence of (a) and (e) in <xref ref="x234"/>
         shows that <m>S^*</m> is an isometry,
         proving that (e) implies (f).
       </p>
@@ -468,13 +468,13 @@
     <proof>
       <p>
         Suppose (a) holds, so <m>S</m> is a unitary operator.
-        The equivalence of (a) and (b) in <xref ref="x734u"></xref>
+        The equivalence of (a) and (b) in <xref ref="x734u"/>
         shows that <m>S</m> is normal.
         Thus the complex spectral theorem <xref ref="x85"/> shows that there is an orthonormal basis
         <m>e_1, \dots,
         e_n</m> of<nbsp/><m>V</m> consisting of eigenvectors of<nbsp/><m>S</m>.
         Every eigenvalue of <m>S</m> has absolute value <m>1</m>
-        (by <xref ref="EigUnitary"></xref>),
+        (by <xref ref="EigUnitary"/>),
         completing the proof that (a) implies (b).
       </p>
       <p>
@@ -487,7 +487,7 @@
           \langle Se_j, Se_k \rangle  = \langle \lambda_j e_j, \lambda_k e_k \rangle  = \lambda_j \overline{\lambda_k} \langle e_j, e_k \rangle = \begin{cases}0 \amp  \text{ if }  j \ne k, \\ 1 \amp  \text{ if }  j = k \end{cases}
         </md>
         for all <m>j,k = 1, \ldots, n</m>.
-        Thus the equivalence of (a) and (d) in <xref ref="x734u"></xref>
+        Thus the equivalence of (a) and (d) in <xref ref="x734u"/>
         shows that <m>S</m> is unitary,
         proving that (b) implies (a).
       </p>
@@ -534,12 +534,12 @@
       e_n</m> and <m>f_1, \ldots, f_n</m> are orthonormal bases of <m>V{}</m>,
       then <m>S</m> is a unitary operator if and only if <m>\M( S, (e_1, \ldots,
       e_n), (f_1, \ldots, f_n) )</m> is a unitary matrix,
-      as shown by the equivalence of (a) and (e) in <xref ref="x234"></xref>.
+      as shown by the equivalence of (a) and (e) in <xref ref="x234"/>.
       Also note that we could also have replaced
       <q>columns</q>
       in the definition above with
       <q>rows</q>
-      by using the equivalence between conditions (a) and (e) in <xref ref="x734u"></xref>.
+      by using the equivalence between conditions (a) and (e) in <xref ref="x734u"/>.
     </p>
     <p>
       The next result,
@@ -627,7 +627,7 @@
         If <m>j > k</m>, then <m>e_j</m> is orthogonal to
         <m>\Span(e_1, \ldots,
         e_k)</m> and hence <m>e_j</m> is orthogonal to <m>v_k</m>
-        (by <xref ref="x7GS"></xref>).
+        (by <xref ref="x7GS"/>).
         In other words,
         if <m>j > k</m> then <m>\langle v_k, e_j \rangle  = 0</m>.
         Thus <m>R</m> is an upper-triangular matrix.
@@ -641,7 +641,7 @@
         <md>
           \langle v_k, e_1 \rangle  e_1 + \cdots + \langle v_k, e_k \rangle  e_k,
         </md>
-        which equals <m>v_k</m> [by <xref ref="x190"></xref>(a)] , the <m>k^\nth</m> column of <m>A</m>.
+        which equals <m>v_k</m> [by <xref ref="x190"/>(a)] , the <m>k^\nth</m> column of <m>A</m>.
         Thus <m>A = QR</m>, as desired.
       </p>
       <p>
@@ -684,7 +684,7 @@
           <md>
             A = \begin{pmatrix}1 \amp 2 \amp 1 \\ 0 \amp 1 \amp -4 \\ 0 \amp 3 \amp 2 \end{pmatrix} ,
           </md>
-          follow the proof of <xref ref="x7QR"></xref>.
+          follow the proof of <xref ref="x7QR"/>.
           Thus set <m>v_1</m>, <m>v_2</m>,
           <m>v_3</m> equal to the columns of <m>A</m>:
           <md>
@@ -699,14 +699,14 @@
           </md>
         </p>
         <p>
-          Still following the proof of <xref ref="x7QR"></xref>,
+          Still following the proof of <xref ref="x7QR"/>,
           let <m>Q</m> be the unitary matrix whose columns are <m>e_1, e_2, e_3</m>:
           <md>
             Q = \begin{pmatrix}1 \amp 0 \amp  0 \\ 0 \amp \tfrac{1}{\sqrt{10}} \amp  -\tfrac{3}{\sqrt{10}} \\ 0 \amp \tfrac{3}{\sqrt{10}} \amp  \tfrac{1}{\sqrt{10}} \end{pmatrix} .
           </md>
         </p>
         <p>
-          As in the proof of <xref ref="x7QR"></xref>,
+          As in the proof of <xref ref="x7QR"/>,
           let <m>R</m> be the <m>3</m>-by-<m>3</m> matrix whose entry in row <m>j</m>,
           column <m>k</m> is <m>\langle v_k, e_j \rangle</m>, which gives
           <md>
@@ -748,7 +748,7 @@
       Suppose <m>A = QR</m>,
       where <m>Q</m> is unitary and <m>R</m> is upper triangular with only positive numbers on its diagonal
       (<m>Q</m> and <m>R</m> are computable from <m>A</m> using just the Gram<ndash/>Schmidt procedure,
-      as shown in the proof of <xref ref="x7QR"></xref>).
+      as shown in the proof of <xref ref="x7QR"/>).
       The equation <m>Ax= b</m> is equivalent to the equation <m>QRx = b</m>.
       Multiplying both sides of this last equation by <m>Q^*</m> on the left and using <xref ref="x7unitarymat"/>(d) gives the equation
       <md>
@@ -783,7 +783,7 @@
         If <m>v \in V</m> and <m>v \ne 0</m>,
         then because <m>T</m> is invertible we have <m>Tv \ne 0</m>.
         This implies that <m>\langle Tv, v \rangle \ne 0</m>
-        (by <xref ref="x7TvvZero"></xref>).
+        (by <xref ref="x7TvvZero"/>).
         Hence <m>\langle Tv, v \rangle > 0</m>.
       </p>
       <p>
@@ -846,7 +846,7 @@
       <p>
         Because <m>B</m> is positive definite,
         there exists an invertible square matrix <m>A</m> of the same size as <m>B</m> such that
-        <m>B = A^* A</m> [by the equivalence of (a) and (f) in <xref ref="x197"></xref>] .
+        <m>B = A^* A</m> [by the equivalence of (a) and (f) in <xref ref="x197"/>] .
       </p>
       <p>
         Let <m>A = QR</m> be the QR factorization of <m>A</m>
@@ -895,7 +895,7 @@
       <p>
         Hence <m>A = ( AS^{-1} ) S</m> is a factorization of <m>A</m> as the product of a unitary matrix and an upper-triangular matrix with only positive numbers on its diagonal.
         The uniqueness of the QR factorization,
-        as stated in <xref ref="x7QR"></xref>,
+        as stated in <xref ref="x7QR"/>,
         now implies that <m>S = R</m>.
       </p>
     </proof>
@@ -1127,7 +1127,7 @@
       <exercise>
         <statement>
           <p>
-            Explain why the characterizations of unitary matrices given by <xref ref="x7unitarymat"></xref> hold.
+            Explain why the characterizations of unitary matrices given by <xref ref="x7unitarymat"/> hold.
           </p>
         </statement>
       </exercise>

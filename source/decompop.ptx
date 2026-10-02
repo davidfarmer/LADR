@@ -57,7 +57,7 @@
       <p>
         Conversely, suppose <m>v \in G(\lambda, T)</m>.
         Thus there is a positive integer <m>k</m> such that <m>v \in \ker (T - \lambda I)^k\!</m>.
-        <xref ref="x76">From</xref> and <xref ref="x23"></xref>
+        <xref ref="x76">From</xref> and <xref ref="x23"/>
         (with <m>T - \lambda I</m> replacing <m>T</m>),
         we get <m>v \in \ker (T - \lambda I)^{\dim V}</m>.
         Thus <m>G(\lambda, T) \subset \ker (T - \lambda I)^{\dim V}</m>,
@@ -150,7 +150,7 @@
             Suppose <m>k \in \{ 1, \ldots, m \}</m>.
             If <m>v \in G(\lambda_k, T)</m>,
             then <m>(T - \lambda_k I)^{\dim V} v = 0</m>
-            (by <xref ref="x180"></xref>).
+            (by <xref ref="x180"/>).
             Thus <m>( (T - \lambda_k I)|_{G(\lambda_k,T)} )^{\dim V} = 0</m>.
             Hence <m>(T - \lambda_k I)|_{G(\lambda_k, T)}</m> is nilpotent,
             proving (b).
@@ -164,12 +164,12 @@
             </md>
             where each <m>v_k</m> is in <m>G(\lambda_k, T)</m>.
             Because generalized eigenvectors of <m>T</m> corresponding to distinct eigenvalues are linearly independent
-            (by <xref ref="genind"></xref>),
+            (by <xref ref="genind"/>),
             this implies that each <m>v_k</m> equals<nbsp/><m>0</m>.
             Thus <m>G(\lambda_1, T) + \dots + G(\lambda_m, T)</m> is a direct sum
-            (by <xref ref="x30"></xref>).
+            (by <xref ref="x30"/>).
             Finally, each vector in <m>V</m> can be written as a finite sum of generalized eigenvectors of <m>T</m>
-            (by <xref ref="x28"></xref>).
+            (by <xref ref="x28"/>).
             Thus
             <md>
               V = G(\lambda_1, T) \oplus \dots \oplus G(\lambda_m, T),
@@ -240,7 +240,7 @@
         </p>
         <p>
           The eigenvalues of <m>T</m> are the diagonal entries <m>6</m> and <m>7</m>,
-          as follows from <xref ref="a221"></xref>.
+          as follows from <xref ref="a221"/>.
           You can verify that the generalized eigenspaces of <m>T</m> are as follows:
           <md>
             G(6, T)  = \Span\bigl( (1, 0, 0), (0, 1, 0) \bigr) \andd G(7, T) = \Span\bigl( (10, 2, 1) \bigr).
@@ -251,14 +251,14 @@
             In this example,
             the multiplicity of each eigenvalue equals the number of times that eigenvalue appears on the diagonal of an upper-triangular matrix representing the operator.
             This behavior always happens,
-            as we will see in <xref ref="x253"></xref>.
+            as we will see in <xref ref="x253"/>.
           </p>
         </aside>
         <p>
           Thus the eigenvalue <m>6</m> has multiplicity <m>2</m> and the eigenvalue <m>7</m> has multiplicity <m>1</m>.
-          The direct sum <m>\CC3 = G(6, T) \oplus G(7, T)</m> is the generalized eigenspace decomposition promised by <xref ref="x31"></xref>.
+          The direct sum <m>\CC3 = G(6, T) \oplus G(7, T)</m> is the generalized eigenspace decomposition promised by <xref ref="x31"/>.
           A basis of <m>\C3</m> consisting of generalized eigenvectors of <m>T</m>,
-          as promised by <xref ref="x28"></xref>,
+          as promised by <xref ref="x28"/>,
           is <m>(1, 0, 0), (0, 1, 0), (10, 2, 1)</m>.
           There does not exist a basis of <m>\C3</m> consisting of eigenvectors of this operator.
         </p>
@@ -304,7 +304,7 @@
       Note that as defined above,
       the algebraic multiplicity also has a geometric meaning as the dimension of a certain null space.
       The definition of multiplicity given here is cleaner than the traditional definition that involves determinants;
-      <xref ref="x9chareqdet"></xref> implies that these definitions are equivalent.
+      <xref ref="x9chareqdet"/> implies that these definitions are equivalent.
     </p>
     <p>
       If <m>V</m> is an inner product space,
@@ -379,7 +379,7 @@
     </proof>
     <p>
       Most texts define the characteristic polynomial using determinants
-      (the two definitions are equivalent by <xref ref="x9chareqdet"></xref>).
+      (the two definitions are equivalent by <xref ref="x9chareqdet"/>).
       The approach taken here, which is considerably simpler,
       leads to the following nice proof of the Cayley<ndash/>Hamilton theorem.
     </p>
@@ -414,7 +414,7 @@
         </md>
       </p>
       <p>
-        (by <xref ref="x181"></xref>) for each <m>k \in \{1, \dots, m\}</m>.
+        (by <xref ref="x181"/>) for each <m>k \in \{1, \dots, m\}</m>.
       </p>
       <p>
         The generalized eigenspace decomposition <xref ref="x31"/> states that every vector in <m>V</m> is a sum of vectors in <m>G(\lambda_1, T), \dots, G(\lambda_m, T)</m>.
@@ -455,7 +455,7 @@
     </p>
     <proof>
       <p>
-        The desired result follows immediately from the Cayley<ndash/>Hamilton theorem <xref ref="x139"/> and <xref ref="x140"></xref>.
+        The desired result follows immediately from the Cayley<ndash/>Hamilton theorem <xref ref="x139"/> and <xref ref="x140"/>.
       </p>
     </proof>
     <p>
@@ -526,7 +526,7 @@
         For <m>\lambda</m> an eigenvalue of <m>T{}</m>,
         let <m>m_{\lambda}</m> denote the multiplicity of <m>\lambda</m> as an eigenvalue of <m>T</m> and let
         <m>d_{\lambda}</m> denote the number of times that <m>\lambda</m> appears on the diagonal of <m>A</m>.
-        Replacing <m>T</m> in <xref ref="x8dimnullTn"></xref>
+        Replacing <m>T</m> in <xref ref="x8dimnullTn"/>
         with <m>T - \lambda I</m>, we see that
         <md number="yes" xml:id="x8md">
           m_{\lambda} \le d_{\lambda}
@@ -535,12 +535,12 @@
         The sum of the multiplicities
         <m>m_{\lambda}</m> over all eigenvalues <m>\lambda</m> of <m>T</m> equals <m>n</m>,
         the dimension of <m>V</m>
-        (by <xref ref="x8sm"></xref>).
+        (by <xref ref="x8sm"/>).
         The sum of the numbers <m>d_{\lambda}</m> over all eigenvalues <m>\lambda</m> of <m>T</m> also equals <m>n</m>,
         because the diagonal of <m>A</m> has length <m>n</m>.
       </p>
       <p>
-        Thus summing both sides of <xref ref="x8md"></xref>
+        Thus summing both sides of <xref ref="x8md"/>
         over all eigenvalues <m>\lambda</m> of <m>T</m> produces an equality.
         <xref ref="x8md">Hence</xref> must actually be an equality for each eigenvalue <m>\lambda</m> of <m>T{}</m>.
         Thus the multiplicity of <m>\lambda</m> as an eigenvalue of <m>T{}</m> equals the number of times that <m>\lambda</m> appears on the diagonal of <m>A</m>,
@@ -631,7 +631,7 @@
         (see <xref ref="x31"/>).
         For each <m>k</m>, choose a basis of <m>G(\lambda_k, T)</m>,
         which is a vector space of dimension <m>d_k</m>,
-        such that the matrix of <m>(T - \lambda_k I)|_{G(\lambda_k, T)}</m> with respect to this basis is as in <xref ref="a33"></xref>(c).
+        such that the matrix of <m>(T - \lambda_k I)|_{G(\lambda_k, T)}</m> with respect to this basis is as in <xref ref="a33"/>(c).
         Thus with respect to this basis,
         the matrix of <m>T|_{G(\lambda_k, T)}</m>,
         which equals <m>(T - \lambda_k I)|_{G(\lambda_k, T)} + \lambda_k I|_{G(\lambda_k, T)}</m>,
@@ -654,7 +654,7 @@
           <md>
             \begin{pmatrix}6 \amp  3 \amp  4 \\ 0 \amp  6 \amp  2 \\ 0 \amp  0 \amp  7 \end{pmatrix} ,
           </md>
-          which is an upper-triangular matrix but is not of the form promised by <xref ref="x187"></xref>.
+          which is an upper-triangular matrix but is not of the form promised by <xref ref="x187"/>.
         </p>
         <p>
           As we saw in <xref ref="multex">Example</xref>,
@@ -674,7 +674,7 @@
           <md>
             \begin{pmatrix}\begin{pmatrix}6 \amp  3 \\ 0 \amp  6 \end{pmatrix}  \amp  \begin{matrix}0 \\ 0 \end{matrix} \begin{matrix}0 \amp  0 \end{matrix}  \amp  \begin{pmatrix}7 \end{pmatrix} \end{pmatrix} ,
           </md>
-          which is a matrix of the block diagonal form promised by <xref ref="x187"></xref>.
+          which is a matrix of the block diagonal form promised by <xref ref="x187"/>.
         </p>
       </statement>
     </example>
@@ -754,7 +754,7 @@
             </md>
             if and only if the minimal polynomial of <m>T</m> equals
             <m>(z-\lambda_1)^{k_1} \cdots (z - \lambda_m)^{k_m}</m> for some positive integers <m>k_1, \ldots, k_m</m>.
-            Note: The case <m>\F{} = \C{}</m> follows immediately from <xref ref="x136"></xref>
+            Note: The case <m>\F{} = \C{}</m> follows immediately from <xref ref="x136"/>
             (b) and the generalized eigenspace decomposition <xref ref="x31"/> ; thus this exercise is interesting only when <m>\F{} = \R{}</m>.
           </p>
         </statement>
@@ -972,7 +972,7 @@
                   in <xref ref="x5invar">Section</xref>)
                   to show that if <m>\dim V</m> is an odd number,
                   then <m>T</m> has an eigenvalue
-                  (thus giving an alternative proof of <xref ref="x5odd"></xref>).
+                  (thus giving an alternative proof of <xref ref="x5odd"/>).
                 </p>
               </li>
             </ol>

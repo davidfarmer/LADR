@@ -74,14 +74,14 @@
     <p>
       Do not memorize the formula for the product of two complex numbers<mdash/>you can always rederive it by recalling that
       <m>i^2 = -1</m> and then using the usual rules of arithmetic
-      (as given by <xref ref="complexarith"></xref>).
+      (as given by <xref ref="complexarith"/>).
       The next example illustrates this procedure.
     </p>
     <example>
       <title>complex arithmetic</title>
       <statement>
         <p>
-          The product <m>(2 + 3i)(4+5i)</m> can be evaluated by applying the distributive and commutative properties from <xref ref="complexarith"></xref>:
+          The product <m>(2 + 3i)(4+5i)</m> can be evaluated by applying the distributive and commutative properties from <xref ref="complexarith"/>:
           <md>
             <mrow>(2 + 3i)(4+5i) \amp = 2 \cdot (4+5i) +(3i)(4+5i)</mrow>
             <mrow>\amp = 2 \cdot 4 + 2 \cdot 5i + 3i\cdot 4 + (3i)(5i)</mrow>
@@ -554,7 +554,7 @@
           </md>
         </p>
         <p>
-          Here the <m>0</m> above is the list defined in <xref ref="x0vector"></xref>,
+          Here the <m>0</m> above is the list defined in <xref ref="x0vector"/>,
           not the number <m>0</m>,
           because we have not defined the sum of an element of <m>\F{n}</m> (namely,
           <m>x</m>) and the number<nbsp/><m>0</m>.
@@ -728,7 +728,7 @@
       A <term>field</term> is a set
           <idx><h>field</h></idx>
       containing at least two distinct elements called <m>0</m> and <m>1</m>,
-      along with operations of addition and multiplication satisfying all properties listed in <xref ref="complexarith"></xref>.
+      along with operations of addition and multiplication satisfying all properties listed in <xref ref="complexarith"/>.
       Thus <m>\R{}</m> and <m>\C{}</m> are fields,
       as is the set of rational numbers along with the usual operations of addition and multiplication.
       Another example of a field is the set
@@ -740,7 +740,7 @@
       and proofs in linear algebra that work for the fields <m>\R{}</m> and <m>\C{}</m> also work without change for arbitrary fields.
       If you prefer to do so, throughout much of this book
       (except for <xref ref="InnerProductSpaces">Chapters</xref>
-      and <xref ref="opsinner"></xref>,
+      and <xref ref="opsinner"/>,
       which deal with inner product spaces)
       you can think of <m>\F{}</m> as denoting an arbitrary field instead of <m>\R{}</m> or<nbsp/><m>\C{}</m>.
       For results

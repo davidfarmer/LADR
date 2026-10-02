@@ -109,15 +109,15 @@
       Let <m>v \in V{}</m>.
       Because <m>v_1, \dots, v_n</m> spans <m>V{}</m>,
       there exist <m>a_1, \dots,
-      a_n \in \F{}</m> such that <xref ref="x66"></xref> holds.
-      To show that the representation in <xref ref="x66"></xref> is unique,
+      a_n \in \F{}</m> such that <xref ref="x66"/> holds.
+      To show that the representation in <xref ref="x66"/> is unique,
       suppose <m>c_1, \dots, c_n</m> are scalars such that we also have
       <md>
         v = c_1 v_1 + \dots + c_n v_n.
       </md>
     </p>
     <p>
-      Subtracting the last equation from <xref ref="x66"></xref>, we get
+      Subtracting the last equation from <xref ref="x66"/>, we get
       <md>
         0 = (a_1 - c_1) v_1 + \dots + (a_n - c_n) v_n.
       </md>
@@ -131,7 +131,7 @@
     </p>
     <p>
       For the other direction,
-      suppose every <m>v \in V</m> can be written uniquely in the form given by <xref ref="x66"></xref>.
+      suppose every <m>v \in V</m> can be written uniquely in the form given by <xref ref="x66"/>.
       This implies that the list <m>v_1, \dots, v_n</m> spans <m>V{}</m>.
       To show that <m>v_1, \dots, v_n</m> is linearly independent,
       suppose <m>a_1, \dots, a_n \in \F{}</m> are such that
@@ -225,7 +225,7 @@
     </p>
   </proof>
   <p>
-    Our next result is in some sense a dual of <xref ref="x267"></xref>,
+    Our next result is in some sense a dual of <xref ref="x267"/>,
     which said that every spanning list can be reduced to a basis.
     Now we show that given any linearly independent list,
     we can adjoin some additional vectors
@@ -251,7 +251,7 @@
         u_1, \dots, u_m, w_1, \dots, w_n
       </md>
       spans <m>V{}</m>.
-      Applying the procedure of the proof of <xref ref="x267"></xref>
+      Applying the procedure of the proof of <xref ref="x267"/>
       to reduce this list to a basis of <m>V</m> produces a basis consisting of the vectors
       <m>u_1, \dots,
       u_m</m> and some of the <m>w</m>'s
@@ -297,17 +297,17 @@
       Because <m>V</m> is finite-dimensional, so is <m>U</m>
       (see <xref ref="x68"/>).
       Thus there is a basis <m>u_1, \dots, u_m</m> of<nbsp/><m>U</m>
-      (by <xref ref="x6"></xref>).
+      (by <xref ref="x6"/>).
       Of course <m>u_1, \dots,
       u_m</m> is a linearly independent list of vectors in<nbsp/><m>V{}</m>.
       Hence this list can be extended to a basis <m>u_1, \dots,
       u_m, w_1, \dots, w_n</m> of<nbsp/><m>V</m>
-      (by <xref ref="x9"></xref>).
+      (by <xref ref="x9"/>).
       Let <m>W = \Span(w_1, \dots, w_n)</m>.
     </p>
     <p>
       To prove that <m>V = U \oplus W{}</m>,
-      by <xref ref="x219"></xref> we only need to show that
+      by <xref ref="x219"/> we only need to show that
       <md>
         V = U + W \andd U \cap W = \{0\}.
       </md>

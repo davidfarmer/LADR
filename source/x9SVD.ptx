@@ -58,12 +58,12 @@
       </md>
     </p>
     <p>
-      Taking <m>v = e_1</m> in <xref ref="x73SVD"></xref>
+      Taking <m>v = e_1</m> in <xref ref="x73SVD"/>
       shows that <m>Te_1 = s_1 f_1</m>.
       Because <m>\lVert f_1 \rVert  = 1</m>,
       this implies that <m>\lVert Te_1 \rVert  = s_1</m>.
       Thus because <m>\lVert e_1 \rVert  = 1</m>,
-      the inequality in <xref ref="x77norm"></xref> leads to the equation
+      the inequality in <xref ref="x77norm"/> leads to the equation
       <md number="yes" xml:id="x7max">
         \max \{  \lVert Tv \rVert  : v \in V \text{ and }  \lVert v \rVert  \le 1 \} = s_1.
       </md>
@@ -107,7 +107,7 @@
     <p>
       The properties of the norm on
       <m>\Lc(V{}, W)</m> listed below look identical to properties of the norm on an inner product space
-      (see <xref ref="x2bnorm"/> and <xref ref="x3triangle"></xref>).
+      (see <xref ref="x2bnorm"/> and <xref ref="x3triangle"/>).
       The inequality in (d) is called the
       <term>triangle inequality</term>,
           <idx><h>triangle inequality</h></idx>
@@ -286,7 +286,7 @@
     </p>
     <p>
       For computing an approximation of the norm of a linear map <m>T</m> given the matrix of <m>T</m> with respect to some orthonormal bases,
-      <xref ref="x3altNorm"></xref>(a) is likely to be most useful.
+      <xref ref="x3altNorm"/>(a) is likely to be most useful.
       The matrix of <m>T^*T</m> is quickly computable from matrix multiplication.
       Then a computer can be asked to find an approximation for the largest eigenvalue of <m>T^*T</m>
       (excellent numeric algorithms exist for this purpose).
@@ -495,15 +495,15 @@
     </p>
     <p>
       Note that if <m>T \in \Lc(V)</m>,
-      then <m>T^* T</m> is a positive operator [as was shown in <xref ref="x2Tstar"></xref>(a)] . Thus the operator
+      then <m>T^* T</m> is a positive operator [as was shown in <xref ref="x2Tstar"/>(a)] . Thus the operator
       <m>\sqrt{T^*T}</m> makes sense and is well defined as a positive operator on <m>V{}</m>.
     </p>
     <p>
       The polar decomposition that we are about to state and prove says that every operator on<nbsp/><m>V</m> is the product of a unitary operator and a positive operator.
       Thus we can write an arbitrary operator on<nbsp/><m>V</m> as the product of two nice operators,
       each of which comes from a class that we can completely describe and that we understand reasonably well.
-      The unitary operators are described by <xref ref="x263"></xref> if <m>\F{} = \C{}</m>;
-      the positive operators are described by the real and complex spectral theorems ( <xref ref="x86"></xref> and <xref ref="x85"></xref>).
+      The unitary operators are described by <xref ref="x263"/> if <m>\F{} = \C{}</m>;
+      the positive operators are described by the real and complex spectral theorems ( <xref ref="x86"/> and <xref ref="x85"/>).
     </p>
     <p>
       Specifically, consider the case <m>\F{} = \C{}</m>, and suppose
@@ -529,7 +529,7 @@
       <m>\sqrt{T^*T}</m> both have diagonal matrices with respect to the same orthonormal basis of <m>V{}</m>,
       then <m>T</m> is normal.
       This holds because <m>T</m> then has a diagonal matrix with respect to this same orthonormal basis,
-      which implies that <m>T</m> is normal [by the equivalence of (c) and (a) in <xref ref="x85"></xref>] .
+      which implies that <m>T</m> is normal [by the equivalence of (c) and (a) in <xref ref="x85"/>] .
     </p>
     <p>
       The polar decomposition below is valid on both real and complex inner product spaces and for all operators on those spaces.
@@ -580,8 +580,8 @@
         Thus <m>S</m> is a unitary operator.
       </p>
       <p>
-        Applying <m>T^*</m> to both sides of <xref ref="x4polar"></xref>
-        and then using the formula for <m>T^*</m> given by <xref ref="x6SVD"></xref> shows that
+        Applying <m>T^*</m> to both sides of <xref ref="x4polar"/>
+        and then using the formula for <m>T^*</m> given by <xref ref="x6SVD"/> shows that
         <md>
           T^*Tv = {s_1}^{2} \langle v,e_1 \rangle  e_1 + \cdots + {s_m}^{2} \langle v, e_m \rangle  e_m
         </md>
@@ -597,7 +597,7 @@
           <mrow>\amp =  s_1 \langle v, e_1 \rangle  f_1 + \cdots + s_m \langle v, e_m \rangle  f_m</mrow>
           <mrow>\amp = Tv</mrow>
         </md>,
-        where the last equation follows from <xref ref="x4polar"></xref>.
+        where the last equation follows from <xref ref="x4polar"/>.
       </p>
     </proof>
     <p>
@@ -775,7 +775,7 @@
         </md>
       </p>
       <p>
-        Then <m>\lVert v \rVert \lt 1</m> and <xref ref="x5Tv"></xref>
+        Then <m>\lVert v \rVert \lt 1</m> and <xref ref="x5Tv"/>
         implies that <m>Tv = \langle w,f_1 \rangle f_1 + \cdots + \langle w, f_n \rangle f_n = w</m>.
         Thus <m>T(B) \supset E(s_1 f_1, \ldots, s_n f_n)</m>.
       </p>
@@ -814,7 +814,7 @@
         </md>
       </p>
       <p>
-        The equation above and <xref ref="x7TB"></xref>, applied to <m>TS</m>,
+        The equation above and <xref ref="x7TB"/>, applied to <m>TS</m>,
         show that <m>T(E)</m> is an ellipsoid in <m>V{}</m>.
       </p>
     </proof>
@@ -948,7 +948,7 @@
     <p>
       Suppose <m>T \in \Lc(V)</m> is invertible.
       Then <m>T</m> maps every parallelepiped in <m>V</m> to a parallelepiped in <m>V</m>
-      (by <xref ref="x8Tpar"></xref>).
+      (by <xref ref="x8Tpar"/>).
       In particular,
       <m>T</m> maps every box in <m>V</m> to a parallelepiped in <m>V{}</m>.
       This raises the question of whether <m>T</m> maps some boxes in <m>V</m> to boxes in <m>V{}</m>.
@@ -1114,7 +1114,7 @@
       However, if we choose the right basis
       (coming from the singular value decomposition!),
       then boxes with respect to that basis get mapped to boxes with respect to a possibly different basis,
-      as shown in <xref ref="x7boxes"></xref>.
+      as shown in <xref ref="x7boxes"/>.
       This observation leads to a natural proof of the following result.
     </p>
     <theorem xml:id="x7volchange">
@@ -1161,7 +1161,7 @@
       Suppose <m>T \in \Lc(V)</m>.
       As we will see when we get to determinants,
       the product of the singular values of <m>T</m> equals <m>\lvert \det T \rvert</m>;
-      see <xref ref="x324"/> and <xref ref="x9330"></xref>.
+      see <xref ref="x324"/> and <xref ref="x9330"/>.
     </p>
   </subsection>
   <subsection>
@@ -1179,7 +1179,7 @@
       Make sure you can explain why all results in the table hold.
       For example,
       the last row of the table holds because the norm of an operator equals its largest singular value
-      (by <xref ref="x7max"></xref>)
+      (by <xref ref="x7max"/>)
       and the singular values of a normal operator,
       assuming <m>\F{} = \C{}</m>, equal the absolute values of the eigenvalues
       (by <xref ref="x7singsp">Exercise</xref>
