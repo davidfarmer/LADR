@@ -336,7 +336,7 @@
     </statement>
   </example>
   <p>
-    The next example <xref ref="x5necsuf">illustrates</xref>:
+    The next example illustrates <xref ref="x5necsuf"/>:
     an operator has an upper-triangular matrix with respect to some basis if and only if the minimal polynomial of the operator is the product of polynomials of degree <m>1</m>.
   </p>
   <example>
@@ -478,7 +478,7 @@
       </md>
     </p>
     <p>
-      <xref ref="x401">From</xref> and <xref ref="x402"/>,
+      From <xref ref="x401"/> and <xref ref="x402"/>,
       we conclude
       (using <xref ref="a225"/>)
       that <m>T</m> has an upper-triangular matrix with respect to the basis
@@ -541,7 +541,7 @@
       In contrast,
       an upper-triangular matrix with respect to some basis gives us a list of all the eigenvalues of the operator.
       However, there is no method for computing exactly such an upper-triangular matrix,
-      even <xref ref="a226">though</xref>
+      even though <xref ref="a226"/>
       guarantees its existence if <m>\F{} = \C{}</m>.
     </p>
   </aside>

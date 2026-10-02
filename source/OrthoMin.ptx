@@ -240,7 +240,7 @@
         completing the proof that <m>V = U + U^\perp{}</m>.
       </p>
       <p>
-        <xref ref="oc">From</xref>(d),
+        From <xref ref="oc"/>(d),
         we know that <m>U \cap U^\perp = \{0\}</m>.
         Now equation <m>V = U + U^\perp{}</m> implies that <m>V = U \oplus U^\perp</m>
         (see <xref ref="x219"/>).
@@ -311,7 +311,7 @@
         which implies that <m>v - u = 0</m> [by <xref ref="oc"/>(d)], which implies that <m>v = u</m>,
         which implies that <m>v \in U</m>.
         Thus <m>( U^\perp )^\perp \subset U</m>,
-        which along <xref ref="x415">with</xref> completes the proof.
+        which along with <xref ref="x415"/> completes the proof.
       </p>
     </proof>
     <aside>
@@ -554,7 +554,7 @@
         </li>
         <li>
           <p>
-            The formula for <m>P_{U} v</m> follows from <xref ref="x416">equation</xref>
+            The formula for <m>P_{U} v</m> follows from equation <xref ref="x416"/>
             in the proof of <xref ref="x191"/>.
           </p>
         </li>
@@ -722,7 +722,7 @@
         where the first line above holds because <m>0 \le \|P_{U} v - u\|^2{}</m>, the second line above comes from the Pythagorean theorem [which applies because <m>v - P_{U} v \in U^\perp</m> by <xref ref="x418"/>(f), and <m>P_{U} v - u \in U</m>] , and the third line above holds by simple algebra. Taking square roots gives the desired inequality.
       </p>
       <p>
-        The inequality proved above is an equality if and only <xref ref="x422">if</xref> is an equality,
+        The inequality proved above is an equality if and only if <xref ref="x422"/> is an equality,
         which happens if and only if <m>\|P_{U} v - u\| = 0</m>,
         which happens if and only if <m>u = P_{U} v</m>.
       </p>
@@ -795,7 +795,7 @@
             <p>Graphs on <m>[-\pi, \pi]</m> of the sine function (red) and its best fifth degree polynomial approximation <m>u</m> (blue) from <xref ref="x420"/>.</p>
 </stack></sidebyside>
         <p>
-          Our <xref ref="x420">approximation</xref>
+          Our approximation <xref ref="x420"/>
           is so accurate that the two graphs are almost identical<mdash/>our eyes may see only one graph!
           Here the red graph is placed almost exactly over the blue graph.
           If you are viewing this on an electronic device,
@@ -823,9 +823,9 @@
           the Taylor polynomial is not so accurate,
           especially compared to <xref ref="x420"/>.
           For example, taking <m>x = 3</m>,
-          our <xref ref="x420">approximation</xref>
+          our approximation <xref ref="x420"/>
           estimates <m>\sin 3</m> with an error of approximately <m>0.001</m>,
-          but the Taylor <xref ref="x421">polynomial</xref>
+          but the Taylor polynomial <xref ref="x421"/>
           estimates <m>\sin 3</m> with an error of approximately <m>0.4</m>.
           Thus at <m>x = 3</m>,
           the error in the Taylor polynomial is hundreds of times larger than the error given by <xref ref="x420"/>.
@@ -1200,7 +1200,7 @@
           </md>
         </p>
         <p>
-          <xref ref="x6Tpseudo">Hence</xref> tells us that
+          Hence <xref ref="x6Tpseudo"/> tells us that
           <md>
             T^\dagger(x,y,z) = \tfrac{1}{11} (5x-2y, 5x-2y, x+4y, -2x +3y).
           </md>
@@ -1465,7 +1465,7 @@
           <p>
             Find <m>p \in \P{}_5(\R{})</m> that makes
             <m>\displaystyle \int_{-\pi}^{\pi} \lvert \sin x - p(x) \rvert ^2 dx</m> as small as possible.
-            Note: The <xref ref="x420">polynomial</xref>
+            Note: The polynomial <xref ref="x420"/>
             is an excellent approximation to the answer to this exercise,
             but here you are asked to find the exact solution,
             which involves powers of <m>\pi</m>.

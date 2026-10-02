@@ -456,9 +456,9 @@
       </md>
       is linearly independent in
       <m>\P{}_n(\F{})</m> because each polynomial in this list has a different degree.
-      Also, the <xref ref="x4basis">list</xref> has length <m>n+1</m>,
+      Also, the list <xref ref="x4basis"/> has length <m>n+1</m>,
       which equals <m>\dim \P{}_n(\F{})</m>.
-      <xref ref="x4basis">Hence</xref> is a basis of
+      Hence <xref ref="x4basis"/> is a basis of
       <m>\P{}_n(\F{})</m> [by <xref ref="x75"/>].
     </p>
     <p>
@@ -483,7 +483,7 @@
       r \in \P(\F{})</m> satisfying these conditions follows from the uniqueness of the constants
       <m>a_0, a_1, \ldots,
       a_{m-1} \in \F{}</m> and <m>b_0, b_1, \ldots,
-      b_{n-m} \in \F{}</m> <xref ref="x4unique">satisfying</xref>.
+      b_{n-m} \in \F{}</m> satisfying <xref ref="x4unique"/>.
     </p>
   </proof>
 </paragraphs>
@@ -802,7 +802,7 @@
     <m>(x - \lambda)</m> is a term in the factorization of<nbsp/><m>p</m> as an element of<nbsp/><m>\P(\C{})</m>.
     We are guaranteed by <xref ref="x170"/>
     that <m>( x - \bar{\lambda} )</m> also appears as a term in the factorization,
-    <xref ref="x170">but</xref> does not state that these two factors appear the same number of times,
+    but <xref ref="x170"/> does not state that these two factors appear the same number of times,
     as needed to make the idea above work.
     However, the proof works around this point.
   </p>
@@ -879,7 +879,7 @@
       <m>{b_k}^{2} \lt 4 c_k</m> can be uniquely written as
       <m>(x - \lambda_k)( x - \overline{\lambda_k} )</m> with <m>\lambda_k \in \C{}</m>.
       A moment's thought shows that two different factorizations of<nbsp/><m>p</m> as an element of<nbsp/><m>\P(\R{})</m> would lead to two different factorizations of<nbsp/><m>p</m> as an element of<nbsp/><m>\P(\C{})</m>,
-      <xref ref="x4FTA2">contradicting</xref>.
+      contradicting <xref ref="x4FTA2"/>.
     </p>
   </proof>
 </paragraphs>

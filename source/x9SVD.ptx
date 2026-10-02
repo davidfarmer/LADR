@@ -282,7 +282,7 @@
     </proof>
     <p>
       When working with norms of linear maps,
-      you will probably frequently use the <xref ref="x8norm">inequality</xref>.
+      you will probably frequently use the inequality <xref ref="x8norm"/>.
     </p>
     <p>
       For computing an approximation of the norm of a linear map <m>T</m> given the matrix of <m>T</m> with respect to some orthonormal bases,
@@ -362,7 +362,7 @@
         <md>
           \lVert T^*w \rVert  \le \lVert T \rVert    \lVert w \rVert ,
         </md>
-        which along <xref ref="x3altNorm">with</xref>(c) implies that <m>\lVert T^* \rVert  \le \lVert T \rVert</m>.
+        which along with <xref ref="x3altNorm"/>(c) implies that <m>\lVert T^* \rVert  \le \lVert T \rVert</m>.
       </p>
       <p>
         Replacing <m>T</m> with <m>T^*</m> in the inequality
@@ -1638,7 +1638,7 @@
             and <m>R \in \Lc(V)</m> is a positive operator such that <m>T = SR</m>.
             Prove that <m>R = \sqrt{T^* T}</m>.
             Note: This exercise shows that if we write <m>T</m> as the product of a unitary operator and a positive operator
-            (as in the polar <xref ref="x244">decomposition</xref>)
+            (as in the polar decomposition <xref ref="x244"/>)
             , then the positive operator equals <m>\sqrt{T^*T}</m>.
           </p>
         </statement>

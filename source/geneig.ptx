@@ -232,18 +232,18 @@
     </p>
     <p>
       The spectral theorem in the previous chapter shows that if <m>V</m> is an inner product space,
-      then a decomposition of the <xref ref="x429">form</xref>
+      then a decomposition of the form <xref ref="x429"/>
       holds for every self-adjoint operator if
       <m>\F{} = \R{}</m> and for every normal operator if
       <m>\F{} = \C{}</m> because operators of those types have enough eigenvectors to form a basis of <m>V</m>
       (see <xref ref="x86"/> and <xref ref="x85"/>).
     </p>
     <p>
-      However, a decomposition of the <xref ref="x429">form</xref>
+      However, a decomposition of the form <xref ref="x429"/>
       may not hold for more general operators,
       even on a complex vector space.
       An example was given by the operator in <xref ref="x428"/>,
-      which does not have enough eigenvectors <xref ref="x429">for</xref> to hold.
+      which does not have enough eigenvectors for <xref ref="x429"/> to hold.
       Generalized eigenvectors and generalized eigenspaces,
       which we now introduce, will remedy this situation.
     </p>
@@ -276,7 +276,7 @@
       <md>
         (T - \lambda I)^{\dim V} v = 0,
       </md>
-      as follows from <xref ref="x76">applying</xref> and <xref ref="x23"/>
+      as follows from applying <xref ref="x76"/> and <xref ref="x23"/>
       to the operator <m>T  - \lambda I</m>.
     </p>
     <p>
@@ -470,7 +470,7 @@
         </md>
         because otherwise <m>v_k</m> would be a generalized eigenvector of <m>T</m> corresponding to the distinct eigenvalues
         <m>\lambda_k</m> and <m>\lambda_m</m>,
-        which would <xref ref="x8intgeneig">contradict</xref>.
+        which would contradict <xref ref="x8intgeneig"/>.
         However,
         <md>
           (T - \lambda_k I)^n (  (T - \lambda_m I)^n v_k  ) = (T - \lambda_m I)^n (  (T - \lambda_k I)^n v_k  ) = 0.
@@ -698,7 +698,7 @@
       </p>
       <p>
         Now suppose (c) holds.
-        <xref ref="x4polyut">Then</xref> implies that <m>T^{\dim V} = 0</m>.
+        Then <xref ref="x4polyut"/> implies that <m>T^{\dim V} = 0</m>.
         Thus <m>T</m> is nilpotent, proving that (c) implies (a).
       </p>
     </proof>
@@ -920,7 +920,7 @@
             Suppose <m>T \in \Lc(V)</m> is nilpotent.
             Prove that <m>T^{1 + \dim \ran T} = 0</m>.
             Note: If <m>\dim \ran T \lt \dim V - 1</m>,
-            then this exercise <xref ref="x181">improves</xref>.
+            then this exercise improves <xref ref="x181"/>.
           </p>
         </statement>
       </exercise>
@@ -935,7 +935,7 @@
           </p>
           <p>
             Note: For operators that are not nilpotent,
-            this exercise <xref ref="x8nulloplusran">improves</xref>.
+            this exercise improves <xref ref="x8nulloplusran"/>.
           </p>
         </statement>
       </exercise>

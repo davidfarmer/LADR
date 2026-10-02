@@ -140,7 +140,7 @@
       </md>
     </p>
     <p>
-      The uniqueness of the <xref ref="x66">representation</xref>
+      The uniqueness of the representation <xref ref="x66"/>
       (taking <m>v = 0</m>)
       now implies that <m>a_1 = \dots = a_n = 0</m>.
       Thus <m>v_1, \dots,

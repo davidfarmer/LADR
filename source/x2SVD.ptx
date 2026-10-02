@@ -311,7 +311,7 @@
         </md>
         where the first equivalence comes from <xref ref="x234"/>
         and the second equivalence comes from the spectral theorem ( <xref ref="x86"/>
-        <xref ref="x85">or</xref>) applied to the self-adjoint operator <m>S^* S</m>.
+        or <xref ref="x85"/>) applied to the self-adjoint operator <m>S^* S</m>.
       </p>
     </proof>
   </subsection>
@@ -397,7 +397,7 @@
       <m>s_1, \ldots,
       s_m</m>, and <m>e_1, \ldots, e_m</m> and
       <m>f_1, \ldots,
-      f_m</m> are as in the singular value <xref ref="x382">decomposition</xref>.
+      f_m</m> are as in the singular value decomposition <xref ref="x382"/>.
       The orthonormal list <m>e_1, \ldots,
       e_m</m> can be extended to an orthonormal basis
       <m>e_1, \ldots,
@@ -558,7 +558,7 @@
         implies that <m>Te_k = s_k f_k</m> if <m>k = 1, \ldots, m</m>,
         and the last line above holds because <xref ref="x5SVD"/> implies that
         <m>f_1, \ldots,
-        f_m</m> spans <m>\ran T</m> and thus is an orthonormal basis of <m>\ran T</m> [and <xref ref="x418">hence</xref>(i) applies] . The equation above,
+        f_m</m> spans <m>\ran T</m> and thus is an orthonormal basis of <m>\ran T</m> [and hence <xref ref="x418"/>(i) applies] . The equation above,
         the observation that <m>v \in (\ker T)^\perp</m> [see <xref ref="x4SVD">Exercise</xref>(b)] , and the definition of <m>T^\dagger w</m>
         (see <xref ref="x6pseudo"/>)
         show that <m>v = T^\dagger w</m>,

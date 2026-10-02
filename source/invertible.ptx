@@ -452,7 +452,7 @@
       </p>
       <p>
         (the fundamental theorem of linear maps,
-        which <xref ref="x3ab11">is</xref>) thus becomes the equation <m>\dim V = \dim W{}</m>,
+        which is <xref ref="x3ab11"/>) thus becomes the equation <m>\dim V = \dim W{}</m>,
         completing the proof in one direction.
       </p>
       <p>
@@ -936,7 +936,7 @@
     </theorem>
     <proof>
       <p>
-        <xref ref="x298">In</xref>, replace <m>w_k</m> with<nbsp/><m>u_k</m>,
+        In <xref ref="x298"/>, replace <m>w_k</m> with<nbsp/><m>u_k</m>,
         and replace <m>S</m> and <m>T</m> with<nbsp/><m>I</m>, getting
         <md>
           I = \M\bigl(I, (v_1, \dots, v_n), (u_1, \dots, u_n) \bigr) \M\bigl(I, (u_1, \dots, u_n), (v_1, \dots, v_n) \bigr).
@@ -1008,7 +1008,7 @@
     </theorem>
     <proof>
       <p>
-        <xref ref="x298">In</xref>,
+        In <xref ref="x298"/>,
         replace <m>w_k</m> with<nbsp/><m>u_k</m> and replace <m>S</m> with<nbsp/><m>I</m>, getting
         <md number="yes" xml:id="x300">
           A = C^{-1} \M\bigl(T, (u_1, \dots, u_n), (v_1, \dots, v_n) \bigr),

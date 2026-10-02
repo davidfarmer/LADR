@@ -57,7 +57,7 @@
       <p>
         Conversely, suppose <m>v \in G(\lambda, T)</m>.
         Thus there is a positive integer <m>k</m> such that <m>v \in \ker (T - \lambda I)^k\!</m>.
-        <xref ref="x76">From</xref> and <xref ref="x23"/>
+        From <xref ref="x76"/> and <xref ref="x23"/>
         (with <m>T - \lambda I</m> replacing <m>T</m>),
         we get <m>v \in \ker (T - \lambda I)^{\dim V}</m>.
         Thus <m>G(\lambda, T) \subset \ker (T - \lambda I)^{\dim V}</m>,
@@ -135,7 +135,7 @@
         <li>
           <p>
             Suppose <m>k \in \{ 1, \ldots, m \}</m>.
-            <xref ref="x180">Then</xref> shows that
+            Then <xref ref="x180"/> shows that
             <md>
               G(\lambda_k, T) = \ker (T - \lambda_k I)^{\dim V}\!.
             </md>
@@ -438,7 +438,7 @@
     <p>
       The next result implies that if the minimal polynomial of an operator
       <m>T \in \Lc(V)</m> has degree <m>\dim V</m>
-      (as happens almost always<mdash/>see the paragraphs <xref ref="x2defminpoly">following</xref>),
+      (as happens almost always<mdash/>see the paragraphs following <xref ref="x2defminpoly"/>),
       then the characteristic polynomial of <m>T</m> equals the minimal polynomial of <m>T{}</m>.
     </p>
     <theorem xml:id="charmult">
@@ -516,7 +516,7 @@
         <m>{\lambda_1}^{n}, \ldots, {\lambda_n}^{n}</m> [see <xref ref="x2AB">Exercise</xref>(b) in <xref ref="x4utm">Section</xref>] . Because
         <m>{\lambda_k}^{n} = 0</m> if and only if <m>\lambda_k = 0</m>,
         the number of times that <m>0</m> appears on the diagonal of <m>A^n</m> equals <m>d</m>.
-        Thus <xref ref="x8dimnullT">applying</xref>
+        Thus applying <xref ref="x8dimnullT"/>
         with <m>T</m> replaced with <m>T^n{}</m>, we have
         <md number="yes" xml:id="x8dimnullTn">
           \dim \ker T^n \le d.
@@ -542,7 +542,7 @@
       <p>
         Thus summing both sides of <xref ref="x8md"/>
         over all eigenvalues <m>\lambda</m> of <m>T</m> produces an equality.
-        <xref ref="x8md">Hence</xref> must actually be an equality for each eigenvalue <m>\lambda</m> of <m>T{}</m>.
+        Hence <xref ref="x8md"/> must actually be an equality for each eigenvalue <m>\lambda</m> of <m>T{}</m>.
         Thus the multiplicity of <m>\lambda</m> as an eigenvalue of <m>T{}</m> equals the number of times that <m>\lambda</m> appears on the diagonal of <m>A</m>,
         as desired.
       </p>
@@ -739,7 +739,7 @@
             Suppose <m>T \in \Lc(V)</m> and <m>\lambda</m> is an eigenvalue of <m>T</m> with multiplicity <m>d</m>.
             Prove that <m>G(\lambda, T) = \ker(T - \lambda I)^d\!</m>.
             Note: If <m>d \lt \dim V{}</m>,
-            then this exercise <xref ref="x180">improves</xref>.
+            then this exercise improves <xref ref="x180"/>.
           </p>
         </statement>
       </exercise>

@@ -145,7 +145,7 @@
       </p>
     </proof>
     <p>
-      The result above along <xref ref="x136">with</xref>(a) implies that every self-adjoint operator has an eigenvalue.
+      The result above along with <xref ref="x136"/>(a) implies that every self-adjoint operator has an eigenvalue.
       In fact, as we will see in the next result,
       self-adjoint operators have enough eigenvectors to form a basis.
     </p>

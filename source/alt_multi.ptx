@@ -585,7 +585,7 @@
     <proof>
       <p>
         First suppose <m>\alpha (e_1, \ldots, e_n) \ne 0</m>.
-        <xref ref="x11altdep">Then</xref> implies that
+        Then <xref ref="x11altdep"/> implies that
         <m>e_1, \ldots,
         e_n</m> is linearly independent.
       </p>

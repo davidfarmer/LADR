@@ -181,7 +181,7 @@
       <p>
         Now suppose (e) holds,
         so the columns of the matrix <m>A</m> defined in the paragraph above form an orthonormal list in <m>\FF{m}</m>.
-        <xref ref="ColOrtho">Then</xref> shows that
+        Then <xref ref="ColOrtho"/> shows that
         <m>Se_1, \dots, Se_n</m> is an orthonormal list in <m>W{}</m>.
         Thus <xref ref="isoex">Example</xref>,
         with <m>Se_1, \dots, Se_n</m> playing the role of <m>g_1, \ldots, g_n</m>,
@@ -267,14 +267,14 @@
       arise because of limiting the context to linear maps from a vector space to itself.
       For example, <xref ref="x234"/> shows that a linear map
       <m>S\in\Lc(V{}, W)</m> is an isometry if and only if <m>S^* S = I</m>,
-      <xref ref="x734u">while</xref> shows that an operator
+      while <xref ref="x734u"/> shows that an operator
       <m>S \in \Lc(V)</m> is a unitary operator if and only if <m>S^* S = SS^* = I</m>.
     </p>
     <p>
       Another difference is that <xref ref="x234"/>(d) mentions an orthonormal list,
-      <xref ref="x734u">while</xref>(d) mentions an orthonormal basis.
+      while <xref ref="x734u"/>(d) mentions an orthonormal basis.
       Also, <xref ref="x234"/>(e) mentions the columns of <m>\M(T)</m>,
-      <xref ref="x734u">while</xref>(e) mentions the rows of <m>\M(T)</m>.
+      while <xref ref="x734u"/>(e) mentions the rows of <m>\M(T)</m>.
       Furthermore,
       <m>\M(T)</m> in <xref ref="x234"/>(e) is with respect to an orthonormal basis of <m>V</m> and an orthonormal basis of <m>W{}</m>,
       while <m>\M(T)</m> in <xref ref="x734u"/>(e) is with respect to a single basis of <m>V</m> doing double duty.

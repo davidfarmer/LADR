@@ -183,7 +183,7 @@
       u_n</m> is a linearly independent list of vectors in <m>V</m>
       (because it is a basis of<nbsp/><m>U</m>)
       of length <m>\dim V{}</m>.
-      <xref ref="x75">From</xref>,
+      From <xref ref="x75"/>,
       we see that <m>u_1, \dots, u_n</m> is a basis of <m>V{}</m>.
       In particular every vector in <m>V</m> is a linear combination of <m>u_1, \dots, u_n</m>.
       Thus <m>U = V{}</m>.
@@ -322,7 +322,7 @@
       </md>.
     </p>
     <p>
-      The <xref ref="x3V1pV2">list</xref>
+      The list <xref ref="x3V1pV2"/>
       is contained in <m>V_1 \cup V_2</m> and thus is contained in <m>V_1 + V_2</m>.
       The span of this list contains <m>V_1</m> and contains <m>V_2</m> and hence is equal to <m>V_1 + V_2</m>.
       Thus to show that <xref ref="x3V1pV2"/>

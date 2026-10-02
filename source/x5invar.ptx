@@ -287,7 +287,7 @@
                 <md>
                   -z = \lambda^2 z.
                 </md>
-                Now <m>z</m> cannot equal <m>0</m>  [<xref ref="x118">otherwise</xref> implies that <m>w = 0</m>;
+                Now <m>z</m> cannot equal <m>0</m>  [otherwise <xref ref="x118"/> implies that <m>w = 0</m>;
                 we are looking for solutions to <xref ref="x118"/>
                 such that <m>(w, z)</m> is not the <m>0</m> vector] , so the equation above leads to the equation
                 <md>
@@ -371,7 +371,7 @@
         Let <m>T \in \Lc(V)</m>.
         Suppose <m>\lambda_1, \dots, \lambda_m</m> are distinct eigenvalues of<nbsp/><m>T{}</m>.
         Let <m>v_1, \dots, v_m</m> be corresponding eigenvectors.
-        <xref ref="x26">Then</xref> implies that the list
+        Then <xref ref="x26"/> implies that the list
         <m>v_1, \dots,
         v_m</m> is linearly independent.
         Thus <m>m \le \dim V</m>

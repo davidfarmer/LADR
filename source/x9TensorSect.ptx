@@ -877,7 +877,7 @@
       </statement>
     </theorem>
     <p>
-      Our next result <xref ref="x9basisVtenW">generalizes</xref>.
+      Our next result generalizes <xref ref="x9basisVtenW"/>.
     </p>
     <theorem xml:id="x9basismten">
       <title>basis of  <m>V_1 \tensor \cdots \tensor V_m</m></title>

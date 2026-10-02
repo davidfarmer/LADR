@@ -968,7 +968,7 @@
         <li>
           <p>
             Suppose <m>\F{} = \R{}</m> and <m>V</m> is an inner product space.
-            <xref ref="x9diagortho">Then</xref>
+            Then <xref ref="x9diagortho"/>
             tells us that the basis in (a) can be chosen to be an orthonormal basis of <m>V{}</m>.
           </p>
         </li>

@@ -840,7 +840,7 @@
       <p>
         Let <m>A = CR</m> be the column<ndash/>row factorization of <m>A</m> given by <xref ref="x3CR"/>,
         where <m>C</m> is an <m>m</m>-by-<m>c</m> matrix and <m>R</m> is a <m>c</m>-by-<m>n</m> matrix.
-        <xref ref="x3mmcol">Then</xref>(b) tells us that every row of <m>A</m> is a linear combination of the rows of <m>R</m>.
+        Then <xref ref="x3mmcol"/>(b) tells us that every row of <m>A</m> is a linear combination of the rows of <m>R</m>.
         Because <m>R</m> has <m>c</m> rows,
         this implies that the row rank of <m>A</m> is less than or equal to the column rank <m>c</m> of <m>A</m>.
       </p>

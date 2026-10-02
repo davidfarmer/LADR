@@ -431,7 +431,7 @@
       <p>
         From the definition of <m>e_k</m> given in <xref ref="x186"/>,
         we see that <m>v_k \in \Span (e_1, \dots, e_k)</m>.
-        Combining this information <xref ref="x83">with</xref> shows that
+        Combining this information with <xref ref="x83"/> shows that
         <md>
           \Span (v_1, \dots, v_k) \subset \Span (e_1, \dots, e_k).
         </md>
@@ -828,7 +828,7 @@
     </example>
     <p>
       Suppose <m>V</m> is finite-dimensional and <m>\phi</m> a linear functional on <m>V{}</m>.
-      <xref ref="GSformula">Then</xref>
+      Then <xref ref="GSformula"/>
       gives a formula for the vector <m>v</m> that satisfies
       <md>
         \phi(u) = \langle u, v \rangle

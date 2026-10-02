@@ -669,7 +669,7 @@
       </statement>
     </theorem>
     <p>
-      The orthogonal <xref ref="orthogdecomp">decomposition</xref>
+      The orthogonal decomposition <xref ref="orthogdecomp"/>
       will be used in the proof of the Cauchy<ndash/>Schwarz inequality,
       which is our next result and is one of the most important inequalities in mathematics.
     </p>
@@ -725,7 +725,7 @@
             <idx><h>Schwarz, Hermann</h></idx>
       </p>
       <p>
-        The proof in the paragraph above shows that the Cauchy<ndash/>Schwarz inequality is an equality if and only <xref ref="x336">if</xref> is an equality.
+        The proof in the paragraph above shows that the Cauchy<ndash/>Schwarz inequality is an equality if and only if <xref ref="x336"/> is an equality.
         This happens if and only if <m>w = 0</m>.
         But <m>w=0</m> if and only if <m>u</m> is a multiple of <m>v</m>
         (see <xref ref="orthogdecomp"/>).
@@ -820,7 +820,7 @@
       <p>
         If one of <m>u, v</m> is a nonnegative real multiple of the other,
         then <xref ref="x374"/> holds.
-        Conversely, <xref ref="x374">suppose</xref> holds.
+        Conversely, suppose <xref ref="x374"/> holds.
         Then the condition for equality in the Cauchy<ndash/>Schwarz inequality <xref ref="x177"/> implies that one of
         <m>u,
         v</m> is a scalar multiple of the other.

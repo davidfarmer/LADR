@@ -44,7 +44,7 @@
       <p>
         Because <m>T</m> is nilpotent,
         <m>T^m = 0</m> for some positive integer <m>m</m>.
-        <xref ref="x364">In</xref>,
+        In <xref ref="x364"/>,
         suppose we replace <m>x</m> with <m>T</m> and <m>1</m> with <m>I</m>.
         Then the infinite sum on the right side becomes a finite sum
         (because <m>T^k = 0</m> for all <m>k \ge m</m>).

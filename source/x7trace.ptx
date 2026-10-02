@@ -173,7 +173,7 @@
     <p>
       There is a basis of <m>V</m> with respect to which <m>T</m> has an upper-triangular matrix with the diagonal entries of the matrix consisting of the eigenvalues of <m>T{}</m>,
       with each eigenvalue included as many times as its multiplicity<mdash/>see <xref ref="x187"/>.
-      Thus the definition of the trace of an operator along <xref ref="x8trbasis">with</xref>,
+      Thus the definition of the trace of an operator along with <xref ref="x8trbasis"/>,
       which allows us to use a basis of our choice,
       implies that <m>\tr T</m> equals the sum of the eigenvalues of <m>T{}</m>,
       with each eigenvalue included as many times as its multiplicity.

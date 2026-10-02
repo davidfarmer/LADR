@@ -498,7 +498,7 @@
         Because <m>U</m> is a subspace of <m>V</m> and thus is closed under scalar multiplication,
         we have <m>\lambda(v_1 - v_2) \in U</m>.
         Thus <m>\lambda v_1 - \lambda v_2 \in U</m>.
-        <xref ref="equalordisjoint">Hence</xref> implies that
+        Hence <xref ref="equalordisjoint"/> implies that
         <md>
           (\lambda v_1) + U = (\lambda v_2) + U.
         </md>
@@ -643,7 +643,7 @@
             Suppose <m>v \in V</m> and <m>\tilde{T}(v + \ker T) = 0</m>.
             Then <m>Tv = 0</m>.
             Thus <m>v \in \ker T{}</m>.
-            <xref ref="equalordisjoint">Hence</xref>
+            Hence <xref ref="equalordisjoint"/>
             implies that <m>v + \ker T = 0 + \ker T{}</m>.
             This implies that <m>\ker \tilde{T} = \{0 + \ker T\}</m>.
             Hence <m>\tilde{T}</m> is injective, as desired.
@@ -767,7 +767,7 @@
             </li>
             <li>
               <p>
-                Explain why the set of solutions to a system of linear equations such <xref ref="x3inhomeq">as</xref>
+                Explain why the set of solutions to a system of linear equations such as <xref ref="x3inhomeq"/>
                 is either the empty set or is a translate of some subspace of <m>\FF n</m>.
               </p>
             </li>

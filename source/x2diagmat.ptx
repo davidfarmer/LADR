@@ -257,7 +257,7 @@
     </statement>
   </example>
   <p>
-    The next result <xref ref="a226">extends</xref>
+    The next result extends <xref ref="a226"/>
     (the existence of a basis that gives an upper-triangular matrix)
     to two commuting operators.
   </p>
@@ -423,7 +423,7 @@
           Suppose <m>\E</m> is a subset of <m>\Lc(V)</m> and every element of <m>\E</m> is diagonalizable.
           Prove that there exists a basis of <m>V</m> with respect to which every element of <m>\E</m> has a diagonal matrix if and only if every pair of elements of <m>\E</m> commutes.
               <idx><h>commuting operators</h></idx>
-          Note: This exercise <xref ref="x8SimDiag">extends</xref>,
+          Note: This exercise extends <xref ref="x8SimDiag"/>,
           which considers the case in which <m>\E</m> contains only two elements.
           For this exercise, <m>\E</m> may contain any number of elements,
           and <m>\E</m> may even be an infinite set.
@@ -520,7 +520,7 @@
           </ol>
         </p>
         <p>
-          Note: This exercise <xref ref="x2common">extends</xref>
+          Note: This exercise extends <xref ref="x2common"/>
           and <xref ref="x2commute"/>,
           which consider the case in which <m>\E</m> contains only two elements.
           For this exercise, <m>\E</m> may contain any number of elements,

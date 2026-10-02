@@ -428,7 +428,7 @@
       this condition is always satisfied if <m>\F{} = \C{}</m>.
     </p>
     <p>
-      Our next <xref ref="x500">result</xref>
+      Our next result <xref ref="x500"/>
       states that an operator <m>T \in \Lc(V)</m> has a diagonal matrix with respect to some basis of <m>V</m> if and only if the minimal polynomial of <m>T</m> equals
       <m>(z-\lambda_1) \cdots (z-\lambda_m)</m> for some <em><em>distinct</em></em> <m>\lambda_1, \ldots, \lambda_m \in \F{}{}</m>.
       Before formally stating this result,

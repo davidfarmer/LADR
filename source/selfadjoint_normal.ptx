@@ -931,7 +931,7 @@
         Suppose <m>\alpha , \beta</m> are distinct eigenvalues of<nbsp/><m>T</m>,
         with corresponding eigenvectors <m>u, v</m>.
         Thus <m>Tu = \alpha  u</m> and <m>Tv = \beta v</m>.
-        <xref ref="x746">From</xref>(e) we have <m>T^*v = \bar{\beta}v</m>.
+        From <xref ref="x746"/>(e) we have <m>T^*v = \bar{\beta}v</m>.
         Thus
         <md>
           <mrow>(\alpha  - \beta)\langle u,v \rangle  \amp = \langle \alpha  u, v \rangle  - \langle u, \bar{\beta} v \rangle</mrow>

@@ -224,7 +224,7 @@
     </theorem>
     <proof>
       <p>
-        <xref ref="x11altform">Apply</xref>
+        Apply <xref ref="x11altform"/>
         with <m>V = \F n</m> and <m>e_1, \ldots,
         e_n</m> the standard basis of <m>\F n</m> and <m>\alpha</m> the alternating <m>n</m>-linear form on <m>\F n</m> that takes
         <m>v_1, \ldots,
@@ -797,7 +797,7 @@
     </p>
     <proof>
       <p>
-        By the spectral theorem ( <xref ref="x86"/> <xref ref="x85">or</xref>),
+        By the spectral theorem ( <xref ref="x86"/> or <xref ref="x85"/>),
         <m>V</m> has an orthonormal basis consisting of eigenvectors of <m>T{}</m>.
         Thus by the last bullet point of <xref ref="x9detops"/>,
         <m>\det T</m> equals a product of the eigenvalues of <m>T{}</m>,
@@ -982,7 +982,7 @@
       then the characteristic polynomial of <m>T</m> equals the minimal polynomial of <m>T{}</m>.
       This happens for a very large percentage of operators,
       including over 99.999% of <m>4</m>-by-<m>4</m> matrices with integer entries in <m>[-100, 100]</m>
-      (see the paragraph <xref ref="x2simul">following</xref>).
+      (see the paragraph following <xref ref="x2simul"/>).
     </p>
     <p>
       The last sentence in our next result was previously proved in the complex case

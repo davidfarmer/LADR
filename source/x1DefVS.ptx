@@ -431,7 +431,7 @@
     <xref ref="x64"/> and <xref ref="x65"/> are not identical.
     More precisely, <xref ref="x64"/>
     states that the product of the scalar <m>0</m> and any vector equals the vector<nbsp/><m>0</m>,
-    <xref ref="x65">whereas</xref> states that the product of any scalar and the vector <m>0</m> equals the vector <m>0</m>.
+    whereas <xref ref="x65"/> states that the product of any scalar and the vector <m>0</m> equals the vector <m>0</m>.
   </p>
   <theorem xml:id="x65">
     <title>a number times the vector  <m>0</m></title>

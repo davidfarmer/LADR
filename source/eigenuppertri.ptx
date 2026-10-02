@@ -140,7 +140,7 @@
         </md>
       </p>
       <p>
-        <xref ref="minlindep">Then</xref>
+        Then <xref ref="minlindep"/>
         implies that <m>q(T)u = 0</m>.
       </p>
       <p>
@@ -267,7 +267,7 @@
             \M(T) = \begin{pmatrix}0 \amp 0 \amp 0 \amp 0 \amp -3 \\ 1 \amp 0 \amp 0 \amp 0 \amp 6 \\ 0 \amp 1 \amp 0 \amp 0 \amp 0 \\ 0 \amp 0 \amp 1 \amp 0 \amp 0 \\ 0 \amp 0 \amp 0 \amp 1 \amp 0 \end{pmatrix}
           </md>
           with respect to the standard basis <m>e_1, e_2, e_3, e_4, e_5</m>.
-          Taking <m>v = e_1</m> <xref ref="x2simul">for</xref>, we have
+          Taking <m>v = e_1</m> for <xref ref="x2simul"/>, we have
           <md>
             <mrow>Te_1 \amp = e_2,   \amp T^4e_1 \amp = T( T^3e_1 ) = Te_4 = e_5,</mrow>
             <mrow>T^2e_1 \amp = T(Te_1) = Te_2 = e_3,   \amp T^5 e_1 \amp  = T( T^4e_1 ) = Te_5 = -3e_1 + 6e_2.</mrow>

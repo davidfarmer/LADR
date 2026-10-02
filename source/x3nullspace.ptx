@@ -587,7 +587,7 @@
         Use the notation and result from the discussion above.
         Thus <m>T</m> is a linear map from <m>\F{n}</m> to <m>\FF{m}</m>,
         and we have a homogeneous system of <m>m</m> linear equations with <m>n</m> variables <m>x_1, \dots, x_n</m>.
-        <xref ref="x13">From</xref> we see that <m>T</m> is not injective if <m>n > m</m>.
+        From <xref ref="x13"/> we see that <m>T</m> is not injective if <m>n > m</m>.
       </p>
     </proof>
     <p>
@@ -629,7 +629,7 @@
     <p>
       Define <m>T\colon \F{n} \rightarrow \F{m}</m> as in <xref ref="x3sim"/>.
       The equation <m>T(x_1, \dots, x_n) \!= \!(c_1, \dots,
-      c_m)</m> is the same as the system of <xref ref="x3inhomeq">equations</xref>.
+      c_m)</m> is the same as the system of equations <xref ref="x3inhomeq"/>.
       Thus we want to know if <m>\ran T \ne \FF{m}</m>.
       Hence we can rephrase our question about not having a solution for some choice of
       <m>c_1, \dots,
