@@ -1,0 +1,15 @@
+
+.ptx-main > #ptx-content .definition-like > .heading::after,
+.ptx-main > #ptx-content .theorem-like > .heading::after {
+  content: "\A";
+  white-space: pre;
+}
+
+.ptx-main > #ptx-content .subsection > .heading > .codenumber {
+  display: none;
+}
+
+.ptx-main > #ptx-content #polynomials .exercise > .heading > .type,
+.ptx-main > #ptx-content #polynomials .exercise > .heading > .space {
+  display: none;
+}
