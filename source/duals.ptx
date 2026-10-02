@@ -89,7 +89,7 @@
     </theorem>
     <proof>
       <p>
-        <xref ref="x247">By</xref> we have
+        By <xref ref="x247"/> we have
         <md>
           \dim V' = \dim \Lc(V{}, \F{}) = (\dim V)(\dim \F{}) = \dim V{},
         </md>
@@ -178,7 +178,7 @@
       <p>
         Substituting the values for
         <m>c_1, \ldots,
-        c_n</m> given by the equation above <xref ref="x2dualb">into</xref>
+        c_n</m> given by the equation above into <xref ref="x2dualb"/>
         shows that <m>v = \phi_1(v) v_1 + \cdots + \phi_n(v) v_n</m>.
       </p>
     </proof>
@@ -564,7 +564,7 @@
         <md>
           \dim \ran i' = \dim U' = \dim U,
         </md>
-        and <xref ref="ranip">then</xref>
+        and then <xref ref="ranip"/>
         becomes the equation <m>\dim U + \dim U^0 = \dim V{}</m>,
         as desired.
       </p>

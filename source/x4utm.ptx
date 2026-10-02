@@ -329,7 +329,7 @@
         </md>
       </p>
       <p>
-        <xref ref="a221">Now</xref> implies that the eigenvalues of <m>T</m> are <m>2</m>,
+        Now <xref ref="a221"/> implies that the eigenvalues of <m>T</m> are <m>2</m>,
         <m>5</m>,
         and <m>8</m>.
       </p>

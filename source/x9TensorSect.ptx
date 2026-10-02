@@ -627,7 +627,7 @@
       <p>
         The straightforward verification that <xref ref="x9ip"></xref>
         defines an inner product on
-        <m>V{} \tensor W</m> is left to the reader [<xref ref="x9basisVtenW">use</xref>(b)] .
+        <m>V{} \tensor W</m> is left to the reader [use <xref ref="x9basisVtenW"/>(b)] .
       </p>
       <p>
         Suppose that <m>v, u \in V</m> and <m>w, x \in W{}</m>.

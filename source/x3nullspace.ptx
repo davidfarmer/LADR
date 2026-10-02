@@ -488,7 +488,7 @@
         </p>
         <p>
           Because <m>\dim \F4 > \dim \FF3</m>,
-          we can <xref ref="x13">use</xref>
+          we can use <xref ref="x13"/>
           to assert that <m>T</m> is not injective,
           without doing any calculations.
         </p>
@@ -650,7 +650,7 @@
         Thus <m>T</m> is a linear map from <m>\F{n}</m> to <m>\FF{m}</m>,
         and we have a system of <m>m</m> equations with <m>n</m> variables <m>x_1, \dots, x_n</m>;
         see <xref ref="x3inhomeq"/>.
-        If <m>n \lt m</m>, <xref ref="x14">then</xref>
+        If <m>n \lt m</m>, then <xref ref="x14"/>
         implies that <m>T</m> is not surjective.
         As discussed above,
         this shows that if we have more equations than variables in a system of linear equations,

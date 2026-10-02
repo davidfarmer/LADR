@@ -819,7 +819,7 @@
       </p>
       <p>
         If one of <m>u, v</m> is a nonnegative real multiple of the other,
-        <xref ref="x374">then</xref> holds.
+        then <xref ref="x374"/> holds.
         Conversely, <xref ref="x374">suppose</xref> holds.
         Then the condition for equality in the Cauchy<ndash/>Schwarz inequality <xref ref="x177"/> implies that one of
         <m>u,

@@ -328,9 +328,9 @@
       </p>
       <p>
         If we take the orthogonal complement of both sides of (a),
-        we get<nbsp/>(d), where we have <xref ref="x376">used</xref>.
+        we get<nbsp/>(d), where we have used <xref ref="x376"/>.
         Replacing <m>T</m> with <m>T^*</m> in (a) gives (c),
-        where we have <xref ref="x7propadjoint">used</xref>(c).
+        where we have used <xref ref="x7propadjoint"/>(c).
         Finally, replacing <m>T</m> with <m>T^*</m> in (d) gives<nbsp/>(b).
       </p>
     </proof>
@@ -796,7 +796,7 @@
           <mrow>\amp \iff \|Tv\|^2 = \lVert T^*v \rVert ^2 \text{ for every }  v\in V</mrow>
           <mrow>\amp \iff \|Tv\| = \lVert T^*v \rVert  \text{ for every }  v\in V{}</mrow>
         </md>,
-        where we <xref ref="x208">used</xref>
+        where we used <xref ref="x208"/>
         to establish the second equivalence
         (note that the operator <m>T^*T - TT^*</m> is self-adjoint).
       </p>
@@ -995,7 +995,7 @@
         Then <m>T^* = A - iB</m>.
         Adding the last two equations and then dividing by <m>2</m> produces the equation for <m>A</m> in <xref ref="x1normal"></xref>.
         Subtracting the last two equations and then dividing by <m>2i</m> produces the equation for <m>B</m> in <xref ref="x1normal"></xref>.
-        <xref ref="x1normal">Now</xref> <xref ref="x2normal">implies</xref>.
+        Now <xref ref="x1normal"/> <xref ref="x2normal">implies</xref>.
         Because <m>B</m> and <m>A</m> commute,
         <xref ref="x2normal"></xref> implies that <m>T</m> is normal,
         as desired.

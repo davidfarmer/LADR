@@ -300,7 +300,7 @@
       <p>
         To prove the inclusion in the other direction,
         suppose <m>v \in ( U^\perp )^\perp{}</m>.
-        <xref ref="x191">By</xref>,
+        By <xref ref="x191"/>,
         we can write <m>v = u + w</m>,
         where <m>u \in U</m> and <m>w \in U^\perp{}</m>.
         We have <m>v - u = w \in U^\perp{}</m>.
@@ -728,7 +728,7 @@
       </p>
     </proof>
     <p>
-      The last result is often combined with the <xref ref="x418">formula</xref>(i) to compute explicit solutions to minimization problems,
+      The last result is often combined with the formula <xref ref="x418"/>(i) to compute explicit solutions to minimization problems,
       as in the following example.
     </p>
     <example>
@@ -777,7 +777,7 @@
             u(x) = 0.987862 x - 0.155271 x^3 + 0.00564312 x^5{},
           </md>
           where the <m>\pi</m>'s that appear in the exact answer have been replaced with a good decimal approximation.
-          <xref ref="x417">By</xref>,
+          By <xref ref="x417"/>,
           the polynomial <m>u</m> above is the best approximation to the sine function on
           <m>[-\pi, \pi]</m> using polynomials of degree at most<nbsp/><m>5</m> \big(here
           <q>best approximation</q>

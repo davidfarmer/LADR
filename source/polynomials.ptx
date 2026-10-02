@@ -368,7 +368,7 @@
       If <m>p</m> has no zeros in <m>\F{}{}</m>,
       then the desired result holds and we are done.
       Thus suppose <m>p</m> has a zero <m>\lambda \in \F{}{}</m>.
-      <xref ref="x460">By</xref>,
+      By <xref ref="x460"/>,
       there is polynomial <m>q \in \P(\F{})</m> of degree <m>m-1</m> such that
       <md>
         p(z) = (z - \lambda) q(z)
@@ -639,7 +639,7 @@
     <p>
       First we will show that the desired factorization of <m>p</m> exists.
       By the first version of the fundamental theorem of algebra <xref ref="FTA1"/>, <m>p</m> has a zero <m>\lambda \in \C{}</m>.
-      <xref ref="x460">By</xref>,
+      By <xref ref="x460"/>,
       there is a polynomial <m>q</m> of degree <m>m-1</m> such that
       <md>
         p(z) = (z - \lambda) q(z)
@@ -838,7 +838,7 @@
       then we have the desired factorization by <xref ref="x4FTA2"></xref>.
       Thus suppose <m>p</m> has a zero
       <m>\lambda \in \C{}</m> with <m>\lambda \notin \R{}</m>.
-      <xref ref="x170">By</xref>,
+      By <xref ref="x170"/>,
       <m>\bar{\lambda}</m> is a zero of <m>p</m>.
       Thus we can write
       <md>

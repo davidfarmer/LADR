@@ -190,7 +190,7 @@
     </theorem>
     <proof>
       <p>
-        <xref ref="x12">By</xref>,
+        By <xref ref="x12"/>,
         <m>\Gamma</m> is injective if and only if the only way to write <m>0</m> as a sum <m>v_1 + \dots + v_m</m>,
         where each <m>v_k</m> is in <m>V{}_k</m>,
         is by taking each <m>v_k</m> equal to<nbsp/><m>0</m>.
@@ -476,7 +476,7 @@
         we must show that <m>(v_1+w_1) + U = (v_2 + w_2) + U</m>.
       </p>
       <p>
-        <xref ref="equalordisjoint">By</xref>, we have
+        By <xref ref="equalordisjoint"/>, we have
         <md>
           v_1 - v_2 \in U \andd w_1 - w_2 \in U.
         </md>
@@ -583,7 +583,7 @@
       To show that the definition of <m>\tilde{T}</m> makes sense, suppose
       <m>u,
       v \in V</m> are such that <m>u + \ker T = v + \ker T{}</m>.
-      <xref ref="equalordisjoint">By</xref>,
+      By <xref ref="equalordisjoint"/>,
       we have <m>u - v \in \ker T{}</m>.
       Thus <m>T(u - v) = 0</m>.
       Hence <m>Tu = Tv</m>.

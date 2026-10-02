@@ -96,7 +96,7 @@
                   \alpha_T(e_1, \ldots, e_n) = \alpha (\lambda_1 e_1, \ldots, \lambda_n e_n) = (\lambda_1 \cdots \lambda_n) \alpha (e_1, \ldots, e_n).
                 </md>
                 If <m>\alpha  \ne 0</m>,
-                <xref ref="x9altli">then</xref> implies <m>\alpha (e_1, \ldots,
+                then <xref ref="x9altli"/> implies <m>\alpha (e_1, \ldots,
                 e_n) \ne 0</m>.
                 Thus the equation above implies
                 <md>
@@ -384,7 +384,7 @@
       <p>
         First suppose <m>T</m> is invertible.
         Thus <m>T T^{-1} = I</m>.
-        <xref ref="x9detmult">Now</xref> implies that
+        Now <xref ref="x9detmult"/> implies that
         <md>
           1 = \det I = \det ( TT^{-1} ) = (\det T) (  \det ( T^{-1} ) ).
         </md>
@@ -440,7 +440,7 @@
       Suppose <m>T \in \Lc(V)</m> and
       <m>\fun S W V</m> is an invertible linear map.
       To prove that <m>\det(  S^{-1} T S  ) = \det T</m>,
-      we could try to <xref ref="x9detmult">use</xref>
+      we could try to use <xref ref="x9detmult"/>
       and <xref ref="x9nonzero"></xref>, writing
       <md>
         <mrow>\det(  S^{-1} T S  )\amp = (  \det S^{-1}  ) (\det T) (\det S)</mrow>
@@ -1015,7 +1015,7 @@
         The matrix of <m>zI - T</m> with respect to this basis is <m>zI - A</m>.
         The term coming from the identity permutation
         <m>\{ 1, \ldots,
-        n \}</m> in the <xref ref="x9detformula">formula</xref> for <m>\det(zI - A)</m> is
+        n \}</m> in the formula <xref ref="x9detformula"/> for <m>\det(zI - A)</m> is
         <md>
           (z - A_{1,1}) \cdots (z - A_{n,n}).
         </md>
@@ -1175,7 +1175,7 @@
       </p>
       <p>
         Now <m>\displaystyle \det A = \det C = \prod_{1 \le j \lt k \le n} (\beta_k - \beta_j)</m>,
-        where we have <xref ref="detTdual">used</xref>(a) and <xref ref="x9detupper"></xref>.
+        where we have used <xref ref="detTdual"/>(a) and <xref ref="x9detupper"></xref>.
       </p>
     </proof>
     <exercises>

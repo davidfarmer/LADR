@@ -156,7 +156,7 @@
         completing the proof of <xref ref="nullran"></xref>.
       </p>
       <p>
-        <xref ref="nullran">Now</xref> implies that <m>\ker T^n + \ran T^n</m> is a direct sum
+        Now <xref ref="nullran"/> implies that <m>\ker T^n + \ran T^n</m> is a direct sum
         (by <xref ref="x219"></xref>).
         Also,
         <md>
@@ -309,7 +309,7 @@
       <p>
         Now suppose <m>n > 1</m> and the desired result holds for all smaller values of <m>\dim V{}</m>.
         Let <m>\lambda</m> be an eigenvalue of <m>T{}</m>.
-        <xref ref="x8nulloplusran">Applying</xref>
+        Applying <xref ref="x8nulloplusran"/>
         to <m>T - \lambda I</m> shows that
         <md>
           V = \ker(T - \lambda I)^n \oplus \ran (T - \lambda I)^n{}.
@@ -572,7 +572,7 @@
         Because <m>T</m> is nilpotent,
         there exists a positive integer <m>k</m> such that <m>T^k = 0</m>.
         Thus <m>\ker T^k = V{}</m>.
-        <xref ref="x76">Now</xref> and <xref ref="x23"></xref>
+        Now <xref ref="x76"/> and <xref ref="x23"></xref>
         imply that <m>\ker T^{\dim V} = V{}</m>.
         Thus <m>T^{\dim V} = 0</m>.
       </p>
@@ -624,7 +624,7 @@
         <li>
           <p>
             Suppose <m>\F{} = \C{}</m> and <m>0</m> is the only eigenvalue of <m>T{}</m>.
-            <xref ref="x136">By</xref>(b),
+            By <xref ref="x136"/>(b),
             the minimal polynomial of <m>T</m> equals <m>z^m</m> for some positive integer <m>m</m>.
             Thus <m>T^m = 0</m>.
             Hence <m>T</m> is nilpotent.
@@ -681,7 +681,7 @@
       <p>
         Suppose (a) holds, so <m>T</m> is nilpotent.
         Thus there exists a positive integer <m>n</m> such that <m>T^n = 0</m>.
-        <xref ref="x140">Now</xref> implies that <m>z^n</m> is a polynomial multiple of the minimal polynomial of <m>T{}</m>.
+        Now <xref ref="x140"/> implies that <m>z^n</m> is a polynomial multiple of the minimal polynomial of <m>T{}</m>.
         Thus the minimal polynomial of <m>T</m> is <m>z^m</m> for some positive integer <m>m</m>,
         proving that (a) implies (b).
       </p>

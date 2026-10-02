@@ -405,7 +405,7 @@
       <m>f_1, \ldots,
       f_m</m> can be extended to an orthonormal basis <m>f_1, \ldots,
       f_{\dim W}</m> of <m>W{}</m>.
-      The <xref ref="x6Tv">formula</xref> shows that
+      The formula <xref ref="x6Tv"/> shows that
       <md>
         Te_k = \begin{cases}s_k f_k \amp  \text{ if }  1 \le k \le m,\\ 0 \amp  \text{ if }  m \lt  k \le \dim V{}. \end{cases}
       </md>

@@ -263,7 +263,7 @@
     <p>
       The desired formula follows from the observation that the entry in row <m>k</m>,
       column <m>k</m> of <m>\M( T, (e_1, \ldots,
-      e_n) )</m> equals <m>\langle Te_k, e_k \rangle</m> [<xref ref="x190">use</xref>(a) with <m>v = Te_k</m>].
+      e_n) )</m> equals <m>\langle Te_k, e_k \rangle</m> [use <xref ref="x190"/>(a) with <m>v = Te_k</m>].
     </p>
   </proof>
   <p>

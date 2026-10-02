@@ -204,7 +204,7 @@
     </theorem>
     <proof>
       <p>
-        <xref ref="x46">By</xref>,
+        By <xref ref="x46"/>,
         every orthonormal list of vectors in <m>V</m> is linearly independent.
         Thus every such list of the right length is a basis<mdash/>see <xref ref="x75"/>.
       </p>
@@ -334,7 +334,7 @@
           of <m>\F4</m> from <xref ref="x4FonBasis">Example</xref>.
           Instead of solving a system of four linear equations in four unknowns,
           as typically would be required if we were working with a nonorthonormal basis,
-          we simply evaluate four inner products and <xref ref="x190">use</xref>(a),
+          we simply evaluate four inner products and use <xref ref="x190"/>(a),
           getting that <m>(1,2,4,7)</m> equals
           <md>
             7 ( \tfrac{1}{2}, \tfrac{1}{2}, \tfrac{1}{2}, \tfrac{1}{2} ) -4( \tfrac{1}{2}, \tfrac{1}{2}, -\tfrac{1}{2}, -\tfrac{1}{2} ) +( \tfrac{1}{2}, -\tfrac{1}{2}, -\tfrac{1}{2}, \tfrac{1}{2} ) +2( -\tfrac{1}{2}, \tfrac{1}{2}, -\tfrac{1}{2}, \tfrac{1}{2} ).
@@ -520,7 +520,7 @@
         Choose a basis of<nbsp/><m>V{}</m>.
         Apply the Gram<ndash/>Schmidt procedure <xref ref="x186"/> to it,
         producing an orthonormal list of length <m>\dim V{}</m>.
-        <xref ref="onbasis">By</xref>,
+        By <xref ref="onbasis"/>,
         this orthonormal list is an orthonormal basis of<nbsp/><m>V{}</m>.
       </p>
     </proof>
@@ -609,7 +609,7 @@
         e_k)</m> is invariant under<nbsp/><m>T</m> for each <m>k = 1, \dots, n</m>.
         Thus, by <xref ref="a225"></xref>,
         <m>T</m> has an upper-triangular matrix with respect to the orthonormal basis <m>e_1, \dots, e_n</m>.
-        Now <xref ref="x5necsuf">use</xref> to complete the proof.
+        Now use <xref ref="x5necsuf"/> to complete the proof.
       </p>
     </proof>
     <aside>
@@ -802,7 +802,7 @@
           </md>
           for each <m>p \in \P{}_2(\R{})</m>.
           Now use the orthonormal basis from <xref ref="obP2R">Example</xref>
-          and apply <xref ref="GSformula">formula</xref>
+          and apply formula <xref ref="GSformula"/>
           from the proof of the Riesz representation theorem to see that if <m>p \in \P{}_2(\R{})</m>,
           then <m>\phi(p) = \langle p, q \rangle</m>, where
           <md>

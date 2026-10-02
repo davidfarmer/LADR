@@ -251,7 +251,7 @@
       </p>
       <p>
         Conversely, if <m>T</m> is surjective,
-        <xref ref="x3FTLM">then</xref> implies that
+        then <xref ref="x3FTLM"/> implies that
         <md>
           \dim \ker T = \dim V - \dim \ran T = \dim V - \dim W = 0,
         </md>
@@ -279,7 +279,7 @@
             p \mapsto \bigl((x^2 + 5x + 7)p\bigr)''
           </md>
           from <m>\P(\R{})</m> to itself is injective, as you can show.
-          Thus we are tempted to <xref ref="x18">use</xref>
+          Thus we are tempted to use <xref ref="x18"/>
           to show that this map is surjective.
           However, <xref ref="ninsii">Example</xref>
           shows that the magic of <xref ref="x18"></xref>
@@ -1013,10 +1013,10 @@
         <md number="yes" xml:id="x300">
           A = C^{-1} \M\bigl(T, (u_1, \dots, u_n), (v_1, \dots, v_n) \bigr),
         </md>
-        where we have <xref ref="x299">used</xref>.
+        where we have used <xref ref="x299"/>.
       </p>
       <p>
-        Again <xref ref="x298">use</xref>,
+        Again use <xref ref="x298"/>,
         this time replacing <m>w_k</m> with<nbsp/><m>v_k</m>.
         Also replace <m>T</m> with<nbsp/><m>I</m> and replace <m>S</m> with<nbsp/><m>T</m>, getting
         <md>
@@ -1024,7 +1024,7 @@
         </md>
       </p>
       <p>
-        Substituting the equation above <xref ref="x300">into</xref>
+        Substituting the equation above into <xref ref="x300"/>
         gives the equation <m>A = C^{-1}B C</m>.
       </p>
     </proof>

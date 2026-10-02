@@ -223,7 +223,7 @@
         </md>
       </p>
       <p>
-        <xref ref="dirE">Now</xref> shows that (c) holds,
+        Now <xref ref="dirE"/> shows that (c) holds,
         proving that (b) implies (c).
       </p>
       <p>
@@ -376,7 +376,7 @@
         </p>
         <p>
           The matrix above is an upper-triangular matrix but it is not a diagonal matrix.
-          <xref ref="a221">By</xref>,
+          By <xref ref="a221"/>,
           the eigenvalues of <m>T</m> are <m>2</m>, <m>5</m>, and <m>8</m>.
           Because <m>T</m> is an operator on a vector space of dimension three and <m>T</m> has three distinct eigenvalues,
           <xref ref="x453"></xref> assures us that there exists a basis of <m>\F3</m> with respect to which <m>T</m> has a diagonal matrix.
@@ -456,7 +456,7 @@
           The software that produces these approximations is accurate to more than three digits.
           Thus these approximations are good enough to show that the five numbers above are distinct.
           The minimal polynomial of <m>T</m> equals the fifth degree monic polynomial with these zeros.
-          <xref ref="x500">Now</xref> shows that <m>T</m> is diagonalizable.
+          Now <xref ref="x500"/> shows that <m>T</m> is diagonalizable.
         </p>
       </statement>
     </example>
@@ -496,7 +496,7 @@
           Thus the minimal polynomial of <m>T</m> is <m>(z-6)^2 (z-7)</m>.
         </p>
         <p>
-          <xref ref="x500">Now</xref> shows that <m>T</m> is not diagonalizable.
+          Now <xref ref="x500"/> shows that <m>T</m> is not diagonalizable.
         </p>
       </statement>
     </example>
@@ -565,7 +565,7 @@
       <p>
         Suppose that <m>u \in \ran(T - \lambda_m I) \cap \ker(T - \lambda_m I)</m>.
         Then <m>Tu = \lambda_m u</m>.
-        <xref ref="x7minr">Now</xref> implies that
+        Now <xref ref="x7minr"/> implies that
         <md>
           <mrow>0 \amp = (T - \lambda_1 I) \cdots (T - \lambda_{m-1} I)u</mrow>
           <mrow>\amp = (\lambda_m - \lambda_1) \cdots (\lambda_m - \lambda_{m-1}) u</mrow>

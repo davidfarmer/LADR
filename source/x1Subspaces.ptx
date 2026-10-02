@@ -244,7 +244,7 @@
           </md>
           where the first vector on the right is in <m>U</m> and the second vector on the right is in<nbsp/><m>W{}</m>.
           Thus <m>(x, x, y, z) \in U + W{}</m>,
-          showing that the <xref ref="UpW">inclusion</xref>
+          showing that the inclusion <xref ref="UpW"/>
           also holds in the opposite direction.
           Hence
           <md>

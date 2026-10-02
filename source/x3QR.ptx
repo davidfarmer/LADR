@@ -53,7 +53,7 @@
           <md number="yes" xml:id="x236">
             \|v\|^2 = \lvert \langle v, e_1 \rangle  \rvert ^2 + \dots + \lvert \langle v, e_n \rangle  \rvert ^2{},
           </md>
-          where we have <xref ref="x190">used</xref>(b).
+          where we have used <xref ref="x190"/>(b).
           Applying <m>S</m> to both sides of <xref ref="x235"></xref> gives
           <md>
             Sv = \langle v, e_1 \rangle  S e_1 + \dots + \langle v, e_n \rangle  S e_n =  \langle v, e_1 \rangle  g_1 + \dots +  \langle v, e_n \rangle  g_n.

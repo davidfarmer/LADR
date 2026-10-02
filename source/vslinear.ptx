@@ -445,7 +445,7 @@
         f(x) = mx + b
       </md>
       is a linear map if and only if <m>b = 0</m>
-      (<xref ref="zerotozero">use</xref>).
+      (use <xref ref="zerotozero"/>).
       Thus the linear functions of high school algebra are not the same as linear maps in the context of linear algebra.
     </p>
     <exercises>

@@ -321,7 +321,7 @@
           </md>
         </p>
         <p>
-          Now the change-of-basis <xref ref="x11change">formula</xref>
+          Now the change-of-basis formula <xref ref="x11change"/>
           asserts that <m>A = \tran{C} B C</m>,
           which you can verify with matrix multiplication using the matrices above.
         </p>
@@ -691,7 +691,7 @@
       <p>
         Finally, to show that the intersection of the two subspaces under consideration equals <m>\{ 0 \}</m>,
         suppose <m>\beta \in V^{(2)}_{\text{ sym } } \cap V^{(2)}_{\text{ alt } }</m>.
-        If <m>u, w \in V{}</m>, <xref ref="x9skew">then</xref> implies that
+        If <m>u, w \in V{}</m>, then <xref ref="x9skew"/> implies that
         <md>
           \beta(u,w) = -\beta(w, u) = -\beta(u,w)
         </md>
@@ -832,7 +832,7 @@
       <p>
         First suppose (a) holds, so <m>q</m> is a quadratic form.
         Hence there exists a bilinear form <m>\beta</m> such that <m>q = q_\beta</m>.
-        <xref ref="x9V2">By</xref>,
+        By <xref ref="x9V2"/>,
         there exist a symmetric bilinear form <m>\rho</m> on <m>V</m> and an alternating bilinear form <m>\alpha</m> on <m>V</m> such that <m>\beta = \rho + \alpha</m>.
         Now
         <md>

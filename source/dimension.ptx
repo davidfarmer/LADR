@@ -117,7 +117,7 @@
       Suppose <m>V</m> is finite-dimensional and <m>U</m> is a subspace of<nbsp/><m>V{}</m>.
       Think of a basis of <m>U</m> as a linearly independent list in <m>V{}</m>,
       and think of a basis of <m>V</m> as a spanning list in <m>V{}</m>.
-      Now <xref ref="x7">use</xref> to conclude that <m>\dim U \le \dim V{}</m>.
+      Now use <xref ref="x7"/> to conclude that <m>\dim U \le \dim V{}</m>.
     </p>
   </proof>
   <aside>
@@ -236,7 +236,7 @@
         <md>
           3 \le \dim U \le \dim \P{}_3(\R{}) = 4,
         </md>
-        where we have <xref ref="x2subdim">used</xref>.
+        where we have used <xref ref="x2subdim"/>.
       </p>
       <p>
         The polynomial <m>x</m> is not in <m>U</m> because its derivative is the constant function<nbsp/><m>1</m>.

@@ -188,7 +188,7 @@
       <p>
         First suppose (a) holds, so <m>T</m> is self-adjoint.
         Our results on minimal polynomials,
-        <xref ref="x188">specifically</xref>
+        specifically <xref ref="x188"/>
         and <xref ref="x7minsa"></xref>,
         imply that <m>T</m> has an upper-triangular matrix with respect to some orthonormal basis of <m>V{}</m>.
         With respect to this orthonormal basis,
@@ -306,7 +306,7 @@
         except possibly the first entry <m>a_{1,1}</m>, equal<nbsp/><m>0</m>.
       </p>
       <p>
-        <xref ref="x405">Now</xref> implies
+        Now <xref ref="x405"/> implies
         <md>
           \|Te_2\|^2 = |a_{2,2}|^2
         </md>

@@ -551,7 +551,7 @@
     </proof>
     <aside>
       <p>
-        The <xref ref="x9alalt">formula</xref>
+        The formula <xref ref="x9alalt"/>
         used in the last proof to construct a nonzero alternating <m>n</m>-linear form came from the formula in <xref ref="x11altform"></xref>,
         and that formula arose naturally from the properties of an alternating multilinear form.
       </p>
@@ -601,7 +601,7 @@
         Because <m>\alpha</m> is not the zero <m>n</m>-linear form,
         there exist <m>v_1, \ldots,
         v_n \in V</m> such that <m>\alpha (v_1, \ldots, v_n) \ne 0</m>.
-        <xref ref="x11altform">Now</xref>
+        Now <xref ref="x11altform"/>
         implies that <m>\alpha ( e_1, \ldots, e_n ) \ne 0</m>.
       </p>
     </proof>

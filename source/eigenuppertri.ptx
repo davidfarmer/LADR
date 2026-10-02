@@ -221,7 +221,7 @@
       c_{m-1} \in \F{}{}</m>.
       Gaussian elimination or another fast method of solving systems of linear equations can tell us whether a solution exists,
       testing successive values <m>m = 1, 2, \ldots</m> until a solution exists.
-      <xref ref="x3minpoly">By</xref>,
+      By <xref ref="x3minpoly"/>,
       a solution exists for some smallest positive integer <m>m \le \dim V{}</m>.
       The minimal polynomial of <m>T</m> is then <m>c_0 + c_1 z + \cdots + c_{m-1} z^{m-1} + z^m\!</m>.
     </p>
@@ -497,7 +497,7 @@
       </p>
       <p>
         Thus <m>p(T|_U) = 0</m>.
-        <xref ref="x140">Now</xref>,
+        Now <xref ref="x140"/>,
         applied to the operator <m>T|_U</m> in place of <m>T{}</m>,
         implies that <m>p</m> is a polynomial multiple of the minimal polynomial of <m>T|_U</m>.
       </p>
@@ -952,7 +952,7 @@
             Suppose <m>V</m> is finite-dimensional and <m>T \in \Lc(V)</m>.
             Prove that the minimal polynomial of <m>T</m> has degree at most <m>1 + \dim \ran T{}</m>.
             Note: If <m>\dim \ran T \lt \dim V - 1</m>,
-            then this exercise gives a better upper bound <xref ref="x3minpoly">than</xref>
+            then this exercise gives a better upper bound than <xref ref="x3minpoly"/>
             for the degree of the minimal polynomial of <m>T{}</m>.
           </p>
         </statement>
