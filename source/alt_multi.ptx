@@ -129,9 +129,9 @@
     </definition>
     <p>
       You should verify that <m>V^{(m)}_{\text{ alt } }</m> is a subspace of <m>V^{(m)}\!</m>.
-      See <xref ref="x9alt">Example</xref>
+      See <xref ref="x9alt"/>
       for examples of alternating <m>2</m>-linear forms.
-      See <xref ref="x9threelin">Exercise</xref>
+      See <xref ref="x9threelin"/>
       for an example of an alternating <m>3</m>-linear form.
     </p>
     <p>

@@ -122,7 +122,7 @@
       </ol>
     </p>
     <p>
-      See <xref ref="polynomials">Chapter</xref>
+      See <xref ref="polynomials"/>
       for the definitions and the basic properties of the absolute value and complex conjugate.
     </p>
     <p>
@@ -534,7 +534,7 @@
       sometimes we say <m>u</m> is orthogonal to <m>v</m>.
     </p>
     <p>
-      <xref ref="cost">Exercise</xref> asks you to prove that if
+      <xref ref="cost"/> asks you to prove that if
       <m>u,
       v</m> are nonzero vectors in <m>\RR{2}</m>, then
       <md>
@@ -755,7 +755,7 @@
               <md>
                 \left\lvert \int_{-1}^1 fg   \right\rvert ^{2} \le \left(  \int_{-1}^1 f^2  \right) \left(  \int_{-1}^1 g^2  \right),
               </md>
-              as follows from applying the Cauchy<ndash/>Schwarz inequality to <xref ref="exampleip">Example</xref>(c).
+              as follows from applying the Cauchy<ndash/>Schwarz inequality to <xref ref="exampleip"/>(c).
             </p>
           </li>
         </ol>
@@ -830,7 +830,7 @@
     </proof>
     <p>
       For the reverse triangle inequality,
-      see <xref ref="x6reverse">Exercise</xref>.
+      see <xref ref="x6reverse"/>.
     </p>
 <sidebyside width="60%"><stack>
         <image width="60%" source="Parallelogram.png">
@@ -1084,7 +1084,7 @@
             <md>
               \arccos \frac{ \langle x, y \rangle  }{ \|x\|  \|y\| },
             </md>
-            where the motivation for this definition comes from <xref ref="cost">Exercise</xref>.
+            where the motivation for this definition comes from <xref ref="cost"/>.
             Explain why the Cauchy<ndash/>Schwarz inequality is needed to show that this definition makes sense.
           </p>
         </statement>
@@ -1147,8 +1147,8 @@
             Note: That inequality is called the
             <term>reverse triangle inequality</term>.
             For the reverse triangle inequality when <m>V = \C{}</m>,
-            see <xref ref="x4reverse">Exercise</xref>
-            in <xref ref="polynomials">Chapter</xref>.
+            see <xref ref="x4reverse"/>
+            in <xref ref="polynomials"/>.
           </p>
         </statement>
       </exercise>
@@ -1297,7 +1297,7 @@
           </p>
           <p>
             Note: See <xref ref="x1VC">Exercise</xref>
-            in <xref ref="x1DefVS">Section</xref>
+            in <xref ref="x1DefVS"/>
             for the definition of the complexification <m>V{}_{\C{}}</m>.
           </p>
         </statement>

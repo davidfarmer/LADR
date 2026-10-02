@@ -384,7 +384,7 @@
       Matrix multiplication is not commutative
           <idx><h>commutativity</h></idx>
       <mdash/><m>AB</m> is not necessarily equal to <m>BA</m> even if both products are defined
-      (see <xref ref="noncommute">Exercise</xref>).
+      (see <xref ref="noncommute"/>).
       Matrix multiplication is distributive and associative<nbsp/>(see <xref ref="x3distrib">Exercises</xref>
       and <xref ref="assoc"/>).
     </p>
@@ -469,7 +469,7 @@
       For example,
       the next result and the calculation in the paragraph above explain why the entry in row <m>2</m>,
       column<nbsp/><m>1</m>,
-      of the product in <xref ref="matprod">Example</xref> equals <m>26</m>.
+      of the product in <xref ref="matprod"/> equals <m>26</m>.
     </p>
     <theorem>
       <title>entry of matrix product equals row times column</title>
@@ -817,7 +817,7 @@
       </p>
     </proof>
     <p>
-      In <xref ref="rowcolrank">Example</xref>,
+      In <xref ref="rowcolrank"/>,
       the column rank and row rank turned out to equal each other.
       The next result states that this happens for all matrices.
     </p>
@@ -877,8 +877,8 @@
       </statement>
     </definition>
     <p>
-      See <xref ref="x3rank"/> and <xref ref="x7rank">Exercise</xref>
-      in <xref ref="selfadjoint_normal">Section</xref>
+      See <xref ref="x3rank"/> and <xref ref="x7rank"/>
+      in <xref ref="selfadjoint_normal"/>
       for alternative proofs that the column rank equals the row rank.
     </p>
     <exercises xml:id="x3think2">
@@ -939,7 +939,7 @@
             </md>
           </p>
           <p>
-            Note: Compare with <xref ref="diffmatrix">Example</xref>.
+            Note: Compare with <xref ref="diffmatrix"/>.
             The next exercise generalizes this exercise.
           </p>
         </statement>
@@ -967,7 +967,7 @@
             v_m</m> and <m>w_1, \dots,
             w_n</m>] are <m>0</m> except for possibly a <m>1</m> in the first row,
             first column.
-            Note: In this exercise, unlike <xref ref="zeroonematrix">Exercise</xref>,
+            Note: In this exercise, unlike <xref ref="zeroonematrix"/>,
             you are given the basis of <m>V</m> instead of being able to choose a basis of <m>V{}</m>.
           </p>
         </statement>
@@ -984,7 +984,7 @@
             v_m</m> and <m>w_1, \dots,
             w_n</m>] are <m>0</m> except for possibly a <m>1</m> in the first row,
             first column.
-            Note: In this exercise, unlike <xref ref="zeroonematrix">Exercise</xref>,
+            Note: In this exercise, unlike <xref ref="zeroonematrix"/>,
             you are given the basis of <m>W</m> instead of being able to choose a basis of <m>W{}</m>.
           </p>
         </statement>

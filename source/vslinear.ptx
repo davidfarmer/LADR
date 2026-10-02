@@ -321,7 +321,7 @@
     <p>
       The routine proof of the result above is left to the reader.
       Note that the additive identity of
-      <m>\Lc(V{},W)</m> is the zero linear map defined in <xref ref="x2a111">Example</xref>.
+      <m>\Lc(V{},W)</m> is the zero linear map defined in <xref ref="x2a111"/>.
     </p>
     <p>
       Usually it makes no sense to multiply together two elements of a vector space,
@@ -406,7 +406,7 @@
       <title>two noncommuting linear maps from  <m>\P(\R)</m> to  <m>\P(\R)</m></title>
       <statement>
         <p>
-          Suppose <m>D \in \Lc\bigl(\P(\R{})\bigr)</m> is the differentiation map<idx><h>differentiation linear map</h></idx> defined in <xref ref="x2a111">Example</xref>
+          Suppose <m>D \in \Lc\bigl(\P(\R{})\bigr)</m> is the differentiation map<idx><h>differentiation linear map</h></idx> defined in <xref ref="x2a111"/>
           and <m>T \in \Lc\bigl(\P(\R{})\bigr)</m> is the multiplication by <m>x^2</m> map defined earlier in this section.
           Then
           <md>
@@ -489,7 +489,7 @@
               T(x_1, \dots, x_n) = (A_{1,1}x_1 + \dots + A_{1,n} x_n, \dots, A_{m,1}x_1 + \dots + A_{m,n} x_n)
             </md>
             for every <m>(x_1, \dots, x_n) \in \FF{n}</m>.
-            Note: This exercise shows that the linear map <m>T</m> has the form promised in the second to last item of <xref ref="x2a111">Example</xref>.
+            Note: This exercise shows that the linear map <m>T</m> has the form promised in the second to last item of <xref ref="x2a111"/>.
           </p>
         </statement>
       </exercise>

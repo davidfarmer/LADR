@@ -812,7 +812,7 @@
       Recall that the list of nonnegative square roots of the eigenvalues of <m>T^* T</m>
       (each included as many times as its multiplicity)
       is called the list of singular values of <m>T</m>
-      (see <xref ref="x2SVD">Section</xref>).
+      (see <xref ref="x2SVD"/>).
     </p>
     <theorem xml:id="x324">
       <title><m>\lvert \det T \rvert   =</m> product of singular values of  <m>T</m></title>
@@ -1102,7 +1102,7 @@
     </p>
     <p>
       For a necessary and sufficient condition for Hadamard's inequality to be an equality,
-      see <xref ref="x7HadEq">Exercise</xref>.
+      see <xref ref="x7HadEq"/>.
     </p>
     <p>
       The matrix in the next result is called the
@@ -1452,8 +1452,8 @@
             for all <m>A \in \C{n,n}</m>.
             Note: Recall that <m>\C{n,n}</m> denotes the set of <m>n</m>-by-<m>n</m> matrices with entries in <nbsp/><m>\C{}</m>.
             This exercise shows that the determinant is the unique function defined on square matrices that is multiplicative and has the desired behavior on diagonal matrices.
-            This result is analogous to <xref ref="x9trChar">Exercise</xref>
-            in <xref ref="x7trace">Section</xref>,
+            This result is analogous to <xref ref="x9trChar"/>
+            in <xref ref="x7trace"/>,
             which shows that the trace is uniquely determined by its algebraic properties.
           </p>
         </statement>

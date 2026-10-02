@@ -362,7 +362,7 @@
         <p>
           Some books use the notation <m>V^*</m> and <m>T^*</m> for duality instead of <m>V'</m> and <m>T'\!</m>.
           However, here we reserve the notation <m>T^*</m> for the adjoint,
-          which will be introduced when we study linear maps on inner product spaces in <xref ref="opsinner">Chapter</xref>.
+          which will be introduced when we study linear maps on inner product spaces in <xref ref="opsinner"/>.
         </p>
       </aside>
       <p>
@@ -507,10 +507,10 @@
       For example,
       this shows that if <m>U</m> is a two-dimensional subspace of <m>\RR5</m>,
       then <m>U^0</m> is a three-dimensional subspace of <m>{( \R{5} )}'\!</m>,
-      as in <xref ref="annih">Example</xref>.
+      as in <xref ref="annih"/>.
     </p>
     <p>
-      The next result can be proved following the pattern of <xref ref="annih">Example</xref>:
+      The next result can be proved following the pattern of <xref ref="annih"/>:
       choose a basis <m>u_1, \dots, u_m</m> of <m>U</m>,
       extend to a basis <m>u_1, \dots,
       u_m, \dots, u_n</m> of <m>V{}</m>,
@@ -555,8 +555,8 @@
       <p>
         If <m>\phi \in U'\!</m>,
         then <m>\phi</m> can be extended to a linear functional <m>\psi</m> on <m>V</m>
-        (see, for example, <xref ref="x384">Exercise</xref>
-        in <xref ref="vslinear">Section</xref>).
+        (see, for example, <xref ref="x384"/>
+        in <xref ref="vslinear"/>).
         The definition of <m>i'</m> shows that <m>i' \! (\psi) = \phi</m>.
         Thus <m>\phi \in \ran i'\!</m>,
         which implies that <m>\ran i' = U'\!</m>.
@@ -897,8 +897,8 @@
       </p>
     </proof>
     <p>
-      See <xref ref="x7rank">Exercise</xref>
-      in <xref ref="selfadjoint_normal">Section</xref>
+      See <xref ref="x7rank"/>
+      in <xref ref="selfadjoint_normal"/>
       for another alternative proof of the result above.
     </p>
     <exercises>

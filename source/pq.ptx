@@ -310,7 +310,7 @@
               <m>U = \{ (x, 2x) \in \R2:
               x \in \R{} \}</m>,
               then all lines in <m>\R2</m> with slope <m>2</m> are translates of<nbsp/><m>U</m>.
-              See <xref ref="U1720">Example</xref>
+              See <xref ref="U1720"/>
               above for a drawing of <m>U</m> and one of its translates.
             </p>
           </li>
@@ -330,7 +330,7 @@
             <p>
               More generally, if <m>U</m> is a plane in <m>\R3\!</m>,
               then the set of all translates of <m>U</m> is the set of all planes in <m>\R3</m> that are parallel to <m>U</m>
-              (see, for example, <xref ref="x3translates">Exercise</xref>).
+              (see, for example, <xref ref="x3translates"/>).
             </p>
           </li>
         </ol>

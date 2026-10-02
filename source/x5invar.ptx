@@ -108,8 +108,8 @@
       Later we will see that this question has an affirmative answer if <m>V</m> is finite-dimensional and <m>\dim V > 1</m>
       (for <m>\F{} = \C{}</m>)
       or <m>\dim V > 2</m> (for <m>\F{} = \R{})</m>;
-      see <xref ref="x151"/> and <xref ref="x5inv2">Exercise</xref>
-      in <xref ref="eigenuppertri">Section</xref>.
+      see <xref ref="x151"/> and <xref ref="x5inv2"/>
+      in <xref ref="eigenuppertri"/>.
     </p>
     <p>
       The previous example noted that <m>\ker T</m> and <m>\ran T</m> are invariant under<nbsp/><m>T</m>.
@@ -768,8 +768,8 @@
             </md>
             where <m>\M(T)_{j,k}</m> denotes the entry in row <m>j</m>,
             column <m>k</m> of the matrix of <m>T</m> with respect to the basis <m>v_1, \ldots, v_n</m>.
-            Note: See <xref ref="x2HSeigen">Exercise</xref>
-            in <xref ref="x6ipn">Section</xref>
+            Note: See <xref ref="x2HSeigen"/>
+            in <xref ref="x6ipn"/>
             for a different bound on <m>\lvert \lambda \rvert</m>.
           </p>
         </statement>
@@ -781,8 +781,8 @@
             and <m>\lambda \in \R{}</m>.
             Prove that <m>\lambda</m> is an eigenvalue of <m>T</m> if and only if <m>\lambda</m> is an eigenvalue of the complexification <m>T{}_{\C{}}</m>.
                 <idx><h>complexification</h><h>eigenvalues of</h></idx>
-            Note: See <xref ref="x3complexMap">Exercise</xref>
-            in <xref ref="x3nullspace">Section</xref>
+            Note: See <xref ref="x3complexMap"/>
+            in <xref ref="x3nullspace"/>
             for the definition of <m>T{}_{\C{}}</m>.
           </p>
         </statement>

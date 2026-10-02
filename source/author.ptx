@@ -47,8 +47,8 @@
 <!--
   <p>
     <em>Cover equation</em>: Formula for the <m>n^\nth</m> Fibonacci number.
-    <xref ref="Fibonacci">Exercise</xref>
-    in <xref ref="diagmat">Section</xref>
+    <xref ref="Fibonacci"/>
+    in <xref ref="diagmat"/>
     uses linear algebra to derive this formula.
   </p>
 -->

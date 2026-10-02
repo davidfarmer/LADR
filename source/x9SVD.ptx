@@ -22,8 +22,8 @@
     <aside>
       <p>
         For a lower bound on <m>\lVert Tv \rVert</m>,
-        look at <xref ref="x3smallSV">Exercise</xref>
-        in <xref ref="x2SVD">Section</xref>.
+        look at <xref ref="x3smallSV"/>
+        in <xref ref="x2SVD"/>.
       </p>
     </aside>
     <proof>
@@ -101,7 +101,7 @@
       <m>\lVert T \rVert</m> for <m>T \in \Lc(V{},W)</m>.
       The norm <m>\lVert T \rVert</m> for
       <m>T \in \Lc(V{},W)</m> does not usually come from taking an inner product of <m>T</m> with itself
-      (see <xref ref="x6notinner">Exercise</xref>).
+      (see <xref ref="x6notinner"/>).
       You should be able to tell from the context and from the symbols used which meaning of the norm is intended.
     </p>
     <p>
@@ -113,7 +113,7 @@
           <idx><h>triangle inequality</h></idx>
       thus using the same terminology that we used for the norm on <m>V{}</m>.
       For the reverse triangle inequality,
-      see <xref ref="x5reverse">Exercise</xref>.
+      see <xref ref="x5reverse"/>.
     </p>
     <theorem>
       <title>basic properties of norms of linear maps</title>
@@ -200,7 +200,7 @@
       the quantity <m>\lVert S-T \rVert</m> is often called the distance between <m>S</m> and <m>T{}</m>.
       Informally, think of the condition that
       <m>\lVert S-T \rVert</m> is a small number as meaning that <m>S</m> and <m>T</m> are close together.
-      For example, <xref ref="x7invert">Exercise</xref>
+      For example, <xref ref="x7invert"/>
       asserts that for every <m>T \in \Lc(V)</m>,
       there is an invertible operator as close to <m>T</m> as we wish.
     </p>
@@ -326,8 +326,8 @@
               column <m>k</m> is <m>1/(j^2 + k)</m>.
               Standard mathematical software shows that the largest singular value of <m>T</m> is approximately <m>0.8</m> and the smallest singular value of <m>T</m> is approximately <m>10^{-6}{}</m>.
               Thus <m>\lVert T \rVert \approx 0.8</m> and
-              (using <xref ref="x7singinv">Exercise</xref>
-              in <xref ref="x2SVD">Section</xref>)
+              (using <xref ref="x7singinv"/>
+              in <xref ref="x2SVD"/>)
               <m>\lVert T^{-1} \rVert \approx 10^6{}</m>.
               It is not possible to find exact formulas for these norms.
             </p>
@@ -372,8 +372,8 @@
       </p>
     </proof>
     <p>
-      You may want to construct an alternative proof of the result above using <xref ref="x4TstarSing">Exercise</xref>
-      in <xref ref="x2SVD">Section</xref>,
+      You may want to construct an alternative proof of the result above using <xref ref="x4TstarSing"/>
+      in <xref ref="x2SVD"/>,
       which asserts that a linear map and its adjoint have the same positive singular values.
     </p>
   </subsection>
@@ -465,9 +465,9 @@
     </proof>
     <p>
       For other examples of the use of the singular value decomposition in best approximation,
-      see <xref ref="x7approx">Exercise</xref>,
+      see <xref ref="x7approx"/>,
       which finds a subspace of given dimension on which the restriction of a linear map is as small as possible,
-      and <xref ref="x7unitary">Exercise</xref>,
+      and <xref ref="x7unitary"/>,
       which finds a unitary operator that is as close as possible to a given operator.
     </p>
   </subsection>
@@ -523,7 +523,7 @@
       However (still assuming that
       <m>\F{} = \C{}</m>), if <m>T</m> is normal,
       then an orthonormal basis of <m>V</m> can be chosen such that both <m>S</m> and
-      <m>\sqrt{T^*T}</m> have diagonal matrices with respect to this basis<mdash/>see <xref ref="x8PolarNor">Exercise</xref>.
+      <m>\sqrt{T^*T}</m> have diagonal matrices with respect to this basis<mdash/>see <xref ref="x8PolarNor"/>.
       The converse is also true: If <m>T \in \Lc(V)</m> and <m>T = S \sqrt{T^*T}</m> for some unitary operator
       <m>S \in \Lc(V)</m> such that <m>S</m> and
       <m>\sqrt{T^*T}</m> both have diagonal matrices with respect to the same orthonormal basis of <m>V{}</m>,
@@ -601,7 +601,7 @@
       </p>
     </proof>
     <p>
-      <xref ref="x7unitary">Exercise</xref>
+      <xref ref="x7unitary"/>
       shows that the unitary operator <m>S</m> produced in the proof above is as close as a unitary operator can be to <m>T{}</m>.
     </p>
     <p>
@@ -1038,10 +1038,10 @@
       (which we are calling the volume)
       of a rectangle in <m>\R2</m> and for the volume of a box in<nbsp/><m>\R3</m>.
       For example,
-      the first box in <xref ref="x2boxes">Example</xref> has two-dimensional volume
+      the first box in <xref ref="x2boxes"/> has two-dimensional volume
       (or area)
       <m>2</m> because the defining edges of that box have length <m>\sqrt{2}</m> and <m>\sqrt{2}</m>.
-      The second box in <xref ref="x2boxes">Example</xref>
+      The second box in <xref ref="x2boxes"/>
       has three-dimensional volume <m>2</m> because the defining edges of that box have length <m>1</m>,
       <m>2</m>,
       and <m>1</m>.
@@ -1182,8 +1182,8 @@
       (by <xref ref="x7max"/>)
       and the singular values of a normal operator,
       assuming <m>\F{} = \C{}</m>, equal the absolute values of the eigenvalues
-      (by <xref ref="x7singsp">Exercise</xref>
-      in <xref ref="x2SVD">Section</xref>).
+      (by <xref ref="x7singsp"/>
+      in <xref ref="x2SVD"/>).
     </p>
         <tabular>
           <row>
@@ -1349,7 +1349,7 @@
 </p>
           <p>
             Note: This exercise shows that the set of invertible operators in <m>\Lc(V)</m> is an open subset of <m>\Lc(V)</m>,
-            using the metric defined in <xref ref="x7met">Exercise</xref>.
+            using the metric defined in <xref ref="x7met"/>.
           </p>
         </statement>
       </exercise>
@@ -1469,8 +1469,8 @@
             If <m>s_1, \ldots,
             s_n</m> is the list of singular values of <m>T</m>,
             then the right side of the inequality above equals <m>( s_1^{2} + \cdots + {s_n}^{2} )^{1/2}\!</m>,
-            as was shown in <xref ref="x7sums2">Exercise</xref>
-            (a) in <xref ref="x2SVD">Section</xref>.
+            as was shown in <xref ref="x7sums2"/>
+            (a) in <xref ref="x2SVD"/>.
           </p>
         </statement>
       </exercise>
@@ -1524,8 +1524,8 @@
           <p>
             Suppose <m>T \in \Lc(V{}, W)</m>.
             Show that <m>T</m> is uniformly continuous with respect to the metrics on <m>V</m> and <m>W</m> that arise from the norms on those spaces
-            (see <xref ref="x4metric">Exercise</xref>
-            in <xref ref="orthobases">Section</xref>).
+            (see <xref ref="x4metric"/>
+            in <xref ref="orthobases"/>).
           </p>
         </statement>
       </exercise>

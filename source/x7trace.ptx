@@ -319,7 +319,7 @@
   </proof>
   <p>
     The equations <m>\tr(ST) = \tr(TS)</m> and
-    <m>\tr I = \dim V</m> uniquely characterize the trace among the linear functionals on <m>\Lc(V)</m><mdash/>see <xref ref="x9trChar">Exercise</xref>.
+    <m>\tr I = \dim V</m> uniquely characterize the trace among the linear functionals on <m>\Lc(V)</m><mdash/>see <xref ref="x9trChar"/>.
   </p>
   <aside>
     <p>
@@ -332,7 +332,7 @@
   <p>
     The equation <m>\tr(ST) = \tr(TS)</m> leads to our next result,
     which does not hold on infinite-dimensional vector spaces
-    (see <xref ref="x9commutator">Exercise</xref>).
+    (see <xref ref="x9commutator"/>).
     However, additional hypotheses on <m>S</m>, <m>T</m>,
     and <m>V</m> lead to an infinite-dimensional generalization of the result below,
     with important applications to quantum theory.
@@ -549,7 +549,7 @@
       </statement>
           <hint>
             <p>
-              Make an appropriate modification of the operators in <xref ref="x3noncom">Example</xref>.
+              Make an appropriate modification of the operators in <xref ref="x3noncom"/>.
             </p>
           </hint>
     </exercise>

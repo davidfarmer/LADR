@@ -230,7 +230,7 @@
       </p>
     </aside>
     <p>
-      <xref ref="Fn">Example</xref> above shows that <m>\F{n}</m> is a finite-dimensional vector space for every positive integer <m>n</m>.
+      <xref ref="Fn"/> above shows that <m>\F{n}</m> is a finite-dimensional vector space for every positive integer <m>n</m>.
     </p>
     <p>
       The definition of a polynomial is no doubt already familiar to you.

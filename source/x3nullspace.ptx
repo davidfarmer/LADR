@@ -990,8 +990,8 @@
         </statement>
             <hint>
               <p>
-                The description of the two-sided ideals of <m>\Lc(V)</m> given by <xref ref="ideals">Exercise</xref>
-                in <xref ref="vslinear">Section</xref> might be useful.
+                The description of the two-sided ideals of <m>\Lc(V)</m> given by <xref ref="ideals"/>
+                in <xref ref="vslinear"/> might be useful.
               </p>
             </hint>
       </exercise>
@@ -1025,7 +1025,7 @@
           </p>
           <p>
             Note: See <xref ref="x1VC">Exercise</xref>
-            in <xref ref="x1DefVS">Section</xref>
+            in <xref ref="x1DefVS"/>
             for the definition of the complexification <m>V{}_{\C{}}</m>.
             The linear map <m>T{}_{\C{}}</m> is called the
             <term>complexification</term>

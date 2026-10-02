@@ -158,7 +158,7 @@
     <aside>
       <p>
         The union of subspaces is rarely a subspace
-        (see <xref ref="x218">Exercise</xref>)
+        (see <xref ref="x218"/>)
         , which is why we usually work with sums rather than unions.
       </p>
     </aside>
@@ -536,7 +536,7 @@
       The result above deals only with the case of two subspaces.
       When asking about a possible direct sum with more than two subspaces,
       it is not enough to test that each pair of the subspaces intersect only at<nbsp/><m>0</m>.
-      To see this, consider <xref ref="x3direct">Example</xref>.
+      To see this, consider <xref ref="x3direct"/>.
       In that nonexample of a direct sum,
       we have <m>V{}_1 \cap V{}_2 = V{}_1 \cap V{}_3 = V{}_2 \cap V{}_3 = \{0\}</m>.
     </p>
@@ -575,7 +575,7 @@
       <exercise>
         <statement>
           <p>
-            Verify all assertions about subspaces in <xref ref="subspaces">Example</xref>.
+            Verify all assertions about subspaces in <xref ref="subspaces"/>.
           </p>
         </statement>
       </exercise>
@@ -676,7 +676,7 @@
         <statement>
           <p>
             Prove that the union of three subspaces of <m>V</m> is a subspace of <m>V</m> if and only if one of the subspaces contains the other two.
-            Note: This exercise is surprisingly harder than <xref ref="x218">Exercise</xref>,
+            Note: This exercise is surprisingly harder than <xref ref="x218"/>,
             possibly because this exercise is not true if we replace <m>\F{}</m> with a field containing only two elements.
           </p>
         </statement>

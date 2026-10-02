@@ -183,7 +183,7 @@
       On infinite-dimensional vector spaces,
       neither condition alone implies invertibility,
       as illustrated by the next example,
-      which uses two familiar linear maps from <xref ref="x2a111">Example</xref>.
+      which uses two familiar linear maps from <xref ref="x2a111"/>.
     </p>
     <example xml:id="ninsii">
       <title>neither injectivity nor surjectivity implies invertibility</title>
@@ -281,7 +281,7 @@
           from <m>\P(\R{})</m> to itself is injective, as you can show.
           Thus we are tempted to use <xref ref="x18"/>
           to show that this map is surjective.
-          However, <xref ref="ninsii">Example</xref>
+          However, <xref ref="ninsii"/>
           shows that the magic of <xref ref="x18"/>
           does not apply to the infinite-dimensional vector space <m>\P(\R{})</m>.
           We will get around this problem by restricting attention to the finite-dimensional vector space <m>\P{}_m(\R{})</m>.
@@ -316,8 +316,8 @@
       </statement>
     </example>
     <p>
-      <xref ref="harmonic">Exercise</xref>
-      in <xref ref="x6ipn">Section</xref>
+      <xref ref="harmonic"/>
+      in <xref ref="x6ipn"/>
       gives a similar but more spectacular example of using <xref ref="x18"/>.
     </p>
     <p>
@@ -753,8 +753,8 @@
         w_m</m> is a basis of<nbsp/><m>W{}</m>.
         The linear map that takes <m>w \in W</m> to <m>\M(w)</m> is an isomorphism from <m>W</m> onto the space <m>\F{m,1}</m> of <m>m</m>-by-<m>1</m> column vectors.
         The restriction of this isomorphism to <m>\ran T</m> [which equals
-        <m>\Span(Tv_1, \dots, Tv_n)</m> by <xref ref="x3spanrange">Exercise</xref>
-        in <xref ref="x3nullspace">Section</xref>] is an isomorphism from <m>\ran T</m> onto <m>\Span\bigl( \M(Tv_1), \dots, \M(Tv_n) \bigr)</m>.
+        <m>\Span(Tv_1, \dots, Tv_n)</m> by <xref ref="x3spanrange"/>
+        in <xref ref="x3nullspace"/>] is an isomorphism from <m>\ran T</m> onto <m>\Span\bigl( \M(Tv_1), \dots, \M(Tv_n) \bigr)</m>.
         For each <m>k \in \{ 1, \ldots, n \}</m>,
         the <m>m</m>-by-<m>1</m> matrix
         <m>\M(Tv_k)</m> equals column <m>k</m> of <m>\M(T)</m>.
@@ -769,7 +769,7 @@
   <subsection>
     <title>Change of Basis</title>
     <p>
-      In <xref ref="matrices">Section</xref> we defined the matrix
+      In <xref ref="matrices"/> we defined the matrix
       <md>
         \M\bigl(T, (v_1, \dots, v_n), (w_1, \dots, w_m) \bigr)
       </md>
@@ -1203,7 +1203,7 @@
       <exercise>
         <statement>
           <p>
-            Show that the result in <xref ref="x3STU">Exercise</xref>
+            Show that the result in <xref ref="x3STU"/>
             can fail without the hypothesis that <m>V</m> is finite-dimensional.
           </p>
         </statement>

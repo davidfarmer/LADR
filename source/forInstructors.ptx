@@ -44,31 +44,31 @@
     <ol marker="(a)">
       <li>
         <p>
-          <xref ref="VectorSpaces">Chapter</xref>: Vector spaces are defined in this chapter,
+          <xref ref="VectorSpaces"/>: Vector spaces are defined in this chapter,
           and their basic properties are developed.
         </p>
       </li>
       <li>
         <p>
-          <xref ref="fin-dimVS">Chapter</xref>: Linear independence,
+          <xref ref="fin-dimVS"/>: Linear independence,
           span, basis, and dimension are defined in this chapter,
           which presents the basic theory of finite-dimensional vector spaces.
         </p>
       </li>
       <li>
         <p>
-          <xref ref="LinearMaps">Chapter</xref>: This chapter introduces linear maps.
+          <xref ref="LinearMaps"/>: This chapter introduces linear maps.
           The key result here is the fundamental theorem of linear maps:
           if <m>T</m> is a linear map on<nbsp/><m>V{}</m>,
           then <m>\dim V = \dim \ker T + \dim \ran T{}</m>.
           Quotient spaces and duality are topics in this chapter at a higher level of abstraction than most of the book;
           these topics can be skipped
-          (except that duality is needed for tensor products in <xref ref="x9TensorSect">Section</xref>).
+          (except that duality is needed for tensor products in <xref ref="x9TensorSect"/>).
         </p>
       </li>
       <li>
         <p>
-          <xref ref="polynomials">Chapter</xref>: The part of the theory of polynomials that will be needed to understand linear operators is presented in this chapter.
+          <xref ref="polynomials"/>: The part of the theory of polynomials that will be needed to understand linear operators is presented in this chapter.
           This chapter contains no linear algebra.
           It can be covered quickly,
           especially if your students are already familiar with these results.
@@ -76,20 +76,20 @@
       </li>
       <li>
         <p>
-          <xref ref="eigs">Chapter</xref>: The idea of studying a linear operator by restricting it to small subspaces leads to eigenvectors in the early part of this chapter.
+          <xref ref="eigs"/>: The idea of studying a linear operator by restricting it to small subspaces leads to eigenvectors in the early part of this chapter.
           The highlight of this chapter is a simple proof that on complex vector spaces,
           eigenvalues always exist.
           This result is then used to show that each linear operator on a complex vector space has an upper-triangular matrix with respect to some basis.
           The minimal polynomial plays an important role here and later in the book.
           For example,
           this chapter gives a characterization of the diagonalizable operators in terms of the minimal polynomial.
-          <xref ref="x2diagmat">Section</xref>
+          <xref ref="x2diagmat"/>
           can be skipped if you want to save some time.
         </p>
       </li>
       <li>
         <p>
-          <xref ref="InnerProductSpaces">Chapter</xref>: Inner product spaces are defined in this chapter,
+          <xref ref="InnerProductSpaces"/>: Inner product spaces are defined in this chapter,
           and their basic properties are developed along with tools such as orthonormal bases and the Gram<ndash/>Schmidt procedure.
           This chapter also shows how orthogonal projections can be used to solve certain minimization problems.
           The pseudoinverse is then introduced as a useful tool when the inverse does not exist.
@@ -98,7 +98,7 @@
       </li>
       <li>
         <p>
-          <xref ref="opsinner">Chapter</xref>: The spectral theorem,
+          <xref ref="opsinner"/>: The spectral theorem,
           which characterizes the linear operators for which there exists an orthonormal basis consisting of eigenvectors,
           is one of the highlights of this book.
           The work in earlier chapters pays off here with especially simple proofs.
@@ -110,7 +110,7 @@
       </li>
       <li>
         <p>
-          <xref ref="operators_complex_vs">Chapter</xref>: This chapter shows that for each operator on a complex vector space,
+          <xref ref="operators_complex_vs"/>: This chapter shows that for each operator on a complex vector space,
           there is a basis of the vector space consisting of generalized eigenvectors of the operator.
           Then the generalized eigenspace decomposition describes a linear operator on a complex vector space.
           The multiplicity of an eigenvalue is defined as the dimension of the corresponding generalized eigenspace.
@@ -121,7 +121,7 @@
       </li>
       <li>
         <p>
-          <xref ref="MultLATensors">Chapter</xref>: This chapter begins by looking at bilinear forms and showing that the vector space of bilinear forms is the direct sum of the subspaces of symmetric bilinear forms and alternating bilinear forms.
+          <xref ref="MultLATensors"/>: This chapter begins by looking at bilinear forms and showing that the vector space of bilinear forms is the direct sum of the subspaces of symmetric bilinear forms and alternating bilinear forms.
           Then quadratic forms are diagonalized.
           Moving to multilinear forms,
           the chapter shows that the subspace of alternating <m>n</m>-linear forms on an <m>n</m>-dimensional vector space has dimension one.
@@ -146,14 +146,14 @@
   <p>
     You probably cannot cover everything in this book in one semester.
     Going through all the material in the first seven or eight chapters during a one-semester course may require a rapid pace.
-    If you must reach <xref ref="MultLATensors">Chapter</xref>,
-    then consider skipping the material on quotient spaces in <xref ref="pq">Section</xref>,
-    skipping <xref ref="duals">Section</xref> on duality
-    (unless you intend to cover tensor products in <xref ref="x9TensorSect">Section</xref>),
-    covering <xref ref="polynomials">Chapter</xref>
+    If you must reach <xref ref="MultLATensors"/>,
+    then consider skipping the material on quotient spaces in <xref ref="pq"/>,
+    skipping <xref ref="duals"/> on duality
+    (unless you intend to cover tensor products in <xref ref="x9TensorSect"/>),
+    covering <xref ref="polynomials"/>
     on polynomials in a half hour,
-    skipping <xref ref="x2diagmat">Section</xref> on commuting operators,
-    and skipping the subsection in <xref ref="OrthoMin">Section</xref> on the pseudoinverse.
+    skipping <xref ref="x2diagmat"/> on commuting operators,
+    and skipping the subsection in <xref ref="OrthoMin"/> on the pseudoinverse.
   </p>
   <p>
     A goal more important than teaching any particular theorem is to develop in students the ability to understand and manipulate the objects of linear algebra.
@@ -244,29 +244,29 @@
         <p>
           Increasing use of the minimal polynomial to provide cleaner proofs of multiple results,
           including necessary and sufficient conditions for an operator to have an upper-triangular matrix with respect to some basis
-          (see <xref ref="x4utm">Section</xref>),
+          (see <xref ref="x4utm"/>),
           necessary and sufficient conditions for diagonalizability
-          (see <xref ref="diagmat">Section</xref>),
+          (see <xref ref="diagmat"/>),
           and the real spectral theorem
-          (see <xref ref="SpectralTheorem">Section</xref>).
+          (see <xref ref="SpectralTheorem"/>).
         </p>
       </li>
       <li>
         <p>
           New section on commuting operators
-          (see <xref ref="x2diagmat">Section</xref>).
+          (see <xref ref="x2diagmat"/>).
         </p>
       </li>
       <li>
         <p>
           New subsection on pseudoinverse
-          (see <xref ref="OrthoMin">Section</xref>).
+          (see <xref ref="OrthoMin"/>).
         </p>
       </li>
       <li>
         <p>
           New subsections on QR factorization/Cholesky factorization
-          (see <xref ref="x3QR">Section</xref>).
+          (see <xref ref="x3QR"/>).
         </p>
       </li>
       <li>
@@ -275,7 +275,7 @@
           (possibly different)
           inner product space,
           rather than only dealing with linear operators from an inner product space to itself
-          (see <xref ref="x2SVD">Section</xref>).
+          (see <xref ref="x2SVD"/>).
         </p>
       </li>
       <li>
@@ -283,22 +283,22 @@
           Polar decomposition now proved from singular value decomposition,
           rather than in the opposite order;
           this has led to cleaner proofs of both the singular value decomposition
-          (see <xref ref="x2SVD">Section</xref>)
+          (see <xref ref="x2SVD"/>)
           and the polar decomposition
-          (see <xref ref="x9SVD">Section</xref>).
+          (see <xref ref="x9SVD"/>).
         </p>
       </li>
       <li>
         <p>
           New subsection on norms of linear maps on finite-dimensional inner product spaces,
           using the singular value decomposition to avoid even mentioning supremum in the definition of the norm of a linear map
-          (see <xref ref="x9SVD">Section</xref>).
+          (see <xref ref="x9SVD"/>).
         </p>
       </li>
       <li>
         <p>
           New subsection on approximation by linear maps with lower-dimensional range
-          (see <xref ref="x9SVD">Section</xref>).
+          (see <xref ref="x9SVD"/>).
         </p>
       </li>
       <li>
@@ -310,7 +310,7 @@
       </li>
       <li>
         <p>
-          New <xref ref="MultLATensors">Chapter</xref>
+          New <xref ref="MultLATensors"/>
           on multilinear algebra, including bilinear forms,
           quadratic forms, multilinear forms, and tensor products.
           Determinants now are defined using a basis-free approach via alternating multilinear forms.

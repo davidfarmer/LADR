@@ -2,7 +2,7 @@
   <title>Eigenvalues and Eigenvectors</title>
   <introduction>
     <p>
-      Linear maps from one vector space to another vector space were the objects of study in <xref ref="LinearMaps">Chapter</xref>.
+      Linear maps from one vector space to another vector space were the objects of study in <xref ref="LinearMaps"/>.
       Now we begin our investigation of operators,
       which are linear maps from a vector space to itself.
       Their study constitutes the most important part of linear algebra.
@@ -40,8 +40,8 @@
         <p>
           Statue of Leonardo of Pisa (1170<ndash/>1250, approximate dates),
           also known as Fibonacci.
-          <xref ref="Fibonacci">Exercise</xref>
-          in <xref ref="diagmat">Section</xref>
+          <xref ref="Fibonacci"/>
+          in <xref ref="diagmat"/>
           shows how linear algebra can be used to find the explicit formula for the Fibonacci sequence. <!-- shown on the front cover. -->
     <idx><h>Leonardo of Pisa</h></idx>
     <idx><h>Fibonacci</h></idx>

@@ -76,7 +76,7 @@
       The next result gives conditions equivalent to being an isometry.
       The equivalence of (a) and (c) shows that a linear map is an isometry if and only if it preserves inner products.
       The equivalence of (a) and (d) shows that a linear map is an isometry if and only if it maps some orthonormal basis to an orthonormal list.
-      Thus the isometries given by <xref ref="isoex">Example</xref> include all isometries.
+      Thus the isometries given by <xref ref="isoex"/> include all isometries.
       Furthermore,
       a linear map is an isometry if and only if it maps every orthonormal basis to an orthonormal list [because whether or not (a) holds does not depend on the basis <m>e_1, \ldots,
       e_n</m>] .
@@ -183,7 +183,7 @@
         so the columns of the matrix <m>A</m> defined in the paragraph above form an orthonormal list in <m>\FF{m}</m>.
         Then <xref ref="ColOrtho"/> shows that
         <m>Se_1, \dots, Se_n</m> is an orthonormal list in <m>W{}</m>.
-        Thus <xref ref="isoex">Example</xref>,
+        Thus <xref ref="isoex"/>,
         with <m>Se_1, \dots, Se_n</m> playing the role of <m>g_1, \ldots, g_n</m>,
         shows that <m>S</m> is an isometry,
         proving that (e) implies (a).
@@ -412,7 +412,7 @@
       Hence the analogy shows that the unit circle in <m>\C{}</m> corresponds to the set of unitary operators.
       In the next two results,
       this analogy appears in the eigenvalues of unitary operators.
-      Also see <xref ref="x4UnitCircle">Exercise</xref>
+      Also see <xref ref="x4UnitCircle"/>
       for another example of this analogy.
     </p>
     <theorem xml:id="EigUnitary">
@@ -664,8 +664,8 @@
         This implies that <m>\Span(v_1, \ldots,
         v_k) = \Span(q_1, \ldots, q_k)</m> and <m>\langle v_k, q_k \rangle > 0</m>.
         The uniqueness of the orthonormal lists satisfying these conditions
-        (see <xref ref="x8GSunique">Exercise</xref>
-        in <xref ref="orthobases">Section</xref>)
+        (see <xref ref="x8GSunique"/>
+        in <xref ref="orthobases"/>)
         now shows that <m>q_k = e_k</m> for each <m>k = 1, \ldots, n</m>.
         Hence <m>\hat{Q} = Q</m>,
         which then implies that <m>\hat{R} = R</m>,
@@ -874,8 +874,8 @@
         To prove the uniqueness part of this result,
         suppose <m>S</m> is an upper-triangular matrix with only positive numbers on its diagonal and <m>B = S^*S</m>.
         The matrix <m>S</m> is invertible because <m>B</m> is invertible
-        (see <xref ref="x379">Exercise</xref>
-        in <xref ref="invertible">Section</xref>).
+        (see <xref ref="x379"/>
+        in <xref ref="invertible"/>).
         Multiplying both sides of the equation
         <m>B = S^*S</m> by <m>S^{-1}</m> on the right gives the equation <m>BS^{-1} = S^*{}</m>.
       </p>

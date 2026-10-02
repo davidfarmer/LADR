@@ -56,13 +56,13 @@
     </proof>
     <p>
       The proof above makes crucial use of the fundamental theorem of algebra.
-      The comment following <xref ref="x8FTAneeded">Exercise</xref>
+      The comment following <xref ref="x8FTAneeded"/>
       helps explain why the fundamental theorem of algebra is so tightly connected to the result above.
     </p>
     <p>
       The hypothesis in the result above that
       <m>\F{} = \C{}</m> cannot be replaced with the hypothesis that <m>\F{} = \R{}</m>,
-      as shown by <xref ref="a117">Example</xref>.
+      as shown by <xref ref="a117"/>.
       The next example shows that the finite-dimensional hypothesis in the result above also cannot be deleted.
     </p>
     <example>
@@ -374,8 +374,8 @@
     </p>
     <p>
       Every monic polynomial is the minimal polynomial of some operator,
-      as shown by <xref ref="x8FTAneeded">Exercise</xref>,
-      which generalizes <xref ref="x141">Example</xref>.
+      as shown by <xref ref="x8FTAneeded"/>,
+      which generalizes <xref ref="x141"/>.
       Thus <xref ref="x136"/>(a) shows that finding exact expressions for the eigenvalues of an operator is equivalent to the problem of finding exact expressions for the zeros of a polynomial
       (and thus is not possible for some operators).
     </p>
@@ -389,7 +389,7 @@
           </md>
         </p>
         <p>
-          The matrix of <m>T</m> with respect to the standard basis of <m>\C5</m> is the <m>5</m>-by-<m>5</m> matrix in <xref ref="x141">Example</xref>.
+          The matrix of <m>T</m> with respect to the standard basis of <m>\C5</m> is the <m>5</m>-by-<m>5</m> matrix in <xref ref="x141"/>.
           As we showed in that example,
           the minimal polynomial of <m>T</m> is the polynomial
           <md>
@@ -503,7 +503,7 @@
       </p>
     </proof>
     <p>
-      See <xref ref="x8minq">Exercise</xref>
+      See <xref ref="x8minq"/>
       for a result about quotient operators that is analogous to the result above.
     </p>
     <p>
@@ -670,9 +670,9 @@
       </p>
     </proof>
     <p>
-      See <xref ref="x8compmult">Exercise</xref> in <xref ref="decompop">Section</xref>
-      and <xref ref="x9oddeigen">Exercise</xref>
-      in <xref ref="x9det">Section</xref>
+      See <xref ref="x8compmult"/> in <xref ref="decompop"/>
+      and <xref ref="x9oddeigen"/>
+      in <xref ref="x9det"/>
       for alternative proofs of the result above.
     </p>
     <exercises>
@@ -732,7 +732,7 @@
       <exercise>
         <statement>
           <p>
-            Give an example of an operator on <m>\R2</m> that shows the result in <xref ref="x5peig">Exercise</xref>
+            Give an example of an operator on <m>\R2</m> that shows the result in <xref ref="x5peig"/>
             does not hold if <m>\C{}</m> is replaced with<nbsp/><m>\R{}</m>.
           </p>
         </statement>
@@ -1009,8 +1009,8 @@
             </ol>
           </p>
           <p>
-            Note: The quotient operator <m>T{}/U</m> was defined in <xref ref="x5quotient">Exercise</xref>
-            in <xref ref="x5invar">Section</xref>.
+            Note: The quotient operator <m>T{}/U</m> was defined in <xref ref="x5quotient"/>
+            in <xref ref="x5invar"/>.
           </p>
         </statement>
       </exercise>
@@ -1033,7 +1033,7 @@
             <m>T{}_{\C{}}</m> equals the minimal polynomial of <m>T{}</m>.
                 <idx><h>complexification</h><h>minimal polynomial of</h></idx>
                 <idx><h>minimal polynomial</h><h>of complexification</h></idx>
-            Note: The complexification <m>T{}_{\C{}}</m> was defined in <xref ref="x3complexMap">Exercise</xref> of <xref ref="x3nullspace">Section</xref>.
+            Note: The complexification <m>T{}_{\C{}}</m> was defined in <xref ref="x3complexMap"/> of <xref ref="x3nullspace"/>.
           </p>
         </statement>
       </exercise>
@@ -1045,7 +1045,7 @@
             <m>T' \in \Lc( V' )</m> equals the minimal polynomial of <m>T{}</m>.
                 <idx><h>dual</h><h>of a linear map</h></idx>
                 <idx><h>minimal polynomial</h><h>of dual map</h></idx>
-            Note: The dual map <m>T'</m> was defined in <xref ref="duals">Section</xref>.
+            Note: The dual map <m>T'</m> was defined in <xref ref="duals"/>.
           </p>
         </statement>
       </exercise>
@@ -1053,8 +1053,8 @@
         <statement>
           <p>
             Show that every operator on a finite-dimensional vector space of dimension at least two has an invariant subspace of dimension two.
-            Note: <xref ref="x457">Exercise</xref>
-            in <xref ref="x4utm">Section</xref>
+            Note: <xref ref="x457"/>
+            in <xref ref="x4utm"/>
             will give an improvement of this result when <m>\F{} = \C{}</m>.
           </p>
         </statement>

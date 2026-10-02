@@ -239,7 +239,7 @@
       </statement>
     </example>
     <p>
-      See <xref ref="x5SimDiagR">Exercise</xref>
+      See <xref ref="x5SimDiagR"/>
       for a version of the real spectral theorem that applies simultaneously to more than one operator.
     </p>
   </subsection>
@@ -355,7 +355,7 @@
       interpret the real spectral theorem and the complex spectral theorem by expressing the domain space as an orthogonal direct sum of eigenspaces.
     </p>
     <p>
-      See <xref ref="x5SimDiag">Exercise</xref>
+      See <xref ref="x5SimDiag"/>
       for a version of the complex spectral theorem that applies simultaneously to more than one operator.
     </p>
     <p>
@@ -375,7 +375,7 @@
           </md>
         </p>
         <p>
-          As we saw in <xref ref="normalnotsa">Example</xref>,
+          As we saw in <xref ref="normalnotsa"/>,
           <m>T</m> is a normal operator.
         </p>
         <p>
@@ -514,8 +514,8 @@
           <p>
             Without using the complex spectral theorem,
             use the version of Schur's theorem that applies to two commuting operators \big(take
-            <m>\E = \{ T, T^* \}</m> in <xref ref="x3Schur">Exercise</xref>
-            in <xref ref="orthobases">Section</xref>\big) to give a different proof that if
+            <m>\E = \{ T, T^* \}</m> in <xref ref="x3Schur"/>
+            in <xref ref="orthobases"/>\big) to give a different proof that if
             <m>\F{} = \C{}</m> and <m>T \in \Lc(V)</m> is normal,
             then <m>T</m> has a diagonal matrix with respect to some orthonormal basis of <m>V{}</m>.
           </p>

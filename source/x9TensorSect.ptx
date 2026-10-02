@@ -11,7 +11,7 @@
     </p>
     <p>
       We already have a vector space <m>V{} \times W</m>
-      (see <xref ref="pq">Section</xref>),
+      (see <xref ref="pq"/>),
       called the product of <m>V</m> and <m>W{}</m>.
       However, <m>V{} \times W</m> will not serve our purposes here because it does not provide a natural way to multiply an element of <m>V</m> by an element of <m>W{}</m>.
       We would like our tensor product to satisfy some of the usual properties of multiplication.
@@ -391,7 +391,7 @@
       where <m>v \in V</m> and <m>w \in W{}</m>,
       as implied by (b) in the result above.
       However, if <m>\dim V > 1</m> and <m>\dim W > 1</m>,
-      then <xref ref="x9VtenW">Exercise</xref> shows that
+      then <xref ref="x9VtenW"/> shows that
       <md>
         \{  v \tensor w : (v, w) \in V{} \times W  \} \ne V{} \tensor W{}.
       </md>
@@ -734,7 +734,7 @@
       </p>
     </proof>
     <p>
-      See <xref ref="x9STstar">Exercise</xref>
+      See <xref ref="x9STstar"/>
       for an example of how the inner product structure on
       <m>V{} \tensor W</m> interacts with operators on <m>V</m> and <m>W{}</m>.
     </p>
@@ -1031,7 +1031,7 @@
           <p>
             Suppose <m>m</m> and <m>n</m> are positive integers.
             For <m>v \in \F m</m> and <m>w \in \FF{n}</m>,
-            identify <m>v \tensor w</m> with an <m>m</m>-by-<m>n</m> matrix as in <xref ref="x9FmFn">Example</xref>.
+            identify <m>v \tensor w</m> with an <m>m</m>-by-<m>n</m> matrix as in <xref ref="x9FmFn"/>.
             With that identification, show that the set
             <md>
               \{  v \tensor w : v \in \F m \text{ and }  w \in \F n  \}
@@ -1046,7 +1046,7 @@
         <statement>
           <p>
             Suppose <m>m</m> and <m>n</m> are positive integers.
-            Give a description, analogous to <xref ref="x9rank1">Exercise</xref>,
+            Give a description, analogous to <xref ref="x9rank1"/>,
             of the set of <m>m</m>-by-<m>n</m> matrices
             (with entries in <m>\F{}</m>)
             that have rank at most two.
@@ -1103,7 +1103,7 @@
             <m>V{} \tensor W</m> if and only if both <m>S</m> and <m>T</m> are invertible operators.
             Also, prove that if both <m>S</m> and <m>T</m> are invertible operators,
             then <m>(S \tensor T)^{-1} = S^{-1} \tensor T^{-1}</m>,
-            where we are using the notation from the comment after <xref ref="x9LVtenLW">Exercise</xref>.
+            where we are using the notation from the comment after <xref ref="x9LVtenLW"/>.
           </p>
         </statement>
       </exercise>
@@ -1113,7 +1113,7 @@
             Suppose <m>V</m> and <m>W</m> are inner product spaces.
             Prove that if <m>S \in \Lc(V)</m> and <m>T \in \Lc(W)</m>,
             then <m>(S \tensor T)^* = S^* \tensor T^*{}</m>,
-            where we are using the notation from the comment after <xref ref="x9LVtenLW">Exercise</xref>.
+            where we are using the notation from the comment after <xref ref="x9LVtenLW"/>.
           </p>
         </statement>
       </exercise>
@@ -1140,7 +1140,7 @@
         <statement>
           <p>
             Suppose that <m>V{}_1, \ldots, V{}_m</m> are finite-dimensional inner product spaces and
-            <m>V{}_1 \tensor \cdots \tensor V{}_m</m> is made into an inner product space using the inner product from <xref ref="x9tenmip">Exercise</xref>.
+            <m>V{}_1 \tensor \cdots \tensor V{}_m</m> is made into an inner product space using the inner product from <xref ref="x9tenmip"/>.
             Suppose <m>e_1^{ k}, \ldots,
             e_{n_k}^{ k}</m> is an orthonormal basis of <m>V{}_k</m> for each <m>k = 1, \ldots, m</m>.
             Show that the list

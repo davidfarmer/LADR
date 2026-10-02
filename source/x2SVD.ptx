@@ -170,7 +170,7 @@
       </statement>
     </example>
     <p>
-      See <xref ref="x2Schmidt">Exercise</xref>
+      See <xref ref="x2Schmidt"/>
       for a characterization of the positive singular values.
     </p>
     <theorem xml:id="x7posSV">
@@ -559,7 +559,7 @@
         and the last line above holds because <xref ref="x5SVD"/> implies that
         <m>f_1, \ldots,
         f_m</m> spans <m>\ran T</m> and thus is an orthonormal basis of <m>\ran T</m> [and hence <xref ref="x418"/>(i) applies] . The equation above,
-        the observation that <m>v \in (\ker T)^\perp</m> [see <xref ref="x4SVD">Exercise</xref>(b)] , and the definition of <m>T^\dagger w</m>
+        the observation that <m>v \in (\ker T)^\perp</m> [see <xref ref="x4SVD"/>(b)] , and the definition of <m>T^\dagger w</m>
         (see <xref ref="x6pseudo"/>)
         show that <m>v = T^\dagger w</m>,
         proving <xref ref="x7SVD"/>.
@@ -579,7 +579,7 @@
           </md>
         </p>
         <p>
-          Thus, as discussed in <xref ref="x43singular">Example</xref>,
+          Thus, as discussed in <xref ref="x43singular"/>,
           the matrix of <m>T^*T</m> is
           <md>
             \begin{pmatrix}1 \amp  1 \amp  0 \amp  0 \\ 1 \amp  1 \amp  0 \amp  0\\ 0 \amp  0 \amp  0\amp  0\\ 0 \amp  0 \amp  0 \amp  25 \end{pmatrix} ,
@@ -786,7 +786,7 @@
             Find the singular values of the differentiation operator
             <m>D \in \Lc\bigl(\P{}_2(\R{})\bigr)</m> defined by <m>Dp = p'</m>,
             where the inner product on
-            <m>\P{}_2(\R{})</m> is as in <xref ref="obP2R">Example</xref>.
+            <m>\P{}_2(\R{})</m> is as in <xref ref="obP2R"/>.
           </p>
         </statement>
       </exercise>
@@ -897,8 +897,8 @@
             </ol>
           </p>
           <p>
-            Note: See the comment after <xref ref="x6sumT2">Exercise</xref>
-            in <xref ref="selfadjoint_normal">Section</xref>.
+            Note: See the comment after <xref ref="x6sumT2"/>
+            in <xref ref="selfadjoint_normal"/>.
           </p>
         </statement>
       </exercise>

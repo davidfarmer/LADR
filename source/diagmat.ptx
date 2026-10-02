@@ -107,7 +107,7 @@
         <p>
           Suppose the matrix of an operator
           <m>T \in\Lc(V)</m> with respect to a basis
-          <m>v_1, v_2, v_3</m> of <m>V</m> is the matrix in <xref ref="diagmatex">Example</xref>.
+          <m>v_1, v_2, v_3</m> of <m>V</m> is the matrix in <xref ref="diagmatex"/>.
           Then
           <md>
             E(8, T) = \Span(v_1),  E(5, T) = \Span(v_2, v_3).
@@ -271,10 +271,10 @@
       see <xref ref="x500"/>,
       <xref ref="diagKerRan">Exercises</xref>
       and <xref ref="x2gcd"/> in this section,
-      <xref ref="Diag2">Exercise</xref>
-      in <xref ref="SpectralTheorem">Section</xref>,
-      and <xref ref="x425">Exercise</xref>
-      in <xref ref="geneig">Section</xref>.
+      <xref ref="Diag2"/>
+      in <xref ref="SpectralTheorem"/>,
+      and <xref ref="x425"/>
+      in <xref ref="geneig"/>.
     </p>
     <p>
       As we know, every operator on a nonzero finite-dimensional complex vector space has an eigenvalue.
@@ -354,7 +354,7 @@
     <aside>
       <p>
         For a spectacular application of these techniques,
-        see <xref ref="Fibonacci">Exercise</xref>,
+        see <xref ref="Fibonacci"/>,
         which shows how to use diagonalization to find an exact formula for the <m>n^\nth</m> term of the Fibonacci sequence.
       </p>
     </aside>
@@ -444,11 +444,11 @@
           </md>
         </p>
         <p>
-          The matrix of <m>T</m> is shown in <xref ref="x141">Example</xref>,
+          The matrix of <m>T</m> is shown in <xref ref="x141"/>,
           where we showed that the minimal polynomial of <m>T</m> is <m>3 - 6z + z^5{}</m>.
         </p>
         <p>
-          As mentioned in <xref ref="x5noexact">Example</xref>,
+          As mentioned in <xref ref="x5noexact"/>,
           no exact expression is known for any of the zeros of this polynomial,
           but numeric techniques show that the zeros of this polynomial are approximately <m>-1.67, \ 0.51, \ 1.40, \ -0.12 + 1.59i, \ -0.12 - 1.59i</m>.
         </p>
@@ -594,7 +594,7 @@
     </proof>
     <p>
       No formula exists for the zeros of polynomials of degree <m>5</m> or greater.
-      However, the previous result can be used to determine whether an operator on a complex vector space is diagonalizable without even finding approximations of the zeros of the minimal polynomial<mdash/>see <xref ref="x2gcd">Exercise</xref>.
+      However, the previous result can be used to determine whether an operator on a complex vector space is diagonalizable without even finding approximations of the zeros of the minimal polynomial<mdash/>see <xref ref="x2gcd"/>.
     </p>
     <p>
       The next result will be a key tool when we prove a result about the simultaneous diagonalization of two operators;
@@ -733,11 +733,11 @@
           <idx><h>Gershgorin, Semyon Aronovich</h></idx>
     </p>
     <p>
-      <xref ref="x5Gershgor">Exercise</xref>
+      <xref ref="x5Gershgor"/>
       gives a nice application of the Gershgorin disk theorem.
     </p>
     <p>
-      <xref ref="x5Gershgo">Exercise</xref>
+      <xref ref="x5Gershgo"/>
       states that the radius of each Gershgorin disk could be changed to the sum of the absolute values of corresponding column entries
       (instead of row entries),
       excluding the diagonal entry,
@@ -997,8 +997,8 @@
             Suppose that <m>T \in \Lc(V)</m> is diagonalizable and <m>U</m> is a subspace of <m>V</m> that is invariant under <m>T{}</m>.
             Prove that the quotient operator <m>T{}/U</m> is a diagonalizable operator on <m>V{}/U</m>.
                 <idx><h>quotient</h><h>operator</h></idx>
-            Note: The quotient operator <m>T{}/U</m> was defined in <xref ref="x5quotient">Exercise</xref>
-            in <xref ref="x5invar">Section</xref>.
+            Note: The quotient operator <m>T{}/U</m> was defined in <xref ref="x5quotient"/>
+            in <xref ref="x5invar"/>.
           </p>
         </statement>
       </exercise>
@@ -1008,8 +1008,8 @@
             Prove or give a counterexample: If
             <m>T \in \Lc(V)</m> and there exists a subspace <m>U</m> of <m>V</m> that is invariant under <m>T</m> such that <m>T|_U</m> and <m>T{}/U</m> are both diagonalizable,
             then <m>T</m> is diagonalizable.
-            Note: See <xref ref="x6Tutm">Exercise</xref>
-            in <xref ref="x4utm">Section</xref>
+            Note: See <xref ref="x6Tutm"/>
+            in <xref ref="x4utm"/>
             for an analogous statement about upper-triangular matrices.
           </p>
         </statement>

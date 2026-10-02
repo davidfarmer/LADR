@@ -10,7 +10,7 @@
       but not every operator on a complex vector space has a square root.
       For example, the operator on<nbsp/><m>\C{3}</m> defined by
       <m>T(z_1, z_2, z_3) = (z_2, z_3, 0)</m> does not have a square root,
-      as you are asked to show in <xref ref="x195">Exercise</xref>.
+      as you are asked to show in <xref ref="x195"/>.
       The noninvertibility of that operator is no accident, as we will soon see.
       We begin by showing that the identity plus any nilpotent operator has a square root.
     </p>
@@ -310,8 +310,8 @@
       </p>
       <p>
         The list <m>u, Tu, \ldots, T^{m-1}u</m> is linearly independent
-        (see <xref ref="x8linind">Exercise</xref>
-        in <xref ref="geneig">Section</xref>).
+        (see <xref ref="x8linind"/>
+        in <xref ref="geneig"/>).
         If <m>U = V{}</m>,
         then writing this list in reverse order gives a Jordan basis for <m>T</m> and we are done.
         Thus we can assume that <m>U \ne V{}</m>.

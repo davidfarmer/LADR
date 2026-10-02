@@ -197,7 +197,7 @@
     </p>
   </proof>
   <p>
-    See <xref ref="x3Diag">Exercise</xref>
+    See <xref ref="x3Diag"/>
     for an extension of the result above to more than two operators.
   </p>
   <p>
@@ -208,7 +208,7 @@
     then there is a vector in <m>V</m> that is an eigenvector for both operators
     (but the two commuting operators might not have a common eigenvalue).
     For an extension of the next result to more than two operators,
-    see <xref ref="x4ManyOps">Exercise</xref>(a).
+    see <xref ref="x4ManyOps"/>(a).
   </p>
   <theorem xml:id="x2common">
     <title>common eigenvector for commuting operators</title>
@@ -238,7 +238,7 @@
     <title>common eigenvector for partial differentiation operators</title>
     <statement>
       <p>
-        Let <m>\P\!_m{}(\CC2, \C{})</m> be as in <xref ref="PD">Example</xref>
+        Let <m>\P\!_m{}(\CC2, \C{})</m> be as in <xref ref="PD"/>
         and let <m>D_w, D_z \in \Lc( \P\!_m{}(\CC2, \C{}) )</m> be the commuting partial differentiation operators in that example.
         As you can verify,
         <m>0</m> is the only eigenvalue of each of these operators.
@@ -346,7 +346,7 @@
     </p>
   </proof>
   <p>
-    <xref ref="x4ManyOps">Exercise</xref>(b) extends the result above to more than two operators.
+    <xref ref="x4ManyOps"/>(b) extends the result above to more than two operators.
   </p>
   <p>
     In general, it is not possible to determine the eigenvalues of the sum or product of two operators from the eigenvalues of the two operators.
@@ -390,8 +390,8 @@
       the definition of matrix multiplication shows that each entry on the diagonal of <m>\M(ST)</m> equals the product of the corresponding entries on the diagonals of <m>\M(S)</m> and <m>\M(T)</m>.
       Furthermore,
       <m>\M(S+T)</m> and <m>\M(ST)</m> are upper-triangular matrices
-      (see <xref ref="x2AB">Exercise</xref>
-      in <xref ref="x4utm">Section</xref>).
+      (see <xref ref="x2AB"/>
+      in <xref ref="x4utm"/>).
     </p>
     <p>
       Every entry on the diagonal of <m>\M(S)</m> is an eigenvalue of <m>S</m>,
@@ -495,7 +495,7 @@
     <exercise>
       <statement>
         <p>
-          Suppose <m>m = 3</m> in <xref ref="PD">Example</xref>
+          Suppose <m>m = 3</m> in <xref ref="PD"/>
           and <m>D_x, D_y</m> are the commuting partial differentiation operators on <m>\P\!_3{}( \R2 )</m> from that example.
           Find a basis of <m>\P\!_3{}( \R2 )</m> with respect to which <m>D_x</m> and <m>D_y</m> each have an upper-triangular matrix.
         </p>

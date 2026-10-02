@@ -365,7 +365,7 @@
     <exercise>
       <statement>
         <p>
-          Verify all assertions in <xref ref="ex_bases">Example</xref>.
+          Verify all assertions in <xref ref="ex_bases"/>.
         </p>
       </statement>
     </exercise>
@@ -507,7 +507,7 @@
           (as a complex vector space).
               <idx><h>complexification</h><h>of a vector space</h></idx>
           Note: See <xref ref="x1VC">Exercise</xref>
-          in <xref ref="x1DefVS">Section</xref>
+          in <xref ref="x1DefVS"/>
           for the definition of the complexification <m>V{}_{\C{}}</m>.
         </p>
       </statement>

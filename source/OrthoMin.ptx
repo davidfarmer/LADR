@@ -185,7 +185,7 @@
     </p>
     <p>
       The next result shows that every finite-dimensional subspace of <m>V</m> leads to a natural direct sum decomposition of<nbsp/><m>V{}</m>.
-      See <xref ref="dense">Exercise</xref>
+      See <xref ref="dense"/>
       for an example showing that the result below can fail without the hypothesis that the subspace <m>U</m> is finite-dimensional.
     </p>
     <theorem xml:id="x191">
@@ -316,7 +316,7 @@
     </proof>
     <aside>
       <p>
-        <xref ref="dense">Exercise</xref>
+        <xref ref="dense"/>
         (a) shows that the result below is not true without the hypothesis that <m>U</m> is finite-dimensional.
       </p>
     </aside>
@@ -326,7 +326,7 @@
       the easiest way to do this is to show that the only vector orthogonal to <m>U</m> is <m>0</m>,
       and then use the result below.
       For example,
-      the result below is useful for <xref ref="x190converse">Exercise</xref>.
+      the result below is useful for <xref ref="x190converse"/>.
     </p>
     <theorem xml:id="x01Uperp">
       <title><m>U^\perp = \{0\} \iff U = V</m>  (for  <m>U</m> a finite-dimensional subspace of  <m>V</m>)</title>
@@ -667,7 +667,7 @@
       </p>
     </proof>
     <p>
-      See <xref ref="VVpiso">Exercise</xref>
+      See <xref ref="VVpiso"/>
       for yet another proof of the Riesz representation theorem.
     </p>
   </subsection>

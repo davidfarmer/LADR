@@ -74,7 +74,7 @@
           </md>
         </p>
         <p>
-          In <xref ref="x8exgeneig">Example</xref>,
+          In <xref ref="x8exgeneig"/>,
           we saw that the eigenvalues of <m>T</m> are <m>0</m> and <m>5</m>,
           and we found the corresponding sets of generalized eigenvectors.
           Taking the union of those sets with <m>\{ 0 \}</m>, we have
@@ -88,7 +88,7 @@
       </statement>
     </example>
     <p>
-      In <xref ref="x5exgeneig">Example</xref>,
+      In <xref ref="x5exgeneig"/>,
       the domain space <m>\C3</m> is the direct sum of the generalized eigenspaces of the operator <m>T</m> in that example.
       Our next result shows that this behavior holds in general.
       Specifically, the following major result shows that if
@@ -182,7 +182,7 @@
     </proof>
     <p>
       For the analogous result when <m>\F{}=\R{}</m>,
-      see <xref ref="x8Rdecomp">Exercise</xref>.
+      see <xref ref="x8Rdecomp"/>.
     </p>
   </subsection>
   <subsection>
@@ -311,8 +311,8 @@
       <m>T \in \Lc(V)</m> is normal,
       and <m>\lambda</m> is an eigenvalue of <m>T</m>,
       then the algebraic multiplicity of <m>\lambda</m> equals the geometric multiplicity of <m>\lambda</m>,
-      as can be seen from applying <xref ref="x399">Exercise</xref>
-      in <xref ref="selfadjoint_normal">Section</xref>
+      as can be seen from applying <xref ref="x399"/>
+      in <xref ref="selfadjoint_normal"/>
       to the normal operator <m>T - \lambda I</m>.
       As a special case, the singular values of <m>S \in \Lc(V{}, W)</m>
       (here <m>V</m> and <m>W</m> are both finite-dimensional inner product spaces)
@@ -342,7 +342,7 @@
       <title>the characteristic polynomial of an operator</title>
       <statement>
         <p>
-          Suppose <m>T \in \Lc( \C3 )</m> is defined as in <xref ref="multex">Example</xref>.
+          Suppose <m>T \in \Lc( \C3 )</m> is defined as in <xref ref="multex"/>.
           Because the eigenvalues of <m>T</m> are <m>6</m>,
           with multiplicity <m>2</m>, and <m>7</m>,
           with multiplicity<nbsp/><m>1</m>,
@@ -459,7 +459,7 @@
       </p>
     </proof>
     <p>
-      Now we can prove that the result suggested by <xref ref="multex">Example</xref>
+      Now we can prove that the result suggested by <xref ref="multex"/>
       holds for all operators on finite-dimensional complex vector spaces.
     </p>
     <theorem xml:id="x253">
@@ -513,7 +513,7 @@
         <m>v_1, \ldots,
         v_n</m> is the upper-triangular matrix <m>A^n{}</m>,
         which has diagonal entries
-        <m>{\lambda_1}^{n}, \ldots, {\lambda_n}^{n}</m> [see <xref ref="x2AB">Exercise</xref>(b) in <xref ref="x4utm">Section</xref>] . Because
+        <m>{\lambda_1}^{n}, \ldots, {\lambda_n}^{n}</m> [see <xref ref="x2AB"/>(b) in <xref ref="x4utm"/>] . Because
         <m>{\lambda_k}^{n} = 0</m> if and only if <m>\lambda_k = 0</m>,
         the number of times that <m>0</m> appears on the diagonal of <m>A^n</m> equals <m>d</m>.
         Thus applying <xref ref="x8dimnullT"/>
@@ -657,7 +657,7 @@
           which is an upper-triangular matrix but is not of the form promised by <xref ref="x187"/>.
         </p>
         <p>
-          As we saw in <xref ref="multex">Example</xref>,
+          As we saw in <xref ref="multex"/>,
           the eigenvalues of <m>T</m> are <m>6</m> and <m>7</m>; also,
           <md>
             G(6, T)  = \Span\bigl( (1, 0, 0), (0, 1, 0) \bigr) \andd G(7, T) = \Span\bigl( (10, 2, 1) \bigr).
@@ -784,8 +784,8 @@
             </md>
           </p>
           <p>
-            Note: See the comment after <xref ref="x6sumT2">Exercise</xref>
-            in <xref ref="selfadjoint_normal">Section</xref>.
+            Note: See the comment after <xref ref="x6sumT2"/>
+            in <xref ref="selfadjoint_normal"/>.
           </p>
         </statement>
       </exercise>
@@ -968,8 +968,8 @@
               <li>
                 <p>
                   Use (c) and the result about real eigenvalues of <m>T{}_{\C{}}</m>
-                  (<xref ref="x5realeig">Exercise</xref>
-                  in <xref ref="x5invar">Section</xref>)
+                  (<xref ref="x5realeig"/>
+                  in <xref ref="x5invar"/>)
                   to show that if <m>\dim V</m> is an odd number,
                   then <m>T</m> has an eigenvalue
                   (thus giving an alternative proof of <xref ref="x5odd"/>).
@@ -978,8 +978,8 @@
             </ol>
           </p>
           <p>
-            Note: See <xref ref="x3complexMap">Exercise</xref>
-            in <xref ref="x3nullspace">Section</xref>
+            Note: See <xref ref="x3complexMap"/>
+            in <xref ref="x3nullspace"/>
             for the definition of the complexification <m>T{}_{\C{}}</m>.
           </p>
         </statement>

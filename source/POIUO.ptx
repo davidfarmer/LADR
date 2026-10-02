@@ -96,7 +96,7 @@
     Finally, <m>z</m> is nonnegative if and only if there exists
     <m>w \in \C{}</m> such that <m>z = \bar{w}w</m>,
     corresponding to condition<nbsp/>(f).
-    See <xref ref="Grammian">Exercise</xref>
+    See <xref ref="Grammian"/>
     for another condition that is equivalent to being a positive operator.
   </p>
   <theorem xml:id="x197">
@@ -678,7 +678,7 @@
     <exercise>
       <statement>
         <p>
-          Let <m>T</m> be the second derivative operator in <xref ref="x1100">Exercise</xref>(b) in <xref ref="selfadjoint_normal">Section</xref>.
+          Let <m>T</m> be the second derivative operator in <xref ref="x1100"/>(b) in <xref ref="selfadjoint_normal"/>.
           Show that <m>-T</m> is a positive operator.
         </p>
       </statement>

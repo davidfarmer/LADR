@@ -466,7 +466,7 @@
       Under the identification of <m>V</m> with <m>V'</m> and the identification of <m>W</m> with <m>W'\!</m>,
       the adjoint map <m>\fun {T^*} W V</m> corresponds to the dual map
       <m>\fun {T'} {W'} {V'}</m> defined in <xref ref="DualMap"/>,
-      as <xref ref="IdentifyTstarTprime">Exercise</xref> asks you to verify.
+      as <xref ref="IdentifyTstarTprime"/> asks you to verify.
       Under this identification,
       the formulas for <m>\ker T^*</m> and
       <m>\ran T^*</m> [ <xref ref="x377"/>(a) and (b)] then become identical to the formulas for <m>\ker T'</m> and <m>\ran T'</m> [ <xref ref="nullTprime"/>(a) and <xref ref="rangeTprime"/>(b)] . Furthermore,
@@ -803,7 +803,7 @@
     </proof>
     <p>
       The next result presents several consequences of the result above.
-      Compare (e) of the next result to <xref ref="x259">Exercise</xref>.
+      Compare (e) of the next result to <xref ref="x259"/>.
       That exercise states that the eigenvalues of the adjoint of each operator are equal
       (as a set)
       to the complex conjugates of the eigenvalues of the operator.
@@ -948,7 +948,7 @@
     <p>
       As stated here,
       the next result makes sense only when <m>\F{} = \C{}</m>.
-      However, see <xref ref="skewadj">Exercise</xref>
+      However, see <xref ref="skewadj"/>
       for a version that makes sense when
       <m>\F{} = \C{}</m> and when <m>\F{} = \R{}</m>.
     </p>
@@ -1113,7 +1113,7 @@
         <statement>
           <p>
             Suppose <m>A</m> is an <m>m</m>-by-<m>n</m> matrix with entries in <m>\F{}{}</m>.
-            Use (b) in <xref ref="x395">Exercise</xref>
+            Use (b) in <xref ref="x395"/>
             to prove that the row rank of <m>A</m> equals the column rank of <m>A</m>.
                 <idx><h>column rank of a matrix</h></idx>
                 <idx><h>row rank of a matrix</h></idx>

@@ -1,7 +1,7 @@
 <section xml:id="x4utm">
   <title>Upper-Triangular Matrices</title>
   <p>
-    In <xref ref="LinearMaps">Chapter</xref>
+    In <xref ref="LinearMaps"/>
     we defined the matrix of a linear map from a finite-dimensional vector space to another finite-dimensional vector space.
     That matrix depends on a choice of basis of each of the two vector spaces.
     Now that we are studying operators,
@@ -97,7 +97,7 @@
     <md>
       \M(T) = \begin{pmatrix}\color{red}2 \amp  1 \amp  0 \\ 0 \amp  \color{red}5 \amp  3 \\ 0 \amp  0 \amp  \color{red}8 \end{pmatrix}
     </md>
-    from <xref ref="uppertmat">Example</xref>
+    from <xref ref="uppertmat"/>
     consists of the entries <m>2, 5, 8</m>,
     which are shown in red in the matrix above.
   </p>
@@ -493,7 +493,7 @@
     although the list <m>\lambda_1, \ldots, \lambda_m</m> in the previous result may contain repetitions.
   </p>
   <p>
-    In <xref ref="operators_complex_vs">Chapter</xref>
+    In <xref ref="operators_complex_vs"/>
     we will improve even the wonderful result below;
     see <xref ref="x187"/> and <xref ref="x398"/>.
   </p>
@@ -522,7 +522,7 @@
   <p>
     see <xref ref="x2commute"/>.
     Also, for an extension to more than two operators,
-    see <xref ref="x4ManyOps">Exercise</xref>(b) in <xref ref="x2diagmat">Section</xref>.
+    see <xref ref="x4ManyOps"/>(b) in <xref ref="x2diagmat"/>.
   </p>
   <p>
     <em>Caution:</em> If an operator
@@ -750,8 +750,8 @@
           </ol>
         </p>
         <p>
-          Note: The quotient operator <m>T{}/U</m> was defined in <xref ref="x5quotient">Exercise</xref>
-          in <xref ref="x5invar">Section</xref>.
+          Note: The quotient operator <m>T{}/U</m> was defined in <xref ref="x5quotient"/>
+          in <xref ref="x5invar"/>.
         </p>
       </statement>
     </exercise>

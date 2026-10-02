@@ -699,7 +699,7 @@
         getting a vector.
         In contrast,
         the dot product in <m>\R{2}</m> or <m>\R{3}</m> multiplies together two vectors and gets a scalar.
-        Generalizations of the dot product will become important in <xref ref="InnerProductSpaces">Chapter</xref>.
+        Generalizations of the dot product will become important in <xref ref="InnerProductSpaces"/>.
       </p>
     </aside>
     <p>
@@ -748,8 +748,8 @@
       that have as a hypothesis that <m>\F{}</m> is <m>\C{}</m>,
       you can probably replace that hypothesis with the hypothesis that <m>\F{}</m> is an algebraically closed field,
       which means that every nonconstant polynomial with coefficients in <m>\F{}</m> has a zero.
-      A few results, such as <xref ref="x1threesub">Exercise</xref>
-      in <xref ref="x1Subspaces">Section</xref>,
+      A few results, such as <xref ref="x1threesub"/>
+      in <xref ref="x1Subspaces"/>,
       require the hypothesis on <m>\F{}</m> that <m>1 + 1 \ne 0</m>.
     </p>
     <exercises>

@@ -51,7 +51,7 @@
           <li>
             <p>
               Suppose <m>n</m> is a positive integer.
-              Then, as <xref ref="x8Fourier">Exercise</xref> asks you to verify,
+              Then, as <xref ref="x8Fourier"/> asks you to verify,
               <md>
                 \frac{1}{\sqrt{2\pi}}, \frac{\cos x}{\sqrt{\pi}}, \frac{\cos 2x}{\sqrt{\pi}}, \dots, \frac{\cos nx}{\sqrt{\pi}}, \frac{\sin x}{\sqrt{\pi}}, \frac{\sin 2x}{\sqrt{\pi}}, \dots, \frac{\sin nx}{\sqrt{\pi}}
               </md>
@@ -79,7 +79,7 @@
               However, the first and third vectors are not orthogonal.
               Thus this is not an orthonormal list.
               Soon we will see how to construct an orthonormal list from the standard basis <m>1, x, x^2</m>
-              (see <xref ref="obP2R">Example</xref>).
+              (see <xref ref="obP2R"/>).
             </p>
           </li>
         </ol>
@@ -331,7 +331,7 @@
           <md>
             ( \tfrac{1}{2}, \tfrac{1}{2}, \tfrac{1}{2}, \tfrac{1}{2} ), ( \tfrac{1}{2}, \tfrac{1}{2}, -\tfrac{1}{2}, -\tfrac{1}{2} ), ( \tfrac{1}{2}, -\tfrac{1}{2}, -\tfrac{1}{2}, \tfrac{1}{2} ), ( -\tfrac{1}{2}, \tfrac{1}{2}, -\tfrac{1}{2}, \tfrac{1}{2} )
           </md>
-          of <m>\F4</m> from <xref ref="x4FonBasis">Example</xref>.
+          of <m>\F4</m> from <xref ref="x4FonBasis"/>.
           Instead of solving a system of four linear equations in four unknowns,
           as typically would be required if we were working with a nonorthonormal basis,
           we simply evaluate four inner products and use <xref ref="x190"/>(a),
@@ -622,7 +622,7 @@
     <p>
       For complex vector spaces,
       the next result is an important application of the result above.
-      See <xref ref="x3Schur">Exercise</xref>
+      See <xref ref="x3Schur"/>
       for a version of Schur's theorem that applies simultaneously to more than one operator.
     </p>
     <theorem xml:id="x214">
@@ -644,8 +644,8 @@
     <title>Linear Functionals on Inner Product Spaces</title>
     <p>
       Because linear maps into the scalar field <m>\F{}</m> play a special role,
-      we defined a special name for them and their vector space in <xref ref="duals">Section</xref>.
-      Those definitions are repeated below in case you skipped <xref ref="duals">Section</xref>.
+      we defined a special name for them and their vector space in <xref ref="duals"/>.
+      Those definitions are repeated below in case you skipped <xref ref="duals"/>.
     </p>
     <definition>
       <title>linear functional, dual space, <m>V'</m></title>
@@ -714,12 +714,12 @@
       then the map that sends <m>u</m> to<nbsp/><m>\langle u,v \rangle</m> is a linear functional on<nbsp/><m>V{}</m>.
       The next result states that every linear functional on <m>V</m> is of this form.
       For example,
-      we can take <m>v = (2, -5, 1)</m> in <xref ref="x359">Example</xref>.
+      we can take <m>v = (2, -5, 1)</m> in <xref ref="x359"/>.
     </p>
     <p>
       Suppose we make the vector space
       <m>\P{}_5(\R{})</m> into an inner product space by defining <m>\langle p, q \rangle  = \int_{-1}^{1} pq</m>.
-      Let <m>\phi</m> be as in <xref ref="x360">Example</xref>.
+      Let <m>\phi</m> be as in <xref ref="x360"/>.
       It is not obvious that there exists <m>q \in \P{}_5(\R{})</m> such that
       <md>
         \int_{-1}^1 p(t) \bigl(\cos(\pi t)\bigr) dt = \langle p, q \rangle
@@ -801,7 +801,7 @@
             \phi(p) = \int_{-1}^1 p(t) \bigl(\cos(\pi t)\bigr) dt
           </md>
           for each <m>p \in \P{}_2(\R{})</m>.
-          Now use the orthonormal basis from <xref ref="obP2R">Example</xref>
+          Now use the orthonormal basis from <xref ref="obP2R"/>
           and apply formula <xref ref="GSformula"/>
           from the proof of the Riesz representation theorem to see that if <m>p \in \P{}_2(\R{})</m>,
           then <m>\phi(p) = \langle p, q \rangle</m>, where
@@ -850,8 +850,8 @@
     </p>
     <p>
       For two additional different proofs of the Riesz representation theorem,
-      see <xref ref="x3RRT"/> and also <xref ref="VVpiso">Exercise</xref>
-      in <xref ref="OrthoMin">Section</xref>.
+      see <xref ref="x3RRT"/> and also <xref ref="VVpiso"/>
+      in <xref ref="OrthoMin"/>.
     </p>
     <exercises>
       <title>Exercises</title>
@@ -1163,8 +1163,8 @@
             for all <m>S, T \in \E</m>.
             Prove that there is an orthonormal basis of <m>V</m> with respect to which every element of <m>\E</m> has an upper-triangular matrix.
                 <idx><h>commuting operators</h></idx>
-            Note: This exercise strengthens <xref ref="x4ManyOps">Exercise</xref>
-            (b) in <xref ref="x2diagmat">Section</xref>
+            Note: This exercise strengthens <xref ref="x4ManyOps"/>
+            (b) in <xref ref="x2diagmat"/>
             (in the context of inner product spaces)
             by asserting that the basis in that exercise can be chosen to be orthonormal.
           </p>

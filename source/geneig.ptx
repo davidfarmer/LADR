@@ -171,7 +171,7 @@
     </proof>
     <p>
       For an improvement of the result above,
-      see <xref ref="x8notnil">Exercise</xref>.
+      see <xref ref="x8notnil"/>.
     </p>
     <example>
       <title><m>\F3 = \ker T^3 \oplus \ran T^3</m> for <m>T \in \Lc(\F3)</m></title>
@@ -347,7 +347,7 @@
       then some operators on <m>V</m> have the property that there exists a basis of <m>V</m> consisting of generalized eigenvectors of the operator, and
       (unlike what happens when <m>\F{}=\C{}</m>)
       other operators do not have this property.
-      See <xref ref="x8geneigb">Exercise</xref>
+      See <xref ref="x8geneigb"/>
       for a necessary and sufficient condition that determines whether an operator has this property.
     </p>
     <example xml:id="x8exgeneig">
@@ -556,7 +556,7 @@
       The next result shows that when raising a nilpotent operator to a power,
       we never need to use a power higher than the dimension of the space.
       For a slightly stronger result,
-      see <xref ref="nilrange">Exercise</xref>.
+      see <xref ref="nilrange"/>.
     </p>
     <theorem xml:id="x181">
       <title>nilpotent operator raised to dimension of domain is <m>0</m></title>
@@ -634,7 +634,7 @@
 </p>
     </proof>
     <p>
-      <xref ref="Nil1">Exercise</xref> shows that the hypothesis that
+      <xref ref="Nil1"/> shows that the hypothesis that
       <m>\F{} = \C{}</m> cannot be deleted in (b) of the result above.
     </p>
     <p>
@@ -758,8 +758,8 @@
         </statement>
             <hint>
               <p>
-                <xref ref="x3diminv">Exercise</xref>
-                in <xref ref="x3nullspace">Section</xref> may be useful.
+                <xref ref="x3diminv"/>
+                in <xref ref="x3nullspace"/> may be useful.
               </p>
             </hint>
       </exercise>
@@ -978,7 +978,7 @@
       <exercise>
         <statement>
           <p>
-            For each item in <xref ref="x8nil">Example</xref>,
+            For each item in <xref ref="x8nil"/>,
             find a basis of the domain vector space such that the matrix of the nilpotent operator with respect to that basis has the upper-triangular form promised by <xref ref="a33"/>(c).
           </p>
         </statement>
