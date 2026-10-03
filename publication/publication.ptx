@@ -13,6 +13,7 @@
       <equations level="1"/>
       <footnotes level="1"/>
       <figures level="0" distinct="yes"/>
+      <exercises distinct="yes" level="0"/>
     </numbering>
 
 <!--
