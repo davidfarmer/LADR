@@ -5126,7 +5126,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "polynomials.html#polynomials-25-2",
   "type": "Exercise",
-  "number": "4.17",
+  "number": "1",
   "title": "",
   "body": "  Suppose . Verify the following equalities and inequalities.                   and           and                Note: The results above are the parts of that were left to the reader.   "
 },
@@ -5135,7 +5135,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "polynomials.html#x4reverse",
   "type": "Exercise",
-  "number": "4.18",
+  "number": "2",
   "title": "",
   "body": "  Prove that if , then . Note: The inequality above is called the reverse triangle inequality . reverse triangle inequality    "
 },
@@ -5144,7 +5144,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "polynomials.html#polynomials-25-4",
   "type": "Exercise",
-  "number": "4.19",
+  "number": "3",
   "title": "",
   "body": "  Suppose is a complex vector space and . Define by for each . Show that for all .   "
 },
@@ -5153,7 +5153,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "polynomials.html#polynomials-25-5",
   "type": "Exercise",
-  "number": "4.20",
+  "number": "4",
   "title": "",
   "body": "  Suppose is a positive integer. Is the set a subspace of ?   "
 },
@@ -5162,7 +5162,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "polynomials.html#polynomials-25-6",
   "type": "Exercise",
-  "number": "4.21",
+  "number": "5",
   "title": "",
   "body": "  Is the set a subspace of ?   "
 },
@@ -5171,7 +5171,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "polynomials.html#polynomials-25-7",
   "type": "Exercise",
-  "number": "4.22",
+  "number": "6",
   "title": "",
   "body": "  Suppose that and are positive integers with , and suppose . Prove that there exists a polynomial with such that and such that has no other zeros.   "
 },
@@ -5180,7 +5180,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "polynomials.html#PolyInterpolation",
   "type": "Exercise",
-  "number": "4.23",
+  "number": "7",
   "title": "",
   "body": "  Suppose that is a nonnegative integer, are distinct elements of , and . Prove that there exists a unique polynomial such that for each . Note: This result can be proved without using linear algebra. However, try to find the clearer, shorter proof that uses some linear algebra.   "
 },
@@ -5189,7 +5189,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "polynomials.html#polynomials-25-9",
   "type": "Exercise",
-  "number": "4.24",
+  "number": "8",
   "title": "",
   "body": "  Suppose has degree . Prove that has distinct zeros if and only if and its derivative have no zeros in common.   "
 },
@@ -5198,7 +5198,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "polynomials.html#x4oddzero",
   "type": "Exercise",
-  "number": "4.25",
+  "number": "9",
   "title": "",
   "body": "  Prove that every polynomial of odd degree with real coefficients has a real zero.   "
 },
@@ -5207,7 +5207,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "polynomials.html#polynomials-25-11",
   "type": "Exercise",
-  "number": "4.26",
+  "number": "10",
   "title": "",
   "body": "  For , define by for each . Show that for every polynomial and also show that is a linear map.   "
 },
@@ -5216,7 +5216,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "polynomials.html#polynomials-25-12",
   "type": "Exercise",
-  "number": "4.27",
+  "number": "11",
   "title": "",
   "body": "  Suppose . Define by   Prove that is a polynomial with real coefficients.   "
 },
@@ -5225,7 +5225,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "polynomials.html#polynomials-25-13",
   "type": "Exercise",
-  "number": "4.28",
+  "number": "12",
   "title": "",
   "body": "  Suppose is a nonnegative integer and is such that there are distinct real numbers with for each . Prove that all coefficients of are real.   "
 },
@@ -5234,7 +5234,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "polynomials.html#polynomials-25-14",
   "type": "Exercise",
-  "number": "4.29",
+  "number": "13",
   "title": "",
   "body": "  Suppose with . Let .   Show that .    Find a basis of .      "
 },
@@ -5243,7 +5243,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "polynomials.html#polynomials-25-15",
   "type": "Exercise",
-  "number": "4.30",
+  "number": "14",
   "title": "",
   "body": "  Suppose are nonconstant polynomials with no zeros in common. Let and . Use linear algebra as outlined below in (a) (c) to prove that there exist and such that    Define by Show that the linear map is injective.    Show that the linear map in (a) is surjective.    Use (b) to conclude that there exist and such that .      "
 },
